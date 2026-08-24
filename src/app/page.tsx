@@ -1,12 +1,16 @@
-import { listProfessors, countProfessors, countReviews } from "@/lib/db";
+import { listProfessors, countProfessors, countReviews, listSchools } from "@/lib/db";
 import ProfessorList from "@/components/ProfessorList";
 
+export const revalidate = 60; // cache SSR for 60s to protect Neon
+
 export default async function Home() {
-  const [professors, totalProfessors, totalReviews] = await Promise.all([
-    listProfessors(),
+  const [professors, totalProfessors, totalReviews, schools] = await Promise.all([
+    listProfessors({ sort: "highest", limit: 24, offset: 0 }),
     countProfessors(),
     countReviews(),
+    listSchools(),
   ]);
+  const initialHasMore = professors.length < totalProfessors;
 
   return (
     <div className="flex flex-col flex-1 bg-white">
@@ -37,7 +41,13 @@ export default async function Home() {
               <div className="w-12 h-1 bg-lums-gold mt-2" />
             </div>
 
-            <ProfessorList initialProfessors={professors} totalProfessors={totalProfessors} />
+            <ProfessorList
+              initialProfessors={professors}
+              totalProfessors={totalProfessors}
+              initialHasMore={initialHasMore}
+              schools={schools}
+              initialSort="highest"
+            />
           </div>
         </section>
       </main>

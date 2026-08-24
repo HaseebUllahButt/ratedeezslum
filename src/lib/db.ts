@@ -52,21 +52,108 @@ export async function countProfessors(): Promise<number> {
   return rows[0].c;
 }
 
+export async function countFilteredProfessors(opts: { q?: string; school?: string }): Promise<number> {
+  const clauses: string[] = [];
+  const params: unknown[] = [];
+  let idx = 1;
+  if (opts.q) {
+    clauses.push(`(p.name ILIKE $${idx} OR p.department ILIKE $${idx} OR p.school ILIKE $${idx})`);
+    params.push(`%${opts.q}%`);
+    idx++;
+  }
+  if (opts.school) {
+    clauses.push(`p.school = $${idx}`);
+    params.push(opts.school);
+    idx++;
+  }
+  const where = clauses.length ? `WHERE ${clauses.join(" AND ")}` : "";
+  const text = `SELECT COUNT(*)::int AS c FROM professors p ${where}`;
+  const rows = await sql.query(text, params);
+  return (rows as { c: number }[])[0].c;
+}
+
+export async function listSchools(): Promise<string[]> {
+  const rows = await sql`SELECT DISTINCT school FROM professors WHERE school IS NOT NULL ORDER BY school ASC`;
+  return (rows as { school: string }[]).map((r) => r.school);
+}
+
 export async function countReviews(): Promise<number> {
   const rows = (await sql`SELECT COUNT(*)::int AS c FROM reviews`) as { c: number }[];
   return rows[0].c;
 }
 
-export async function listProfessors(query?: string): Promise<ProfessorWithStats[]> {
+export type SortKey = "highest" | "lowest" | "most-reviewed" | "name";
+
+export type ListProfessorsOpts = {
+  q?: string;
+  school?: string;
+  sort?: SortKey;
+  limit?: number;
+  offset?: number;
+};
+
+function buildOrderBy(sort: SortKey = "name"): string {
+  switch (sort) {
+    case "highest":
+      return "ORDER BY avg_rating DESC NULLS LAST, review_count DESC, p.name ASC";
+    case "lowest":
+      return "ORDER BY avg_rating ASC NULLS LAST, review_count DESC, p.name ASC";
+    case "most-reviewed":
+      return "ORDER BY review_count DESC, avg_rating DESC NULLS LAST, p.name ASC";
+    case "name":
+    default:
+      return "ORDER BY p.name ASC";
+  }
+}
+
+/**
+ * Paginated professor listing. All filters/sorting happen server-side so a single
+ * small Neon query is needed per page. Defaults protect Neon from huge scans.
+ */
+export async function listProfessors(
+  queryOrOpts?: string | ListProfessorsOpts,
+  maybeOpts?: ListProfessorsOpts
+): Promise<ProfessorWithStats[]> {
+  // backwards-compat: listProfessors("search") -> { q: "search" }
+  let opts: ListProfessorsOpts;
+  if (typeof queryOrOpts === "string") {
+    opts = { q: queryOrOpts, ...(maybeOpts ?? {}) };
+  } else {
+    opts = queryOrOpts ?? {};
+  }
+
+  const q = opts.q?.trim() || undefined;
+  const school = opts.school?.trim() || undefined;
+  const sort: SortKey = opts.sort ?? "name";
+  const limit = Math.min(Math.max(opts.limit ?? 24, 1), 50);
+  const offset = Math.max(opts.offset ?? 0, 0);
+
+  const clauses: string[] = [];
+  const params: unknown[] = [];
+  let idx = 1;
+  if (q) {
+    clauses.push(`(p.name ILIKE $${idx} OR p.department ILIKE $${idx} OR p.school ILIKE $${idx})`);
+    params.push(`%${q}%`);
+    idx++;
+  }
+  if (school) {
+    clauses.push(`p.school = $${idx}`);
+    params.push(school);
+    idx++;
+  }
+  const where = clauses.length ? `WHERE ${clauses.join(" AND ")}` : "";
+  const orderBy = buildOrderBy(sort);
+
+  // limit/offset are appended last and always parameterized to avoid injection
   const text = `
     ${STATS_SELECT}
-    ${query ? "WHERE p.name ILIKE $1 OR p.department ILIKE $1 OR p.school ILIKE $1" : ""}
+    ${where}
     GROUP BY p.id
-    ORDER BY p.name ASC
+    ${orderBy}
+    LIMIT $${idx} OFFSET $${idx + 1}
   `;
-  const rows = query
-    ? await sql.query(text, [`%${query}%`])
-    : await sql.query(text);
+  params.push(limit, offset);
+  const rows = await sql.query(text, params);
   return rows as ProfessorWithStats[];
 }
 

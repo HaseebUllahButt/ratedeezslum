@@ -1,59 +1,150 @@
 "use client";
 
-import { useMemo, useState, useTransition } from "react";
+import { useCallback, useEffect, useRef, useState } from "react";
 import Link from "next/link";
 import type { ProfessorWithStats } from "@/lib/db";
+import type { SortKey } from "@/lib/db";
 import Avatar from "@/components/Avatar";
 import StarRating from "@/components/StarRating";
 
-type SortKey = "highest" | "lowest" | "most-reviewed" | "name";
-
-function sortProfessors(list: ProfessorWithStats[], sort: SortKey): ProfessorWithStats[] {
-  const copy = [...list];
-  switch (sort) {
-    case "highest":
-      return copy.sort((a, b) => (b.avg_rating ?? -1) - (a.avg_rating ?? -1));
-    case "lowest":
-      return copy.sort((a, b) => (a.avg_rating ?? 6) - (b.avg_rating ?? 6));
-    case "most-reviewed":
-      return copy.sort((a, b) => b.review_count - a.review_count);
-    case "name":
-    default:
-      return copy.sort((a, b) => a.name.localeCompare(b.name));
-  }
-}
+const PAGE_SIZE = 24;
 
 export default function ProfessorList({
   initialProfessors,
   totalProfessors,
+  initialHasMore,
+  schools,
+  initialSort = "highest",
 }: {
   initialProfessors: ProfessorWithStats[];
-  totalProfessors: number;
+  totalProfessors: number; // unfiltered total (for "of 425")
+  initialHasMore: boolean;
+  schools: string[];
+  initialSort?: SortKey;
 }) {
   const [query, setQuery] = useState("");
   const [school, setSchool] = useState("");
-  const [sort, setSort] = useState<SortKey>("highest");
-  const [results, setResults] = useState(initialProfessors);
-  const [isPending, startTransition] = useTransition();
+  const [sort, setSort] = useState<SortKey>(initialSort);
+  const [results, setResults] = useState<ProfessorWithStats[]>(initialProfessors);
+  const [totalFiltered, setTotalFiltered] = useState(totalProfessors);
+  const [hasMore, setHasMore] = useState(initialHasMore);
+  const [isSearching, setIsSearching] = useState(false);
+  const [isLoadingMore, setIsLoadingMore] = useState(false);
+  const offsetRef = useRef(initialProfessors.length);
+  const sentinelRef = useRef<HTMLDivElement | null>(null);
+  const abortRef = useRef<AbortController | null>(null);
 
-  const schools = useMemo(() => {
-    const set = new Set<string>();
-    initialProfessors.forEach((p) => p.school && set.add(p.school));
-    return [...set].sort();
-  }, [initialProfessors]);
+  // keep refs for current filters to avoid stale closures in observer
+  const filtersRef = useRef({ query, school, sort, totalFiltered, hasMore });
+  useEffect(() => {
+    filtersRef.current = { query, school, sort, totalFiltered, hasMore };
+  }, [query, school, sort, totalFiltered, hasMore]);
 
-  function runSearch(nextQuery: string, nextSchool: string, nextSort: SortKey) {
-    startTransition(async () => {
-      const params = new URLSearchParams();
-      if (nextQuery) params.set("q", nextQuery);
-      const res = await fetch(`/api/professors?${params.toString()}`);
-      const data = await res.json();
-      const filtered = nextSchool
-        ? data.professors.filter((p: ProfessorWithStats) => p.school === nextSchool)
-        : data.professors;
-      setResults(sortProfessors(filtered, nextSort));
-    });
-  }
+  const fetchPage = useCallback(
+    async (opts: { q: string; school: string; sort: SortKey; offset: number; append: boolean }) => {
+      // cancel previous search request (not append loads)
+      if (!opts.append) {
+        abortRef.current?.abort();
+        const ctrl = new AbortController();
+        abortRef.current = ctrl;
+        setIsSearching(true);
+        try {
+          const params = new URLSearchParams();
+          if (opts.q) params.set("q", opts.q);
+          if (opts.school) params.set("school", opts.school);
+          params.set("sort", opts.sort);
+          params.set("limit", String(PAGE_SIZE));
+          params.set("offset", String(opts.offset));
+          const res = await fetch(`/api/professors?${params.toString()}`, { signal: ctrl.signal });
+          if (!res.ok) throw new Error(`HTTP ${res.status}`);
+          const data = (await res.json()) as {
+            professors: ProfessorWithStats[];
+            total: number;
+            hasMore: boolean;
+          };
+          setResults(data.professors);
+          setTotalFiltered(data.total);
+          setHasMore(data.hasMore);
+          offsetRef.current = data.professors.length;
+        } catch (e: unknown) {
+          if (e instanceof DOMException && e.name === "AbortError") return;
+          console.error("search failed", e);
+        } finally {
+          setIsSearching(false);
+        }
+        return;
+      }
+
+      // append (infinite scroll)
+      if (isLoadingMore) return;
+      setIsLoadingMore(true);
+      try {
+        const params = new URLSearchParams();
+        if (opts.q) params.set("q", opts.q);
+        if (opts.school) params.set("school", opts.school);
+        params.set("sort", opts.sort);
+        params.set("limit", String(PAGE_SIZE));
+        params.set("offset", String(opts.offset));
+        const res = await fetch(`/api/professors?${params.toString()}`);
+        if (!res.ok) throw new Error(`HTTP ${res.status}`);
+        const data = (await res.json()) as {
+          professors: ProfessorWithStats[];
+          total: number;
+          hasMore: boolean;
+        };
+        setResults((prev) => [...prev, ...data.professors]);
+        setTotalFiltered(data.total);
+        setHasMore(data.hasMore);
+        offsetRef.current = opts.offset + data.professors.length;
+      } catch (e) {
+        console.error("load more failed", e);
+      } finally {
+        setIsLoadingMore(false);
+      }
+    },
+    [isLoadingMore]
+  );
+
+  // avoid refetch on initial mount - SSR already supplied first page
+  const isFirstRender = useRef(true);
+  const prevQuery = useRef(query);
+
+  // debounced when query changes, immediate when school/sort changes
+  useEffect(() => {
+    if (isFirstRender.current) {
+      isFirstRender.current = false;
+      prevQuery.current = query;
+      return;
+    }
+    const queryChanged = prevQuery.current !== query;
+    prevQuery.current = query;
+    if (queryChanged) {
+      const id = setTimeout(() => {
+        void fetchPage({ q: query, school, sort, offset: 0, append: false });
+      }, 350);
+      return () => clearTimeout(id);
+    }
+    void fetchPage({ q: query, school, sort, offset: 0, append: false });
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [query, school, sort]);
+
+  // infinite scroll sentinel
+  useEffect(() => {
+    const el = sentinelRef.current;
+    if (!el) return;
+    const obs = new IntersectionObserver(
+      (entries) => {
+        const first = entries[0];
+        if (!first?.isIntersecting) return;
+        const { query: q, school: sc, sort: s, hasMore: hm } = filtersRef.current;
+        if (!hm || isSearching || isLoadingMore) return;
+        void fetchPage({ q, school: sc, sort: s, offset: offsetRef.current, append: true });
+      },
+      { rootMargin: "600px" }
+    );
+    obs.observe(el);
+    return () => obs.disconnect();
+  }, [fetchPage, isSearching, isLoadingMore]);
 
   return (
     <div className="w-full">
@@ -78,12 +169,9 @@ export default function ProfessorList({
             </svg>
             <input
               type="text"
-              placeholder="Name"
+              placeholder="Name, department or school"
               value={query}
-              onChange={(e) => {
-                setQuery(e.target.value);
-                runSearch(e.target.value, school, sort);
-              }}
+              onChange={(e) => setQuery(e.target.value)}
               className="w-full border border-slate-300 bg-white pl-8 pr-2 py-2 sm:pl-10 sm:pr-4 sm:py-3 text-xs sm:text-sm text-slate-900 rounded-none outline-none focus:border-lums-navy focus:ring-1 focus:ring-lums-navy"
             />
           </div>
@@ -94,10 +182,7 @@ export default function ProfessorList({
           </span>
           <select
             value={school}
-            onChange={(e) => {
-              setSchool(e.target.value);
-              runSearch(query, e.target.value, sort);
-            }}
+            onChange={(e) => setSchool(e.target.value)}
             className="w-full border border-slate-300 bg-white px-2 py-2 sm:px-4 sm:py-3 text-xs sm:text-sm text-slate-900 rounded-none cursor-pointer outline-none focus:border-lums-navy focus:ring-1 focus:ring-lums-navy"
           >
             <option value="">All Schools</option>
@@ -114,11 +199,7 @@ export default function ProfessorList({
           </span>
           <select
             value={sort}
-            onChange={(e) => {
-              const nextSort = e.target.value as SortKey;
-              setSort(nextSort);
-              setResults((prev) => sortProfessors(prev, nextSort));
-            }}
+            onChange={(e) => setSort(e.target.value as SortKey)}
             className="w-full border border-slate-300 bg-white px-2 py-2 sm:px-4 sm:py-3 text-xs sm:text-sm text-slate-900 rounded-none cursor-pointer outline-none focus:border-lums-navy focus:ring-1 focus:ring-lums-navy"
           >
             <option value="highest">Highest Rated</option>
@@ -130,9 +211,9 @@ export default function ProfessorList({
       </div>
 
       <p className="text-xs font-medium text-slate-600 my-3">
-        {isPending
+        {isSearching
           ? "Searching..."
-          : `Showing ${results.length} of ${totalProfessors} faculty members`}
+          : `Showing ${results.length} of ${totalFiltered} faculty members${totalFiltered !== totalProfessors ? ` (filtered from ${totalProfessors})` : ""}`}
       </p>
 
       <ul className="flex flex-col gap-3">
@@ -205,7 +286,7 @@ export default function ProfessorList({
             </a>
           </li>
         ))}
-        {results.length === 0 && (
+        {results.length === 0 && !isSearching && (
           <li className="border border-dashed border-slate-300 bg-slate-50 px-6 py-12 text-center">
             <p className="text-sm font-medium text-slate-600">
               No professors match that search. Try a different name or school.
@@ -213,6 +294,10 @@ export default function ProfessorList({
           </li>
         )}
       </ul>
+
+      <div ref={sentinelRef} className="h-6 w-full" aria-hidden />
+      {isLoadingMore && <p className="text-center text-xs text-slate-500 py-4">Loading more...</p>}
+      {!hasMore && results.length > 0 && <p className="text-center text-xs text-slate-400 py-4">You&apos;ve reached the end.</p>}
     </div>
   );
 }

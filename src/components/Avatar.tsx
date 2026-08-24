@@ -1,3 +1,7 @@
+"use client";
+
+import { useState } from "react";
+
 const DEFAULT_CLASSES =
   "rounded-none object-cover shadow-sm border border-slate-200 bg-lums-gray";
 
@@ -27,9 +31,10 @@ export default function Avatar({
   size?: number;
   className?: string;
 }) {
+  const [errored, setErrored] = useState(false);
   const classes = className ?? DEFAULT_CLASSES;
 
-  if (photoUrl) {
+  if (photoUrl && !errored) {
     return (
       // eslint-disable-next-line @next/next/no-img-element
       <img
@@ -40,6 +45,9 @@ export default function Avatar({
         className={classes}
         style={{ width: size, height: size }}
         loading="lazy"
+        decoding="async"
+        referrerPolicy="no-referrer"
+        onError={() => setErrored(true)}
       />
     );
   }
