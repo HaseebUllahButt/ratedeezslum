@@ -43,6 +43,7 @@ export default async function ProfessorPage({
           <Avatar
             name={professor.name}
             photoUrl={professor.photo_url}
+            s3PhotoUrl={professor.s3_photo_url}
             size={96}
             className="h-24 w-24 rounded-none object-cover shadow-sm border border-slate-200"
           />

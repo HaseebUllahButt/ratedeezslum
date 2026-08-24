@@ -23,22 +23,25 @@ function GenericPersonIcon({ size }: { size: number }) {
 export default function Avatar({
   name,
   photoUrl,
+  s3PhotoUrl,
   size = 48,
   className,
 }: {
   name: string;
   photoUrl: string | null;
+  s3PhotoUrl?: string | null;
   size?: number;
   className?: string;
 }) {
   const [errored, setErrored] = useState(false);
   const classes = className ?? DEFAULT_CLASSES;
+  const src = s3PhotoUrl || photoUrl;
 
-  if (photoUrl && !errored) {
+  if (src && !errored) {
     return (
       // eslint-disable-next-line @next/next/no-img-element
       <img
-        src={photoUrl}
+        src={src}
         alt={name}
         width={size}
         height={size}

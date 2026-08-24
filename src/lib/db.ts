@@ -15,6 +15,7 @@ export type Professor = {
   department: string | null;
   school: string | null;
   photo_url: string | null;
+  s3_photo_url: string | null;
   profile_url: string | null;
 };
 

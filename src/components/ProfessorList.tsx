@@ -230,6 +230,7 @@ export default function ProfessorList({
                 <Avatar
                   name={p.name}
                   photoUrl={p.photo_url}
+                  s3PhotoUrl={p.s3_photo_url}
                   size={80}
                   className="h-20 w-20 rounded-none object-cover shadow-sm transition-transform group-hover:scale-105 sm:h-25 sm:w-25 border border-slate-200"
                 />
