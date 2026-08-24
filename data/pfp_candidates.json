@@ -1,0 +1,100 @@
+{
+ "2262": {
+  "lumsEmployeeId": "2262",
+  "name": "Mr. Ateeq Abdul Rauf",
+  "title": "Associate Professor",
+  "department": null,
+  "school": "Suleman Dawood School of Business",
+  "profileUrl": "https://lums.edu.pk/lums_employee/2262",
+  "candidates": [
+   {
+    "url": "https://media.licdn.com/dms/image/v2/D4D03AQEr1whFCgoB9g/profile-displayphoto-scale_200_200/B4DaAjlBw8KIAc-/0/1787303305436?e=2147483647&v=beta&t=zmHaDgnOzJVHykQVh-Bkb5iRz5iFozG4Gz6rwJKrMc8",
+    "score": 3.7,
+    "sourceTitle": "Ateeq rehman - Larsen and turbo limited | LinkedIn",
+    "sourceProfile": "https://in.linkedin.com/in/ateeq-rehman-017ba359",
+    "query": "\"ateeq abdul rauf\" lums linkedin",
+    "slug": "ateeq-rehman-017ba359",
+    "localPath": "/pfp-candidates/2262_0.jpg"
+   }
+  ],
+  "status": "found",
+  "updatedAt": "2026-08-24 11:42:33"
+ },
+ "6903": {
+  "lumsEmployeeId": "6903",
+  "name": "Mr. Imad",
+  "title": "Adjunct Faculty",
+  "department": "Humanities and Social Sciences",
+  "school": "Mushtaq Ahmad Gurmani School of Humanities and Social Sciences",
+  "profileUrl": "https://lums.edu.pk/lums_employee/6903",
+  "candidates": [],
+  "status": "not_found",
+  "updatedAt": "2026-08-24 11:42:53"
+ },
+ "9536": {
+  "lumsEmployeeId": "9536",
+  "name": "Dr. Naeem Ahmad Abbasi",
+  "title": "Adjunct Faculty",
+  "department": "Electrical Engineering",
+  "school": "Syed Babar Ali School of Science and Engineering",
+  "profileUrl": "https://lums.edu.pk/lums_employee/9536",
+  "candidates": [],
+  "status": "retry_bing_only",
+  "updatedAt": "2026-08-24 11:43:05"
+ },
+ "9538": {
+  "lumsEmployeeId": "9538",
+  "name": "Ms. Khadija Aftab",
+  "title": "Adjunct Faculty",
+  "department": "Economics",
+  "school": "Mushtaq Ahmad Gurmani School of Humanities and Social Sciences",
+  "profileUrl": "https://lums.edu.pk/lums_employee/9538",
+  "candidates": [],
+  "status": "retry_bing_only",
+  "updatedAt": "2026-08-24 11:43:17"
+ },
+ "5570": {
+  "lumsEmployeeId": "5570",
+  "name": "Mr. Hafiz Muhammad Afzal",
+  "title": "Lecturer",
+  "department": "Chemistry & Chemical Engineering",
+  "school": "Syed Babar Ali School of Science and Engineering",
+  "profileUrl": "https://lums.edu.pk/lums_employee/5570",
+  "candidates": [],
+  "status": "retry_bing_only",
+  "updatedAt": "2026-08-24 11:43:27"
+ },
+ "4629": {
+  "lumsEmployeeId": "4629",
+  "name": "Mr. Shahab Ud Din Ahmad",
+  "title": "Teaching Fellow",
+  "department": "Humanities and Social Sciences",
+  "school": "Mushtaq Ahmad Gurmani School of Humanities and Social Sciences",
+  "profileUrl": "https://lums.edu.pk/lums_employee/4629",
+  "candidates": [],
+  "status": "retry_bing_only",
+  "updatedAt": "2026-08-24 11:43:39"
+ },
+ "6219": {
+  "lumsEmployeeId": "6219",
+  "name": "Ms. Ayesha Ahmad",
+  "title": "Adjunct Faculty",
+  "department": null,
+  "school": "Suleman Dawood School of Business",
+  "profileUrl": "https://lums.edu.pk/lums_employee/6219",
+  "candidates": [],
+  "status": "retry_bing_only",
+  "updatedAt": "2026-08-24 11:43:51"
+ },
+ "11369": {
+  "lumsEmployeeId": "11369",
+  "name": "Mr. Bilal Ahmad",
+  "title": "Adjunct Faculty",
+  "department": "Education",
+  "school": "Syed Ahsan Ali and Syed Maratib Ali School of Education",
+  "profileUrl": "https://lums.edu.pk/lums_employee/11369",
+  "candidates": [],
+  "status": "retry_bing_only",
+  "updatedAt": "2026-08-24 11:44:04"
+ }
+}

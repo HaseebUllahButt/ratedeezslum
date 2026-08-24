@@ -3,24 +3,45 @@
 :root {
   --background: #ffffff;
   --foreground: #171717;
+
+  /* LUMS brand palette, pulled from lums.edu.pk's own stylesheet */
+  --lums-navy: #04198b;
+  --lums-navy-dark: #030f57;
+  --lums-gold: #ffb300;
+  --lums-gold-dark: #e0a000;
+  --lums-cyan: #00ceff;
+  --lums-gray: #f2f2f2;
+
+  /* Richer, more desaturated "Oxford blue" used for the header — pairs better with gold */
+  --lums-header: #17223e;
+  --lums-header-light: #20304f;
 }
 
 @theme inline {
   --color-background: var(--background);
   --color-foreground: var(--foreground);
+  --color-lums-navy: var(--lums-navy);
+  --color-lums-navy-dark: var(--lums-navy-dark);
+  --color-lums-gold: var(--lums-gold);
+  --color-lums-gold-dark: var(--lums-gold-dark);
+  --color-lums-cyan: var(--lums-cyan);
+  --color-lums-gray: var(--lums-gray);
+  --color-lums-header: var(--lums-header);
+  --color-lums-header-light: var(--lums-header-light);
   --font-sans: var(--font-geist-sans);
   --font-mono: var(--font-geist-mono);
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
 }
 
 body {
   background: var(--background);
   color: var(--foreground);
   font-family: Arial, Helvetica, sans-serif;
+}
+
+.scrollbar-hide {
+  scrollbar-width: none;
+  -ms-overflow-style: none;
+}
+.scrollbar-hide::-webkit-scrollbar {
+  display: none;
 }

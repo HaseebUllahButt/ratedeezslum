@@ -1,0 +1,3827 @@
+[
+  {
+    "lumsEmployeeId": "441",
+    "name": "Dr. Ali Cheema",
+    "title": "Vice Chancellor",
+    "department": "Economics",
+    "school": "Mushtaq Ahmad Gurmani School of Humanities and Social Sciences",
+    "photoUrl": "https://lums.edu.pk/sites/default/files/styles/faculty_image/public/alic.jpg",
+    "profileUrl": "https://lums.edu.pk/lums_employee/441"
+  },
+  {
+    "lumsEmployeeId": "751",
+    "name": "Dr. Tariq Mahmood Jadoon",
+    "title": "Provost, Office of the Provost",
+    "department": "Electrical Engineering",
+    "school": "Syed Babar Ali School of Science and Engineering",
+    "photoUrl": "https://lums.edu.pk/sites/default/files/styles/faculty_image/public/tjd.jpg",
+    "profileUrl": "https://lums.edu.pk/lums_employee/751"
+  },
+  {
+    "lumsEmployeeId": "1044",
+    "name": "Dr. Sadaf Aziz",
+    "title": "Dean",
+    "department": null,
+    "school": "Shaikh Ahmad Hassan School of Law",
+    "photoUrl": "https://lums.edu.pk/sites/default/files/styles/faculty_image/public/sdf_0.jpg",
+    "profileUrl": "https://lums.edu.pk/lums_employee/1044"
+  },
+  {
+    "lumsEmployeeId": "1042",
+    "name": "Dr. Ali Khan",
+    "title": "Dean",
+    "department": "Humanities and Social Sciences",
+    "school": "Mushtaq Ahmad Gurmani School of Humanities and Social Sciences",
+    "photoUrl": "https://lums.edu.pk/sites/default/files/styles/faculty_image/public/Dr%20Ali.jpg",
+    "profileUrl": "https://lums.edu.pk/lums_employee/1042"
+  },
+  {
+    "lumsEmployeeId": "9840",
+    "name": "Dr. Walther Schwarzacher",
+    "title": "Dean",
+    "department": "Physics",
+    "school": "Syed Babar Ali School of Science and Engineering",
+    "photoUrl": "https://lums.edu.pk/sites/default/files/styles/faculty_image/public/walter.jpg",
+    "profileUrl": "https://lums.edu.pk/lums_employee/9840"
+  },
+  {
+    "lumsEmployeeId": "5806",
+    "name": "Dr. Tayyaba Tamim",
+    "title": "Dean",
+    "department": "Education",
+    "school": "Syed Ahsan Ali and Syed Maratib Ali School of Education",
+    "photoUrl": "https://lums.edu.pk/sites/default/files/styles/faculty_image/public/faculty_images/00005806.jpg",
+    "profileUrl": "https://lums.edu.pk/lums_employee/5806"
+  },
+  {
+    "lumsEmployeeId": "882",
+    "name": "Dr. Muhammad Adeel Zaffar",
+    "title": "Dean",
+    "department": null,
+    "school": "Suleman Dawood School of Business",
+    "photoUrl": "https://lums.edu.pk/sites/default/files/styles/faculty_image/public/adellz_0.jpg",
+    "profileUrl": "https://lums.edu.pk/lums_employee/882"
+  },
+  {
+    "lumsEmployeeId": "2262",
+    "name": "Mr. Ateeq Abdul Rauf",
+    "title": "Associate Professor",
+    "department": null,
+    "school": "Suleman Dawood School of Business",
+    "photoUrl": null,
+    "profileUrl": "https://lums.edu.pk/lums_employee/2262"
+  },
+  {
+    "lumsEmployeeId": "6903",
+    "name": "Mr. Imad",
+    "title": "Adjunct Faculty",
+    "department": "Humanities and Social Sciences",
+    "school": "Mushtaq Ahmad Gurmani School of Humanities and Social Sciences",
+    "photoUrl": null,
+    "profileUrl": "https://lums.edu.pk/lums_employee/6903"
+  },
+  {
+    "lumsEmployeeId": "5073",
+    "name": "Dr. Faiza",
+    "title": "Assistant Professor",
+    "department": null,
+    "school": "Shaikh Ahmad Hassan School of Law",
+    "photoUrl": "https://lums.edu.pk/sites/default/files/styles/faculty_image/public/fi.jpg",
+    "profileUrl": "https://lums.edu.pk/lums_employee/5073"
+  },
+  {
+    "lumsEmployeeId": "7989",
+    "name": "Ms. Maheen Aamir Syed",
+    "title": "Teaching Fellow",
+    "department": null,
+    "school": "Suleman Dawood School of Business",
+    "photoUrl": "https://lums.edu.pk/sites/default/files/styles/faculty_image/public/21de.jpg",
+    "profileUrl": "https://lums.edu.pk/lums_employee/7989"
+  },
+  {
+    "lumsEmployeeId": "7879",
+    "name": "Dr. Tauqeer Abbas",
+    "title": "Assistant Professor",
+    "department": "Chemistry & Chemical Engineering",
+    "school": "Syed Babar Ali School of Science and Engineering",
+    "photoUrl": "https://lums.edu.pk/sites/default/files/styles/faculty_image/public/fac11.jpg",
+    "profileUrl": "https://lums.edu.pk/lums_employee/7879"
+  },
+  {
+    "lumsEmployeeId": "11175",
+    "name": "Dr. Sameera Abbas",
+    "title": "Assistant Professor",
+    "department": "Humanities and Social Sciences",
+    "school": "Mushtaq Ahmad Gurmani School of Humanities and Social Sciences",
+    "photoUrl": "https://lums.edu.pk/sites/default/files/styles/faculty_image/public/samb_0.jpg",
+    "profileUrl": "https://lums.edu.pk/lums_employee/11175"
+  },
+  {
+    "lumsEmployeeId": "11497",
+    "name": "Mr. Mohib Abbas Ali",
+    "title": "Adjunct Faculty",
+    "department": null,
+    "school": "Suleman Dawood School of Business",
+    "photoUrl": "https://lums.edu.pk/sites/default/files/styles/faculty_image/public/mohb_0.jpg",
+    "profileUrl": "https://lums.edu.pk/lums_employee/11497"
+  },
+  {
+    "lumsEmployeeId": "7814",
+    "name": "Dr. Syed Kumail Abbas Rizvi",
+    "title": "Associate Professor & Director MS Financial Management",
+    "department": null,
+    "school": "Suleman Dawood School of Business",
+    "photoUrl": "https://lums.edu.pk/sites/default/files/styles/faculty_image/public/kar.jpg",
+    "profileUrl": "https://lums.edu.pk/lums_employee/7814"
+  },
+  {
+    "lumsEmployeeId": "9536",
+    "name": "Dr. Naeem Ahmad Abbasi",
+    "title": "Adjunct Faculty",
+    "department": "Electrical Engineering",
+    "school": "Syed Babar Ali School of Science and Engineering",
+    "photoUrl": null,
+    "profileUrl": "https://lums.edu.pk/lums_employee/9536"
+  },
+  {
+    "lumsEmployeeId": "9424",
+    "name": "Dr. Reza Abdolmaleki",
+    "title": "Assistant Professor",
+    "department": "Mathematics",
+    "school": "Syed Babar Ali School of Science and Engineering",
+    "photoUrl": "https://lums.edu.pk/sites/default/files/styles/faculty_image/public/rez112.jpg",
+    "profileUrl": "https://lums.edu.pk/lums_employee/9424"
+  },
+  {
+    "lumsEmployeeId": "2890",
+    "name": "Dr. Muhammad Abdur Rahman Malik",
+    "title": "Associate Professor & Associate Dean Research",
+    "department": null,
+    "school": "Suleman Dawood School of Business",
+    "photoUrl": "https://lums.edu.pk/sites/default/files/styles/faculty_image/public/abr.jpg",
+    "profileUrl": "https://lums.edu.pk/lums_employee/2890"
+  },
+  {
+    "lumsEmployeeId": "2126",
+    "name": "Dr. Muhammad Abubakr",
+    "title": "Professor",
+    "department": "Electrical Engineering",
+    "school": "Syed Babar Ali School of Science and Engineering",
+    "photoUrl": "https://lums.edu.pk/sites/default/files/styles/faculty_image/public/pictures/2023-05/abubakr-profile-pic-2023.png",
+    "profileUrl": "https://lums.edu.pk/lums_employee/2126"
+  },
+  {
+    "lumsEmployeeId": "9538",
+    "name": "Ms. Khadija Aftab",
+    "title": "Adjunct Faculty",
+    "department": "Economics",
+    "school": "Mushtaq Ahmad Gurmani School of Humanities and Social Sciences",
+    "photoUrl": null,
+    "profileUrl": "https://lums.edu.pk/lums_employee/9538"
+  },
+  {
+    "lumsEmployeeId": "5570",
+    "name": "Mr. Hafiz Muhammad Afzal",
+    "title": "Lecturer",
+    "department": "Chemistry & Chemical Engineering",
+    "school": "Syed Babar Ali School of Science and Engineering",
+    "photoUrl": null,
+    "profileUrl": "https://lums.edu.pk/lums_employee/5570"
+  },
+  {
+    "lumsEmployeeId": "713",
+    "name": "Dr. Zartash Afzal Uzmi",
+    "title": "Professor",
+    "department": "Electrical Engineering",
+    "school": "Syed Babar Ali School of Science and Engineering",
+    "photoUrl": "https://lums.edu.pk/sites/default/files/styles/faculty_image/public/faculty_images/00000713.jpg",
+    "profileUrl": "https://lums.edu.pk/lums_employee/713"
+  },
+  {
+    "lumsEmployeeId": "2951",
+    "name": "Dr. Muhammad Ghufran Ahmad",
+    "title": "Associate Professor & Director MS Healthcare Management & Innovation",
+    "department": null,
+    "school": "Suleman Dawood School of Business",
+    "photoUrl": "https://lums.edu.pk/sites/default/files/styles/faculty_image/public/002.jpg",
+    "profileUrl": "https://lums.edu.pk/lums_employee/2951"
+  },
+  {
+    "lumsEmployeeId": "2640",
+    "name": "Dr. Aisha Ahmad",
+    "title": "Assistant Professor",
+    "department": null,
+    "school": "Shaikh Ahmad Hassan School of Law",
+    "photoUrl": "https://lums.edu.pk/sites/default/files/styles/faculty_image/public/aish_0_0.jpg",
+    "profileUrl": "https://lums.edu.pk/lums_employee/2640"
+  },
+  {
+    "lumsEmployeeId": "2359",
+    "name": "Dr. Ali Nobil Ahmad",
+    "title": "Associate Professor",
+    "department": "Humanities and Social Sciences",
+    "school": "Mushtaq Ahmad Gurmani School of Humanities and Social Sciences",
+    "photoUrl": "https://lums.edu.pk/sites/default/files/styles/faculty_image/public/anb.jpg",
+    "profileUrl": "https://lums.edu.pk/lums_employee/2359"
+  },
+  {
+    "lumsEmployeeId": "4629",
+    "name": "Mr. Shahab Ud Din Ahmad",
+    "title": "Teaching Fellow",
+    "department": "Humanities and Social Sciences",
+    "school": "Mushtaq Ahmad Gurmani School of Humanities and Social Sciences",
+    "photoUrl": null,
+    "profileUrl": "https://lums.edu.pk/lums_employee/4629"
+  },
+  {
+    "lumsEmployeeId": "3709",
+    "name": "Dr. Ferhana Ahmad",
+    "title": "Associate Professor",
+    "department": null,
+    "school": "Suleman Dawood School of Business",
+    "photoUrl": "https://lums.edu.pk/sites/default/files/styles/faculty_image/public/faculty_images/00003709.jpg",
+    "profileUrl": "https://lums.edu.pk/lums_employee/3709"
+  },
+  {
+    "lumsEmployeeId": "6219",
+    "name": "Ms. Ayesha Ahmad",
+    "title": "Adjunct Faculty",
+    "department": null,
+    "school": "Suleman Dawood School of Business",
+    "photoUrl": null,
+    "profileUrl": "https://lums.edu.pk/lums_employee/6219"
+  },
+  {
+    "lumsEmployeeId": "11369",
+    "name": "Mr. Bilal Ahmad",
+    "title": "Adjunct Faculty",
+    "department": "Education",
+    "school": "Syed Ahsan Ali and Syed Maratib Ali School of Education",
+    "photoUrl": null,
+    "profileUrl": "https://lums.edu.pk/lums_employee/11369"
+  },
+  {
+    "lumsEmployeeId": "1507",
+    "name": "Dr. Sadaf Ahmad",
+    "title": "Professor",
+    "department": "Humanities and Social Sciences",
+    "school": "Mushtaq Ahmad Gurmani School of Humanities and Social Sciences",
+    "photoUrl": "https://lums.edu.pk/sites/default/files/styles/faculty_image/public/WhatsApp%20Image%202025-11-05%20at%2008.35.10.jpeg",
+    "profileUrl": "https://lums.edu.pk/lums_employee/1507"
+  },
+  {
+    "lumsEmployeeId": "10896",
+    "name": "Dr. Tariq Bashir Ahmad",
+    "title": "Adjunct Faculty",
+    "department": "Electrical Engineering",
+    "school": "Syed Babar Ali School of Science and Engineering",
+    "photoUrl": null,
+    "profileUrl": "https://lums.edu.pk/lums_employee/10896"
+  },
+  {
+    "lumsEmployeeId": "1949",
+    "name": "Mr. Waqar Ahmad",
+    "title": "Assistant Professor of Practice",
+    "department": "Computer Science",
+    "school": "Syed Babar Ali School of Science and Engineering",
+    "photoUrl": "https://lums.edu.pk/sites/default/files/styles/faculty_image/public/Waqar%20%28Photo%29.jpg",
+    "profileUrl": "https://lums.edu.pk/lums_employee/1949"
+  },
+  {
+    "lumsEmployeeId": "5605",
+    "name": "Dr. Fiaz Ahmad Chaudhry",
+    "title": "Professor and Werner-Von-Siemens Chair",
+    "department": "Electrical Engineering",
+    "school": "Syed Babar Ali School of Science and Engineering",
+    "photoUrl": "https://lums.edu.pk/sites/default/files/styles/faculty_image/public/faculty_images/00005605.jpg",
+    "profileUrl": "https://lums.edu.pk/lums_employee/5605"
+  },
+  {
+    "lumsEmployeeId": "5021",
+    "name": "Mr. Samir Ahmed",
+    "title": "Adjunct Faculty",
+    "department": null,
+    "school": "Suleman Dawood School of Business",
+    "photoUrl": "https://lums.edu.pk/sites/default/files/styles/faculty_image/public/samer.jpg",
+    "profileUrl": "https://lums.edu.pk/lums_employee/5021"
+  },
+  {
+    "lumsEmployeeId": "11564",
+    "name": "Mr. Ateeb Ahmed",
+    "title": "Assistant Professor",
+    "department": "Humanities and Social Sciences",
+    "school": "Mushtaq Ahmad Gurmani School of Humanities and Social Sciences",
+    "photoUrl": null,
+    "profileUrl": "https://lums.edu.pk/lums_employee/11564"
+  },
+  {
+    "lumsEmployeeId": "4768",
+    "name": "Dr. Malik Fakhar Ahmed",
+    "title": "Assistant Professor",
+    "department": "Economics",
+    "school": "Mushtaq Ahmad Gurmani School of Humanities and Social Sciences",
+    "photoUrl": null,
+    "profileUrl": "https://lums.edu.pk/lums_employee/4768"
+  },
+  {
+    "lumsEmployeeId": "944",
+    "name": "Dr. Muhammad Shabbir Ahsen",
+    "title": "Associate Professor",
+    "department": "Humanities and Social Sciences",
+    "school": "Mushtaq Ahmad Gurmani School of Humanities and Social Sciences",
+    "photoUrl": "https://lums.edu.pk/sites/default/files/styles/faculty_image/public/faculty_images/00000944.jpg",
+    "profileUrl": "https://lums.edu.pk/lums_employee/944"
+  },
+  {
+    "lumsEmployeeId": "9530",
+    "name": "Dr. Muhammad Ajmal",
+    "title": "Adjunct Faculty",
+    "department": null,
+    "school": "Suleman Dawood School of Business",
+    "photoUrl": "https://lums.edu.pk/sites/default/files/styles/faculty_image/public/ajm1.jpg",
+    "profileUrl": "https://lums.edu.pk/lums_employee/9530"
+  },
+  {
+    "lumsEmployeeId": "11231",
+    "name": "Mr. Nafeh Akbar",
+    "title": "Adjunct Faculty",
+    "department": null,
+    "school": "Suleman Dawood School of Business",
+    "photoUrl": "https://lums.edu.pk/sites/default/files/styles/faculty_image/public/6987.jpg",
+    "profileUrl": "https://lums.edu.pk/lums_employee/11231"
+  },
+  {
+    "lumsEmployeeId": "8405",
+    "name": "Mr. Farhan Akhtar",
+    "title": "Adjunct Faculty",
+    "department": null,
+    "school": "Suleman Dawood School of Business",
+    "photoUrl": null,
+    "profileUrl": "https://lums.edu.pk/lums_employee/8405"
+  },
+  {
+    "lumsEmployeeId": "1141",
+    "name": "Mr. Asad Alam",
+    "title": "Associate Professor",
+    "department": null,
+    "school": "Suleman Dawood School of Business",
+    "photoUrl": "https://lums.edu.pk/sites/default/files/styles/faculty_image/public/faculty_images/00001141.jpg",
+    "profileUrl": "https://lums.edu.pk/lums_employee/1141"
+  },
+  {
+    "lumsEmployeeId": "174",
+    "name": "Dr. Syed Mubashir Ali",
+    "title": "Associate Professor",
+    "department": null,
+    "school": "Suleman Dawood School of Business",
+    "photoUrl": "https://lums.edu.pk/sites/default/files/styles/faculty_image/public/sbm.gif",
+    "profileUrl": "https://lums.edu.pk/lums_employee/174"
+  },
+  {
+    "lumsEmployeeId": "9805",
+    "name": "Dr. Fahd Ali",
+    "title": "Visiting Assistant Professor",
+    "department": "Economics",
+    "school": "Mushtaq Ahmad Gurmani School of Humanities and Social Sciences",
+    "photoUrl": null,
+    "profileUrl": "https://lums.edu.pk/lums_employee/9805"
+  },
+  {
+    "lumsEmployeeId": "6559",
+    "name": "Dr. Farah Hasan Ali",
+    "title": "Associate Professor",
+    "department": "Humanities and Social Sciences",
+    "school": "Mushtaq Ahmad Gurmani School of Humanities and Social Sciences",
+    "photoUrl": "https://lums.edu.pk/sites/default/files/styles/faculty_image/public/pictures/2022-08/Farah%20Ali.jpg",
+    "profileUrl": "https://lums.edu.pk/lums_employee/6559"
+  },
+  {
+    "lumsEmployeeId": "6904",
+    "name": "Ms. Samia Ahmed Ali",
+    "title": "Teaching Fellow",
+    "department": null,
+    "school": "Suleman Dawood School of Business",
+    "photoUrl": "https://lums.edu.pk/sites/default/files/styles/faculty_image/public/samia.jpg",
+    "profileUrl": "https://lums.edu.pk/lums_employee/6904"
+  },
+  {
+    "lumsEmployeeId": "10926",
+    "name": "Dr. Ahtisham Ali",
+    "title": "Adjunct Faculty",
+    "department": "Humanities and Social Sciences",
+    "school": "Mushtaq Ahmad Gurmani School of Humanities and Social Sciences",
+    "photoUrl": null,
+    "profileUrl": "https://lums.edu.pk/lums_employee/10926"
+  },
+  {
+    "lumsEmployeeId": "10832",
+    "name": "Dr. Samnan Ali",
+    "title": "Assistant Professor",
+    "department": null,
+    "school": "Suleman Dawood School of Business",
+    "photoUrl": "https://lums.edu.pk/sites/default/files/styles/faculty_image/public/WhatsApp%20Image%202025-08-06%20at%2011.10.43%20PM.jpeg",
+    "profileUrl": "https://lums.edu.pk/lums_employee/10832"
+  },
+  {
+    "lumsEmployeeId": "4872",
+    "name": "Dr. Ayesha Ali",
+    "title": "Associate Professor",
+    "department": "Economics",
+    "school": "Mushtaq Ahmad Gurmani School of Humanities and Social Sciences",
+    "photoUrl": "https://lums.edu.pk/sites/default/files/styles/faculty_image/public/faculty_images/00004872.jpg",
+    "profileUrl": "https://lums.edu.pk/lums_employee/4872"
+  },
+  {
+    "lumsEmployeeId": "5044",
+    "name": "Mr. Aqib Ali",
+    "title": "Adjunct Faculty",
+    "department": "Humanities and Social Sciences",
+    "school": "Mushtaq Ahmad Gurmani School of Humanities and Social Sciences",
+    "photoUrl": null,
+    "profileUrl": "https://lums.edu.pk/lums_employee/5044"
+  },
+  {
+    "lumsEmployeeId": "726",
+    "name": "Dr. Syed Zahid Ali",
+    "title": "Professor",
+    "department": "Economics",
+    "school": "Mushtaq Ahmad Gurmani School of Humanities and Social Sciences",
+    "photoUrl": "https://lums.edu.pk/sites/default/files/styles/faculty_image/public/faculty_images/00000726.jpg",
+    "profileUrl": "https://lums.edu.pk/lums_employee/726"
+  },
+  {
+    "lumsEmployeeId": "4825",
+    "name": "Dr. Faiza Ali",
+    "title": "Associate Professor",
+    "department": null,
+    "school": "Suleman Dawood School of Business",
+    "photoUrl": "https://lums.edu.pk/sites/default/files/styles/faculty_image/public/pictures/2023-07/faz1.jpg",
+    "profileUrl": "https://lums.edu.pk/lums_employee/4825"
+  },
+  {
+    "lumsEmployeeId": "7963",
+    "name": "Dr. Waqas Ali Azhar",
+    "title": "Assistant Professor",
+    "department": "Mathematics",
+    "school": "Syed Babar Ali School of Science and Engineering",
+    "photoUrl": "https://lums.edu.pk/sites/default/files/styles/faculty_image/public/7f55c577-6df4-43e9-8f3e-271635563b07.jpg",
+    "profileUrl": "https://lums.edu.pk/lums_employee/7963"
+  },
+  {
+    "lumsEmployeeId": "10306",
+    "name": "Mr. Muhammad Ali Syed",
+    "title": "Adjunct Faculty",
+    "department": null,
+    "school": "Suleman Dawood School of Business",
+    "photoUrl": null,
+    "profileUrl": "https://lums.edu.pk/lums_employee/10306"
+  },
+  {
+    "lumsEmployeeId": "4459",
+    "name": "Dr. Muhammad Hamad Alizai",
+    "title": "Associate Professor",
+    "department": "Computer Science",
+    "school": "Syed Babar Ali School of Science and Engineering",
+    "photoUrl": "https://lums.edu.pk/sites/default/files/styles/faculty_image/public/faculty_images/00004459.jpg",
+    "profileUrl": "https://lums.edu.pk/lums_employee/4459"
+  },
+  {
+    "lumsEmployeeId": "7511",
+    "name": "Dr. Qandeel Almas",
+    "title": "Assistant Professor",
+    "department": "Chemistry & Chemical Engineering",
+    "school": "Syed Babar Ali School of Science and Engineering",
+    "photoUrl": "https://lums.edu.pk/sites/default/files/styles/faculty_image/public/q2258.jpg",
+    "profileUrl": "https://lums.edu.pk/lums_employee/7511"
+  },
+  {
+    "lumsEmployeeId": "10920",
+    "name": "Dr. Muhammad Adeel Alvi",
+    "title": "Adjunct Faculty",
+    "department": null,
+    "school": "Suleman Dawood School of Business",
+    "photoUrl": null,
+    "profileUrl": "https://lums.edu.pk/lums_employee/10920"
+  },
+  {
+    "lumsEmployeeId": "12004",
+    "name": "Mr. Abid Ameen",
+    "title": "Adjunct Faculty",
+    "department": null,
+    "school": "Suleman Dawood School of Business",
+    "photoUrl": null,
+    "profileUrl": "https://lums.edu.pk/lums_employee/12004"
+  },
+  {
+    "lumsEmployeeId": "11556",
+    "name": "Ms. Maliha Ameen",
+    "title": "Adjunct Faculty",
+    "department": "Computer Science",
+    "school": "Syed Babar Ali School of Science and Engineering",
+    "photoUrl": null,
+    "profileUrl": "https://lums.edu.pk/lums_employee/11556"
+  },
+  {
+    "lumsEmployeeId": "7476",
+    "name": "Mr. Saad Amir",
+    "title": "Assistant Professor of Practice",
+    "department": null,
+    "school": "Shaikh Ahmad Hassan School of Law",
+    "photoUrl": "https://lums.edu.pk/sites/default/files/styles/faculty_image/public/saadam.jpg",
+    "profileUrl": "https://lums.edu.pk/lums_employee/7476"
+  },
+  {
+    "lumsEmployeeId": "12038",
+    "name": "Ms. Mavra Amjad",
+    "title": "Adjunct Faculty",
+    "department": "Education",
+    "school": "Syed Ahsan Ali and Syed Maratib Ali School of Education",
+    "photoUrl": null,
+    "profileUrl": "https://lums.edu.pk/lums_employee/12038"
+  },
+  {
+    "lumsEmployeeId": "12001",
+    "name": "Dr. Zainab Anjum",
+    "title": "Adjunct Faculty",
+    "department": null,
+    "school": "Suleman Dawood School of Business",
+    "photoUrl": "https://lums.edu.pk/sites/default/files/styles/faculty_image/public/znb_0.jpg",
+    "profileUrl": "https://lums.edu.pk/lums_employee/12001"
+  },
+  {
+    "lumsEmployeeId": "1617",
+    "name": "Dr. Muhammad Sabieh Anwar",
+    "title": "Professor",
+    "department": "Physics",
+    "school": "Syed Babar Ali School of Science and Engineering",
+    "photoUrl": "https://lums.edu.pk/sites/default/files/styles/faculty_image/public/69.jpg",
+    "profileUrl": "https://lums.edu.pk/lums_employee/1617"
+  },
+  {
+    "lumsEmployeeId": "7501",
+    "name": "Dr. Imran Anwar",
+    "title": "Associate Professor",
+    "department": "Mathematics",
+    "school": "Syed Babar Ali School of Science and Engineering",
+    "photoUrl": "https://lums.edu.pk/sites/default/files/styles/faculty_image/public/36900.jpg",
+    "profileUrl": "https://lums.edu.pk/lums_employee/7501"
+  },
+  {
+    "lumsEmployeeId": "8223",
+    "name": "Dr. Ghulam Ali Arain",
+    "title": "Associate Professor & Director EMBA Programme",
+    "department": null,
+    "school": "Suleman Dawood School of Business",
+    "photoUrl": "https://lums.edu.pk/sites/default/files/styles/faculty_image/public/gaa_0.jpg",
+    "profileUrl": "https://lums.edu.pk/lums_employee/8223"
+  },
+  {
+    "lumsEmployeeId": "10611",
+    "name": "Ms. Samina Arifa",
+    "title": "Adjunct Faculty",
+    "department": "Humanities and Social Sciences",
+    "school": "Mushtaq Ahmad Gurmani School of Humanities and Social Sciences",
+    "photoUrl": null,
+    "profileUrl": "https://lums.edu.pk/lums_employee/10611"
+  },
+  {
+    "lumsEmployeeId": "7118",
+    "name": "Mr. Sheikh Arsalan Ul Haq",
+    "title": "Adjunct Faculty",
+    "department": "Economics",
+    "school": "Mushtaq Ahmad Gurmani School of Humanities and Social Sciences",
+    "photoUrl": null,
+    "profileUrl": "https://lums.edu.pk/lums_employee/7118"
+  },
+  {
+    "lumsEmployeeId": "1352",
+    "name": "Dr. Naveed Arshad",
+    "title": "Professor",
+    "department": "Computer Science",
+    "school": "Syed Babar Ali School of Science and Engineering",
+    "photoUrl": "https://lums.edu.pk/sites/default/files/styles/faculty_image/public/nav990.jpg",
+    "profileUrl": "https://lums.edu.pk/lums_employee/1352"
+  },
+  {
+    "lumsEmployeeId": "11986",
+    "name": "Dr. Ahmed Asad",
+    "title": "Assistant Professor",
+    "department": "Humanities and Social Sciences",
+    "school": "Mushtaq Ahmad Gurmani School of Humanities and Social Sciences",
+    "photoUrl": null,
+    "profileUrl": "https://lums.edu.pk/lums_employee/11986"
+  },
+  {
+    "lumsEmployeeId": "7184",
+    "name": "Dr. Sher Afghan Asad",
+    "title": "Assistant Professor",
+    "department": "Economics",
+    "school": "Mushtaq Ahmad Gurmani School of Humanities and Social Sciences",
+    "photoUrl": "https://lums.edu.pk/sites/default/files/styles/faculty_image/public/12445.jpg",
+    "profileUrl": "https://lums.edu.pk/lums_employee/7184"
+  },
+  {
+    "lumsEmployeeId": "11505",
+    "name": "Mr. Muhammad Asad Shoaib",
+    "title": "Adjunct Faculty",
+    "department": null,
+    "school": "Suleman Dawood School of Business",
+    "photoUrl": "https://lums.edu.pk/sites/default/files/styles/faculty_image/public/asd.jpg",
+    "profileUrl": "https://lums.edu.pk/lums_employee/11505"
+  },
+  {
+    "lumsEmployeeId": "6615",
+    "name": "Ms. Rida Ashfaq",
+    "title": "Adjunct Faculty",
+    "department": "Humanities and Social Sciences",
+    "school": "Mushtaq Ahmad Gurmani School of Humanities and Social Sciences",
+    "photoUrl": null,
+    "profileUrl": "https://lums.edu.pk/lums_employee/6615"
+  },
+  {
+    "lumsEmployeeId": "9837",
+    "name": "Ms. Arman Ashraf",
+    "title": "Teaching Fellow",
+    "department": "Humanities and Social Sciences",
+    "school": "Mushtaq Ahmad Gurmani School of Humanities and Social Sciences",
+    "photoUrl": "https://lums.edu.pk/sites/default/files/styles/faculty_image/public/arm001.jpg",
+    "profileUrl": "https://lums.edu.pk/lums_employee/9837"
+  },
+  {
+    "lumsEmployeeId": "11569",
+    "name": "Dr. Raja Shahid Ashraf",
+    "title": "Adjunct Faculty",
+    "department": "Chemistry & Chemical Engineering",
+    "school": "Syed Babar Ali School of Science and Engineering",
+    "photoUrl": "https://lums.edu.pk/sites/default/files/styles/faculty_image/public/Profile%20picture%202026%20Shahid.jpg",
+    "profileUrl": "https://lums.edu.pk/lums_employee/11569"
+  },
+  {
+    "lumsEmployeeId": "661",
+    "name": "Dr. Muhammad Junaid Ashraf",
+    "title": "Associate Professor",
+    "department": null,
+    "school": "Suleman Dawood School of Business",
+    "photoUrl": "https://lums.edu.pk/sites/default/files/styles/faculty_image/public/faculty_images/00000661.jpg",
+    "profileUrl": "https://lums.edu.pk/lums_employee/661"
+  },
+  {
+    "lumsEmployeeId": "8262",
+    "name": "Mr. Tabjeel Ashraf",
+    "title": "Adjunct Faculty",
+    "department": null,
+    "school": "Suleman Dawood School of Business",
+    "photoUrl": "https://lums.edu.pk/sites/default/files/styles/faculty_image/public/tbj_0.jpg",
+    "profileUrl": "https://lums.edu.pk/lums_employee/8262"
+  },
+  {
+    "lumsEmployeeId": "7911",
+    "name": "Dr. Ghazal Asif",
+    "title": "Assistant Professor",
+    "department": "Humanities and Social Sciences",
+    "school": "Mushtaq Ahmad Gurmani School of Humanities and Social Sciences",
+    "photoUrl": "https://lums.edu.pk/sites/default/files/styles/faculty_image/public/Ghazal%20headshot.jpg",
+    "profileUrl": "https://lums.edu.pk/lums_employee/7911"
+  },
+  {
+    "lumsEmployeeId": "1784",
+    "name": "Mr. Muhammad Asim",
+    "title": "Teaching Fellow",
+    "department": null,
+    "school": "Suleman Dawood School of Business",
+    "photoUrl": "https://lums.edu.pk/sites/default/files/styles/faculty_image/public/3369_5.jpg",
+    "profileUrl": "https://lums.edu.pk/lums_employee/1784"
+  },
+  {
+    "lumsEmployeeId": "7940",
+    "name": "Ms. Sahar Atif",
+    "title": "Adjunct Faculty",
+    "department": null,
+    "school": "Suleman Dawood School of Business",
+    "photoUrl": null,
+    "profileUrl": "https://lums.edu.pk/lums_employee/7940"
+  },
+  {
+    "lumsEmployeeId": "1812",
+    "name": "Ms. Angbeen Atif Mirza",
+    "title": "Assistant Professor",
+    "department": null,
+    "school": "Shaikh Ahmad Hassan School of Law",
+    "photoUrl": "https://lums.edu.pk/sites/default/files/styles/faculty_image/public/ang.jpg",
+    "profileUrl": "https://lums.edu.pk/lums_employee/1812"
+  },
+  {
+    "lumsEmployeeId": "6901",
+    "name": "Ms. Anusheh Attique",
+    "title": "Adjunct Faculty",
+    "department": null,
+    "school": null,
+    "photoUrl": null,
+    "profileUrl": "https://lums.edu.pk/lums_employee/6901"
+  },
+  {
+    "lumsEmployeeId": "7910",
+    "name": "Mr. Ali Awais",
+    "title": "Adjunct Faculty",
+    "department": null,
+    "school": "Shaikh Ahmad Hassan School of Law",
+    "photoUrl": "https://lums.edu.pk/sites/default/files/styles/faculty_image/public/aw.jpg",
+    "profileUrl": "https://lums.edu.pk/lums_employee/7910"
+  },
+  {
+    "lumsEmployeeId": "11361",
+    "name": "Dr. Muhammad Awais",
+    "title": "Assistant Professor (Research)",
+    "department": null,
+    "school": null,
+    "photoUrl": null,
+    "profileUrl": "https://lums.edu.pk/lums_employee/11361"
+  },
+  {
+    "lumsEmployeeId": "516",
+    "name": "Dr. Mian Muhammad Awais",
+    "title": "Professor",
+    "department": "Computer Science",
+    "school": "Syed Babar Ali School of Science and Engineering",
+    "photoUrl": "https://lums.edu.pk/sites/default/files/styles/faculty_image/public/faculty_images/00000516.jpg",
+    "profileUrl": "https://lums.edu.pk/lums_employee/516"
+  },
+  {
+    "lumsEmployeeId": "4084",
+    "name": "Mr. Muhammad Luqman Awan",
+    "title": "Senior Lecturer",
+    "department": null,
+    "school": "Suleman Dawood School of Business",
+    "photoUrl": "https://lums.edu.pk/sites/default/files/styles/faculty_image/public/luq.jpg",
+    "profileUrl": "https://lums.edu.pk/lums_employee/4084"
+  },
+  {
+    "lumsEmployeeId": "11562",
+    "name": "Ms. Mariam Farooq Awan",
+    "title": "Adjunct Faculty",
+    "department": "Humanities and Social Sciences",
+    "school": "Mushtaq Ahmad Gurmani School of Humanities and Social Sciences",
+    "photoUrl": "https://lums.edu.pk/sites/default/files/styles/faculty_image/public/mrf_1.jpg",
+    "profileUrl": "https://lums.edu.pk/lums_employee/11562"
+  },
+  {
+    "lumsEmployeeId": "4417",
+    "name": "Mr. Ahmad Ayub",
+    "title": "Teaching Fellow",
+    "department": "Education",
+    "school": "Syed Ahsan Ali and Syed Maratib Ali School of Education",
+    "photoUrl": "https://lums.edu.pk/sites/default/files/styles/faculty_image/public/faculty_images/00004417.jpg",
+    "profileUrl": "https://lums.edu.pk/lums_employee/4417"
+  },
+  {
+    "lumsEmployeeId": "4268",
+    "name": "Dr. Haniya Azam",
+    "title": "Associate Professor",
+    "department": "Mathematics",
+    "school": "Syed Babar Ali School of Science and Engineering",
+    "photoUrl": "https://lums.edu.pk/sites/default/files/styles/faculty_image/public/faculty_images/00004268.jpg",
+    "profileUrl": "https://lums.edu.pk/lums_employee/4268"
+  },
+  {
+    "lumsEmployeeId": "5929",
+    "name": "Mr. Younis Bin Azeem",
+    "title": "Adjunct Faculty",
+    "department": "Humanities and Social Sciences",
+    "school": "Mushtaq Ahmad Gurmani School of Humanities and Social Sciences",
+    "photoUrl": null,
+    "profileUrl": "https://lums.edu.pk/lums_employee/5929"
+  },
+  {
+    "lumsEmployeeId": "4068",
+    "name": "Dr. Muhammad Azeem",
+    "title": "Associate Professor",
+    "department": null,
+    "school": "Shaikh Ahmad Hassan School of Law",
+    "photoUrl": "https://lums.edu.pk/sites/default/files/styles/faculty_image/public/az11.jpg",
+    "profileUrl": "https://lums.edu.pk/lums_employee/4068"
+  },
+  {
+    "lumsEmployeeId": "11924",
+    "name": "Mr. Abdullah Azhar",
+    "title": "Teaching Fellow",
+    "department": "Computer Science",
+    "school": "Syed Babar Ali School of Science and Engineering",
+    "photoUrl": null,
+    "profileUrl": "https://lums.edu.pk/lums_employee/11924"
+  },
+  {
+    "lumsEmployeeId": "6062",
+    "name": "Mr. Ali Azhar",
+    "title": "Adjunct Faculty",
+    "department": "Education",
+    "school": "Syed Ahsan Ali and Syed Maratib Ali School of Education",
+    "photoUrl": null,
+    "profileUrl": "https://lums.edu.pk/lums_employee/6062"
+  },
+  {
+    "lumsEmployeeId": "10880",
+    "name": "Dr. Khawaja Zahid Aziz",
+    "title": "Adjunct Faculty",
+    "department": "Humanities and Social Sciences",
+    "school": "Mushtaq Ahmad Gurmani School of Humanities and Social Sciences",
+    "photoUrl": null,
+    "profileUrl": "https://lums.edu.pk/lums_employee/10880"
+  },
+  {
+    "lumsEmployeeId": "6796",
+    "name": "Mr. Hassan Aziz",
+    "title": "Adjunct Faculty",
+    "department": "Humanities and Social Sciences",
+    "school": "Mushtaq Ahmad Gurmani School of Humanities and Social Sciences",
+    "photoUrl": null,
+    "profileUrl": "https://lums.edu.pk/lums_employee/6796"
+  },
+  {
+    "lumsEmployeeId": "2016",
+    "name": "Dr. Saad Azmat",
+    "title": "Associate Professor",
+    "department": null,
+    "school": "Suleman Dawood School of Business",
+    "photoUrl": "https://lums.edu.pk/sites/default/files/styles/faculty_image/public/sadaz_0.jpg",
+    "profileUrl": "https://lums.edu.pk/lums_employee/2016"
+  },
+  {
+    "lumsEmployeeId": "4828",
+    "name": "Ms. Mahrukh Baig",
+    "title": "Teaching Fellow",
+    "department": "Humanities and Social Sciences",
+    "school": "Mushtaq Ahmad Gurmani School of Humanities and Social Sciences",
+    "photoUrl": "https://lums.edu.pk/sites/default/files/styles/faculty_image/public/faculty_images/00004828.jpg",
+    "profileUrl": "https://lums.edu.pk/lums_employee/4828"
+  },
+  {
+    "lumsEmployeeId": "11155",
+    "name": "Dr. Abdul Ali Bangash",
+    "title": "Assistant Professor",
+    "department": "Computer Science",
+    "school": "Syed Babar Ali School of Science and Engineering",
+    "photoUrl": null,
+    "profileUrl": "https://lums.edu.pk/lums_employee/11155"
+  },
+  {
+    "lumsEmployeeId": "380",
+    "name": "Dr. Faisal Bari",
+    "title": "Associate Professor",
+    "department": "Economics",
+    "school": "Mushtaq Ahmad Gurmani School of Humanities and Social Sciences",
+    "photoUrl": "https://lums.edu.pk/sites/default/files/styles/faculty_image/public/fbr.jpg",
+    "profileUrl": "https://lums.edu.pk/lums_employee/380"
+  },
+  {
+    "lumsEmployeeId": "7100",
+    "name": "Ms. Natasha Sohail Barlas",
+    "title": "Teaching Fellow",
+    "department": "Humanities and Social Sciences",
+    "school": "Mushtaq Ahmad Gurmani School of Humanities and Social Sciences",
+    "photoUrl": "https://lums.edu.pk/sites/default/files/styles/faculty_image/public/Natasha.jpg",
+    "profileUrl": "https://lums.edu.pk/lums_employee/7100"
+  },
+  {
+    "lumsEmployeeId": "7494",
+    "name": "Dr. Khurram Bashir",
+    "title": "Associate Professor",
+    "department": "Life Sciences",
+    "school": "Syed Babar Ali School of Science and Engineering",
+    "photoUrl": "https://lums.edu.pk/sites/default/files/styles/faculty_image/public/fc.jpg",
+    "profileUrl": "https://lums.edu.pk/lums_employee/7494"
+  },
+  {
+    "lumsEmployeeId": "1509",
+    "name": "Dr. Mohsin Bashir",
+    "title": "Associate Professor",
+    "department": null,
+    "school": "Suleman Dawood School of Business",
+    "photoUrl": "https://lums.edu.pk/sites/default/files/styles/faculty_image/public/mbs.jpg",
+    "profileUrl": "https://lums.edu.pk/lums_employee/1509"
+  },
+  {
+    "lumsEmployeeId": "9361",
+    "name": "Dr. Naveed Anwar Bhatti",
+    "title": "Assistant Professor",
+    "department": "Computer Science",
+    "school": "Syed Babar Ali School of Science and Engineering",
+    "photoUrl": "https://lums.edu.pk/sites/default/files/styles/faculty_image/public/0069.jpg",
+    "profileUrl": "https://lums.edu.pk/lums_employee/9361"
+  },
+  {
+    "lumsEmployeeId": "2122",
+    "name": "Ms. Ayesha Bhatti",
+    "title": "Assistant Professor",
+    "department": null,
+    "school": "Suleman Dawood School of Business",
+    "photoUrl": "https://lums.edu.pk/sites/default/files/styles/faculty_image/public/faculty_images/00002122.jpg",
+    "profileUrl": "https://lums.edu.pk/lums_employee/2122"
+  },
+  {
+    "lumsEmployeeId": "6798",
+    "name": "Mr. Usman Iqbal Bhatty",
+    "title": "Adjunct Faculty",
+    "department": null,
+    "school": "Suleman Dawood School of Business",
+    "photoUrl": "https://lums.edu.pk/sites/default/files/styles/faculty_image/public/ub.jpg",
+    "profileUrl": "https://lums.edu.pk/lums_employee/6798"
+  },
+  {
+    "lumsEmployeeId": "725",
+    "name": "Dr. Abid Aman Burki",
+    "title": "Professor Emeritus",
+    "department": "Economics",
+    "school": "Mushtaq Ahmad Gurmani School of Humanities and Social Sciences",
+    "photoUrl": "https://lums.edu.pk/sites/default/files/styles/faculty_image/public/Dr%20Abid%20Burki.jpg",
+    "profileUrl": "https://lums.edu.pk/lums_employee/725"
+  },
+  {
+    "lumsEmployeeId": "5841",
+    "name": "Ms. Hajra Ikram Butt",
+    "title": "Adjunct Faculty",
+    "department": "Humanities and Social Sciences",
+    "school": "Mushtaq Ahmad Gurmani School of Humanities and Social Sciences",
+    "photoUrl": null,
+    "profileUrl": "https://lums.edu.pk/lums_employee/5841"
+  },
+  {
+    "lumsEmployeeId": "5",
+    "name": "Dr. Arif Nazir Butt",
+    "title": "Professor",
+    "department": null,
+    "school": "Suleman Dawood School of Business",
+    "photoUrl": "https://lums.edu.pk/sites/default/files/styles/faculty_image/public/faculty_images/00000005.jpg",
+    "profileUrl": "https://lums.edu.pk/lums_employee/5"
+  },
+  {
+    "lumsEmployeeId": "3517",
+    "name": "Dr. Nauman Zafar Butt",
+    "title": "Associate Professor",
+    "department": "Electrical Engineering",
+    "school": "Syed Babar Ali School of Science and Engineering",
+    "photoUrl": "https://lums.edu.pk/sites/default/files/styles/faculty_image/public/faculty_images/00003517.jpg",
+    "profileUrl": "https://lums.edu.pk/lums_employee/3517"
+  },
+  {
+    "lumsEmployeeId": "8727",
+    "name": "Dr. Jessica Catherine Albrent",
+    "title": "Assistant Professor",
+    "department": "Education",
+    "school": "Syed Ahsan Ali and Syed Maratib Ali School of Education",
+    "photoUrl": "https://lums.edu.pk/sites/default/files/styles/faculty_image/public/jsc01.jpg",
+    "profileUrl": "https://lums.edu.pk/lums_employee/8727"
+  },
+  {
+    "lumsEmployeeId": "6934",
+    "name": "Dr. Ilyas Ahmad Chattha",
+    "title": "Associate Professor",
+    "department": "Humanities and Social Sciences",
+    "school": "Mushtaq Ahmad Gurmani School of Humanities and Social Sciences",
+    "photoUrl": "https://lums.edu.pk/sites/default/files/styles/faculty_image/public/il009.jpg",
+    "profileUrl": "https://lums.edu.pk/lums_employee/6934"
+  },
+  {
+    "lumsEmployeeId": "3846",
+    "name": "Dr. Safee Ullah Chaudhary",
+    "title": "Associate Professor",
+    "department": "Life Sciences",
+    "school": "Syed Babar Ali School of Science and Engineering",
+    "photoUrl": "https://lums.edu.pk/sites/default/files/styles/faculty_image/public/faculty_images/00003846.jpg",
+    "profileUrl": "https://lums.edu.pk/lums_employee/3846"
+  },
+  {
+    "lumsEmployeeId": "4623",
+    "name": "Dr. Muhammad Imran Cheema",
+    "title": "Associate Professor",
+    "department": "Electrical Engineering",
+    "school": "Syed Babar Ali School of Science and Engineering",
+    "photoUrl": "https://lums.edu.pk/sites/default/files/styles/faculty_image/public/ic0014.jpg",
+    "profileUrl": "https://lums.edu.pk/lums_employee/4623"
+  },
+  {
+    "lumsEmployeeId": "6908",
+    "name": "Mr. Nauman Afzal Cheema",
+    "title": "Adjunct Faculty",
+    "department": null,
+    "school": "Suleman Dawood School of Business",
+    "photoUrl": null,
+    "profileUrl": "https://lums.edu.pk/lums_employee/6908"
+  },
+  {
+    "lumsEmployeeId": "11590",
+    "name": "Dr. Izzat Iqbal Cheema",
+    "title": "Adjunct Faculty",
+    "department": "Chemistry & Chemical Engineering",
+    "school": "Syed Babar Ali School of Science and Engineering",
+    "photoUrl": null,
+    "profileUrl": "https://lums.edu.pk/lums_employee/11590"
+  },
+  {
+    "lumsEmployeeId": "2338",
+    "name": "Dr. Ghayoor Abbas Chotana",
+    "title": "Associate Professor",
+    "department": "Chemistry & Chemical Engineering",
+    "school": "Syed Babar Ali School of Science and Engineering",
+    "photoUrl": "https://lums.edu.pk/sites/default/files/styles/faculty_image/public/faculty_images/00002338.jpg",
+    "profileUrl": "https://lums.edu.pk/lums_employee/2338"
+  },
+  {
+    "lumsEmployeeId": "4607",
+    "name": "Dr. Mariam Chughtai",
+    "title": "Assistant Professor",
+    "department": "Education",
+    "school": "Syed Ahsan Ali and Syed Maratib Ali School of Education",
+    "photoUrl": "https://lums.edu.pk/sites/default/files/styles/faculty_image/public/faculty_images/00004607.jpg",
+    "profileUrl": "https://lums.edu.pk/lums_employee/4607"
+  },
+  {
+    "lumsEmployeeId": "3184",
+    "name": "Mr. Usman Elahi",
+    "title": "Lecturer",
+    "department": "Economics",
+    "school": "Mushtaq Ahmad Gurmani School of Humanities and Social Sciences",
+    "photoUrl": "https://lums.edu.pk/sites/default/files/styles/faculty_image/public/faculty_images/00003184.jpg",
+    "profileUrl": "https://lums.edu.pk/lums_employee/3184"
+  },
+  {
+    "lumsEmployeeId": "9478",
+    "name": "Dr. Dominic Esler",
+    "title": "Assistant Professor",
+    "department": "Humanities and Social Sciences",
+    "school": "Mushtaq Ahmad Gurmani School of Humanities and Social Sciences",
+    "photoUrl": "https://lums.edu.pk/sites/default/files/styles/faculty_image/public/Dr%20Dominic.jpg",
+    "profileUrl": "https://lums.edu.pk/lums_employee/9478"
+  },
+  {
+    "lumsEmployeeId": "12037",
+    "name": "Ms. Saima Faheem",
+    "title": "Adjunct Faculty",
+    "department": "Education",
+    "school": "Syed Ahsan Ali and Syed Maratib Ali School of Education",
+    "photoUrl": null,
+    "profileUrl": "https://lums.edu.pk/lums_employee/12037"
+  },
+  {
+    "lumsEmployeeId": "3342",
+    "name": "Dr. Essam Fahim",
+    "title": "Assistant Professor",
+    "department": "Humanities and Social Sciences",
+    "school": "Mushtaq Ahmad Gurmani School of Humanities and Social Sciences",
+    "photoUrl": "https://lums.edu.pk/sites/default/files/styles/faculty_image/public/esfm.jpg",
+    "profileUrl": "https://lums.edu.pk/lums_employee/3342"
+  },
+  {
+    "lumsEmployeeId": "12048",
+    "name": "Mr. Abdullah Bin Faisal",
+    "title": "Adjunct Faculty",
+    "department": "Computer Science",
+    "school": "Syed Babar Ali School of Science and Engineering",
+    "photoUrl": null,
+    "profileUrl": "https://lums.edu.pk/lums_employee/12048"
+  },
+  {
+    "lumsEmployeeId": "4034",
+    "name": "Dr. Amir Faisal",
+    "title": "Professor",
+    "department": "Life Sciences",
+    "school": "Syed Babar Ali School of Science and Engineering",
+    "photoUrl": "https://lums.edu.pk/sites/default/files/styles/faculty_image/public/faculty_images/00004034.jpg",
+    "profileUrl": "https://lums.edu.pk/lums_employee/4034"
+  },
+  {
+    "lumsEmployeeId": "1512",
+    "name": "Dr. Asma Ul Husna Faiz",
+    "title": "Associate Professor",
+    "department": "Humanities and Social Sciences",
+    "school": "Mushtaq Ahmad Gurmani School of Humanities and Social Sciences",
+    "photoUrl": "https://lums.edu.pk/sites/default/files/styles/faculty_image/public/20160502_134924.jpg",
+    "profileUrl": "https://lums.edu.pk/lums_employee/1512"
+  },
+  {
+    "lumsEmployeeId": "2387",
+    "name": "Dr. Nauman Faizi",
+    "title": "Associate Professor",
+    "department": "Humanities and Social Sciences",
+    "school": "Mushtaq Ahmad Gurmani School of Humanities and Social Sciences",
+    "photoUrl": "https://lums.edu.pk/sites/default/files/styles/faculty_image/public/faculty_images/00002387.jpg",
+    "profileUrl": "https://lums.edu.pk/lums_employee/2387"
+  },
+  {
+    "lumsEmployeeId": "2003",
+    "name": "Mr. Asad Farooq",
+    "title": "Assistant Professor",
+    "department": null,
+    "school": "Shaikh Ahmad Hassan School of Law",
+    "photoUrl": "https://lums.edu.pk/sites/default/files/styles/faculty_image/public/asd1.jpg",
+    "profileUrl": "https://lums.edu.pk/lums_employee/2003"
+  },
+  {
+    "lumsEmployeeId": "5028",
+    "name": "Ms. Maria Farooq",
+    "title": "Visiting Assistant Professor",
+    "department": null,
+    "school": "Shaikh Ahmad Hassan School of Law",
+    "photoUrl": "https://lums.edu.pk/sites/default/files/styles/faculty_image/public/mrf_0.jpg",
+    "profileUrl": "https://lums.edu.pk/lums_employee/5028"
+  },
+  {
+    "lumsEmployeeId": "6216",
+    "name": "Mr. Talha Farrukh",
+    "title": "Adjunct Faculty",
+    "department": null,
+    "school": "Suleman Dawood School of Business",
+    "photoUrl": null,
+    "profileUrl": "https://lums.edu.pk/lums_employee/6216"
+  },
+  {
+    "lumsEmployeeId": "4010",
+    "name": "Dr. Muhammad Faryad",
+    "title": "Associate Professor",
+    "department": "Physics",
+    "school": "Syed Babar Ali School of Science and Engineering",
+    "photoUrl": "https://lums.edu.pk/sites/default/files/styles/faculty_image/public/faculty_images/00004010.jpg",
+    "profileUrl": "https://lums.edu.pk/lums_employee/4010"
+  },
+  {
+    "lumsEmployeeId": "6184",
+    "name": "Dr. Fatima Fayyaz",
+    "title": "Assistant Professor",
+    "department": "Humanities and Social Sciences",
+    "school": "Mushtaq Ahmad Gurmani School of Humanities and Social Sciences",
+    "photoUrl": "https://lums.edu.pk/sites/default/files/styles/faculty_image/public/faculty_images/00006184.jpg",
+    "profileUrl": "https://lums.edu.pk/lums_employee/6184"
+  },
+  {
+    "lumsEmployeeId": "2428",
+    "name": "Dr. Anjum Fayyaz",
+    "title": "Assistant Professor & Director MS Business & Public Policy",
+    "department": null,
+    "school": "Suleman Dawood School of Business",
+    "photoUrl": "https://lums.edu.pk/sites/default/files/styles/faculty_image/public/af91.jpg",
+    "profileUrl": "https://lums.edu.pk/lums_employee/2428"
+  },
+  {
+    "lumsEmployeeId": "6137",
+    "name": "Dr. Maryam Abdul Ghafoor",
+    "title": "Assistant Professor",
+    "department": "Computer Science",
+    "school": "Syed Babar Ali School of Science and Engineering",
+    "photoUrl": null,
+    "profileUrl": "https://lums.edu.pk/lums_employee/6137"
+  },
+  {
+    "lumsEmployeeId": "11263",
+    "name": "Ms. Joti Ghani",
+    "title": "Adjunct Faculty",
+    "department": "Education",
+    "school": "Syed Ahsan Ali and Syed Maratib Ali School of Education",
+    "photoUrl": null,
+    "profileUrl": "https://lums.edu.pk/lums_employee/11263"
+  },
+  {
+    "lumsEmployeeId": "5365",
+    "name": "Mr. Suleman Ghani",
+    "title": "Adjunct Faculty",
+    "department": null,
+    "school": "Suleman Dawood School of Business",
+    "photoUrl": null,
+    "profileUrl": "https://lums.edu.pk/lums_employee/5365"
+  },
+  {
+    "lumsEmployeeId": "2302",
+    "name": "Mr. Ateeb Gul",
+    "title": "Adjunct Faculty",
+    "department": "Humanities and Social Sciences",
+    "school": "Mushtaq Ahmad Gurmani School of Humanities and Social Sciences",
+    "photoUrl": null,
+    "profileUrl": "https://lums.edu.pk/lums_employee/2302"
+  },
+  {
+    "lumsEmployeeId": "11568",
+    "name": "Mr. Faisal Habib Khan",
+    "title": "Adjunct Faculty",
+    "department": null,
+    "school": "Shaikh Ahmad Hassan School of Law",
+    "photoUrl": "https://lums.edu.pk/sites/default/files/styles/faculty_image/public/fhk.jpg",
+    "profileUrl": "https://lums.edu.pk/lums_employee/11568"
+  },
+  {
+    "lumsEmployeeId": "6676",
+    "name": "Dr. Tahira Haider",
+    "title": "HoD (Counselling & Psychological Services) & Adjunct Faculty (HSS)",
+    "department": null,
+    "school": null,
+    "photoUrl": "https://lums.edu.pk/sites/default/files/styles/faculty_image/public/Tahira%20Haider.jpg",
+    "profileUrl": "https://lums.edu.pk/lums_employee/6676"
+  },
+  {
+    "lumsEmployeeId": "6914",
+    "name": "Dr. Mariam Haider",
+    "title": "Associate Professor of Practice",
+    "department": "Education",
+    "school": "Syed Ahsan Ali and Syed Maratib Ali School of Education",
+    "photoUrl": null,
+    "profileUrl": "https://lums.edu.pk/lums_employee/6914"
+  },
+  {
+    "lumsEmployeeId": "11319",
+    "name": "Ms. Rida Hameed",
+    "title": "Adjunct Faculty",
+    "department": "Economics",
+    "school": "Mushtaq Ahmad Gurmani School of Humanities and Social Sciences",
+    "photoUrl": null,
+    "profileUrl": "https://lums.edu.pk/lums_employee/11319"
+  },
+  {
+    "lumsEmployeeId": "5559",
+    "name": "Dr. Zebunnisa Hamid",
+    "title": "Associate Professor",
+    "department": "Humanities and Social Sciences",
+    "school": "Mushtaq Ahmad Gurmani School of Humanities and Social Sciences",
+    "photoUrl": "https://lums.edu.pk/sites/default/files/styles/faculty_image/public/ZH%202023_0.jpg",
+    "profileUrl": "https://lums.edu.pk/lums_employee/5559"
+  },
+  {
+    "lumsEmployeeId": "8253",
+    "name": "Dr. Sheharyar Sikander Hamid",
+    "title": "Assistant Professor",
+    "department": null,
+    "school": "Shaikh Ahmad Hassan School of Law",
+    "photoUrl": "https://lums.edu.pk/sites/default/files/styles/faculty_image/public/0658.jpg",
+    "profileUrl": "https://lums.edu.pk/lums_employee/8253"
+  },
+  {
+    "lumsEmployeeId": "3067",
+    "name": "Mr. Adeel Hamza",
+    "title": "Teaching Fellow",
+    "department": "Humanities and Social Sciences",
+    "school": "Mushtaq Ahmad Gurmani School of Humanities and Social Sciences",
+    "photoUrl": null,
+    "profileUrl": "https://lums.edu.pk/lums_employee/3067"
+  },
+  {
+    "lumsEmployeeId": "10875",
+    "name": "Dr. Mohammad Hamza Iftikhar",
+    "title": "Assistant Professor",
+    "department": "Humanities and Social Sciences",
+    "school": "Mushtaq Ahmad Gurmani School of Humanities and Social Sciences",
+    "photoUrl": "https://lums.edu.pk/sites/default/files/styles/faculty_image/public/mhi.jpg",
+    "profileUrl": "https://lums.edu.pk/lums_employee/10875"
+  },
+  {
+    "lumsEmployeeId": "2712",
+    "name": "Dr. Aurangzeb Haneef",
+    "title": "Assistant Professor",
+    "department": "Humanities and Social Sciences",
+    "school": "Mushtaq Ahmad Gurmani School of Humanities and Social Sciences",
+    "photoUrl": "https://lums.edu.pk/sites/default/files/styles/faculty_image/public/selfie%20in%20office%20-%20Copy_0.jpg",
+    "profileUrl": "https://lums.edu.pk/lums_employee/2712"
+  },
+  {
+    "lumsEmployeeId": "6140",
+    "name": "Mr. Muhammad Hanif",
+    "title": "Adjunct Faculty",
+    "department": "Humanities and Social Sciences",
+    "school": "Mushtaq Ahmad Gurmani School of Humanities and Social Sciences",
+    "photoUrl": null,
+    "profileUrl": "https://lums.edu.pk/lums_employee/6140"
+  },
+  {
+    "lumsEmployeeId": "44",
+    "name": "Dr. Ehsan Ul Haque",
+    "title": "Professor Emeritus",
+    "department": null,
+    "school": "Suleman Dawood School of Business",
+    "photoUrl": "https://lums.edu.pk/sites/default/files/styles/faculty_image/public/faculty_images/00000044.jpg",
+    "profileUrl": "https://lums.edu.pk/lums_employee/44"
+  },
+  {
+    "lumsEmployeeId": "9052",
+    "name": "Ms. Aaishay Haque",
+    "title": "Teaching Fellow",
+    "department": "Education",
+    "school": "Syed Ahsan Ali and Syed Maratib Ali School of Education",
+    "photoUrl": "https://lums.edu.pk/sites/default/files/styles/faculty_image/public/ayh.jpg",
+    "profileUrl": "https://lums.edu.pk/lums_employee/9052"
+  },
+  {
+    "lumsEmployeeId": "4824",
+    "name": "Dr. Omair Haroon",
+    "title": "Associate Professor & Associate Dean Undergraduate Programmes",
+    "department": null,
+    "school": "Suleman Dawood School of Business",
+    "photoUrl": "https://lums.edu.pk/sites/default/files/styles/faculty_image/public/00004824.jpg",
+    "profileUrl": "https://lums.edu.pk/lums_employee/4824"
+  },
+  {
+    "lumsEmployeeId": "11922",
+    "name": "Mr. Danyal Haroon",
+    "title": "Teaching Fellow",
+    "department": "Computer Science",
+    "school": "Syed Babar Ali School of Science and Engineering",
+    "photoUrl": null,
+    "profileUrl": "https://lums.edu.pk/lums_employee/11922"
+  },
+  {
+    "lumsEmployeeId": "4062",
+    "name": "Dr. Syed M. Hasan",
+    "title": "Associate Professor",
+    "department": "Economics",
+    "school": "Mushtaq Ahmad Gurmani School of Humanities and Social Sciences",
+    "photoUrl": "https://lums.edu.pk/sites/default/files/styles/faculty_image/public/faculty_images/00004062.jpg",
+    "profileUrl": "https://lums.edu.pk/lums_employee/4062"
+  },
+  {
+    "lumsEmployeeId": "2678",
+    "name": "Dr. Ali Hasanain",
+    "title": "Associate Professor",
+    "department": "Economics",
+    "school": "Mushtaq Ahmad Gurmani School of Humanities and Social Sciences",
+    "photoUrl": "https://lums.edu.pk/sites/default/files/styles/faculty_image/public/faculty_images/00002678.jpg",
+    "profileUrl": "https://lums.edu.pk/lums_employee/2678"
+  },
+  {
+    "lumsEmployeeId": "263",
+    "name": "Mr. Yasser Hashmi",
+    "title": "Assistant Professor",
+    "department": "Humanities and Social Sciences",
+    "school": "Mushtaq Ahmad Gurmani School of Humanities and Social Sciences",
+    "photoUrl": "https://lums.edu.pk/sites/default/files/styles/faculty_image/public/faculty_images/00000263.jpg",
+    "profileUrl": "https://lums.edu.pk/lums_employee/263"
+  },
+  {
+    "lumsEmployeeId": "173",
+    "name": "Dr. Syed Zahoor Hassan",
+    "title": "Professor Emeritus",
+    "department": null,
+    "school": "Suleman Dawood School of Business",
+    "photoUrl": "https://lums.edu.pk/sites/default/files/styles/faculty_image/public/faculty_images/00000173.jpg",
+    "profileUrl": "https://lums.edu.pk/lums_employee/173"
+  },
+  {
+    "lumsEmployeeId": "3005",
+    "name": "Dr. Naveed Ul Hassan",
+    "title": "Professor",
+    "department": "Electrical Engineering",
+    "school": "Syed Babar Ali School of Science and Engineering",
+    "photoUrl": "https://lums.edu.pk/sites/default/files/styles/faculty_image/public/nvd.jpg",
+    "profileUrl": "https://lums.edu.pk/lums_employee/3005"
+  },
+  {
+    "lumsEmployeeId": "3465",
+    "name": "Dr. Syed Moeez Hassan",
+    "title": "Assistant Professor",
+    "department": "Physics",
+    "school": "Syed Babar Ali School of Science and Engineering",
+    "photoUrl": "https://lums.edu.pk/sites/default/files/styles/faculty_image/public/faculty_images/00003465.jpg",
+    "profileUrl": "https://lums.edu.pk/lums_employee/3465"
+  },
+  {
+    "lumsEmployeeId": "11306",
+    "name": "Ms. Anam Hassan",
+    "title": "Adjunct Faculty",
+    "department": "Humanities and Social Sciences",
+    "school": "Mushtaq Ahmad Gurmani School of Humanities and Social Sciences",
+    "photoUrl": null,
+    "profileUrl": "https://lums.edu.pk/lums_employee/11306"
+  },
+  {
+    "lumsEmployeeId": "7878",
+    "name": "Dr. Faheem Hassan Akhtar",
+    "title": "Assistant Professor",
+    "department": "Chemistry & Chemical Engineering",
+    "school": "Syed Babar Ali School of Science and Engineering",
+    "photoUrl": "https://lums.edu.pk/sites/default/files/styles/faculty_image/public/fba.jpg",
+    "profileUrl": "https://lums.edu.pk/lums_employee/7878"
+  },
+  {
+    "lumsEmployeeId": "1513",
+    "name": "Dr. Shezeen Salim Hemani",
+    "title": "Assistant Professor",
+    "department": null,
+    "school": "Suleman Dawood School of Business",
+    "photoUrl": "https://lums.edu.pk/sites/default/files/styles/faculty_image/public/faculty_images/00001513.jpg",
+    "profileUrl": "https://lums.edu.pk/lums_employee/1513"
+  },
+  {
+    "lumsEmployeeId": "9196",
+    "name": "Mr. Muhammad Yar Hiraj",
+    "title": "Adjunct Faculty",
+    "department": null,
+    "school": "Suleman Dawood School of Business",
+    "photoUrl": "https://lums.edu.pk/sites/default/files/styles/faculty_image/public/myh.jpg",
+    "profileUrl": "https://lums.edu.pk/lums_employee/9196"
+  },
+  {
+    "lumsEmployeeId": "11241",
+    "name": "Dr. Raniya Hosain",
+    "title": "Assistant Professor",
+    "department": "Humanities and Social Sciences",
+    "school": "Mushtaq Ahmad Gurmani School of Humanities and Social Sciences",
+    "photoUrl": "https://lums.edu.pk/sites/default/files/styles/faculty_image/public/hn22.jpg",
+    "profileUrl": "https://lums.edu.pk/lums_employee/11241"
+  },
+  {
+    "lumsEmployeeId": "11180",
+    "name": "Dr. Xiaolong Hou",
+    "title": "Assistant Professor",
+    "department": "Economics",
+    "school": "Mushtaq Ahmad Gurmani School of Humanities and Social Sciences",
+    "photoUrl": null,
+    "profileUrl": "https://lums.edu.pk/lums_employee/11180"
+  },
+  {
+    "lumsEmployeeId": "6629",
+    "name": "Dr. Sarah Humayun",
+    "title": "Visiting Assistant Professor",
+    "department": null,
+    "school": "Shaikh Ahmad Hassan School of Law",
+    "photoUrl": "https://lums.edu.pk/sites/default/files/styles/faculty_image/public/sara1.jpg",
+    "profileUrl": "https://lums.edu.pk/lums_employee/6629"
+  },
+  {
+    "lumsEmployeeId": "11525",
+    "name": "Dr. Ahmed Salman Humayun",
+    "title": "Adjunct Faculty",
+    "department": "Education",
+    "school": "Syed Ahsan Ali and Syed Maratib Ali School of Education",
+    "photoUrl": null,
+    "profileUrl": "https://lums.edu.pk/lums_employee/11525"
+  },
+  {
+    "lumsEmployeeId": "294",
+    "name": "Dr. S.M. Turab Hussain",
+    "title": "Associate Professor",
+    "department": "Economics",
+    "school": "Mushtaq Ahmad Gurmani School of Humanities and Social Sciences",
+    "photoUrl": "https://lums.edu.pk/sites/default/files/styles/faculty_image/public/faculty_images/00000294.jpg",
+    "profileUrl": "https://lums.edu.pk/lums_employee/294"
+  },
+  {
+    "lumsEmployeeId": "4079",
+    "name": "Mr. Amin Hussain",
+    "title": "Assistant Professor",
+    "department": "Economics",
+    "school": "Mushtaq Ahmad Gurmani School of Humanities and Social Sciences",
+    "photoUrl": null,
+    "profileUrl": "https://lums.edu.pk/lums_employee/4079"
+  },
+  {
+    "lumsEmployeeId": "1922",
+    "name": "Dr. Irshad Hussain",
+    "title": "Professor",
+    "department": "Chemistry & Chemical Engineering",
+    "school": "Syed Babar Ali School of Science and Engineering",
+    "photoUrl": "https://lums.edu.pk/sites/default/files/styles/faculty_image/public/irs.jpg",
+    "profileUrl": "https://lums.edu.pk/lums_employee/1922"
+  },
+  {
+    "lumsEmployeeId": "7274",
+    "name": "Ms. Sannia Hussain",
+    "title": "Adjunct Faculty",
+    "department": "Education",
+    "school": "Syed Ahsan Ali and Syed Maratib Ali School of Education",
+    "photoUrl": null,
+    "profileUrl": "https://lums.edu.pk/lums_employee/7274"
+  },
+  {
+    "lumsEmployeeId": "5150",
+    "name": "Ms. Syeda Habibah Hussain Rizvi",
+    "title": "Teaching Fellow",
+    "department": "Humanities and Social Sciences",
+    "school": "Mushtaq Ahmad Gurmani School of Humanities and Social Sciences",
+    "photoUrl": "https://lums.edu.pk/sites/default/files/styles/faculty_image/public/nophoto.jpg",
+    "profileUrl": "https://lums.edu.pk/lums_employee/5150"
+  },
+  {
+    "lumsEmployeeId": "6947",
+    "name": "Dr. Maryam Ibrahim",
+    "title": "Assistant Professor",
+    "department": "Humanities and Social Sciences",
+    "school": "Mushtaq Ahmad Gurmani School of Humanities and Social Sciences",
+    "photoUrl": "https://lums.edu.pk/sites/default/files/styles/faculty_image/public/profile%20image.jpeg",
+    "profileUrl": "https://lums.edu.pk/lums_employee/6947"
+  },
+  {
+    "lumsEmployeeId": "439",
+    "name": "Mr. Asif Iftikhar",
+    "title": "Teaching Fellow",
+    "department": "Humanities and Social Sciences",
+    "school": "Mushtaq Ahmad Gurmani School of Humanities and Social Sciences",
+    "photoUrl": "https://lums.edu.pk/sites/default/files/styles/faculty_image/public/asf01.jpg",
+    "profileUrl": "https://lums.edu.pk/lums_employee/439"
+  },
+  {
+    "lumsEmployeeId": "505",
+    "name": "Dr. Mohammad Jahangir Ikram",
+    "title": "Associate Professor",
+    "department": "Electrical Engineering",
+    "school": "Syed Babar Ali School of Science and Engineering",
+    "photoUrl": "https://lums.edu.pk/sites/default/files/styles/faculty_image/public/faculty_images/00000505.jpg",
+    "profileUrl": "https://lums.edu.pk/lums_employee/505"
+  },
+  {
+    "lumsEmployeeId": "6906",
+    "name": "Ms. Mahira Ilyas",
+    "title": "Teaching Fellow",
+    "department": null,
+    "school": "Suleman Dawood School of Business",
+    "photoUrl": "https://lums.edu.pk/sites/default/files/styles/faculty_image/public/mahr.jpg",
+    "profileUrl": "https://lums.edu.pk/lums_employee/6906"
+  },
+  {
+    "lumsEmployeeId": "12003",
+    "name": "Mr. Muhammad Imran",
+    "title": "Adjunct Faculty",
+    "department": null,
+    "school": "Suleman Dawood School of Business",
+    "photoUrl": null,
+    "profileUrl": "https://lums.edu.pk/lums_employee/12003"
+  },
+  {
+    "lumsEmployeeId": "10971",
+    "name": "Ms. Zainab Imran",
+    "title": "Adjunct Faculty",
+    "department": "Economics",
+    "school": "Mushtaq Ahmad Gurmani School of Humanities and Social Sciences",
+    "photoUrl": null,
+    "profileUrl": "https://lums.edu.pk/lums_employee/10971"
+  },
+  {
+    "lumsEmployeeId": "7483",
+    "name": "Mr. Muhammad Saad Imtiaz",
+    "title": "Adjunct Faculty",
+    "department": "Humanities and Social Sciences",
+    "school": "Mushtaq Ahmad Gurmani School of Humanities and Social Sciences",
+    "photoUrl": null,
+    "profileUrl": "https://lums.edu.pk/lums_employee/7483"
+  },
+  {
+    "lumsEmployeeId": "7248",
+    "name": "Ms. Huda Imtiaz",
+    "title": "Teaching Fellow",
+    "department": "Humanities and Social Sciences",
+    "school": "Mushtaq Ahmad Gurmani School of Humanities and Social Sciences",
+    "photoUrl": null,
+    "profileUrl": "https://lums.edu.pk/lums_employee/7248"
+  },
+  {
+    "lumsEmployeeId": "6794",
+    "name": "Dr. Qasim Imtiaz",
+    "title": "Assistant Professor",
+    "department": "Chemistry & Chemical Engineering",
+    "school": "Syed Babar Ali School of Science and Engineering",
+    "photoUrl": "https://lums.edu.pk/sites/default/files/styles/faculty_image/public/faculty_images/00006794.jpg",
+    "profileUrl": "https://lums.edu.pk/lums_employee/6794"
+  },
+  {
+    "lumsEmployeeId": "5251",
+    "name": "Miss. Maria Farrukh Irfan Khan",
+    "title": "Adjunct Faculty",
+    "department": null,
+    "school": "Shaikh Ahmad Hassan School of Law",
+    "photoUrl": "https://lums.edu.pk/sites/default/files/styles/faculty_image/public/fff.jpg",
+    "profileUrl": "https://lums.edu.pk/lums_employee/5251"
+  },
+  {
+    "lumsEmployeeId": "3660",
+    "name": "Mr. Muhammad Aneeq Ismail",
+    "title": "Teaching Fellow",
+    "department": null,
+    "school": "Suleman Dawood School of Business",
+    "photoUrl": null,
+    "profileUrl": "https://lums.edu.pk/lums_employee/3660"
+  },
+  {
+    "lumsEmployeeId": "848",
+    "name": "Dr. Amen Jaffer",
+    "title": "Associate Professor",
+    "department": "Humanities and Social Sciences",
+    "school": "Mushtaq Ahmad Gurmani School of Humanities and Social Sciences",
+    "photoUrl": "https://lums.edu.pk/sites/default/files/styles/faculty_image/public/Amenphoto.jpg",
+    "profileUrl": "https://lums.edu.pk/lums_employee/848"
+  },
+  {
+    "lumsEmployeeId": "8758",
+    "name": "Dr. Malik Jahan Khan",
+    "title": "Visiting Associate Professor",
+    "department": "Computer Science",
+    "school": "Syed Babar Ali School of Science and Engineering",
+    "photoUrl": "https://lums.edu.pk/sites/default/files/styles/faculty_image/public/mjk.jpg",
+    "profileUrl": "https://lums.edu.pk/lums_employee/8758"
+  },
+  {
+    "lumsEmployeeId": "5810",
+    "name": "Dr. Hassan Jaleel",
+    "title": "Associate Professor",
+    "department": "Electrical Engineering",
+    "school": "Syed Babar Ali School of Science and Engineering",
+    "photoUrl": "https://lums.edu.pk/sites/default/files/styles/faculty_image/public/faculty_images/00005810.jpg",
+    "profileUrl": "https://lums.edu.pk/lums_employee/5810"
+  },
+  {
+    "lumsEmployeeId": "10212",
+    "name": "Ms. Haleema Jamil",
+    "title": "Teaching Fellow",
+    "department": "Computer Science",
+    "school": "Syed Babar Ali School of Science and Engineering",
+    "photoUrl": null,
+    "profileUrl": "https://lums.edu.pk/lums_employee/10212"
+  },
+  {
+    "lumsEmployeeId": "11916",
+    "name": "Mr. Haseeb Ashfaq Janjua",
+    "title": "Teaching Fellow",
+    "department": "Computer Science",
+    "school": "Syed Babar Ali School of Science and Engineering",
+    "photoUrl": null,
+    "profileUrl": "https://lums.edu.pk/lums_employee/11916"
+  },
+  {
+    "lumsEmployeeId": "8079",
+    "name": "Mr. Azhar Javed",
+    "title": "Adjunct Faculty",
+    "department": "Mathematics",
+    "school": "Syed Babar Ali School of Science and Engineering",
+    "photoUrl": null,
+    "profileUrl": "https://lums.edu.pk/lums_employee/8079"
+  },
+  {
+    "lumsEmployeeId": "5542",
+    "name": "Dr. Mobin Javed",
+    "title": "Associate Professor",
+    "department": "Computer Science",
+    "school": "Syed Babar Ali School of Science and Engineering",
+    "photoUrl": "https://lums.edu.pk/sites/default/files/styles/faculty_image/public/faculty_images/00005542.jpg",
+    "profileUrl": "https://lums.edu.pk/lums_employee/5542"
+  },
+  {
+    "lumsEmployeeId": "5846",
+    "name": "Dr. Umair Javed",
+    "title": "Associate Professor",
+    "department": "Humanities and Social Sciences",
+    "school": "Mushtaq Ahmad Gurmani School of Humanities and Social Sciences",
+    "photoUrl": "https://lums.edu.pk/sites/default/files/styles/faculty_image/public/Dr%20Umair.jpg",
+    "profileUrl": "https://lums.edu.pk/lums_employee/5846"
+  },
+  {
+    "lumsEmployeeId": "3516",
+    "name": "Dr. Hassan Javid",
+    "title": "Adjunct Faculty",
+    "department": "Humanities and Social Sciences",
+    "school": "Mushtaq Ahmad Gurmani School of Humanities and Social Sciences",
+    "photoUrl": "https://lums.edu.pk/sites/default/files/styles/faculty_image/public/faculty_images/00003516.jpg",
+    "profileUrl": "https://lums.edu.pk/lums_employee/3516"
+  },
+  {
+    "lumsEmployeeId": "7032",
+    "name": "Mr. Shahzada Anwar Kabir",
+    "title": "Adjunct Faculty",
+    "department": null,
+    "school": "Suleman Dawood School of Business",
+    "photoUrl": null,
+    "profileUrl": "https://lums.edu.pk/lums_employee/7032"
+  },
+  {
+    "lumsEmployeeId": "5565",
+    "name": "Mr. Muhammad Hashim Kaleem Bhatti",
+    "title": "Adjunct Faculty",
+    "department": "Education",
+    "school": "Syed Ahsan Ali and Syed Maratib Ali School of Education",
+    "photoUrl": "https://lums.edu.pk/sites/default/files/styles/faculty_image/public/faculty_images/00005565.jpg",
+    "profileUrl": "https://lums.edu.pk/lums_employee/5565"
+  },
+  {
+    "lumsEmployeeId": "7200",
+    "name": "Dr. Rabia Kamal",
+    "title": "Assistant Professor",
+    "department": "Humanities and Social Sciences",
+    "school": "Mushtaq Ahmad Gurmani School of Humanities and Social Sciences",
+    "photoUrl": "https://lums.edu.pk/sites/default/files/styles/faculty_image/public/rabk.jpg",
+    "profileUrl": "https://lums.edu.pk/lums_employee/7200"
+  },
+  {
+    "lumsEmployeeId": "11848",
+    "name": "Dr. Fizza Kanwal",
+    "title": "Assistant Professor",
+    "department": null,
+    "school": "Suleman Dawood School of Business",
+    "photoUrl": null,
+    "profileUrl": "https://lums.edu.pk/lums_employee/11848"
+  },
+  {
+    "lumsEmployeeId": "722",
+    "name": "Dr. Asim Karim",
+    "title": "Professor",
+    "department": "Computer Science",
+    "school": "Syed Babar Ali School of Science and Engineering",
+    "photoUrl": "https://lums.edu.pk/sites/default/files/styles/faculty_image/public/faculty_images/00000722.jpg",
+    "profileUrl": "https://lums.edu.pk/lums_employee/722"
+  },
+  {
+    "lumsEmployeeId": "310",
+    "name": "Dr. Hasan H. Karrar",
+    "title": "Associate Professor",
+    "department": "Humanities and Social Sciences",
+    "school": "Mushtaq Ahmad Gurmani School of Humanities and Social Sciences",
+    "photoUrl": "https://lums.edu.pk/sites/default/files/styles/faculty_image/public/HK%20%281%29.jpeg",
+    "profileUrl": "https://lums.edu.pk/lums_employee/310"
+  },
+  {
+    "lumsEmployeeId": "3351",
+    "name": "Dr. Uzair Jamil Kayani",
+    "title": "Associate Professor",
+    "department": null,
+    "school": "Shaikh Ahmad Hassan School of Law",
+    "photoUrl": "https://lums.edu.pk/sites/default/files/styles/faculty_image/public/uzk.jpg",
+    "profileUrl": "https://lums.edu.pk/lums_employee/3351"
+  },
+  {
+    "lumsEmployeeId": "4394",
+    "name": "Dr. Zubair Khalid",
+    "title": "Associate Professor",
+    "department": "Electrical Engineering",
+    "school": "Syed Babar Ali School of Science and Engineering",
+    "photoUrl": "https://lums.edu.pk/sites/default/files/styles/faculty_image/public/212.jpg",
+    "profileUrl": "https://lums.edu.pk/lums_employee/4394"
+  },
+  {
+    "lumsEmployeeId": "6912",
+    "name": "Dr. Raja Usman Khalid",
+    "title": "Assistant Professor",
+    "department": null,
+    "school": "Suleman Dawood School of Business",
+    "photoUrl": "https://lums.edu.pk/sites/default/files/styles/faculty_image/public/rja.jpg",
+    "profileUrl": "https://lums.edu.pk/lums_employee/6912"
+  },
+  {
+    "lumsEmployeeId": "10817",
+    "name": "Dr. Muhammad Azam Khalid",
+    "title": "Assistant Professor",
+    "department": "Humanities and Social Sciences",
+    "school": "Mushtaq Ahmad Gurmani School of Humanities and Social Sciences",
+    "photoUrl": null,
+    "profileUrl": "https://lums.edu.pk/lums_employee/10817"
+  },
+  {
+    "lumsEmployeeId": "5908",
+    "name": "Dr. Bilal Khalid",
+    "title": "Adjunct Faculty",
+    "department": "Physics",
+    "school": "Syed Babar Ali School of Science and Engineering",
+    "photoUrl": null,
+    "profileUrl": "https://lums.edu.pk/lums_employee/5908"
+  },
+  {
+    "lumsEmployeeId": "7277",
+    "name": "Dr. Rizwan Khalid",
+    "title": "Associate Professor",
+    "department": "Physics",
+    "school": "Syed Babar Ali School of Science and Engineering",
+    "photoUrl": null,
+    "profileUrl": "https://lums.edu.pk/lums_employee/7277"
+  },
+  {
+    "lumsEmployeeId": "2505",
+    "name": "Dr. Aamna Khalid",
+    "title": "Assistant Professor",
+    "department": "Humanities and Social Sciences",
+    "school": "Mushtaq Ahmad Gurmani School of Humanities and Social Sciences",
+    "photoUrl": "https://lums.edu.pk/sites/default/files/styles/faculty_image/public/faculty_images/00002505.jpg",
+    "profileUrl": "https://lums.edu.pk/lums_employee/2505"
+  },
+  {
+    "lumsEmployeeId": "1218",
+    "name": "Ms. Lyyla Khalid",
+    "title": "Lecturer",
+    "department": "Economics",
+    "school": "Mushtaq Ahmad Gurmani School of Humanities and Social Sciences",
+    "photoUrl": null,
+    "profileUrl": "https://lums.edu.pk/lums_employee/1218"
+  },
+  {
+    "lumsEmployeeId": "956",
+    "name": "Dr. Ahmed M. Khalid",
+    "title": "Visiting Professor",
+    "department": "Economics",
+    "school": "Mushtaq Ahmad Gurmani School of Humanities and Social Sciences",
+    "photoUrl": "https://lums.edu.pk/sites/default/files/styles/faculty_image/public/mgs1.jpg",
+    "profileUrl": "https://lums.edu.pk/lums_employee/956"
+  },
+  {
+    "lumsEmployeeId": "10615",
+    "name": "Dr. Aeysha Khalique",
+    "title": "Associate Professor",
+    "department": "Physics",
+    "school": "Syed Babar Ali School of Science and Engineering",
+    "photoUrl": "https://lums.edu.pk/sites/default/files/styles/faculty_image/public/ashq.jpg",
+    "profileUrl": "https://lums.edu.pk/lums_employee/10615"
+  },
+  {
+    "lumsEmployeeId": "6968",
+    "name": "Mr. Muhammad Salaar Arif Khan",
+    "title": "Adjunct Faculty",
+    "department": "Humanities and Social Sciences",
+    "school": "Mushtaq Ahmad Gurmani School of Humanities and Social Sciences",
+    "photoUrl": null,
+    "profileUrl": "https://lums.edu.pk/lums_employee/6968"
+  },
+  {
+    "lumsEmployeeId": "694",
+    "name": "Dr. Nadeem Ahmad Khan",
+    "title": "Associate Professor",
+    "department": "Electrical Engineering",
+    "school": "Syed Babar Ali School of Science and Engineering",
+    "photoUrl": "https://lums.edu.pk/sites/default/files/styles/faculty_image/public/faculty_images/00000694.jpg",
+    "profileUrl": "https://lums.edu.pk/lums_employee/694"
+  },
+  {
+    "lumsEmployeeId": "3839",
+    "name": "Dr. Maryam Wasif Khan",
+    "title": "Associate Professor",
+    "department": "Humanities and Social Sciences",
+    "school": "Mushtaq Ahmad Gurmani School of Humanities and Social Sciences",
+    "photoUrl": "https://lums.edu.pk/sites/default/files/styles/faculty_image/public/FullSizeRender.jpg",
+    "profileUrl": "https://lums.edu.pk/lums_employee/3839"
+  },
+  {
+    "lumsEmployeeId": "7202",
+    "name": "Ms. Gulalai Khan",
+    "title": "Adjunct Faculty",
+    "department": null,
+    "school": "Suleman Dawood School of Business",
+    "photoUrl": null,
+    "profileUrl": "https://lums.edu.pk/lums_employee/7202"
+  },
+  {
+    "lumsEmployeeId": "5936",
+    "name": "Ms. Rabia Khan",
+    "title": "Teaching Fellow",
+    "department": "Economics",
+    "school": "Mushtaq Ahmad Gurmani School of Humanities and Social Sciences",
+    "photoUrl": "https://lums.edu.pk/sites/default/files/styles/faculty_image/public/rk0.jpg",
+    "profileUrl": "https://lums.edu.pk/lums_employee/5936"
+  },
+  {
+    "lumsEmployeeId": "9818",
+    "name": "Ms. Faaria Khan",
+    "title": "Teaching Fellow",
+    "department": "Humanities and Social Sciences",
+    "school": "Mushtaq Ahmad Gurmani School of Humanities and Social Sciences",
+    "photoUrl": "https://lums.edu.pk/sites/default/files/styles/faculty_image/public/fr55.jpg",
+    "profileUrl": "https://lums.edu.pk/lums_employee/9818"
+  },
+  {
+    "lumsEmployeeId": "10927",
+    "name": "Ms. Amina Khan",
+    "title": "Adjunct Faculty",
+    "department": "Economics",
+    "school": "Mushtaq Ahmad Gurmani School of Humanities and Social Sciences",
+    "photoUrl": null,
+    "profileUrl": "https://lums.edu.pk/lums_employee/10927"
+  },
+  {
+    "lumsEmployeeId": "517",
+    "name": "Dr. Mushtaq A. Khan",
+    "title": "Associate Professor",
+    "department": "Economics",
+    "school": "Mushtaq Ahmad Gurmani School of Humanities and Social Sciences",
+    "photoUrl": "https://lums.edu.pk/sites/default/files/styles/faculty_image/public/Dr%20Mushtaq.jpg",
+    "profileUrl": "https://lums.edu.pk/lums_employee/517"
+  },
+  {
+    "lumsEmployeeId": "569",
+    "name": "Dr. Furrukh A. Khan",
+    "title": "Associate Professor",
+    "department": "Humanities and Social Sciences",
+    "school": "Mushtaq Ahmad Gurmani School of Humanities and Social Sciences",
+    "photoUrl": "https://lums.edu.pk/sites/default/files/styles/faculty_image/public/faculty_images/00000569.jpg",
+    "profileUrl": "https://lums.edu.pk/lums_employee/569"
+  },
+  {
+    "lumsEmployeeId": "2363",
+    "name": "Dr. Nadhra Shahbaz Naeem Khan",
+    "title": "Associate Professor",
+    "department": "Humanities and Social Sciences",
+    "school": "Mushtaq Ahmad Gurmani School of Humanities and Social Sciences",
+    "photoUrl": "https://lums.edu.pk/sites/default/files/styles/faculty_image/public/DSC_0218.JPG",
+    "profileUrl": "https://lums.edu.pk/lums_employee/2363"
+  },
+  {
+    "lumsEmployeeId": "3089",
+    "name": "Dr. Salman Khan",
+    "title": "Assistant Professor",
+    "department": null,
+    "school": "Suleman Dawood School of Business",
+    "photoUrl": "https://lums.edu.pk/sites/default/files/styles/faculty_image/public/faculty_images/00003089.jpg",
+    "profileUrl": "https://lums.edu.pk/lums_employee/3089"
+  },
+  {
+    "lumsEmployeeId": "5588",
+    "name": "Dr. Gulab Khan",
+    "title": "Associate Professor",
+    "department": "Education",
+    "school": "Syed Ahsan Ali and Syed Maratib Ali School of Education",
+    "photoUrl": "https://lums.edu.pk/sites/default/files/styles/faculty_image/public/faculty_images/00005588.jpg",
+    "profileUrl": "https://lums.edu.pk/lums_employee/5588"
+  },
+  {
+    "lumsEmployeeId": "7913",
+    "name": "Dr. Osama Khan",
+    "title": "Assistant Professor",
+    "department": "Economics",
+    "school": "Mushtaq Ahmad Gurmani School of Humanities and Social Sciences",
+    "photoUrl": "https://lums.edu.pk/sites/default/files/styles/faculty_image/public/welcome_photo.jpg",
+    "profileUrl": "https://lums.edu.pk/lums_employee/7913"
+  },
+  {
+    "lumsEmployeeId": "1871",
+    "name": "Dr. Adnan Khan",
+    "title": "Associate Professor",
+    "department": "Mathematics",
+    "school": "Syed Babar Ali School of Science and Engineering",
+    "photoUrl": "https://lums.edu.pk/sites/default/files/styles/faculty_image/public/faculty_images/00001871.jpg",
+    "profileUrl": "https://lums.edu.pk/lums_employee/1871"
+  },
+  {
+    "lumsEmployeeId": "11342",
+    "name": "Dr. Mohammad Mansoor Khan",
+    "title": "Visiting Assistant Professor",
+    "department": "Education",
+    "school": "Syed Ahsan Ali and Syed Maratib Ali School of Education",
+    "photoUrl": null,
+    "profileUrl": "https://lums.edu.pk/lums_employee/11342"
+  },
+  {
+    "lumsEmployeeId": "423",
+    "name": "Dr. Irfan Moeen Khan",
+    "title": "Assistant Professor",
+    "department": "Humanities and Social Sciences",
+    "school": "Mushtaq Ahmad Gurmani School of Humanities and Social Sciences",
+    "photoUrl": "https://lums.edu.pk/sites/default/files/styles/faculty_image/public/faculty_images/00000423.jpg",
+    "profileUrl": "https://lums.edu.pk/lums_employee/423"
+  },
+  {
+    "lumsEmployeeId": "10843",
+    "name": "Mr. Muhammad Shoaib Khan",
+    "title": "Adjunct Faculty",
+    "department": "Mathematics",
+    "school": "Syed Babar Ali School of Science and Engineering",
+    "photoUrl": null,
+    "profileUrl": "https://lums.edu.pk/lums_employee/10843"
+  },
+  {
+    "lumsEmployeeId": "11740",
+    "name": "Mr. Muhammad Ahsan Khan",
+    "title": "Teaching Fellow",
+    "department": "Computer Science",
+    "school": "Syed Babar Ali School of Science and Engineering",
+    "photoUrl": null,
+    "profileUrl": "https://lums.edu.pk/lums_employee/11740"
+  },
+  {
+    "lumsEmployeeId": "6937",
+    "name": "Mr. Asad Rahim Khan",
+    "title": "Adjunct Faculty",
+    "department": null,
+    "school": "Shaikh Ahmad Hassan School of Law",
+    "photoUrl": "https://lums.edu.pk/sites/default/files/styles/faculty_image/public/ark_0.jpg",
+    "profileUrl": "https://lums.edu.pk/lums_employee/6937"
+  },
+  {
+    "lumsEmployeeId": "4100",
+    "name": "Dr. ImdadUllah Khan",
+    "title": "Associate Professor",
+    "department": "Computer Science",
+    "school": "Syed Babar Ali School of Science and Engineering",
+    "photoUrl": "https://lums.edu.pk/sites/default/files/styles/faculty_image/public/faculty_images/00004100.jpg",
+    "profileUrl": "https://lums.edu.pk/lums_employee/4100"
+  },
+  {
+    "lumsEmployeeId": "6940",
+    "name": "Mr. Ahmed Hasan Khan",
+    "title": "Adjunct Faculty",
+    "department": null,
+    "school": "Shaikh Ahmad Hassan School of Law",
+    "photoUrl": "https://lums.edu.pk/sites/default/files/styles/faculty_image/public/23.jpg",
+    "profileUrl": "https://lums.edu.pk/lums_employee/6940"
+  },
+  {
+    "lumsEmployeeId": "6975",
+    "name": "Mr. Kashif Khan",
+    "title": "Executive in Residence",
+    "department": null,
+    "school": "Suleman Dawood School of Business",
+    "photoUrl": "https://lums.edu.pk/sites/default/files/styles/faculty_image/public/kh.jpg",
+    "profileUrl": "https://lums.edu.pk/lums_employee/6975"
+  },
+  {
+    "lumsEmployeeId": "63",
+    "name": "Dr. Jamshed Hasan Khan",
+    "title": "Professor Emeritus",
+    "department": null,
+    "school": "Suleman Dawood School of Business",
+    "photoUrl": "https://lums.edu.pk/sites/default/files/styles/faculty_image/public/jam.jpg",
+    "profileUrl": "https://lums.edu.pk/lums_employee/63"
+  },
+  {
+    "lumsEmployeeId": "2816",
+    "name": "Dr. Hassan Abbas Khan",
+    "title": "Associate Professor",
+    "department": "Electrical Engineering",
+    "school": "Syed Babar Ali School of Science and Engineering",
+    "photoUrl": "https://lums.edu.pk/sites/default/files/styles/faculty_image/public/Dr.%20Hassan%20Abbas%20Khan.jpg",
+    "profileUrl": "https://lums.edu.pk/lums_employee/2816"
+  },
+  {
+    "lumsEmployeeId": "3082",
+    "name": "Ms. Marva Khan Cheema",
+    "title": "Assistant Professor",
+    "department": null,
+    "school": "Shaikh Ahmad Hassan School of Law",
+    "photoUrl": "https://lums.edu.pk/sites/default/files/styles/faculty_image/public/faculty_images/00003082.jpg",
+    "profileUrl": "https://lums.edu.pk/lums_employee/3082"
+  },
+  {
+    "lumsEmployeeId": "5042",
+    "name": "Mr. Ashok kumar Khatri",
+    "title": "Adjunct Faculty",
+    "department": "Humanities and Social Sciences",
+    "school": "Mushtaq Ahmad Gurmani School of Humanities and Social Sciences",
+    "photoUrl": null,
+    "profileUrl": "https://lums.edu.pk/lums_employee/5042"
+  },
+  {
+    "lumsEmployeeId": "10864",
+    "name": "Mr. Ali Khawaja",
+    "title": "Visiting Professor",
+    "department": "Computer Science",
+    "school": "Syed Babar Ali School of Science and Engineering",
+    "photoUrl": null,
+    "profileUrl": "https://lums.edu.pk/lums_employee/10864"
+  },
+  {
+    "lumsEmployeeId": "8659",
+    "name": "Dr. Sana Khosa",
+    "title": "Assistant Professor",
+    "department": "Humanities and Social Sciences",
+    "school": "Mushtaq Ahmad Gurmani School of Humanities and Social Sciences",
+    "photoUrl": "https://lums.edu.pk/sites/default/files/styles/faculty_image/public/00369_0.jpg",
+    "profileUrl": "https://lums.edu.pk/lums_employee/8659"
+  },
+  {
+    "lumsEmployeeId": "8",
+    "name": "Dr. Anwar Khurshid",
+    "title": "Professor Emeritus",
+    "department": null,
+    "school": "Suleman Dawood School of Business",
+    "photoUrl": "https://lums.edu.pk/sites/default/files/styles/faculty_image/public/anw.jpg",
+    "profileUrl": "https://lums.edu.pk/lums_employee/8"
+  },
+  {
+    "lumsEmployeeId": "6996",
+    "name": "Mr. Sheikh Badar Khushnood",
+    "title": "Executive in Residence",
+    "department": null,
+    "school": "Suleman Dawood School of Business",
+    "photoUrl": "https://lums.edu.pk/sites/default/files/styles/faculty_image/public/bdk.jpg",
+    "profileUrl": "https://lums.edu.pk/lums_employee/6996"
+  },
+  {
+    "lumsEmployeeId": "2864",
+    "name": "Dr. Nida Yasmeen Kirmani",
+    "title": "Associate Professor",
+    "department": "Humanities and Social Sciences",
+    "school": "Mushtaq Ahmad Gurmani School of Humanities and Social Sciences",
+    "photoUrl": "https://lums.edu.pk/sites/default/files/styles/faculty_image/public/nida_0.jpg",
+    "profileUrl": "https://lums.edu.pk/lums_employee/2864"
+  },
+  {
+    "lumsEmployeeId": "1434",
+    "name": "Dr. Basit Bilal Koshul",
+    "title": "Professor",
+    "department": "Humanities and Social Sciences",
+    "school": "Mushtaq Ahmad Gurmani School of Humanities and Social Sciences",
+    "photoUrl": "https://lums.edu.pk/sites/default/files/styles/faculty_image/public/faculty_images/00001434.jpg",
+    "profileUrl": "https://lums.edu.pk/lums_employee/1434"
+  },
+  {
+    "lumsEmployeeId": "6682",
+    "name": "Ms. Aumna Kowsar",
+    "title": "Adjunct Faculty",
+    "department": "Physics",
+    "school": "Syed Babar Ali School of Science and Engineering",
+    "photoUrl": null,
+    "profileUrl": "https://lums.edu.pk/lums_employee/6682"
+  },
+  {
+    "lumsEmployeeId": "11400",
+    "name": "Dr. Sadaf Latafat",
+    "title": "Assistant Professor",
+    "department": "Education",
+    "school": "Syed Ahsan Ali and Syed Maratib Ali School of Education",
+    "photoUrl": null,
+    "profileUrl": "https://lums.edu.pk/lums_employee/11400"
+  },
+  {
+    "lumsEmployeeId": "7965",
+    "name": "Mr. Sheraz Latif Malik",
+    "title": "Adjunct Faculty",
+    "department": "Economics",
+    "school": "Mushtaq Ahmad Gurmani School of Humanities and Social Sciences",
+    "photoUrl": null,
+    "profileUrl": "https://lums.edu.pk/lums_employee/7965"
+  },
+  {
+    "lumsEmployeeId": "490",
+    "name": "Mr. Razi Allah Lone",
+    "title": "Senior Lecturer & Director Undergraduate Program",
+    "department": null,
+    "school": "Suleman Dawood School of Business",
+    "photoUrl": "https://lums.edu.pk/sites/default/files/styles/faculty_image/public/rzl.jpg",
+    "profileUrl": "https://lums.edu.pk/lums_employee/490"
+  },
+  {
+    "lumsEmployeeId": "8214",
+    "name": "Dr. Ameem Lutfi",
+    "title": "Assistant Professor",
+    "department": "Humanities and Social Sciences",
+    "school": "Mushtaq Ahmad Gurmani School of Humanities and Social Sciences",
+    "photoUrl": null,
+    "profileUrl": "https://lums.edu.pk/lums_employee/8214"
+  },
+  {
+    "lumsEmployeeId": "12039",
+    "name": "Dr. Amina Mahmood",
+    "title": "Adjunct Faculty",
+    "department": "Education",
+    "school": "Syed Ahsan Ali and Syed Maratib Ali School of Education",
+    "photoUrl": null,
+    "profileUrl": "https://lums.edu.pk/lums_employee/12039"
+  },
+  {
+    "lumsEmployeeId": "6663",
+    "name": "Mr. Syed Hashim Mahmood Ali",
+    "title": "Teaching Fellow",
+    "department": null,
+    "school": "Suleman Dawood School of Business",
+    "photoUrl": "https://lums.edu.pk/sites/default/files/styles/faculty_image/public/3369_2.jpg",
+    "profileUrl": "https://lums.edu.pk/lums_employee/6663"
+  },
+  {
+    "lumsEmployeeId": "1481",
+    "name": "Dr. Hadia Majid",
+    "title": "Associate Professor and Economics Department Chair",
+    "department": "Economics",
+    "school": "Mushtaq Ahmad Gurmani School of Humanities and Social Sciences",
+    "photoUrl": "https://lums.edu.pk/sites/default/files/styles/faculty_image/public/hm.jpg",
+    "profileUrl": "https://lums.edu.pk/lums_employee/1481"
+  },
+  {
+    "lumsEmployeeId": "6905",
+    "name": "Dr. Bilal Ahsan Malik",
+    "title": "Associate Dean-Office of Student Affairs",
+    "department": null,
+    "school": "Syed Ahsan Ali and Syed Maratib Ali School of Education",
+    "photoUrl": "https://lums.edu.pk/sites/default/files/styles/faculty_image/public/BilalMalik.png",
+    "profileUrl": "https://lums.edu.pk/lums_employee/6905"
+  },
+  {
+    "lumsEmployeeId": "9455",
+    "name": "Dr. Aaminah Zaman Malik",
+    "title": "Assistant Professor",
+    "department": null,
+    "school": "Suleman Dawood School of Business",
+    "photoUrl": "https://lums.edu.pk/sites/default/files/styles/faculty_image/public/69_0.jpg",
+    "profileUrl": "https://lums.edu.pk/lums_employee/9455"
+  },
+  {
+    "lumsEmployeeId": "8776",
+    "name": "Mr. Shahid Malik",
+    "title": "Adjunct Faculty",
+    "department": "Humanities and Social Sciences",
+    "school": "Mushtaq Ahmad Gurmani School of Humanities and Social Sciences",
+    "photoUrl": null,
+    "profileUrl": "https://lums.edu.pk/lums_employee/8776"
+  },
+  {
+    "lumsEmployeeId": "3022",
+    "name": "Dr. Kashif Zaheer Malik",
+    "title": "Associate Professor",
+    "department": "Economics",
+    "school": "Mushtaq Ahmad Gurmani School of Humanities and Social Sciences",
+    "photoUrl": "https://lums.edu.pk/sites/default/files/styles/faculty_image/public/3369_3.jpg",
+    "profileUrl": "https://lums.edu.pk/lums_employee/3022"
+  },
+  {
+    "lumsEmployeeId": "11237",
+    "name": "Dr. Laraib Iqbal Malik",
+    "title": "Assistant Professor",
+    "department": "Life Sciences",
+    "school": "Syed Babar Ali School of Science and Engineering",
+    "photoUrl": null,
+    "profileUrl": "https://lums.edu.pk/lums_employee/11237"
+  },
+  {
+    "lumsEmployeeId": "3540",
+    "name": "Ms. Ayesha Karim Malik",
+    "title": "Adjunct Faculty",
+    "department": "Economics",
+    "school": "Mushtaq Ahmad Gurmani School of Humanities and Social Sciences",
+    "photoUrl": null,
+    "profileUrl": "https://lums.edu.pk/lums_employee/3540"
+  },
+  {
+    "lumsEmployeeId": "7243",
+    "name": "Mr. Fahad Malik",
+    "title": "Adjunct Faculty",
+    "department": null,
+    "school": "Shaikh Ahmad Hassan School of Law",
+    "photoUrl": "https://lums.edu.pk/sites/default/files/styles/faculty_image/public/fdm.jpg",
+    "profileUrl": "https://lums.edu.pk/lums_employee/7243"
+  },
+  {
+    "lumsEmployeeId": "5984",
+    "name": "Miss. Ayesha Alam Malik",
+    "title": "Adjunct Faculty",
+    "department": null,
+    "school": "Shaikh Ahmad Hassan School of Law",
+    "photoUrl": "https://lums.edu.pk/sites/default/files/styles/faculty_image/public/aam.jpg",
+    "profileUrl": "https://lums.edu.pk/lums_employee/5984"
+  },
+  {
+    "lumsEmployeeId": "12006",
+    "name": "Mr. Adeel Haider Mankee",
+    "title": "Adjunct Faculty",
+    "department": null,
+    "school": "Suleman Dawood School of Business",
+    "photoUrl": null,
+    "profileUrl": "https://lums.edu.pk/lums_employee/12006"
+  },
+  {
+    "lumsEmployeeId": "2757",
+    "name": "Dr. Talha Manzoor",
+    "title": "Assistant Professor",
+    "department": null,
+    "school": null,
+    "photoUrl": "https://lums.edu.pk/sites/default/files/styles/faculty_image/public/tlh.jpg",
+    "profileUrl": "https://lums.edu.pk/lums_employee/2757"
+  },
+  {
+    "lumsEmployeeId": "1436",
+    "name": "Dr. Antonio Marasco",
+    "title": "Associate Professor",
+    "department": "Economics",
+    "school": "Mushtaq Ahmad Gurmani School of Humanities and Social Sciences",
+    "photoUrl": "https://lums.edu.pk/sites/default/files/styles/faculty_image/public/faculty_images/00001436.jpg",
+    "profileUrl": "https://lums.edu.pk/lums_employee/1436"
+  },
+  {
+    "lumsEmployeeId": "10676",
+    "name": "Ms. Khansa Maria",
+    "title": "Adjunct Faculty",
+    "department": "Education",
+    "school": "Syed Ahsan Ali and Syed Maratib Ali School of Education",
+    "photoUrl": null,
+    "profileUrl": "https://lums.edu.pk/lums_employee/10676"
+  },
+  {
+    "lumsEmployeeId": "5539",
+    "name": "Dr. Ayesha Masood",
+    "title": "Associate Professor",
+    "department": null,
+    "school": "Suleman Dawood School of Business",
+    "photoUrl": "https://lums.edu.pk/sites/default/files/styles/faculty_image/public/aym.jpg",
+    "profileUrl": "https://lums.edu.pk/lums_employee/5539"
+  },
+  {
+    "lumsEmployeeId": "735",
+    "name": "Dr. Shahid Masud",
+    "title": "Professor",
+    "department": "Electrical Engineering",
+    "school": "Syed Babar Ali School of Science and Engineering",
+    "photoUrl": "https://lums.edu.pk/sites/default/files/styles/faculty_image/public/faculty_images/00000735.jpg",
+    "profileUrl": "https://lums.edu.pk/lums_employee/735"
+  },
+  {
+    "lumsEmployeeId": "5428",
+    "name": "Dr. Ummad Mazhar",
+    "title": "Associate Professor",
+    "department": null,
+    "school": "Suleman Dawood School of Business",
+    "photoUrl": "https://lums.edu.pk/sites/default/files/styles/faculty_image/public/343.jpg",
+    "profileUrl": "https://lums.edu.pk/lums_employee/5428"
+  },
+  {
+    "lumsEmployeeId": "5856",
+    "name": "Ms. Aneeqa Mazhar Wattoo",
+    "title": "Lecturer",
+    "department": "Humanities and Social Sciences",
+    "school": "Mushtaq Ahmad Gurmani School of Humanities and Social Sciences",
+    "photoUrl": "https://lums.edu.pk/sites/default/files/styles/faculty_image/public/faculty_images/00005856.jpg",
+    "profileUrl": "https://lums.edu.pk/lums_employee/5856"
+  },
+  {
+    "lumsEmployeeId": "7149",
+    "name": "Dr. Zainab Mehmood",
+    "title": "Assistant Professor",
+    "department": null,
+    "school": "Suleman Dawood School of Business",
+    "photoUrl": "https://lums.edu.pk/sites/default/files/styles/faculty_image/public/000245.jpg",
+    "profileUrl": "https://lums.edu.pk/lums_employee/7149"
+  },
+  {
+    "lumsEmployeeId": "11528",
+    "name": "Dr. Qaisar Mehmood",
+    "title": "Adjunct Faculty",
+    "department": "Mathematics",
+    "school": "Syed Babar Ali School of Science and Engineering",
+    "photoUrl": null,
+    "profileUrl": "https://lums.edu.pk/lums_employee/11528"
+  },
+  {
+    "lumsEmployeeId": "1490",
+    "name": "Mr. Muhammad Abubakar Memon",
+    "title": "Teaching Fellow",
+    "department": "Economics",
+    "school": "Mushtaq Ahmad Gurmani School of Humanities and Social Sciences",
+    "photoUrl": "https://lums.edu.pk/sites/default/files/styles/faculty_image/public/abb54.jpg",
+    "profileUrl": "https://lums.edu.pk/lums_employee/1490"
+  },
+  {
+    "lumsEmployeeId": "11849",
+    "name": "Dr. Sumaya Falak Memon",
+    "title": "Assistant Professor",
+    "department": "Economics",
+    "school": "Mushtaq Ahmad Gurmani School of Humanities and Social Sciences",
+    "photoUrl": null,
+    "profileUrl": "https://lums.edu.pk/lums_employee/11849"
+  },
+  {
+    "lumsEmployeeId": "384",
+    "name": "Dr. Khalid Mir",
+    "title": "Associate Professor",
+    "department": "Economics",
+    "school": "Mushtaq Ahmad Gurmani School of Humanities and Social Sciences",
+    "photoUrl": "https://lums.edu.pk/sites/default/files/styles/faculty_image/public/faculty_images/00000384.jpg",
+    "profileUrl": "https://lums.edu.pk/lums_employee/384"
+  },
+  {
+    "lumsEmployeeId": "8242",
+    "name": "Mr. Haider Rasul Mirza",
+    "title": "Adjunct Faculty",
+    "department": null,
+    "school": "Shaikh Ahmad Hassan School of Law",
+    "photoUrl": "https://lums.edu.pk/sites/default/files/styles/faculty_image/public/arr.jpg",
+    "profileUrl": "https://lums.edu.pk/lums_employee/8242"
+  },
+  {
+    "lumsEmployeeId": "2728",
+    "name": "Ms. Zoya Mirza",
+    "title": "Adjunct Faculty",
+    "department": "Humanities and Social Sciences",
+    "school": "Mushtaq Ahmad Gurmani School of Humanities and Social Sciences",
+    "photoUrl": "https://lums.edu.pk/sites/default/files/styles/faculty_image/public/faculty_images/00002728.jpg",
+    "profileUrl": "https://lums.edu.pk/lums_employee/2728"
+  },
+  {
+    "lumsEmployeeId": "7178",
+    "name": "Mr. Ghazi Taimoor Mirza",
+    "title": "Adjunct Faculty",
+    "department": "Education",
+    "school": "Syed Ahsan Ali and Syed Maratib Ali School of Education",
+    "photoUrl": null,
+    "profileUrl": "https://lums.edu.pk/lums_employee/7178"
+  },
+  {
+    "lumsEmployeeId": "4392",
+    "name": "Dr. Shaper Mirza",
+    "title": "Associate Professor",
+    "department": "Life Sciences",
+    "school": "Syed Babar Ali School of Science and Engineering",
+    "photoUrl": "https://lums.edu.pk/sites/default/files/styles/faculty_image/public/faculty_images/00004392.jpg",
+    "profileUrl": "https://lums.edu.pk/lums_employee/4392"
+  },
+  {
+    "lumsEmployeeId": "5839",
+    "name": "Ms. Mahin Moazzam",
+    "title": "Teaching Fellow",
+    "department": null,
+    "school": "Suleman Dawood School of Business",
+    "photoUrl": "https://lums.edu.pk/sites/default/files/styles/faculty_image/public/mhn.jpg",
+    "profileUrl": "https://lums.edu.pk/lums_employee/5839"
+  },
+  {
+    "lumsEmployeeId": "9764",
+    "name": "Ms. Sana Mohsin",
+    "title": "Adjunct Faculty",
+    "department": "Humanities and Social Sciences",
+    "school": "Mushtaq Ahmad Gurmani School of Humanities and Social Sciences",
+    "photoUrl": null,
+    "profileUrl": "https://lums.edu.pk/lums_employee/9764"
+  },
+  {
+    "lumsEmployeeId": "2065",
+    "name": "Dr. Hassan Mohy Ud Din",
+    "title": "Assistant Professor",
+    "department": "Electrical Engineering",
+    "school": "Syed Babar Ali School of Science and Engineering",
+    "photoUrl": "https://lums.edu.pk/sites/default/files/styles/faculty_image/public/faculty_images/00002065.jpg",
+    "profileUrl": "https://lums.edu.pk/lums_employee/2065"
+  },
+  {
+    "lumsEmployeeId": "10936",
+    "name": "Dr. Ain ul Momina",
+    "title": "Adjunct Faculty",
+    "department": null,
+    "school": "Suleman Dawood School of Business",
+    "photoUrl": null,
+    "profileUrl": "https://lums.edu.pk/lums_employee/10936"
+  },
+  {
+    "lumsEmployeeId": "4481",
+    "name": "Dr. Tajdar Mufti",
+    "title": "Assistant Professor",
+    "department": "Physics",
+    "school": "Syed Babar Ali School of Science and Engineering",
+    "photoUrl": "https://lums.edu.pk/sites/default/files/styles/faculty_image/public/faculty_images/00004481.jpg",
+    "profileUrl": "https://lums.edu.pk/lums_employee/4481"
+  },
+  {
+    "lumsEmployeeId": "11914",
+    "name": "Mr. Sheikh Muhammad Bilal",
+    "title": "Teaching Fellow",
+    "department": "Computer Science",
+    "school": "Syed Babar Ali School of Science and Engineering",
+    "photoUrl": null,
+    "profileUrl": "https://lums.edu.pk/lums_employee/11914"
+  },
+  {
+    "lumsEmployeeId": "11258",
+    "name": "Mr. Ali Muhammad Nomani",
+    "title": "Adjunct Faculty",
+    "department": "Education",
+    "school": "Syed Ahsan Ali and Syed Maratib Ali School of Education",
+    "photoUrl": null,
+    "profileUrl": "https://lums.edu.pk/lums_employee/11258"
+  },
+  {
+    "lumsEmployeeId": "6189",
+    "name": "Ms. Saima Mujtaba Rana",
+    "title": "Adjunct Faculty",
+    "department": null,
+    "school": "Suleman Dawood School of Business",
+    "photoUrl": "https://lums.edu.pk/sites/default/files/styles/faculty_image/public/smr.jpg",
+    "profileUrl": "https://lums.edu.pk/lums_employee/6189"
+  },
+  {
+    "lumsEmployeeId": "2120",
+    "name": "Ms. Nadia Mukhtar Sayed",
+    "title": "Lecturer",
+    "department": "Economics",
+    "school": "Mushtaq Ahmad Gurmani School of Humanities and Social Sciences",
+    "photoUrl": "https://lums.edu.pk/sites/default/files/styles/faculty_image/public/Nadia.jpg",
+    "profileUrl": "https://lums.edu.pk/lums_employee/2120"
+  },
+  {
+    "lumsEmployeeId": "10197",
+    "name": "Ms. Maira Mumtaz",
+    "title": "Teaching Fellow",
+    "department": null,
+    "school": "Shaikh Ahmad Hassan School of Law",
+    "photoUrl": "https://lums.edu.pk/sites/default/files/styles/faculty_image/public/mmt.jpg",
+    "profileUrl": "https://lums.edu.pk/lums_employee/10197"
+  },
+  {
+    "lumsEmployeeId": "11170",
+    "name": "Dr. Tareena Musaddiq",
+    "title": "Assistant Professor",
+    "department": "Economics",
+    "school": "Mushtaq Ahmad Gurmani School of Humanities and Social Sciences",
+    "photoUrl": null,
+    "profileUrl": "https://lums.edu.pk/lums_employee/11170"
+  },
+  {
+    "lumsEmployeeId": "6554",
+    "name": "Dr. Maryam Mustafa",
+    "title": "Associate Professor",
+    "department": "Computer Science",
+    "school": "Syed Babar Ali School of Science and Engineering",
+    "photoUrl": "https://lums.edu.pk/sites/default/files/styles/faculty_image/public/faculty_images/00006554.jpg",
+    "profileUrl": "https://lums.edu.pk/lums_employee/6554"
+  },
+  {
+    "lumsEmployeeId": "8797",
+    "name": "Dr. Irfan Muzaffar",
+    "title": "Associate Professor of Practice",
+    "department": "Education",
+    "school": "Syed Ahsan Ali and Syed Maratib Ali School of Education",
+    "photoUrl": "https://lums.edu.pk/sites/default/files/styles/faculty_image/public/irf.jpg",
+    "profileUrl": "https://lums.edu.pk/lums_employee/8797"
+  },
+  {
+    "lumsEmployeeId": "2043",
+    "name": "Dr. Ijaz Nabi",
+    "title": "Adjunct Faculty",
+    "department": "Economics",
+    "school": "Mushtaq Ahmad Gurmani School of Humanities and Social Sciences",
+    "photoUrl": null,
+    "profileUrl": "https://lums.edu.pk/lums_employee/2043"
+  },
+  {
+    "lumsEmployeeId": "9239",
+    "name": "Ms. Ifrah Nadeem",
+    "title": "Adjunct Faculty",
+    "department": "Education",
+    "school": "Syed Ahsan Ali and Syed Maratib Ali School of Education",
+    "photoUrl": null,
+    "profileUrl": "https://lums.edu.pk/lums_employee/9239"
+  },
+  {
+    "lumsEmployeeId": "9543",
+    "name": "Dr. Farah Nadeem",
+    "title": "Assistant Professor",
+    "department": "Education",
+    "school": "Syed Ahsan Ali and Syed Maratib Ali School of Education",
+    "photoUrl": null,
+    "profileUrl": "https://lums.edu.pk/lums_employee/9543"
+  },
+  {
+    "lumsEmployeeId": "2271",
+    "name": "Dr. Imran Naeem",
+    "title": "Associate Professor",
+    "department": "Mathematics",
+    "school": "Syed Babar Ali School of Science and Engineering",
+    "photoUrl": "https://lums.edu.pk/sites/default/files/styles/faculty_image/public/faculty_images/00002271.jpg",
+    "profileUrl": "https://lums.edu.pk/lums_employee/2271"
+  },
+  {
+    "lumsEmployeeId": "2999",
+    "name": "Dr. Bushra Naqvi",
+    "title": "Associate Professor",
+    "department": null,
+    "school": "Suleman Dawood School of Business",
+    "photoUrl": "https://lums.edu.pk/sites/default/files/styles/faculty_image/public/bnq.jpg",
+    "profileUrl": "https://lums.edu.pk/lums_employee/2999"
+  },
+  {
+    "lumsEmployeeId": "2614",
+    "name": "Dr. Ijaz Haider Naqvi",
+    "title": "Professor",
+    "department": "Electrical Engineering",
+    "school": "Syed Babar Ali School of Science and Engineering",
+    "photoUrl": "https://lums.edu.pk/sites/default/files/styles/faculty_image/public/faculty_images/00002614.jpg",
+    "profileUrl": "https://lums.edu.pk/lums_employee/2614"
+  },
+  {
+    "lumsEmployeeId": "10795",
+    "name": "Mr. Ismail Hussain Naqvi",
+    "title": "Adjunct Faculty",
+    "department": null,
+    "school": "Suleman Dawood School of Business",
+    "photoUrl": "https://lums.edu.pk/sites/default/files/styles/faculty_image/public/76.jpg",
+    "profileUrl": "https://lums.edu.pk/lums_employee/10795"
+  },
+  {
+    "lumsEmployeeId": "581",
+    "name": "Dr. Muhammad Farooq Naseer",
+    "title": "Assistant Professor",
+    "department": "Economics",
+    "school": "Mushtaq Ahmad Gurmani School of Humanities and Social Sciences",
+    "photoUrl": "https://lums.edu.pk/sites/default/files/styles/faculty_image/public/faculty_images/00000581.jpg",
+    "profileUrl": "https://lums.edu.pk/lums_employee/581"
+  },
+  {
+    "lumsEmployeeId": "3284",
+    "name": "Dr. Moeen Naseer Butt",
+    "title": "Associate Professor & Director MBA Program",
+    "department": null,
+    "school": "Suleman Dawood School of Business",
+    "photoUrl": "https://lums.edu.pk/sites/default/files/styles/faculty_image/public/mnb_0.jpg",
+    "profileUrl": "https://lums.edu.pk/lums_employee/3284"
+  },
+  {
+    "lumsEmployeeId": "2",
+    "name": "Dr. Anjum Nasim",
+    "title": "Professor Emeritus",
+    "department": "Economics",
+    "school": "Mushtaq Ahmad Gurmani School of Humanities and Social Sciences",
+    "photoUrl": "https://lums.edu.pk/sites/default/files/styles/faculty_image/public/anjum_0.jpg",
+    "profileUrl": "https://lums.edu.pk/lums_employee/2"
+  },
+  {
+    "lumsEmployeeId": "11535",
+    "name": "Ms. Aroofa Nasir",
+    "title": "Teaching Fellow",
+    "department": "Computer Science",
+    "school": "Syed Babar Ali School of Science and Engineering",
+    "photoUrl": null,
+    "profileUrl": "https://lums.edu.pk/lums_employee/11535"
+  },
+  {
+    "lumsEmployeeId": "5707",
+    "name": "Mr. Hasham Nasir",
+    "title": "Teaching Fellow",
+    "department": "Education",
+    "school": "Syed Ahsan Ali and Syed Maratib Ali School of Education",
+    "photoUrl": "https://lums.edu.pk/sites/default/files/styles/faculty_image/public/faculty_images/00005707.jpg",
+    "profileUrl": "https://lums.edu.pk/lums_employee/5707"
+  },
+  {
+    "lumsEmployeeId": "10834",
+    "name": "Dr. Aftab Nasir",
+    "title": "Assistant Professor",
+    "department": "Humanities and Social Sciences",
+    "school": "Mushtaq Ahmad Gurmani School of Humanities and Social Sciences",
+    "photoUrl": null,
+    "profileUrl": "https://lums.edu.pk/lums_employee/10834"
+  },
+  {
+    "lumsEmployeeId": "3346",
+    "name": "Dr. Shaheen Nazir",
+    "title": "Associate Professor",
+    "department": "Mathematics",
+    "school": "Syed Babar Ali School of Science and Engineering",
+    "photoUrl": "https://lums.edu.pk/sites/default/files/styles/faculty_image/public/faculty_images/00003346.jpg",
+    "profileUrl": "https://lums.edu.pk/lums_employee/3346"
+  },
+  {
+    "lumsEmployeeId": "2710",
+    "name": "Mr. Syed Javed Nazir",
+    "title": "Adjunct Faculty",
+    "department": "Humanities and Social Sciences",
+    "school": "Mushtaq Ahmad Gurmani School of Humanities and Social Sciences",
+    "photoUrl": "https://lums.edu.pk/sites/default/files/styles/faculty_image/public/faculty_images/00002710.jpg",
+    "profileUrl": "https://lums.edu.pk/lums_employee/2710"
+  },
+  {
+    "lumsEmployeeId": "5195",
+    "name": "Dr. Muhammad Azfar Nisar",
+    "title": "Associate Professor",
+    "department": null,
+    "school": "Suleman Dawood School of Business",
+    "photoUrl": "https://lums.edu.pk/sites/default/files/styles/faculty_image/public/mm.jpg",
+    "profileUrl": "https://lums.edu.pk/lums_employee/5195"
+  },
+  {
+    "lumsEmployeeId": "5630",
+    "name": "Miss. Mehreen Noon",
+    "title": "Adjunct Faculty",
+    "department": "Education",
+    "school": "Syed Ahsan Ali and Syed Maratib Ali School of Education",
+    "photoUrl": null,
+    "profileUrl": "https://lums.edu.pk/lums_employee/5630"
+  },
+  {
+    "lumsEmployeeId": "2985",
+    "name": "Dr. Muhammad Adeel Ahmed Pasha",
+    "title": "Associate Professor",
+    "department": "Electrical Engineering",
+    "school": "Syed Babar Ali School of Science and Engineering",
+    "photoUrl": "https://lums.edu.pk/sites/default/files/styles/faculty_image/public/faculty_images/00002985.jpg",
+    "profileUrl": "https://lums.edu.pk/lums_employee/2985"
+  },
+  {
+    "lumsEmployeeId": "4918",
+    "name": "Dr. Saba Pirzadeh",
+    "title": "Associate Professor",
+    "department": "Humanities and Social Sciences",
+    "school": "Mushtaq Ahmad Gurmani School of Humanities and Social Sciences",
+    "photoUrl": "https://lums.edu.pk/sites/default/files/styles/faculty_image/public/sb991.jpg",
+    "profileUrl": "https://lums.edu.pk/lums_employee/4918"
+  },
+  {
+    "lumsEmployeeId": "5046",
+    "name": "Dr. Hafiz Abdul Qadeer",
+    "title": "Adjunct Faculty",
+    "department": "Humanities and Social Sciences",
+    "school": "Mushtaq Ahmad Gurmani School of Humanities and Social Sciences",
+    "photoUrl": null,
+    "profileUrl": "https://lums.edu.pk/lums_employee/5046"
+  },
+  {
+    "lumsEmployeeId": "5050",
+    "name": "Mr. Muhammad Ali Qamar",
+    "title": "Adjunct Faculty",
+    "department": null,
+    "school": "Suleman Dawood School of Business",
+    "photoUrl": null,
+    "profileUrl": "https://lums.edu.pk/lums_employee/5050"
+  },
+  {
+    "lumsEmployeeId": "5355",
+    "name": "Dr. Hafsa Qamar",
+    "title": "Assistant Professor",
+    "department": "Electrical Engineering",
+    "school": "Syed Babar Ali School of Science and Engineering",
+    "photoUrl": "https://lums.edu.pk/sites/default/files/styles/faculty_image/public/hf778.jpg",
+    "profileUrl": "https://lums.edu.pk/lums_employee/5355"
+  },
+  {
+    "lumsEmployeeId": "3159",
+    "name": "Dr. Ali Usman Qasmi",
+    "title": "Professor",
+    "department": "Humanities and Social Sciences",
+    "school": "Mushtaq Ahmad Gurmani School of Humanities and Social Sciences",
+    "photoUrl": "https://lums.edu.pk/sites/default/files/styles/faculty_image/public/faculty_images/00003159.jpg",
+    "profileUrl": "https://lums.edu.pk/lums_employee/3159"
+  },
+  {
+    "lumsEmployeeId": "10217",
+    "name": "Mr. Amin Ahmad Qasmi",
+    "title": null,
+    "department": "Computer Science",
+    "school": "Syed Babar Ali School of Science and Engineering",
+    "photoUrl": null,
+    "profileUrl": "https://lums.edu.pk/lums_employee/10217"
+  },
+  {
+    "lumsEmployeeId": "7842",
+    "name": "Mr. Muhammad Javaid Qayoom",
+    "title": "Adjunct Faculty",
+    "department": "Mathematics",
+    "school": "Syed Babar Ali School of Science and Engineering",
+    "photoUrl": null,
+    "profileUrl": "https://lums.edu.pk/lums_employee/7842"
+  },
+  {
+    "lumsEmployeeId": "3070",
+    "name": "Dr. Ihsan Ayyub Qazi",
+    "title": "Professor",
+    "department": "Computer Science",
+    "school": "Syed Babar Ali School of Science and Engineering",
+    "photoUrl": "https://lums.edu.pk/sites/default/files/styles/faculty_image/public/pictures/2022-02/ihsanqazi.png",
+    "profileUrl": "https://lums.edu.pk/lums_employee/3070"
+  },
+  {
+    "lumsEmployeeId": "2408",
+    "name": "Dr. Zafar Ayyub Qazi",
+    "title": "Associate Professor",
+    "department": "Computer Science",
+    "school": "Syed Babar Ali School of Science and Engineering",
+    "photoUrl": "https://lums.edu.pk/sites/default/files/styles/faculty_image/public/faculty_images/00002408.jpg",
+    "profileUrl": "https://lums.edu.pk/lums_employee/2408"
+  },
+  {
+    "lumsEmployeeId": "9769",
+    "name": "Ms. Hui Qi",
+    "title": "Adjunct Faculty",
+    "department": null,
+    "school": "Suleman Dawood School of Business",
+    "photoUrl": "https://lums.edu.pk/sites/default/files/styles/faculty_image/public/hqi.jpg",
+    "profileUrl": "https://lums.edu.pk/lums_employee/9769"
+  },
+  {
+    "lumsEmployeeId": "6254",
+    "name": "Ms. Noor Adnan Qureshi",
+    "title": "Teaching Fellow",
+    "department": "Economics",
+    "school": "Mushtaq Ahmad Gurmani School of Humanities and Social Sciences",
+    "photoUrl": null,
+    "profileUrl": "https://lums.edu.pk/lums_employee/6254"
+  },
+  {
+    "lumsEmployeeId": "9494",
+    "name": "Mr. Abdul Rafay",
+    "title": "Teaching Fellow",
+    "department": "Computer Science",
+    "school": "Syed Babar Ali School of Science and Engineering",
+    "photoUrl": null,
+    "profileUrl": "https://lums.edu.pk/lums_employee/9494"
+  },
+  {
+    "lumsEmployeeId": "746",
+    "name": "Dr. Taimur Rahman",
+    "title": "Associate Professor",
+    "department": "Humanities and Social Sciences",
+    "school": "Mushtaq Ahmad Gurmani School of Humanities and Social Sciences",
+    "photoUrl": "https://lums.edu.pk/sites/default/files/styles/faculty_image/public/faculty_images/00000746.jpg",
+    "profileUrl": "https://lums.edu.pk/lums_employee/746"
+  },
+  {
+    "lumsEmployeeId": "4490",
+    "name": "Miss. Fatima Rahman",
+    "title": "Adjunct Faculty",
+    "department": "Education",
+    "school": "Syed Ahsan Ali and Syed Maratib Ali School of Education",
+    "photoUrl": null,
+    "profileUrl": "https://lums.edu.pk/lums_employee/4490"
+  },
+  {
+    "lumsEmployeeId": "1479",
+    "name": "Dr. Abdul Rahman Mustafa",
+    "title": "Associate Professor",
+    "department": null,
+    "school": "Shaikh Ahmad Hassan School of Law",
+    "photoUrl": "https://lums.edu.pk/sites/default/files/styles/faculty_image/public/abd45.jpg",
+    "profileUrl": "https://lums.edu.pk/lums_employee/1479"
+  },
+  {
+    "lumsEmployeeId": "3845",
+    "name": "Dr. Muhammad Ahsan Rana",
+    "title": "Associate Professor of Practice",
+    "department": null,
+    "school": "Suleman Dawood School of Business",
+    "photoUrl": "https://lums.edu.pk/sites/default/files/styles/faculty_image/public/faculty_images/00003845.jpg",
+    "profileUrl": "https://lums.edu.pk/lums_employee/3845"
+  },
+  {
+    "lumsEmployeeId": "10181",
+    "name": "Mr. Muhammad Ibrahim Rana",
+    "title": "Adjunct Faculty",
+    "department": null,
+    "school": null,
+    "photoUrl": null,
+    "profileUrl": "https://lums.edu.pk/lums_employee/10181"
+  },
+  {
+    "lumsEmployeeId": "10881",
+    "name": "Dr. Shahid Rasheed",
+    "title": "Adjunct Faculty",
+    "department": "Humanities and Social Sciences",
+    "school": "Mushtaq Ahmad Gurmani School of Humanities and Social Sciences",
+    "photoUrl": null,
+    "profileUrl": "https://lums.edu.pk/lums_employee/10881"
+  },
+  {
+    "lumsEmployeeId": "1433",
+    "name": "Dr. Imran Rashid",
+    "title": "Assistant Professor",
+    "department": "Humanities and Social Sciences",
+    "school": "Mushtaq Ahmad Gurmani School of Humanities and Social Sciences",
+    "photoUrl": "https://lums.edu.pk/sites/default/files/styles/faculty_image/public/faculty_images/00001433.jpg",
+    "profileUrl": "https://lums.edu.pk/lums_employee/1433"
+  },
+  {
+    "lumsEmployeeId": "222",
+    "name": "Mr. Kamran Rashid",
+    "title": "Lecturer",
+    "department": null,
+    "school": "Suleman Dawood School of Business",
+    "photoUrl": null,
+    "profileUrl": "https://lums.edu.pk/lums_employee/222"
+  },
+  {
+    "lumsEmployeeId": "11603",
+    "name": "Dr. Saadia Rashid Tariq",
+    "title": "Adjunct Faculty",
+    "department": "Chemistry & Chemical Engineering",
+    "school": "Syed Babar Ali School of Science and Engineering",
+    "photoUrl": null,
+    "profileUrl": "https://lums.edu.pk/lums_employee/11603"
+  },
+  {
+    "lumsEmployeeId": "3637",
+    "name": "Dr. Hassan Rauf",
+    "title": "Associate Professor & Associate Dean Executive Education",
+    "department": null,
+    "school": "Suleman Dawood School of Business",
+    "photoUrl": "https://lums.edu.pk/sites/default/files/styles/faculty_image/public/hsr.jpg",
+    "profileUrl": "https://lums.edu.pk/lums_employee/3637"
+  },
+  {
+    "lumsEmployeeId": "3157",
+    "name": "Mr. Abdul Rauf",
+    "title": "Adjunct Faculty",
+    "department": null,
+    "school": "Suleman Dawood School of Business",
+    "photoUrl": "https://lums.edu.pk/sites/default/files/styles/faculty_image/public/abdr.jpg",
+    "profileUrl": "https://lums.edu.pk/lums_employee/3157"
+  },
+  {
+    "lumsEmployeeId": "5750",
+    "name": "Dr. Ali Rauf",
+    "title": "Associate Professor",
+    "department": "Chemistry & Chemical Engineering",
+    "school": "Syed Babar Ali School of Science and Engineering",
+    "photoUrl": "https://lums.edu.pk/sites/default/files/styles/faculty_image/public/Ali%20Rauf%20Chemistry.png",
+    "profileUrl": "https://lums.edu.pk/lums_employee/5750"
+  },
+  {
+    "lumsEmployeeId": "7391",
+    "name": "Ms. Manahil Raza",
+    "title": "Teaching Fellow",
+    "department": "Humanities and Social Sciences",
+    "school": "Mushtaq Ahmad Gurmani School of Humanities and Social Sciences",
+    "photoUrl": null,
+    "profileUrl": "https://lums.edu.pk/lums_employee/7391"
+  },
+  {
+    "lumsEmployeeId": "3867",
+    "name": "Dr. Ali Raza",
+    "title": "Associate Professor",
+    "department": "Humanities and Social Sciences",
+    "school": "Mushtaq Ahmad Gurmani School of Humanities and Social Sciences",
+    "photoUrl": "https://lums.edu.pk/sites/default/files/styles/faculty_image/public/Dr%20Ali%20Raza.jpg",
+    "profileUrl": "https://lums.edu.pk/lums_employee/3867"
+  },
+  {
+    "lumsEmployeeId": "6918",
+    "name": "Dr. Agha Ali Raza",
+    "title": "Associate Professor",
+    "department": "Computer Science",
+    "school": "Syed Babar Ali School of Science and Engineering",
+    "photoUrl": "https://lums.edu.pk/sites/default/files/styles/faculty_image/public/Agha%20Ali%20Raza.JPG",
+    "profileUrl": "https://lums.edu.pk/lums_employee/6918"
+  },
+  {
+    "lumsEmployeeId": "5404",
+    "name": "Mr. Abid Raza Khan",
+    "title": "Adjunct Faculty",
+    "department": null,
+    "school": "Suleman Dawood School of Business",
+    "photoUrl": null,
+    "profileUrl": "https://lums.edu.pk/lums_employee/5404"
+  },
+  {
+    "lumsEmployeeId": "4873",
+    "name": "Dr. Syed Aun Raza Rizvi",
+    "title": "Associate Professor",
+    "department": null,
+    "school": "Suleman Dawood School of Business",
+    "photoUrl": "https://lums.edu.pk/sites/default/files/styles/faculty_image/public/698.jpg",
+    "profileUrl": "https://lums.edu.pk/lums_employee/4873"
+  },
+  {
+    "lumsEmployeeId": "6664",
+    "name": "Mr. Qaiser Raza Sheikh",
+    "title": "Adjunct Faculty",
+    "department": null,
+    "school": "Suleman Dawood School of Business",
+    "photoUrl": "https://lums.edu.pk/sites/default/files/styles/faculty_image/public/3369_4.jpg",
+    "profileUrl": "https://lums.edu.pk/lums_employee/6664"
+  },
+  {
+    "lumsEmployeeId": "12002",
+    "name": "Mr. Muhammad Nisar Ur Rehman",
+    "title": "Adjunct Faculty",
+    "department": null,
+    "school": "Suleman Dawood School of Business",
+    "photoUrl": null,
+    "profileUrl": "https://lums.edu.pk/lums_employee/12002"
+  },
+  {
+    "lumsEmployeeId": "8250",
+    "name": "Ms. Sadaf Rehman",
+    "title": "Adjunct Faculty",
+    "department": "Computer Science",
+    "school": "Syed Babar Ali School of Science and Engineering",
+    "photoUrl": null,
+    "profileUrl": "https://lums.edu.pk/lums_employee/8250"
+  },
+  {
+    "lumsEmployeeId": "7135",
+    "name": "Ms. Maira Rehman",
+    "title": "Adjunct Faculty",
+    "department": "Humanities and Social Sciences",
+    "school": "Mushtaq Ahmad Gurmani School of Humanities and Social Sciences",
+    "photoUrl": null,
+    "profileUrl": "https://lums.edu.pk/lums_employee/7135"
+  },
+  {
+    "lumsEmployeeId": "2681",
+    "name": "Dr. Habib Ur Rehman",
+    "title": "Associate Professor",
+    "department": "Chemistry & Chemical Engineering",
+    "school": "Syed Babar Ali School of Science and Engineering",
+    "photoUrl": "https://lums.edu.pk/sites/default/files/styles/faculty_image/public/faculty_images/00002681.jpg",
+    "profileUrl": "https://lums.edu.pk/lums_employee/2681"
+  },
+  {
+    "lumsEmployeeId": "7552",
+    "name": "Dr. Sheikh Attique Ur Rehman",
+    "title": "Assistant Professor & Director MS Supply Chain and Retail Management (SCRM)",
+    "department": null,
+    "school": "Suleman Dawood School of Business",
+    "photoUrl": "https://lums.edu.pk/sites/default/files/styles/faculty_image/public/atqr.jpg",
+    "profileUrl": "https://lums.edu.pk/lums_employee/7552"
+  },
+  {
+    "lumsEmployeeId": "750",
+    "name": "Dr. Amber Riaz",
+    "title": "Associate Professor",
+    "department": "Humanities and Social Sciences",
+    "school": "Mushtaq Ahmad Gurmani School of Humanities and Social Sciences",
+    "photoUrl": "https://lums.edu.pk/sites/default/files/styles/faculty_image/public/faculty_images/00000750.jpg",
+    "profileUrl": "https://lums.edu.pk/lums_employee/750"
+  },
+  {
+    "lumsEmployeeId": "5169",
+    "name": "Dr. Syeda Warda Riaz",
+    "title": "Assistant Professor",
+    "department": "Economics",
+    "school": "Mushtaq Ahmad Gurmani School of Humanities and Social Sciences",
+    "photoUrl": null,
+    "profileUrl": "https://lums.edu.pk/lums_employee/5169"
+  },
+  {
+    "lumsEmployeeId": "6909",
+    "name": "Ms. Saira Rizwan",
+    "title": "Adjunct Faculty",
+    "department": null,
+    "school": "Suleman Dawood School of Business",
+    "photoUrl": null,
+    "profileUrl": "https://lums.edu.pk/lums_employee/6909"
+  },
+  {
+    "lumsEmployeeId": "7183",
+    "name": "Dr. Razia Iram Sadik",
+    "title": "Associate Professor",
+    "department": "Education",
+    "school": "Syed Ahsan Ali and Syed Maratib Ali School of Education",
+    "photoUrl": "https://lums.edu.pk/sites/default/files/styles/faculty_image/public/faculty_images/00007183.jpg",
+    "profileUrl": "https://lums.edu.pk/lums_employee/7183"
+  },
+  {
+    "lumsEmployeeId": "3186",
+    "name": "Dr. Muhammad Shakeel Sadiq Jajja",
+    "title": "Professor",
+    "department": null,
+    "school": "Suleman Dawood School of Business",
+    "photoUrl": "https://lums.edu.pk/sites/default/files/styles/faculty_image/public/667.jpg",
+    "profileUrl": "https://lums.edu.pk/lums_employee/3186"
+  },
+  {
+    "lumsEmployeeId": "4093",
+    "name": "Dr. Muhammad Saeed",
+    "title": "Associate Professor",
+    "department": "Chemistry & Chemical Engineering",
+    "school": "Syed Babar Ali School of Science and Engineering",
+    "photoUrl": "https://lums.edu.pk/sites/default/files/styles/faculty_image/public/LUMS_Faculty_portrait_MSaeed_0.jpg",
+    "profileUrl": "https://lums.edu.pk/lums_employee/4093"
+  },
+  {
+    "lumsEmployeeId": "4903",
+    "name": "Dr. Tania Saeed",
+    "title": "Associate Professor",
+    "department": "Humanities and Social Sciences",
+    "school": "Mushtaq Ahmad Gurmani School of Humanities and Social Sciences",
+    "photoUrl": "https://lums.edu.pk/sites/default/files/styles/faculty_image/public/Dr%20Tania.jpg",
+    "profileUrl": "https://lums.edu.pk/lums_employee/4903"
+  },
+  {
+    "lumsEmployeeId": "7820",
+    "name": "Dr. Raza Saeed",
+    "title": "Associate Professor",
+    "department": null,
+    "school": "Shaikh Ahmad Hassan School of Law",
+    "photoUrl": "https://lums.edu.pk/sites/default/files/styles/faculty_image/public/rzs.jpg",
+    "profileUrl": "https://lums.edu.pk/lums_employee/7820"
+  },
+  {
+    "lumsEmployeeId": "2753",
+    "name": "Mr. Hammad Saeed",
+    "title": "Adjunct Faculty",
+    "department": null,
+    "school": "Shaikh Ahmad Hassan School of Law",
+    "photoUrl": "https://lums.edu.pk/sites/default/files/styles/faculty_image/public/hamad.jpg",
+    "profileUrl": "https://lums.edu.pk/lums_employee/2753"
+  },
+  {
+    "lumsEmployeeId": "5374",
+    "name": "Dr. Zaid Saeed Khan",
+    "title": "Assistant Professor",
+    "department": null,
+    "school": "Suleman Dawood School of Business",
+    "photoUrl": "https://lums.edu.pk/sites/default/files/styles/faculty_image/public/zsk.jpg",
+    "profileUrl": "https://lums.edu.pk/lums_employee/5374"
+  },
+  {
+    "lumsEmployeeId": "7279",
+    "name": "Ms. Uzma Safdar",
+    "title": "Adjunct Faculty",
+    "department": "Humanities and Social Sciences",
+    "school": "Mushtaq Ahmad Gurmani School of Humanities and Social Sciences",
+    "photoUrl": null,
+    "profileUrl": "https://lums.edu.pk/lums_employee/7279"
+  },
+  {
+    "lumsEmployeeId": "8434",
+    "name": "Dr. Farah Said",
+    "title": "Associate Professor",
+    "department": "Economics",
+    "school": "Mushtaq Ahmad Gurmani School of Humanities and Social Sciences",
+    "photoUrl": "https://lums.edu.pk/sites/default/files/styles/faculty_image/public/farah.jpg",
+    "profileUrl": "https://lums.edu.pk/lums_employee/8434"
+  },
+  {
+    "lumsEmployeeId": "6784",
+    "name": "Dr. Fizzah Sajjad",
+    "title": "Assistant Professor",
+    "department": "Humanities and Social Sciences",
+    "school": "Mushtaq Ahmad Gurmani School of Humanities and Social Sciences",
+    "photoUrl": "https://lums.edu.pk/sites/default/files/styles/faculty_image/public/Fizzah_Sajjad.jpg",
+    "profileUrl": "https://lums.edu.pk/lums_employee/6784"
+  },
+  {
+    "lumsEmployeeId": "10629",
+    "name": "Dr. Mehroz Sajjad",
+    "title": "Visiting Assistant Professor",
+    "department": null,
+    "school": "Suleman Dawood School of Business",
+    "photoUrl": "https://lums.edu.pk/sites/default/files/styles/faculty_image/public/mer.jpg",
+    "profileUrl": "https://lums.edu.pk/lums_employee/10629"
+  },
+  {
+    "lumsEmployeeId": "7946",
+    "name": "Dr. Afsheen Salahuddin",
+    "title": "Adjunct Faculty",
+    "department": "Humanities and Social Sciences",
+    "school": "Mushtaq Ahmad Gurmani School of Humanities and Social Sciences",
+    "photoUrl": "https://lums.edu.pk/sites/default/files/styles/faculty_image/public/Screenshot%202026-01-12%20at%204.29.43%20PM.png",
+    "profileUrl": "https://lums.edu.pk/lums_employee/7946"
+  },
+  {
+    "lumsEmployeeId": "3160",
+    "name": "Dr. Rahman Shah Zaib Saleem",
+    "title": "Associate Professor",
+    "department": "Chemistry & Chemical Engineering",
+    "school": "Syed Babar Ali School of Science and Engineering",
+    "photoUrl": "https://lums.edu.pk/sites/default/files/styles/faculty_image/public/20200306_1429051-removebg-1.jpg",
+    "profileUrl": "https://lums.edu.pk/lums_employee/3160"
+  },
+  {
+    "lumsEmployeeId": "8669",
+    "name": "Dr. Hafiz Muhammad Salman Rafi",
+    "title": "Assistant Professor",
+    "department": "Humanities and Social Sciences",
+    "school": "Mushtaq Ahmad Gurmani School of Humanities and Social Sciences",
+    "photoUrl": "https://lums.edu.pk/sites/default/files/styles/faculty_image/public/00698o.jpg",
+    "profileUrl": "https://lums.edu.pk/lums_employee/8669"
+  },
+  {
+    "lumsEmployeeId": "10305",
+    "name": "Ms. Sana Sami",
+    "title": "Teaching Fellow",
+    "department": null,
+    "school": "Suleman Dawood School of Business",
+    "photoUrl": null,
+    "profileUrl": "https://lums.edu.pk/lums_employee/10305"
+  },
+  {
+    "lumsEmployeeId": "3059",
+    "name": "Dr. Muhammad Saqib Ilyas",
+    "title": "Visiting Associate Professor",
+    "department": "Computer Science",
+    "school": "Syed Babar Ali School of Science and Engineering",
+    "photoUrl": "https://lums.edu.pk/sites/default/files/styles/faculty_image/public/sqb.jpg",
+    "profileUrl": "https://lums.edu.pk/lums_employee/3059"
+  },
+  {
+    "lumsEmployeeId": "11302",
+    "name": "Dr. Younis Sarwer",
+    "title": "Assistant Professor",
+    "department": "Humanities and Social Sciences",
+    "school": "Mushtaq Ahmad Gurmani School of Humanities and Social Sciences",
+    "photoUrl": "https://lums.edu.pk/sites/default/files/styles/faculty_image/public/youns.jpg",
+    "profileUrl": "https://lums.edu.pk/lums_employee/11302"
+  },
+  {
+    "lumsEmployeeId": "3397",
+    "name": "Ms. Zainab Sattar",
+    "title": "Teaching Fellow",
+    "department": "Humanities and Social Sciences",
+    "school": "Mushtaq Ahmad Gurmani School of Humanities and Social Sciences",
+    "photoUrl": null,
+    "profileUrl": "https://lums.edu.pk/lums_employee/3397"
+  },
+  {
+    "lumsEmployeeId": "6545",
+    "name": "Dr. Adnan Sattar",
+    "title": "Assistant Professor",
+    "department": null,
+    "school": "Shaikh Ahmad Hassan School of Law",
+    "photoUrl": "https://lums.edu.pk/sites/default/files/styles/faculty_image/public/faculty_images/00006545.jpg",
+    "profileUrl": "https://lums.edu.pk/lums_employee/6545"
+  },
+  {
+    "lumsEmployeeId": "9819",
+    "name": "Dr. Tom Edward Sewel",
+    "title": "Assistant Professor",
+    "department": "Humanities and Social Sciences",
+    "school": "Mushtaq Ahmad Gurmani School of Humanities and Social Sciences",
+    "photoUrl": "https://lums.edu.pk/sites/default/files/styles/faculty_image/public/tom.jpg",
+    "profileUrl": "https://lums.edu.pk/lums_employee/9819"
+  },
+  {
+    "lumsEmployeeId": "3308",
+    "name": "Dr. Fazal Jawad Seyyed",
+    "title": "Professor",
+    "department": null,
+    "school": "Suleman Dawood School of Business",
+    "photoUrl": "https://lums.edu.pk/sites/default/files/styles/faculty_image/public/fzd.jpg",
+    "profileUrl": "https://lums.edu.pk/lums_employee/3308"
+  },
+  {
+    "lumsEmployeeId": "2616",
+    "name": "Dr. Mudassir Shabbir",
+    "title": "Associate Professor",
+    "department": "Computer Science",
+    "school": "Syed Babar Ali School of Science and Engineering",
+    "photoUrl": null,
+    "profileUrl": "https://lums.edu.pk/lums_employee/2616"
+  },
+  {
+    "lumsEmployeeId": "2853",
+    "name": "Dr. Basit Shafiq",
+    "title": "Professor",
+    "department": "Computer Science",
+    "school": "Syed Babar Ali School of Science and Engineering",
+    "photoUrl": "https://lums.edu.pk/sites/default/files/styles/faculty_image/public/faculty_images/00002853.jpg",
+    "profileUrl": "https://lums.edu.pk/lums_employee/2853"
+  },
+  {
+    "lumsEmployeeId": "931",
+    "name": "Dr. Sikander Ahmed Shah",
+    "title": "Professor",
+    "department": null,
+    "school": "Shaikh Ahmad Hassan School of Law",
+    "photoUrl": "https://lums.edu.pk/sites/default/files/styles/faculty_image/public/faculty_images/00000931.jpg",
+    "profileUrl": "https://lums.edu.pk/lums_employee/931"
+  },
+  {
+    "lumsEmployeeId": "11621",
+    "name": "Mr. Syed Mansoor Ali Shah",
+    "title": "Professor of Practice",
+    "department": null,
+    "school": "Shaikh Ahmad Hassan School of Law",
+    "photoUrl": "https://lums.edu.pk/sites/default/files/styles/faculty_image/public/msn32.jpg",
+    "profileUrl": "https://lums.edu.pk/lums_employee/11621"
+  },
+  {
+    "lumsEmployeeId": "6505",
+    "name": "Mr. Jasir Shahbaz",
+    "title": "Teaching Fellow",
+    "department": "Education",
+    "school": "Syed Ahsan Ali and Syed Maratib Ali School of Education",
+    "photoUrl": "https://lums.edu.pk/sites/default/files/styles/faculty_image/public/js02.jpg",
+    "profileUrl": "https://lums.edu.pk/lums_employee/6505"
+  },
+  {
+    "lumsEmployeeId": "4407",
+    "name": "Dr. Suleman Shahid",
+    "title": "Associate Professor",
+    "department": "Computer Science",
+    "school": "Syed Babar Ali School of Science and Engineering",
+    "photoUrl": "https://lums.edu.pk/sites/default/files/styles/faculty_image/public/faculty_images/00004407.jpg",
+    "profileUrl": "https://lums.edu.pk/lums_employee/4407"
+  },
+  {
+    "lumsEmployeeId": "9979",
+    "name": "Dr. Usman Bin Shahid",
+    "title": "Assistant Professor",
+    "department": "Chemistry & Chemical Engineering",
+    "school": "Syed Babar Ali School of Science and Engineering",
+    "photoUrl": "https://lums.edu.pk/sites/default/files/styles/faculty_image/public/usmn.gif",
+    "profileUrl": "https://lums.edu.pk/lums_employee/9979"
+  },
+  {
+    "lumsEmployeeId": "3640",
+    "name": "Dr. Muhammad Shehryar Shahid",
+    "title": "Associate Professor",
+    "department": null,
+    "school": "Suleman Dawood School of Business",
+    "photoUrl": "https://lums.edu.pk/sites/default/files/styles/faculty_image/public/sshs.jpg",
+    "profileUrl": "https://lums.edu.pk/lums_employee/3640"
+  },
+  {
+    "lumsEmployeeId": "4829",
+    "name": "Ms. Farhana Shahzad",
+    "title": "Teaching Fellow",
+    "department": "Humanities and Social Sciences",
+    "school": "Mushtaq Ahmad Gurmani School of Humanities and Social Sciences",
+    "photoUrl": "https://lums.edu.pk/sites/default/files/styles/faculty_image/public/3225de8a-574a-4510-9039-83016ff32a8f.jpg",
+    "profileUrl": "https://lums.edu.pk/lums_employee/4829"
+  },
+  {
+    "lumsEmployeeId": "8450",
+    "name": "Dr. Zaigham Shahzad",
+    "title": "Associate Professor",
+    "department": "Life Sciences",
+    "school": "Syed Babar Ali School of Science and Engineering",
+    "photoUrl": "https://lums.edu.pk/sites/default/files/styles/faculty_image/public/pictures/2024-06/Zaigham%20Shehzad_1_WObackground.png",
+    "profileUrl": "https://lums.edu.pk/lums_employee/8450"
+  },
+  {
+    "lumsEmployeeId": "12015",
+    "name": "Mr. Azwar Shakeel",
+    "title": "Adjunct Faculty",
+    "department": null,
+    "school": "Shaikh Ahmad Hassan School of Law",
+    "photoUrl": "https://lums.edu.pk/sites/default/files/styles/faculty_image/public/zw3.jpg",
+    "profileUrl": "https://lums.edu.pk/lums_employee/12015"
+  },
+  {
+    "lumsEmployeeId": "533",
+    "name": "Dr. Shafay Shamail",
+    "title": "Professor",
+    "department": "Computer Science",
+    "school": "Syed Babar Ali School of Science and Engineering",
+    "photoUrl": "https://lums.edu.pk/sites/default/files/styles/faculty_image/public/faculty_images/00000533.jpg",
+    "profileUrl": "https://lums.edu.pk/lums_employee/533"
+  },
+  {
+    "lumsEmployeeId": "2689",
+    "name": "Dr. Choudhry Tanveer Shehzad",
+    "title": "Associate Professor & Associate Dean Graduate Programmes",
+    "department": null,
+    "school": "Suleman Dawood School of Business",
+    "photoUrl": "https://lums.edu.pk/sites/default/files/styles/faculty_image/public/kk1.jpg",
+    "profileUrl": "https://lums.edu.pk/lums_employee/2689"
+  },
+  {
+    "lumsEmployeeId": "2104",
+    "name": "Dr. Falak Sher",
+    "title": "Professor",
+    "department": "Chemistry & Chemical Engineering",
+    "school": "Syed Babar Ali School of Science and Engineering",
+    "photoUrl": "https://lums.edu.pk/sites/default/files/styles/faculty_image/public/faculty_images/00002104.jpg",
+    "profileUrl": "https://lums.edu.pk/lums_employee/2104"
+  },
+  {
+    "lumsEmployeeId": "7665",
+    "name": "Dr. Muhammad Shoaib",
+    "title": "Associate Professor",
+    "department": "Life Sciences",
+    "school": "Syed Babar Ali School of Science and Engineering",
+    "photoUrl": "https://lums.edu.pk/sites/default/files/styles/faculty_image/public/5.jpg",
+    "profileUrl": "https://lums.edu.pk/lums_employee/7665"
+  },
+  {
+    "lumsEmployeeId": "993",
+    "name": "Dr. Sultan Sial",
+    "title": "Associate Professor",
+    "department": "Mathematics",
+    "school": "Syed Babar Ali School of Science and Engineering",
+    "photoUrl": "https://lums.edu.pk/sites/default/files/styles/faculty_image/public/faculty_images/00000993.jpg",
+    "profileUrl": "https://lums.edu.pk/lums_employee/993"
+  },
+  {
+    "lumsEmployeeId": "5422",
+    "name": "Dr. Soufia Anis Siddiqi",
+    "title": "Assistant Professor",
+    "department": "Education",
+    "school": "Syed Ahsan Ali and Syed Maratib Ali School of Education",
+    "photoUrl": "https://lums.edu.pk/sites/default/files/styles/faculty_image/public/faculty_images/00005422.jpg",
+    "profileUrl": "https://lums.edu.pk/lums_employee/5422"
+  },
+  {
+    "lumsEmployeeId": "9462",
+    "name": "Dr. Muhammad Ali Siddiqi",
+    "title": "Assistant Professor",
+    "department": "Electrical Engineering",
+    "school": "Syed Babar Ali School of Science and Engineering",
+    "photoUrl": "https://lums.edu.pk/sites/default/files/styles/faculty_image/public/443.jpg",
+    "profileUrl": "https://lums.edu.pk/lums_employee/9462"
+  },
+  {
+    "lumsEmployeeId": "9248",
+    "name": "Mr. Sajid Siddique",
+    "title": "Adjunct Faculty",
+    "department": null,
+    "school": "Suleman Dawood School of Business",
+    "photoUrl": "https://lums.edu.pk/sites/default/files/styles/faculty_image/public/sjd.jpg",
+    "profileUrl": "https://lums.edu.pk/lums_employee/9248"
+  },
+  {
+    "lumsEmployeeId": "9552",
+    "name": "Mr. Hamza Sohail",
+    "title": "Adjunct Faculty",
+    "department": "Economics",
+    "school": "Mushtaq Ahmad Gurmani School of Humanities and Social Sciences",
+    "photoUrl": null,
+    "profileUrl": "https://lums.edu.pk/lums_employee/9552"
+  },
+  {
+    "lumsEmployeeId": "2521",
+    "name": "Ms. Fizza Suhail",
+    "title": "Teaching Fellow",
+    "department": "Education",
+    "school": "Syed Ahsan Ali and Syed Maratib Ali School of Education",
+    "photoUrl": null,
+    "profileUrl": "https://lums.edu.pk/lums_employee/2521"
+  },
+  {
+    "lumsEmployeeId": "3203",
+    "name": "Mr. Ali Sultan",
+    "title": "Adjunct Faculty",
+    "department": null,
+    "school": "Suleman Dawood School of Business",
+    "photoUrl": null,
+    "profileUrl": "https://lums.edu.pk/lums_employee/3203"
+  },
+  {
+    "lumsEmployeeId": "11256",
+    "name": "Ms. Masooma Syed",
+    "title": "Adjunct Faculty",
+    "department": "Education",
+    "school": "Syed Ahsan Ali and Syed Maratib Ali School of Education",
+    "photoUrl": null,
+    "profileUrl": "https://lums.edu.pk/lums_employee/11256"
+  },
+  {
+    "lumsEmployeeId": "4821",
+    "name": "Dr. Jawad Syed",
+    "title": "Professor",
+    "department": null,
+    "school": "Suleman Dawood School of Business",
+    "photoUrl": "https://lums.edu.pk/sites/default/files/styles/faculty_image/public/jws.jpg",
+    "profileUrl": "https://lums.edu.pk/lums_employee/4821"
+  },
+  {
+    "lumsEmployeeId": "3195",
+    "name": "Dr. Baqar Hassan Syed",
+    "title": "Assistant Professor",
+    "department": "Humanities and Social Sciences",
+    "school": "Mushtaq Ahmad Gurmani School of Humanities and Social Sciences",
+    "photoUrl": "https://lums.edu.pk/sites/default/files/styles/faculty_image/public/faculty_images/00003195.jpg",
+    "profileUrl": "https://lums.edu.pk/lums_employee/3195"
+  },
+  {
+    "lumsEmployeeId": "10024",
+    "name": "Dr. Asif Nadeem Tabish",
+    "title": "Adjunct Faculty",
+    "department": "Chemistry & Chemical Engineering",
+    "school": "Syed Babar Ali School of Science and Engineering",
+    "photoUrl": null,
+    "profileUrl": "https://lums.edu.pk/lums_employee/10024"
+  },
+  {
+    "lumsEmployeeId": "8752",
+    "name": "Mr. Raja Mohammad Tabish Habib",
+    "title": "Visiting Assistant Professor",
+    "department": "Humanities and Social Sciences",
+    "school": "Mushtaq Ahmad Gurmani School of Humanities and Social Sciences",
+    "photoUrl": "https://lums.edu.pk/sites/default/files/styles/faculty_image/public/Tabish_2.JPG",
+    "profileUrl": "https://lums.edu.pk/lums_employee/8752"
+  },
+  {
+    "lumsEmployeeId": "11915",
+    "name": "Mr. Sheikh Taha Munir",
+    "title": "Adjunct Faculty",
+    "department": "Humanities and Social Sciences",
+    "school": "Mushtaq Ahmad Gurmani School of Humanities and Social Sciences",
+    "photoUrl": null,
+    "profileUrl": "https://lums.edu.pk/lums_employee/11915"
+  },
+  {
+    "lumsEmployeeId": "10314",
+    "name": "Mr. Muhammad Tahir",
+    "title": "Teaching Fellow",
+    "department": "Computer Science",
+    "school": "Syed Babar Ali School of Science and Engineering",
+    "photoUrl": null,
+    "profileUrl": "https://lums.edu.pk/lums_employee/10314"
+  },
+  {
+    "lumsEmployeeId": "3986",
+    "name": "Dr. Muhammad Tahir",
+    "title": "Associate Professor",
+    "department": "Electrical Engineering",
+    "school": "Syed Babar Ali School of Science and Engineering",
+    "photoUrl": "https://lums.edu.pk/sites/default/files/styles/faculty_image/public/faculty_images/00003986.jpg",
+    "profileUrl": "https://lums.edu.pk/lums_employee/3986"
+  },
+  {
+    "lumsEmployeeId": "2860",
+    "name": "Dr. Murtaza Taj",
+    "title": "Associate Professor",
+    "department": "Computer Science",
+    "school": "Syed Babar Ali School of Science and Engineering",
+    "photoUrl": "https://lums.edu.pk/sites/default/files/styles/faculty_image/public/faculty_images/00002860.jpg",
+    "profileUrl": "https://lums.edu.pk/lums_employee/2860"
+  },
+  {
+    "lumsEmployeeId": "4565",
+    "name": "Ms. Madiha Tallat",
+    "title": "Visiting Assistant Professor",
+    "department": null,
+    "school": "Shaikh Ahmad Hassan School of Law",
+    "photoUrl": "https://lums.edu.pk/sites/default/files/styles/faculty_image/public/mdh1.jpg",
+    "profileUrl": "https://lums.edu.pk/lums_employee/4565"
+  },
+  {
+    "lumsEmployeeId": "3356",
+    "name": "Dr. Misbah Tanveer Choudhry",
+    "title": "Assistant Professor",
+    "department": null,
+    "school": "Suleman Dawood School of Business",
+    "photoUrl": "https://lums.edu.pk/sites/default/files/styles/faculty_image/public/msb.jpg",
+    "profileUrl": "https://lums.edu.pk/lums_employee/3356"
+  },
+  {
+    "lumsEmployeeId": "1585",
+    "name": "Mr. Bilal Tanweer",
+    "title": "Associate Professor",
+    "department": "Humanities and Social Sciences",
+    "school": "Mushtaq Ahmad Gurmani School of Humanities and Social Sciences",
+    "photoUrl": "https://lums.edu.pk/sites/default/files/styles/faculty_image/public/Image%2020221001%20153859.jpeg",
+    "profileUrl": "https://lums.edu.pk/lums_employee/1585"
+  },
+  {
+    "lumsEmployeeId": "12040",
+    "name": "Mr. Mohammad Haroon Khan Tarar",
+    "title": "Adjunct Faculty",
+    "department": null,
+    "school": "Suleman Dawood School of Business",
+    "photoUrl": null,
+    "profileUrl": "https://lums.edu.pk/lums_employee/12040"
+  },
+  {
+    "lumsEmployeeId": "9550",
+    "name": "Mr. Humbal Tariq",
+    "title": "Adjunct Faculty",
+    "department": null,
+    "school": "Suleman Dawood School of Business",
+    "photoUrl": "https://lums.edu.pk/sites/default/files/styles/faculty_image/public/hum1_0.jpg",
+    "profileUrl": "https://lums.edu.pk/lums_employee/9550"
+  },
+  {
+    "lumsEmployeeId": "2045",
+    "name": "Dr. Adeel Tariq",
+    "title": "Assistant Professor",
+    "department": "Economics",
+    "school": "Mushtaq Ahmad Gurmani School of Humanities and Social Sciences",
+    "photoUrl": "https://lums.edu.pk/sites/default/files/styles/faculty_image/public/faculty_images/00002045.jpg",
+    "profileUrl": "https://lums.edu.pk/lums_employee/2045"
+  },
+  {
+    "lumsEmployeeId": "2350",
+    "name": "Dr. Muhammad Tariq",
+    "title": "Professor",
+    "department": "Life Sciences",
+    "school": "Syed Babar Ali School of Science and Engineering",
+    "photoUrl": "https://lums.edu.pk/sites/default/files/styles/faculty_image/public/faculty_images/00002350.jpg",
+    "profileUrl": "https://lums.edu.pk/lums_employee/2350"
+  },
+  {
+    "lumsEmployeeId": "10335",
+    "name": "Mr. Hameed Ullah",
+    "title": "Adjunct Faculty",
+    "department": "Humanities and Social Sciences",
+    "school": "Mushtaq Ahmad Gurmani School of Humanities and Social Sciences",
+    "photoUrl": null,
+    "profileUrl": "https://lums.edu.pk/lums_employee/10335"
+  },
+  {
+    "lumsEmployeeId": "8757",
+    "name": "Ms. Yushma Umar",
+    "title": "Teaching Fellow",
+    "department": "Economics",
+    "school": "Mushtaq Ahmad Gurmani School of Humanities and Social Sciences",
+    "photoUrl": "https://lums.edu.pk/sites/default/files/styles/faculty_image/public/Yushma.jpg",
+    "profileUrl": "https://lums.edu.pk/lums_employee/8757"
+  },
+  {
+    "lumsEmployeeId": "7512",
+    "name": "Mr. Ahsan Umar",
+    "title": "Executive in Residence",
+    "department": null,
+    "school": "Suleman Dawood School of Business",
+    "photoUrl": "https://lums.edu.pk/sites/default/files/styles/faculty_image/public/ahm.jpg",
+    "profileUrl": "https://lums.edu.pk/lums_employee/7512"
+  },
+  {
+    "lumsEmployeeId": "2771",
+    "name": "Dr. Momin Ayub Uppal",
+    "title": "Associate Professor",
+    "department": "Electrical Engineering",
+    "school": "Syed Babar Ali School of Science and Engineering",
+    "photoUrl": "https://lums.edu.pk/sites/default/files/styles/faculty_image/public/faculty_images/00002771.jpg",
+    "profileUrl": "https://lums.edu.pk/lums_employee/2771"
+  },
+  {
+    "lumsEmployeeId": "10607",
+    "name": "Mr. Tanzeel Ur Rehman",
+    "title": "Adjunct Faculty",
+    "department": null,
+    "school": "Suleman Dawood School of Business",
+    "photoUrl": "https://lums.edu.pk/sites/default/files/styles/faculty_image/public/tnz.jpg",
+    "profileUrl": "https://lums.edu.pk/lums_employee/10607"
+  },
+  {
+    "lumsEmployeeId": "5366",
+    "name": "Ms. Shireen Waheed",
+    "title": "Adjunct Faculty",
+    "department": null,
+    "school": "Suleman Dawood School of Business",
+    "photoUrl": "https://lums.edu.pk/sites/default/files/styles/faculty_image/public/faculty_images/00005366.jpg",
+    "profileUrl": "https://lums.edu.pk/lums_employee/5366"
+  },
+  {
+    "lumsEmployeeId": "3639",
+    "name": "Dr. Zehra Waheed",
+    "title": "Assistant Professor",
+    "department": null,
+    "school": "Suleman Dawood School of Business",
+    "photoUrl": "https://lums.edu.pk/sites/default/files/styles/faculty_image/public/zehw.jpg",
+    "profileUrl": "https://lums.edu.pk/lums_employee/3639"
+  },
+  {
+    "lumsEmployeeId": "10215",
+    "name": "Mr. Muhammad Wahid",
+    "title": "Teaching Fellow",
+    "department": "Computer Science",
+    "school": "Syed Babar Ali School of Science and Engineering",
+    "photoUrl": null,
+    "profileUrl": "https://lums.edu.pk/lums_employee/10215"
+  },
+  {
+    "lumsEmployeeId": "1432",
+    "name": "Dr. Mohammad Waseem",
+    "title": "Professor Emeritus",
+    "department": "Humanities and Social Sciences",
+    "school": "Mushtaq Ahmad Gurmani School of Humanities and Social Sciences",
+    "photoUrl": "https://lums.edu.pk/sites/default/files/styles/faculty_image/public/faculty_images/00001432.jpg",
+    "profileUrl": "https://lums.edu.pk/lums_employee/1432"
+  },
+  {
+    "lumsEmployeeId": "2649",
+    "name": "Dr. Basit Yameen",
+    "title": "Professor",
+    "department": "Chemistry & Chemical Engineering",
+    "school": "Syed Babar Ali School of Science and Engineering",
+    "photoUrl": "https://lums.edu.pk/sites/default/files/styles/faculty_image/public/faculty_images/00002649.jpg",
+    "profileUrl": "https://lums.edu.pk/lums_employee/2649"
+  },
+  {
+    "lumsEmployeeId": "6016",
+    "name": "Dr. Ussama Yaqub",
+    "title": "Assistant Professor & Director MS Technology Management & Entrepreneurship",
+    "department": null,
+    "school": "Suleman Dawood School of Business",
+    "photoUrl": "https://lums.edu.pk/sites/default/files/styles/faculty_image/public/osm.jpg",
+    "profileUrl": "https://lums.edu.pk/lums_employee/6016"
+  },
+  {
+    "lumsEmployeeId": "10303",
+    "name": "Dr. Humair Yusuf",
+    "title": "Assistant Professor",
+    "department": "Humanities and Social Sciences",
+    "school": "Mushtaq Ahmad Gurmani School of Humanities and Social Sciences",
+    "photoUrl": "https://lums.edu.pk/sites/default/files/styles/faculty_image/public/v65.jpg",
+    "profileUrl": "https://lums.edu.pk/lums_employee/10303"
+  },
+  {
+    "lumsEmployeeId": "7728",
+    "name": "Dr. Raheel Zafar",
+    "title": "Assistant Professor",
+    "department": "Electrical Engineering",
+    "school": "Syed Babar Ali School of Science and Engineering",
+    "photoUrl": "https://lums.edu.pk/sites/default/files/styles/faculty_image/public/rz.jpg",
+    "profileUrl": "https://lums.edu.pk/lums_employee/7728"
+  },
+  {
+    "lumsEmployeeId": "2683",
+    "name": "Mr. Nauman Ahmad Zaffar",
+    "title": "Project Director of the National Incubation Center",
+    "department": "Electrical Engineering",
+    "school": "Syed Babar Ali School of Science and Engineering",
+    "photoUrl": "https://lums.edu.pk/sites/default/files/styles/faculty_image/public/faculty_images/00002683.jpg",
+    "profileUrl": "https://lums.edu.pk/lums_employee/2683"
+  },
+  {
+    "lumsEmployeeId": "422",
+    "name": "Dr. Muhammad Fareed Zaffar",
+    "title": "Associate Professor",
+    "department": "Computer Science",
+    "school": "Syed Babar Ali School of Science and Engineering",
+    "photoUrl": "https://lums.edu.pk/sites/default/files/styles/faculty_image/public/faculty_images/00000422.jpg",
+    "profileUrl": "https://lums.edu.pk/lums_employee/422"
+  },
+  {
+    "lumsEmployeeId": "2914",
+    "name": "Dr. Adnan Zahid",
+    "title": "Assistant Professor",
+    "department": null,
+    "school": "Suleman Dawood School of Business",
+    "photoUrl": "https://lums.edu.pk/sites/default/files/styles/faculty_image/public/faculty_images/00002914.jpg",
+    "profileUrl": "https://lums.edu.pk/lums_employee/2914"
+  },
+  {
+    "lumsEmployeeId": "9007",
+    "name": "Dr. Hana Zahir",
+    "title": "Visiting Assistant Professor",
+    "department": "Economics",
+    "school": "Mushtaq Ahmad Gurmani School of Humanities and Social Sciences",
+    "photoUrl": null,
+    "profileUrl": "https://lums.edu.pk/lums_employee/9007"
+  },
+  {
+    "lumsEmployeeId": "3672",
+    "name": "Dr. Waqar Zaidi",
+    "title": "Associate Professor and Humanities and Social Sciences Department Chair",
+    "department": "Humanities and Social Sciences",
+    "school": "Mushtaq Ahmad Gurmani School of Humanities and Social Sciences",
+    "photoUrl": "https://lums.edu.pk/sites/default/files/styles/faculty_image/public/IMG20210610162144%20crop%20b%26w.jpg",
+    "profileUrl": "https://lums.edu.pk/lums_employee/3672"
+  },
+  {
+    "lumsEmployeeId": "4626",
+    "name": "Dr. Ali Ashher Zaidi",
+    "title": "Associate Professor",
+    "department": "Mathematics",
+    "school": "Syed Babar Ali School of Science and Engineering",
+    "photoUrl": "https://lums.edu.pk/sites/default/files/styles/faculty_image/public/faculty_images/00004626.jpg",
+    "profileUrl": "https://lums.edu.pk/lums_employee/4626"
+  },
+  {
+    "lumsEmployeeId": "9672",
+    "name": "Mr. Syed Qamber Ali Zaidi",
+    "title": "Teaching Fellow",
+    "department": "Chemistry & Chemical Engineering",
+    "school": "Syed Babar Ali School of Science and Engineering",
+    "photoUrl": null,
+    "profileUrl": "https://lums.edu.pk/lums_employee/9672"
+  },
+  {
+    "lumsEmployeeId": "6946",
+    "name": "Ms. Syeda Zehra Zaidi",
+    "title": "Lecturer",
+    "department": null,
+    "school": "Shaikh Ahmad Hassan School of Law",
+    "photoUrl": "https://lums.edu.pk/sites/default/files/styles/faculty_image/public/Zehra%20Zaidi%20Profile.jpeg",
+    "profileUrl": "https://lums.edu.pk/lums_employee/6946"
+  },
+  {
+    "lumsEmployeeId": "9531",
+    "name": "Dr. Summaiya Zaidi",
+    "title": "Assistant Professor",
+    "department": null,
+    "school": "Shaikh Ahmad Hassan School of Law",
+    "photoUrl": "https://lums.edu.pk/sites/default/files/styles/faculty_image/public/summ1.jpg",
+    "profileUrl": "https://lums.edu.pk/lums_employee/9531"
+  },
+  {
+    "lumsEmployeeId": "7939",
+    "name": "Ms. Komal Zain",
+    "title": "Teaching Fellow",
+    "department": null,
+    "school": "Suleman Dawood School of Business",
+    "photoUrl": "https://lums.edu.pk/sites/default/files/styles/faculty_image/public/r1.jpg",
+    "profileUrl": "https://lums.edu.pk/lums_employee/7939"
+  },
+  {
+    "lumsEmployeeId": "1182",
+    "name": "Dr. Syed Zain ul Abidin",
+    "title": "Visiting Assistant Professor & Director MS Accounting & Analytics",
+    "department": null,
+    "school": "Suleman Dawood School of Business",
+    "photoUrl": "https://lums.edu.pk/sites/default/files/styles/faculty_image/public/faculty_images/00001182.jpg",
+    "profileUrl": "https://lums.edu.pk/lums_employee/1182"
+  },
+  {
+    "lumsEmployeeId": "6017",
+    "name": "Dr. Salma Zaman",
+    "title": "Assistant Professor & Director PhD Program",
+    "department": null,
+    "school": "Suleman Dawood School of Business",
+    "photoUrl": "https://lums.edu.pk/sites/default/files/styles/faculty_image/public/faculty_images/00006017.jpg",
+    "profileUrl": "https://lums.edu.pk/lums_employee/6017"
+  },
+  {
+    "lumsEmployeeId": "17",
+    "name": "Dr. Arif Zaman",
+    "title": "Professor Emeritus",
+    "department": "Computer Science",
+    "school": "Syed Babar Ali School of Science and Engineering",
+    "photoUrl": null,
+    "profileUrl": "https://lums.edu.pk/lums_employee/17"
+  },
+  {
+    "lumsEmployeeId": "4056",
+    "name": "Dr. Adam Zaman Chaudhry",
+    "title": "Associate Professor",
+    "department": "Physics",
+    "school": "Syed Babar Ali School of Science and Engineering",
+    "photoUrl": "https://lums.edu.pk/sites/default/files/styles/faculty_image/public/faculty_images/00004056.jpg",
+    "profileUrl": "https://lums.edu.pk/lums_employee/4056"
+  },
+  {
+    "lumsEmployeeId": "4441",
+    "name": "Ms. Sahar Zareen Bandial",
+    "title": "Adjunct Faculty",
+    "department": null,
+    "school": "Shaikh Ahmad Hassan School of Law",
+    "photoUrl": "https://lums.edu.pk/sites/default/files/styles/faculty_image/public/bndl.jpg",
+    "profileUrl": "https://lums.edu.pk/lums_employee/4441"
+  },
+  {
+    "lumsEmployeeId": "6196",
+    "name": "Dr. Sadia Zulfiqar",
+    "title": "Assistant Professor",
+    "department": "Humanities and Social Sciences",
+    "school": "Mushtaq Ahmad Gurmani School of Humanities and Social Sciences",
+    "photoUrl": "https://lums.edu.pk/sites/default/files/styles/faculty_image/public/0EDF7954-2AB1-48D6-985A-C9440EBC61DD.jpeg",
+    "profileUrl": "https://lums.edu.pk/lums_employee/6196"
+  },
+  {
+    "lumsEmployeeId": "4006",
+    "name": "Dr. Ghazal Mir Zulfiqar",
+    "title": "Associate Professor",
+    "department": null,
+    "school": "Suleman Dawood School of Business",
+    "photoUrl": "https://lums.edu.pk/sites/default/files/styles/faculty_image/public/faculty_images/00004006.jpg",
+    "profileUrl": "https://lums.edu.pk/lums_employee/4006"
+  }
+]
