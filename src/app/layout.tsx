@@ -15,7 +15,7 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "RateDeezLums",
+  title: "RateDeezSlum",
   description: "Anonymous student ratings for LUMS faculty.",
 };
 

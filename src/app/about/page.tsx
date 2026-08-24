@@ -1,7 +1,7 @@
 import Link from "next/link";
 
 export const metadata = {
-  title: "About - RateDeezLums",
+  title: "About - RateDeezSlum",
 };
 
 export default function AboutPage() {
@@ -17,7 +17,7 @@ export default function AboutPage() {
 
         <div className="flex flex-col gap-4 text-sm sm:text-base leading-relaxed text-slate-700">
           <p>
-            RateDeezLums is a community-run platform for LUMS students to
+            RateDeezSlum is a community-run platform for LUMS students to
             anonymously rate and review faculty. The goal is simple: help
             students make informed decisions about which courses and
             instructors to pick, based on honest feedback from people who
@@ -27,10 +27,10 @@ export default function AboutPage() {
             The faculty directory is pulled from LUMS&apos;s own public
             faculty listing. Ratings, difficulty scores, and comments are
             submitted entirely by students and reflect individual opinions,
-            not the views of RateDeezLums, LUMS, or any affiliated party.
+            not the views of RateDeezSlum, LUMS, or any affiliated party.
           </p>
           <p>
-            RateDeezLums is an independent, unofficial project and is{" "}
+            RateDeezSlum is an independent, unofficial project and is{" "}
             <strong>not affiliated with or endorsed by LUMS</strong> in any
             way.
           </p>

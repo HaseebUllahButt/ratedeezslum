@@ -1,5 +1,5 @@
 export const metadata = {
-  title: "Privacy Policy - RateDeezLums",
+  title: "Privacy Policy - RateDeezSlum",
 };
 
 export default function PrivacyPage() {
@@ -22,7 +22,7 @@ export default function PrivacyPage() {
             <div className="w-10 h-0.5 bg-lums-gold mt-1.5" />
           </div>
           <p className="text-sm text-slate-700">
-            <strong>Important:</strong> RateDeezLums is a platform that connects
+            <strong>Important:</strong> RateDeezSlum is a platform that connects
             students with reviews. We do not:
           </p>
           <ul className="list-disc list-inside text-sm text-slate-700 flex flex-col gap-1.5">

@@ -2,7 +2,7 @@ import PfpReviewClient from "@/components/PfpReviewClient";
 import { readPfpRecords, readVerdicts } from "@/lib/pfpStore";
 
 export const metadata = {
-  title: "PFP Review | RateDeezLums",
+  title: "PFP Review | RateDeezSlum",
 };
 
 export default async function PfpReviewPage() {

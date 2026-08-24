@@ -42,7 +42,7 @@ export default function SiteHeader() {
             />
             <div>
               <h1 className="text-2xl sm:text-3xl md:text-3xl font-bold tracking-tight leading-tight">
-                RateDeezLums
+                RateDeezSlum
               </h1>
               <p className="text-xs sm:text-sm font-serif italic text-blue-200/80 leading-tight mt-0.5">
                 Learning Besides Borders
