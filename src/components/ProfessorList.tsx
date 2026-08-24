@@ -181,8 +181,10 @@ export default function ProfessorList({
                 </div>
               </div>
             </Link>
-            <Link
-              href={`/professor/${p.id}`}
+            <a
+              href={p.profile_url ?? `/professor/${p.id}`}
+              target={p.profile_url ? "_blank" : undefined}
+              rel={p.profile_url ? "noopener noreferrer" : undefined}
               className="inline-flex items-center justify-center gap-1 border border-lums-navy text-lums-navy text-xs sm:text-sm font-bold uppercase tracking-wide px-4 py-2 transition-colors hover:bg-lums-navy hover:text-white sm:w-auto sm:px-6 sm:py-2.5 flex-shrink-0 sm:self-center"
             >
               Profile
@@ -200,7 +202,7 @@ export default function ProfessorList({
                   d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"
                 />
               </svg>
-            </Link>
+            </a>
           </li>
         ))}
         {results.length === 0 && (

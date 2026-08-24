@@ -37,7 +37,7 @@ export default function SiteHeader() {
               src="/slum-logo.svg"
               alt=""
               width={860}
-              height={600}
+              height={650}
               className="h-10 w-auto shrink-0 transition-transform group-hover:scale-105 sm:h-12 md:h-14"
             />
             <div>
