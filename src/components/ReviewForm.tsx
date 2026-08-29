@@ -4,6 +4,7 @@ import { useState } from "react";
 import { useRouter } from "next/navigation";
 import { signOut } from "next-auth/react";
 import type { Review } from "@/lib/db";
+import { StarRatingInput } from "@/components/StarRating";
 
 export default function ReviewForm({
   professorId,
@@ -81,18 +82,13 @@ export default function ReviewForm({
         </button>
       </div>
 
-      <label className="flex flex-col gap-1 text-sm">
-        Rating (1-5)
-        <input
-          type="number"
-          min={1}
-          max={5}
-          required
-          value={rating}
-          onChange={(e) => setRating(Number(e.target.value))}
-          className="rounded-none border border-slate-300 bg-white px-3 py-2 outline-none focus:ring-2 focus:ring-lums-navy"
-        />
-      </label>
+      <fieldset className="flex flex-col gap-1 text-sm">
+        <legend>Rating (1-5)</legend>
+        <StarRatingInput value={rating} onChange={setRating} />
+        <span className="text-xs text-slate-600" aria-live="polite">
+          {rating} out of 5 stars
+        </span>
+      </fieldset>
 
       <label className="flex flex-col gap-1 text-sm">
         Comment
