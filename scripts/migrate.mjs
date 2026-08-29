@@ -30,6 +30,7 @@ async function main() {
     CREATE TABLE IF NOT EXISTS reviews (
       id SERIAL PRIMARY KEY,
       professor_id INTEGER NOT NULL REFERENCES professors(id),
+      author_key TEXT,
       course TEXT,
       rating INTEGER NOT NULL CHECK (rating BETWEEN 1 AND 5),
       difficulty INTEGER NOT NULL CHECK (difficulty BETWEEN 1 AND 5),
@@ -39,7 +40,10 @@ async function main() {
     )
   `;
 
+  await sql`ALTER TABLE reviews ADD COLUMN IF NOT EXISTS author_key TEXT`;
+
   await sql`CREATE INDEX IF NOT EXISTS idx_reviews_professor_id ON reviews(professor_id)`;
+  await sql`CREATE INDEX IF NOT EXISTS idx_reviews_author_key ON reviews(author_key)`;
 
   console.log("Migration complete.");
 }

@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
+import AuthProvider from "@/components/AuthProvider";
 import SiteHeader from "@/components/SiteHeader";
 import SiteFooter from "@/components/SiteFooter";
 
@@ -27,11 +28,13 @@ export default function RootLayout({ children }: LayoutProps<"/">) {
       suppressHydrationWarning
     >
       <body className="min-h-full flex flex-col bg-white text-[#171717]">
-        <SiteHeader />
+        <AuthProvider>
+          <SiteHeader />
 
-        <div className="flex-1 flex flex-col">{children}</div>
+          <div className="flex-1 flex flex-col">{children}</div>
 
-        <SiteFooter />
+          <SiteFooter />
+        </AuthProvider>
       </body>
     </html>
   );

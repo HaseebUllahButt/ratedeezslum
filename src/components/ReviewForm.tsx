@@ -3,14 +3,24 @@
 import { useState } from "react";
 import { useRouter } from "next/navigation";
 import { signOut } from "next-auth/react";
+import type { Review } from "@/lib/db";
 
-export default function ReviewForm({ professorId }: { professorId: number }) {
+export default function ReviewForm({
+  professorId,
+  review,
+  onCancel,
+}: {
+  professorId: number;
+  review?: Review;
+  onCancel?: () => void;
+}) {
   const router = useRouter();
-  const [course, setCourse] = useState("");
-  const [rating, setRating] = useState(5);
-  const [difficulty, setDifficulty] = useState(3);
-  const [wouldTakeAgain, setWouldTakeAgain] = useState(true);
-  const [comment, setComment] = useState("");
+  const editing = !!review;
+  const [course, setCourse] = useState(review?.course ?? "");
+  const [rating, setRating] = useState(review?.rating ?? 5);
+  const [difficulty, setDifficulty] = useState(review?.difficulty ?? 3);
+  const [wouldTakeAgain, setWouldTakeAgain] = useState(review?.would_take_again ?? true);
+  const [comment, setComment] = useState(review?.comment ?? "");
   const [error, setError] = useState<string | null>(null);
   const [submitting, setSubmitting] = useState(false);
 
@@ -19,28 +29,38 @@ export default function ReviewForm({ professorId }: { professorId: number }) {
     setError(null);
     setSubmitting(true);
     try {
-      const res = await fetch(`/api/professors/${professorId}/reviews`, {
-        method: "POST",
-        headers: { "Content-Type": "application/json" },
-        body: JSON.stringify({
-          course,
-          rating,
-          difficulty,
-          wouldTakeAgain,
-          comment,
-        }),
-      });
+      const res = await fetch(
+        editing
+          ? `/api/professors/${professorId}/reviews/${review.id}`
+        : `/api/professors/${professorId}/reviews`,
+        {
+          method: editing ? "PATCH" : "POST",
+          headers: { "Content-Type": "application/json" },
+          body: JSON.stringify({
+            course,
+            rating,
+            difficulty,
+            wouldTakeAgain,
+            comment,
+          }),
+        }
+      );
       const data = await res.json();
       if (!res.ok) {
         setError(data.error ?? "Something went wrong.");
         return;
       }
-      setCourse("");
-      setRating(5);
-      setDifficulty(3);
-      setWouldTakeAgain(true);
-      setComment("");
+      if (!editing) {
+        setCourse("");
+        setRating(5);
+        setDifficulty(3);
+        setWouldTakeAgain(true);
+        setComment("");
+      }
+      onCancel?.();
       router.refresh();
+    } catch {
+      setError("Could not save your review. Please try again.");
     } finally {
       setSubmitting(false);
     }
@@ -54,7 +74,7 @@ export default function ReviewForm({ professorId }: { professorId: number }) {
       <div className="flex items-start justify-between gap-4">
         <div>
           <h3 className="text-lg font-extrabold text-lums-navy uppercase">
-            Leave an anonymous review
+            {editing ? "Edit your anonymous review" : "Leave an anonymous review"}
           </h3>
           <p className="text-xs opacity-60 mt-1">
             You&apos;re signed in with your LUMS account to submit — it is
@@ -138,8 +158,18 @@ export default function ReviewForm({ professorId }: { professorId: number }) {
         disabled={submitting}
         className="rounded-none bg-lums-gold text-lums-navy px-5 py-2.5 font-bold uppercase text-sm hover:bg-lums-gold-dark transition-colors disabled:opacity-50 w-fit"
       >
-        {submitting ? "Submitting..." : "Submit Review"}
+        {submitting ? "Saving..." : editing ? "Save Changes" : "Submit Review"}
       </button>
+      {editing && onCancel && (
+        <button
+          type="button"
+          onClick={onCancel}
+          disabled={submitting}
+          className="w-fit text-sm font-bold uppercase text-lums-navy underline disabled:opacity-50"
+        >
+          Cancel
+        </button>
+      )}
     </form>
   );
 }

@@ -30,6 +30,10 @@ export type Review = {
   created_at: string;
 };
 
+export type ReviewWithOwnership = Review & {
+  is_owner: boolean;
+};
+
 export type ProfessorWithStats = Professor & {
   review_count: number;
   avg_rating: number | null;
@@ -163,16 +167,26 @@ export async function getProfessor(id: number): Promise<ProfessorWithStats | und
   return (rows as ProfessorWithStats[])[0];
 }
 
-export async function listReviewsForProfessor(professorId: number): Promise<Review[]> {
+export async function listReviewsForProfessor(
+  professorId: number,
+  ownerKey?: string
+): Promise<ReviewWithOwnership[]> {
   const rows = await sql.query(
-    `SELECT * FROM reviews WHERE professor_id = $1 ORDER BY created_at DESC`,
-    [professorId]
+    `
+      SELECT id, professor_id, course, rating, difficulty, would_take_again, comment, created_at,
+        (author_key IS NOT NULL AND author_key = $2) AS is_owner
+      FROM reviews
+      WHERE professor_id = $1
+      ORDER BY created_at DESC
+    `,
+    [professorId, ownerKey ?? ""]
   );
-  return rows as Review[];
+  return rows as ReviewWithOwnership[];
 }
 
 export async function insertReview(input: {
   professorId: number;
+  ownerKey: string;
   course: string | null;
   rating: number;
   difficulty: number;
@@ -181,12 +195,13 @@ export async function insertReview(input: {
 }): Promise<Review> {
   const rows = await sql.query(
     `
-    INSERT INTO reviews (professor_id, course, rating, difficulty, would_take_again, comment)
-    VALUES ($1, $2, $3, $4, $5, $6)
-    RETURNING *
+    INSERT INTO reviews (professor_id, author_key, course, rating, difficulty, would_take_again, comment)
+    VALUES ($1, $2, $3, $4, $5, $6, $7)
+    RETURNING id, professor_id, course, rating, difficulty, would_take_again, comment, created_at
     `,
     [
       input.professorId,
+      input.ownerKey,
       input.course,
       input.rating,
       input.difficulty,
@@ -197,3 +212,49 @@ export async function insertReview(input: {
   return (rows as Review[])[0];
 }
 
+export async function updateReview(input: {
+  reviewId: number;
+  professorId: number;
+  ownerKey: string;
+  course: string | null;
+  rating: number;
+  difficulty: number;
+  wouldTakeAgain: boolean;
+  comment: string;
+}): Promise<Review | undefined> {
+  const rows = await sql.query(
+    `
+      UPDATE reviews
+      SET course = $3, rating = $4, difficulty = $5, would_take_again = $6, comment = $7
+      WHERE id = $1 AND professor_id = $2 AND author_key = $8
+      RETURNING id, professor_id, course, rating, difficulty, would_take_again, comment, created_at
+    `,
+    [
+      input.reviewId,
+      input.professorId,
+      input.course,
+      input.rating,
+      input.difficulty,
+      input.wouldTakeAgain,
+      input.comment,
+      input.ownerKey,
+    ]
+  );
+  return (rows as Review[])[0];
+}
+
+export async function deleteReview(input: {
+  reviewId: number;
+  professorId: number;
+  ownerKey: string;
+}): Promise<boolean> {
+  const rows = await sql.query(
+    `
+      DELETE FROM reviews
+      WHERE id = $1 AND professor_id = $2 AND author_key = $3
+      RETURNING id
+    `,
+    [input.reviewId, input.professorId, input.ownerKey]
+  );
+  return rows.length > 0;
+}

@@ -1,5 +1,6 @@
 import { auth } from "@/auth";
 import { getProfessor, insertReview } from "@/lib/db";
+import { reviewOwnerKey } from "@/lib/reviewOwnership";
 import { isValidRating } from "@/lib/validation";
 
 export async function POST(
@@ -15,6 +16,11 @@ export async function POST(
       { error: "You must sign in with your LUMS account to submit a review." },
       { status: 401 }
     );
+  }
+
+  const email = session.user.email;
+  if (!email) {
+    return Response.json({ error: "Your account email could not be verified." }, { status: 401 });
   }
 
   const { id } = await ctx.params;
@@ -64,6 +70,7 @@ export async function POST(
 
   const review = await insertReview({
     professorId,
+    ownerKey: reviewOwnerKey(email),
     course: typeof course === "string" && course.trim() ? course.trim().slice(0, 100) : null,
     rating,
     difficulty,

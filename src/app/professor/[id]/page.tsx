@@ -4,9 +4,10 @@ import { auth } from "@/auth";
 import { getProfessor, listReviewsForProfessor } from "@/lib/db";
 import ReviewForm from "@/components/ReviewForm";
 import SignInBox from "@/components/SignInBox";
+import ReviewCard from "@/components/ReviewCard";
 import Avatar from "@/components/Avatar";
 import StarRating from "@/components/StarRating";
-import { timeAgo } from "@/lib/time";
+import { reviewOwnerKey } from "@/lib/reviewOwnership";
 
 function formatAvg(value: number | null): string {
   return value === null ? "—" : value.toFixed(1);
@@ -24,10 +25,9 @@ export default async function ProfessorPage({
   const professor = await getProfessor(professorId);
   if (!professor) notFound();
 
-  const [reviews, session] = await Promise.all([
-    listReviewsForProfessor(professorId),
-    auth(),
-  ]);
+  const session = await auth();
+  const ownerKey = session?.user?.email ? reviewOwnerKey(session.user.email) : undefined;
+  const reviews = await listReviewsForProfessor(professorId, ownerKey);
 
   return (
     <div className="flex flex-col flex-1 items-center bg-white">
@@ -110,25 +110,7 @@ export default async function ProfessorPage({
           <h2 className="text-xl font-extrabold text-lums-navy uppercase mb-1">Reviews</h2>
           <div className="w-14 h-1 bg-lums-gold mb-4" />
           <ul className="flex flex-col gap-3">
-            {reviews.map((r) => (
-              <li key={r.id} className="border border-slate-200 p-4">
-                <div className="flex items-center justify-between mb-1">
-                  <div>
-                    <span className="font-bold text-lums-navy uppercase text-sm">
-                      Anonymous
-                    </span>
-                    <p className="text-xs opacity-50">{timeAgo(r.created_at)}</p>
-                  </div>
-                  <StarRating value={r.rating} />
-                </div>
-                <div className="flex flex-wrap gap-x-3 text-xs opacity-60 mb-2">
-                  {r.course && <span>Course: {r.course}</span>}
-                  <span>Difficulty: {r.difficulty}/5</span>
-                  <span>{r.would_take_again ? "Would take again" : "Would not take again"}</span>
-                </div>
-                <p className="text-sm">{r.comment}</p>
-              </li>
-            ))}
+            {reviews.map((r) => <ReviewCard key={r.id} review={r} />)}
             {reviews.length === 0 && (
               <li className="text-center opacity-60 py-6">
                 No reviews yet. Be the first to leave one.

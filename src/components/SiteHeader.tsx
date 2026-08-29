@@ -3,7 +3,8 @@
 import Image from "next/image";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
-import { signIn } from "next-auth/react";
+import { signIn, signOut, useSession } from "next-auth/react";
+import { useState } from "react";
 
 function NavLink({ href, children }: { href: string; children: React.ReactNode }) {
   const pathname = usePathname();
@@ -28,6 +29,30 @@ function NavLink({ href, children }: { href: string; children: React.ReactNode }
 }
 
 export default function SiteHeader() {
+  const [signingIn, setSigningIn] = useState(false);
+  const { data: session, status } = useSession();
+  const authenticated = status === "authenticated" && !!session?.user;
+
+  async function handleSignIn() {
+    setSigningIn(true);
+    try {
+      await signIn("microsoft-entra-id", undefined, { prompt: "select_account" });
+    } catch {
+      setSigningIn(false);
+    }
+  }
+
+  async function handleSignOut() {
+    setSigningIn(true);
+    try {
+      await signOut();
+    } catch {
+      setSigningIn(false);
+    }
+  }
+
+  const authLoading = status === "loading" || signingIn;
+
   return (
     <header className="bg-lums-header text-white shadow-lg relative overflow-hidden z-50">
       <div className="absolute top-0 left-0 right-0 h-1 bg-gradient-to-r from-lums-gold via-lums-gold-dark to-lums-gold" />
@@ -54,10 +79,18 @@ export default function SiteHeader() {
           <div className="flex-shrink-0">
             <button
               type="button"
-              onClick={() => signIn("microsoft-entra-id")}
-              className="bg-lums-gold px-2.5 py-1 sm:px-5 sm:py-2.5 text-[10px] sm:text-sm font-semibold text-lums-navy hover:bg-lums-gold-dark active:bg-lums-gold-dark transition-all uppercase tracking-wide cursor-pointer shadow-sm hover:shadow-md touch-manipulation whitespace-nowrap"
+              onClick={authenticated ? handleSignOut : handleSignIn}
+              disabled={authLoading}
+              aria-busy={authLoading}
+              className="inline-flex items-center gap-2 bg-lums-gold px-2.5 py-1 sm:px-5 sm:py-2.5 text-[10px] sm:text-sm font-semibold text-lums-navy hover:bg-lums-gold-dark active:bg-lums-gold-dark transition-all uppercase tracking-wide cursor-pointer shadow-sm hover:shadow-md touch-manipulation whitespace-nowrap disabled:cursor-wait disabled:opacity-80"
             >
-              Sign In
+              {authLoading && (
+                <span
+                  aria-hidden="true"
+                  className="h-3 w-3 animate-spin rounded-full border-2 border-lums-navy/30 border-t-lums-navy motion-reduce:animate-none"
+                />
+              )}
+              {signingIn ? (authenticated ? "Signing out..." : "Signing in...") : status === "loading" ? "Loading..." : authenticated ? "Sign Out" : "Sign In"}
             </button>
           </div>
         </div>
