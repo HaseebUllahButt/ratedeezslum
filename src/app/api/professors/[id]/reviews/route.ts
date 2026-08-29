@@ -1,7 +1,23 @@
 import { auth } from "@/auth";
-import { getProfessor, insertReview } from "@/lib/db";
+import { getProfessor, hasReviewForProfessor, insertReview } from "@/lib/db";
 import { reviewOwnerKey } from "@/lib/reviewOwnership";
 import { isValidRating } from "@/lib/validation";
+
+function isUniqueViolation(error: unknown): boolean {
+  return (
+    typeof error === "object" &&
+    error !== null &&
+    "code" in error &&
+    error.code === "23505"
+  );
+}
+
+function duplicateReviewResponse() {
+  return Response.json(
+    { error: "You have already reviewed this professor. You can edit your existing review." },
+    { status: 409 }
+  );
+}
 
 export async function POST(
   request: Request,
@@ -53,12 +69,23 @@ export async function POST(
     return Response.json({ error: "comment must be under 2000 characters" }, { status: 400 });
   }
 
-  const review = await insertReview({
-    professorId,
-    ownerKey: reviewOwnerKey(email),
-    rating,
-    comment: comment.trim(),
-  });
+  const ownerKey = reviewOwnerKey(email);
+  if (await hasReviewForProfessor(professorId, ownerKey)) {
+    return duplicateReviewResponse();
+  }
+
+  let review;
+  try {
+    review = await insertReview({
+      professorId,
+      ownerKey,
+      rating,
+      comment: comment.trim(),
+    });
+  } catch (error) {
+    if (isUniqueViolation(error)) return duplicateReviewResponse();
+    throw error;
+  }
 
   return Response.json({ review }, { status: 201 });
 }

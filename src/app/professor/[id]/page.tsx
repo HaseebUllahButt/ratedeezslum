@@ -78,7 +78,13 @@ export default async function ProfessorPage({
         </div>
 
         {session?.user ? (
-          <ReviewForm professorId={professor.id} />
+          reviews.some((review) => review.is_owner) ? (
+            <p className="border border-slate-200 bg-slate-50 p-4 text-sm text-slate-700">
+              You&apos;ve already reviewed this professor. You can edit your review below.
+            </p>
+          ) : (
+            <ReviewForm professorId={professor.id} />
+          )
         ) : (
           <SignInBox />
         )}

@@ -177,6 +177,17 @@ export async function listReviewsForProfessor(
   return rows as ReviewWithOwnership[];
 }
 
+export async function hasReviewForProfessor(
+  professorId: number,
+  ownerKey: string
+): Promise<boolean> {
+  const rows = await sql.query(
+    "SELECT 1 FROM reviews WHERE professor_id = $1 AND author_key = $2 LIMIT 1",
+    [professorId, ownerKey]
+  );
+  return rows.length > 0;
+}
+
 export async function insertReview(input: {
   professorId: number;
   ownerKey: string;

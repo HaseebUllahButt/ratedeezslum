@@ -44,6 +44,7 @@ async function main() {
 
   await sql`CREATE INDEX IF NOT EXISTS idx_reviews_professor_id ON reviews(professor_id)`;
   await sql`CREATE INDEX IF NOT EXISTS idx_reviews_author_key ON reviews(author_key)`;
+  await sql`CREATE UNIQUE INDEX IF NOT EXISTS idx_reviews_one_per_professor_author ON reviews(professor_id, author_key)`;
 
   console.log("Migration complete.");
 }
