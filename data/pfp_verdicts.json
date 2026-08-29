@@ -1,0 +1,24 @@
+{
+ "17": {
+  "lumsEmployeeId": "17",
+  "choice": "https://media.licdn.com/dms/image/v2/C4E03AQF-demo1/profile-displayphoto-shrink_400_400/0/1517671111111?e=2147483647&v=beta&t=demo",
+  "decisions": {
+   "https://media.licdn.com/dms/image/v2/C4E03AQF-demo1/profile-displayphoto-shrink_400_400/0/1517671111111?e=2147483647&v=beta&t=demo": {
+    "decision": "yes"
+   }
+  },
+  "overallDecision": "yes",
+  "updatedAt": "2026-08-24T19:08:59.420Z"
+ },
+ "11155": {
+  "lumsEmployeeId": "11155",
+  "choice": null,
+  "decisions": {
+   "https://c8.alamy.com/comp/HF35WB/artillerymen-from-1st-battalion-10th-marines-fire-155mm-rounds-with-HF35WB.jpg": {
+    "decision": "no"
+   }
+  },
+  "overallDecision": "no",
+  "updatedAt": "2026-08-24T19:07:36.733Z"
+ }
+}

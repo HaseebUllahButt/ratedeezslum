@@ -14,7 +14,13 @@
     "sourceProfile": "https://in.linkedin.com/in/ateeq-rehman-017ba359",
     "query": "\"ateeq abdul rauf\" lums linkedin",
     "slug": "ateeq-rehman-017ba359",
-    "localPath": "/pfp-candidates/2262_0.jpg"
+    "localPath": "/pfp-candidates/2262_0.jpg",
+    "sourceType": "linkedin",
+    "confidence": "low",
+    "evidence": [
+     "1/2 name tokens in title",
+     "partial slug match"
+    ]
    }
   ],
   "status": "found",
@@ -96,5 +102,3616 @@
   "candidates": [],
   "status": "retry_bing_only",
   "updatedAt": "2026-08-24 11:44:04"
+ },
+ "17": {
+  "lumsEmployeeId": "17",
+  "name": "Dr. Arif Zaman",
+  "title": "Professor Emeritus",
+  "department": "Computer Science",
+  "school": "Syed Babar Ali School of Science and Engineering",
+  "profileUrl": "https://lums.edu.pk/lums_employee/17",
+  "candidates": [
+   {
+    "url": "https://media.licdn.com/dms/image/v2/C4E03AQF-demo1/profile-displayphoto-shrink_400_400/0/1517671111111?e=2147483647&v=beta&t=demo",
+    "score": 8.7,
+    "confidence": "high",
+    "sourceTitle": "Dr. Arif Zaman \u2014 Professor Emeritus at LUMS | LinkedIn",
+    "sourceProfile": "https://linkedin.com/in/arif-zaman-lums",
+    "sourceType": "linkedin",
+    "query": "\"arif zaman\" lums linkedin",
+    "slug": "arif-zaman-lums",
+    "evidence": [
+     "full name in title",
+     "slug matches name",
+     "LUMS mention",
+     "faculty title in context",
+     "source: linkedin (+1.0)"
+    ],
+    "localPath": null
+   },
+   {
+    "url": "https://lums.edu.pk/sites/default/files/styles/faculty_image/public/arifz_demo.jpg",
+    "score": 9.2,
+    "confidence": "high",
+    "sourceTitle": "Dr. Arif Zaman \u2014 LUMS profile og:image",
+    "sourceProfile": "https://lums.edu.pk/lums_employee/17",
+    "sourceType": "lums",
+    "query": "lums profile scrape",
+    "slug": "",
+    "evidence": [
+     "LUMS mention",
+     "source: lums.edu.pk (trusted)",
+     "LUMS faculty image path"
+    ],
+    "localPath": null
+   },
+   {
+    "url": "https://scholar.googleusercontent.com/scholar_demo.jpg",
+    "score": 4.3,
+    "confidence": "medium",
+    "sourceTitle": "Arif Zaman - Statistics \u2014 Google Scholar",
+    "sourceProfile": "https://scholar.google.com/citations?user=demo",
+    "sourceType": "scholar",
+    "query": "\"arif zaman\" scholar",
+    "slug": "",
+    "evidence": [
+     "1/2 name tokens in title",
+     "source: scholar (+1.8)"
+    ],
+    "localPath": null
+   }
+  ],
+  "status": "found",
+  "updatedAt": "2026-08-24 23:30:00",
+  "shard": 0,
+  "queriesRun": [
+   "\"arif zaman\" lums linkedin",
+   "\"arif zaman\" \"Lahore University of Management Sciences\"",
+   "\"arif zaman\" lums faculty"
+  ]
+ },
+ "222": {
+  "lumsEmployeeId": "222",
+  "name": "Mr. Kamran Rashid",
+  "title": "Lecturer",
+  "department": null,
+  "school": "Suleman Dawood School of Business",
+  "profileUrl": "https://lums.edu.pk/lums_employee/222",
+  "candidates": [
+   {
+    "url": "https://media.licdn.com/dms/image/v2/D4D03AQ-demo2/profile-displayphoto-shrink_400_400/0/123456789?e=2147483647&v=beta&t=demo2",
+    "score": 5.2,
+    "confidence": "medium",
+    "sourceTitle": "Kamran Rashid - Lecturer at SDSB | LinkedIn",
+    "sourceProfile": "https://linkedin.com/in/kamran-rashid-sdsb",
+    "sourceType": "linkedin",
+    "query": "\"kamran rashid\" lums linkedin",
+    "slug": "kamran-rashid-sdsb",
+    "evidence": [
+     "full name in title",
+     "partial slug match",
+     "LUMS mention"
+    ],
+    "localPath": null
+   },
+   {
+    "url": "https://via.placeholder.com/400x400?text=Kamran+Alt",
+    "score": 2.8,
+    "confidence": "low",
+    "sourceTitle": "Kamran Rashid - Random Profile",
+    "sourceProfile": "https://example.com/kamran-rashid",
+    "sourceType": "other",
+    "query": "\"kamran rashid\" lums linkedin",
+    "slug": "",
+    "evidence": [
+     "1/2 name tokens in title"
+    ],
+    "localPath": null
+   }
+  ],
+  "status": "found_low_confidence",
+  "updatedAt": "2026-08-24 23:30:00",
+  "shard": 0,
+  "queriesRun": [
+   "\"kamran rashid\" lums linkedin"
+  ]
+ },
+ "1218": {
+  "lumsEmployeeId": "1218",
+  "name": "Ms. Lyyla Khalid",
+  "title": "Lecturer",
+  "department": "Economics",
+  "school": "Mushtaq Ahmad Gurmani School of Humanities and Social Sciences",
+  "profileUrl": "https://lums.edu.pk/lums_employee/1218",
+  "candidates": [],
+  "status": "not_found",
+  "updatedAt": "2026-08-24 23:30:00",
+  "shard": 0,
+  "queriesRun": [
+   "\"lyyla khalid\" lums linkedin",
+   "\"lyyla khalid\" \"Lahore University of Management Sciences\""
+  ]
+ },
+ "2043": {
+  "lumsEmployeeId": "2043",
+  "name": "Dr. Ijaz Nabi",
+  "title": "Adjunct Faculty",
+  "department": "Economics",
+  "school": "Mushtaq Ahmad Gurmani School of Humanities and Social Sciences",
+  "profileUrl": "https://lums.edu.pk/lums_employee/2043",
+  "candidates": [
+   {
+    "url": "https://www.researchgate.net/profile/Laura-Benjamin-2/publication/333581479/figure/fig1/AS:765764634173440@1559583924027/Pragmatic-approach-to-atherosclerotic-cardiovascular-disease-ASCVD-risk-assessment-and.png",
+    "score": 0.7,
+    "confidence": "low",
+    "sourceTitle": "Pragmatic approach to atherosclerotic cardiovascular disease (ASCVD ...",
+    "sourceProfile": "https://www.researchgate.net/figure/Pragmatic-approach-to-atherosclerotic-cardiovascular-disease-ASCVD-risk-assessment-and_fig1_333581479",
+    "sourceType": "researchgate",
+    "query": "\"ijaz nabi\" site:lums.edu.pk",
+    "slug": "",
+    "evidence": [
+     "source: researchgate (+1.2)"
+    ],
+    "localPath": null
+   }
+  ],
+  "status": "found_low_confidence",
+  "updatedAt": "2026-08-24 23:50:58",
+  "shard": 0,
+  "queriesRun": [
+   "\"ijaz nabi\" lums linkedin",
+   "\"ijaz nabi\" \"Lahore University of Management Sciences\"",
+   "\"ijaz nabi\" lums faculty",
+   "\"ijaz nabi\" site:lums.edu.pk",
+   "\"ijaz nabi\" researchgate"
+  ]
+ },
+ "6254": {
+  "lumsEmployeeId": "6254",
+  "name": "Ms. Noor Adnan Qureshi",
+  "title": "Teaching Fellow",
+  "department": "Economics",
+  "school": "Mushtaq Ahmad Gurmani School of Humanities and Social Sciences",
+  "profileUrl": "https://lums.edu.pk/lums_employee/6254",
+  "candidates": [],
+  "status": "not_found",
+  "updatedAt": "2026-08-24 23:50:59",
+  "shard": 3,
+  "queriesRun": [
+   "\"noor adnan qureshi\" lums linkedin",
+   "\"noor adnan qureshi\" \"Lahore University of Management Sciences\"",
+   "\"noor adnan qureshi\" lums faculty",
+   "\"noor adnan qureshi\" site:lums.edu.pk",
+   "\"noor adnan qureshi\" researchgate"
+  ]
+ },
+ "5365": {
+  "lumsEmployeeId": "5365",
+  "name": "Mr. Suleman Ghani",
+  "title": "Adjunct Faculty",
+  "department": null,
+  "school": "Suleman Dawood School of Business",
+  "profileUrl": "https://lums.edu.pk/lums_employee/5365",
+  "candidates": [
+   {
+    "url": "https://media.licdn.com/dms/image/D4E03AQEIMlhQre1sRg/profile-displayphoto-shrink_800_800/0/1671693479912?e=2147483647&v=beta&t=tgaQETM5FUcZgcuahPyA99eOYQs0f6agEF7kRuba6i0",
+    "score": 3.3,
+    "confidence": "low",
+    "sourceTitle": "Conor Lydon - Software Engineer - General Dynamics Information ...",
+    "sourceProfile": "https://www.linkedin.com/in/lydonc",
+    "sourceType": "linkedin",
+    "query": "\"suleman ghani\" site:lums.edu.pk",
+    "slug": "lydonc",
+    "evidence": [
+     "source: linkedin (+1.0)",
+     "LinkedIn profile photo pattern",
+     "high-res variant (1671693479912?e=2147)"
+    ],
+    "localPath": null,
+    "downloadFailed": true
+   }
+  ],
+  "status": "found_low_confidence",
+  "updatedAt": "2026-08-24 23:51:00",
+  "shard": 2,
+  "queriesRun": [
+   "\"suleman ghani\" lums linkedin",
+   "\"suleman ghani\" \"Lahore University of Management Sciences\"",
+   "\"suleman ghani\" lums faculty",
+   "\"suleman ghani\" site:lums.edu.pk",
+   "\"suleman ghani\" researchgate"
+  ]
+ },
+ "9239": {
+  "lumsEmployeeId": "9239",
+  "name": "Ms. Ifrah Nadeem",
+  "title": "Adjunct Faculty",
+  "department": "Education",
+  "school": "Syed Ahsan Ali and Syed Maratib Ali School of Education",
+  "profileUrl": "https://lums.edu.pk/lums_employee/9239",
+  "candidates": [],
+  "status": "not_found",
+  "updatedAt": "2026-08-24 23:51:00",
+  "shard": 6,
+  "queriesRun": [
+   "\"ifrah nadeem\" lums linkedin",
+   "\"ifrah nadeem\" \"Lahore University of Management Sciences\"",
+   "\"ifrah nadeem\" lums faculty",
+   "\"ifrah nadeem\" site:lums.edu.pk",
+   "\"ifrah nadeem\" researchgate"
+  ]
+ },
+ "10817": {
+  "lumsEmployeeId": "10817",
+  "name": "Dr. Muhammad Azam Khalid",
+  "title": "Assistant Professor",
+  "department": "Humanities and Social Sciences",
+  "school": "Mushtaq Ahmad Gurmani School of Humanities and Social Sciences",
+  "profileUrl": "https://lums.edu.pk/lums_employee/10817",
+  "candidates": [],
+  "status": "not_found",
+  "updatedAt": "2026-08-24 23:51:01",
+  "shard": 8,
+  "queriesRun": [
+   "\"muhammad azam khalid\" lums linkedin",
+   "\"muhammad azam khalid\" \"Lahore University of Management Sciences\"",
+   "\"muhammad azam khalid\" lums faculty",
+   "\"muhammad azam khalid\" site:lums.edu.pk",
+   "\"muhammad azam khalid\" researchgate"
+  ]
+ },
+ "11986": {
+  "lumsEmployeeId": "11986",
+  "name": "Dr. Ahmed Asad",
+  "title": "Assistant Professor",
+  "department": "Humanities and Social Sciences",
+  "school": "Mushtaq Ahmad Gurmani School of Humanities and Social Sciences",
+  "profileUrl": "https://lums.edu.pk/lums_employee/11986",
+  "candidates": [
+   {
+    "url": "https://www.unmc.edu/elearning/egallery/wp-content/uploads/2016/11/Scrubbing.jpg",
+    "score": 0,
+    "confidence": "low",
+    "sourceTitle": "Stitching It Up: A Medical Student\u00e2\u0080\u0099s Guide to Suturing | E-Gallery ...",
+    "sourceProfile": "https://www.unmc.edu/elearning/egallery/suture-skills/",
+    "sourceType": "university",
+    "query": "\"ahmed asad\" lums faculty",
+    "slug": "",
+    "evidence": [],
+    "localPath": null
+   }
+  ],
+  "status": "found_low_confidence",
+  "updatedAt": "2026-08-24 23:51:06",
+  "shard": 12,
+  "queriesRun": [
+   "\"ahmed asad\" lums linkedin",
+   "\"ahmed asad\" \"Lahore University of Management Sciences\"",
+   "\"ahmed asad\" lums faculty",
+   "\"ahmed asad\" site:lums.edu.pk",
+   "\"ahmed asad\" researchgate"
+  ]
+ },
+ "10181": {
+  "lumsEmployeeId": "10181",
+  "name": "Mr. Muhammad Ibrahim Rana",
+  "title": "Adjunct Faculty",
+  "department": null,
+  "school": null,
+  "profileUrl": "https://lums.edu.pk/lums_employee/10181",
+  "candidates": [],
+  "status": "not_found",
+  "updatedAt": "2026-08-24 23:51:08",
+  "shard": 7,
+  "queriesRun": [
+   "\"muhammad ibrahim rana\" lums linkedin",
+   "\"muhammad ibrahim rana\" \"Lahore University of Management Sciences\"",
+   "\"muhammad ibrahim rana\" lums faculty",
+   "\"muhammad ibrahim rana\" site:lums.edu.pk",
+   "\"muhammad ibrahim rana\" researchgate"
+  ]
+ },
+ "7483": {
+  "lumsEmployeeId": "7483",
+  "name": "Mr. Muhammad Saad Imtiaz",
+  "title": "Adjunct Faculty",
+  "department": "Humanities and Social Sciences",
+  "school": "Mushtaq Ahmad Gurmani School of Humanities and Social Sciences",
+  "profileUrl": "https://lums.edu.pk/lums_employee/7483",
+  "candidates": [
+   {
+    "url": "https://www.soescola.com/wp-content/uploads/2017/11/desenhos-para-colorir-e-imprimir-bob-esponja.png",
+    "score": 0,
+    "confidence": "low",
+    "sourceTitle": "Desenhos Infantis Para Pintar E Imprimir - FDPLEARN",
+    "sourceProfile": "https://fdp.aau.edu.et/ipa/desenhos-infantis-para-pintar-e-imprimir.html",
+    "sourceType": "university",
+    "query": "\"muhammad saad imtiaz\" site:lums.edu.pk",
+    "slug": "",
+    "evidence": [],
+    "localPath": "/pfp-candidates/7483_0.png"
+   }
+  ],
+  "status": "found_low_confidence",
+  "updatedAt": "2026-08-24 23:51:11",
+  "shard": 5,
+  "queriesRun": [
+   "\"muhammad saad imtiaz\" lums linkedin",
+   "\"muhammad saad imtiaz\" \"Lahore University of Management Sciences\"",
+   "\"muhammad saad imtiaz\" lums faculty",
+   "\"muhammad saad imtiaz\" site:lums.edu.pk",
+   "\"muhammad saad imtiaz\" researchgate"
+  ]
+ },
+ "11319": {
+  "lumsEmployeeId": "11319",
+  "name": "Ms. Rida Hameed",
+  "title": "Adjunct Faculty",
+  "department": "Economics",
+  "school": "Mushtaq Ahmad Gurmani School of Humanities and Social Sciences",
+  "profileUrl": "https://lums.edu.pk/lums_employee/11319",
+  "candidates": [
+   {
+    "url": "https://www.researchgate.net/profile/Attila-Juhasz-2/publication/281647157/figure/download/fig9/AS:284620735172615@1444870279376/Historical-political-map-of-Europe.png",
+    "score": 0.7,
+    "confidence": "low",
+    "sourceTitle": "Historical-political map of Europe | Download Scientific Diagram",
+    "sourceProfile": "https://www.researchgate.net/figure/Historical-political-map-of-Europe_fig9_281647157",
+    "sourceType": "researchgate",
+    "query": "\"rida hameed\" researchgate",
+    "slug": "",
+    "evidence": [
+     "source: researchgate (+1.2)"
+    ],
+    "localPath": null
+   }
+  ],
+  "status": "found_low_confidence",
+  "updatedAt": "2026-08-24 23:51:11",
+  "shard": 10,
+  "queriesRun": [
+   "\"rida hameed\" lums linkedin",
+   "\"rida hameed\" \"Lahore University of Management Sciences\"",
+   "\"rida hameed\" lums faculty",
+   "\"rida hameed\" site:lums.edu.pk",
+   "\"rida hameed\" researchgate"
+  ]
+ },
+ "7032": {
+  "lumsEmployeeId": "7032",
+  "name": "Mr. Shahzada Anwar Kabir",
+  "title": "Adjunct Faculty",
+  "department": null,
+  "school": "Suleman Dawood School of Business",
+  "profileUrl": "https://lums.edu.pk/lums_employee/7032",
+  "candidates": [
+   {
+    "url": "https://wallpapers.com/images/hd/masha-and-the-bear-playing-hlq3g9luldf2ukme.jpg",
+    "score": 0,
+    "confidence": "low",
+    "sourceTitle": "Top 999+ Masha And The Bear Wallpaper Full HD, 4K Free to Use",
+    "sourceProfile": "https://tnhelearning.edu.vn/masha-and-the-bear-wallpaper/",
+    "sourceType": "university",
+    "query": "\"shahzada anwar kabir\" researchgate",
+    "slug": "",
+    "evidence": [],
+    "localPath": null
+   }
+  ],
+  "status": "found_low_confidence",
+  "updatedAt": "2026-08-24 23:51:17",
+  "shard": 4,
+  "queriesRun": [
+   "\"shahzada anwar kabir\" lums linkedin",
+   "\"shahzada anwar kabir\" \"Lahore University of Management Sciences\"",
+   "\"shahzada anwar kabir\" lums faculty",
+   "\"shahzada anwar kabir\" site:lums.edu.pk",
+   "\"shahzada anwar kabir\" researchgate"
+  ]
+ },
+ "11590": {
+  "lumsEmployeeId": "11590",
+  "name": "Dr. Izzat Iqbal Cheema",
+  "title": "Adjunct Faculty",
+  "department": "Chemistry & Chemical Engineering",
+  "school": "Syed Babar Ali School of Science and Engineering",
+  "profileUrl": "https://lums.edu.pk/lums_employee/11590",
+  "candidates": [],
+  "status": "not_found",
+  "updatedAt": "2026-08-24 23:51:22",
+  "shard": 11,
+  "queriesRun": [
+   "\"izzat iqbal cheema\" lums linkedin",
+   "\"izzat iqbal cheema\" \"Lahore University of Management Sciences\"",
+   "\"izzat iqbal cheema\" lums faculty",
+   "\"izzat iqbal cheema\" site:lums.edu.pk",
+   "\"izzat iqbal cheema\" researchgate"
+  ]
+ },
+ "10936": {
+  "lumsEmployeeId": "10936",
+  "name": "Dr. Ain ul Momina",
+  "title": "Adjunct Faculty",
+  "department": null,
+  "school": "Suleman Dawood School of Business",
+  "profileUrl": "https://lums.edu.pk/lums_employee/10936",
+  "candidates": [
+   {
+    "url": "https://worksheets.clipart-library.com/images2/handwriting-paper/handwriting-paper-25.jpg",
+    "score": 0,
+    "confidence": "low",
+    "sourceTitle": "Handwriting Paper Printable Pdf - Free Word Template",
+    "sourceProfile": "https://docs.cholonautas.edu.pe/en/handwriting-paper-printable-pdf.html",
+    "sourceType": "university",
+    "query": "\"ain ul momina\" lums linkedin",
+    "slug": "",
+    "evidence": [],
+    "localPath": "/pfp-candidates/10936_0.jpg"
+   }
+  ],
+  "status": "found_low_confidence",
+  "updatedAt": "2026-08-24 23:51:23",
+  "shard": 9,
+  "queriesRun": [
+   "\"ain ul momina\" lums linkedin",
+   "\"ain ul momina\" \"Lahore University of Management Sciences\"",
+   "\"ain ul momina\" lums faculty",
+   "\"ain ul momina\" site:lums.edu.pk",
+   "\"ain ul momina\" researchgate"
+  ]
+ },
+ "3540": {
+  "lumsEmployeeId": "3540",
+  "name": "Ms. Ayesha Karim Malik",
+  "title": "Adjunct Faculty",
+  "department": "Economics",
+  "school": "Mushtaq Ahmad Gurmani School of Humanities and Social Sciences",
+  "profileUrl": "https://lums.edu.pk/lums_employee/3540",
+  "candidates": [
+   {
+    "url": "https://www.hawaii.edu/medicine/pediatrics/pemxray/v6c09a.jpg",
+    "score": 0,
+    "confidence": "low",
+    "sourceTitle": "Radiology In Ped Emerg Med, Vol 6, Case 9",
+    "sourceProfile": "https://www.hawaii.edu/medicine/pediatrics/pemxray/v6c09.html",
+    "sourceType": "university",
+    "query": "\"ayesha karim malik\" researchgate",
+    "slug": "",
+    "evidence": [],
+    "localPath": null,
+    "downloadFailed": true
+   }
+  ],
+  "status": "found_low_confidence",
+  "updatedAt": "2026-08-24 23:51:54",
+  "shard": 1,
+  "queriesRun": [
+   "\"ayesha karim malik\" lums linkedin",
+   "\"ayesha karim malik\" \"Lahore University of Management Sciences\"",
+   "\"ayesha karim malik\" lums faculty",
+   "\"ayesha karim malik\" site:lums.edu.pk",
+   "\"ayesha karim malik\" researchgate"
+  ]
+ },
+ "2302": {
+  "lumsEmployeeId": "2302",
+  "name": "Mr. Ateeb Gul",
+  "title": "Adjunct Faculty",
+  "department": "Humanities and Social Sciences",
+  "school": "Mushtaq Ahmad Gurmani School of Humanities and Social Sciences",
+  "profileUrl": "https://lums.edu.pk/lums_employee/2302",
+  "candidates": [],
+  "status": "retry_bing_only",
+  "updatedAt": "2026-08-24 23:51:54",
+  "shard": 0,
+  "queriesRun": [
+   "\"ateeb gul\" lums linkedin",
+   "\"ateeb gul\" \"Lahore University of Management Sciences\"",
+   "\"ateeb gul\" lums faculty",
+   "\"ateeb gul\" site:lums.edu.pk",
+   "\"ateeb gul\" researchgate"
+  ]
+ },
+ "6615": {
+  "lumsEmployeeId": "6615",
+  "name": "Ms. Rida Ashfaq",
+  "title": "Adjunct Faculty",
+  "department": "Humanities and Social Sciences",
+  "school": "Mushtaq Ahmad Gurmani School of Humanities and Social Sciences",
+  "profileUrl": "https://lums.edu.pk/lums_employee/6615",
+  "candidates": [
+   {
+    "url": "https://media-cldnry.s-nbcnews.com/image/upload/rockcms/2023-08/corny-jokes-swl-230809-01-bf8617.jpg",
+    "score": 0,
+    "confidence": "low",
+    "sourceTitle": "Funny Corny Jokes For Kids",
+    "sourceProfile": "https://utpaqp.edu.pe/explore/funny-corny-jokes-for-kids",
+    "sourceType": "university",
+    "query": "\"rida ashfaq\" lums faculty",
+    "slug": "",
+    "evidence": [],
+    "localPath": "/pfp-candidates/6615_0.jpg"
+   }
+  ],
+  "status": "found_low_confidence",
+  "updatedAt": "2026-08-24 23:51:55",
+  "shard": 3,
+  "queriesRun": [
+   "\"rida ashfaq\" lums linkedin",
+   "\"rida ashfaq\" \"Lahore University of Management Sciences\"",
+   "\"rida ashfaq\" lums faculty",
+   "\"rida ashfaq\" site:lums.edu.pk",
+   "\"rida ashfaq\" researchgate"
+  ]
+ },
+ "10834": {
+  "lumsEmployeeId": "10834",
+  "name": "Dr. Aftab Nasir",
+  "title": "Assistant Professor",
+  "department": "Humanities and Social Sciences",
+  "school": "Mushtaq Ahmad Gurmani School of Humanities and Social Sciences",
+  "profileUrl": "https://lums.edu.pk/lums_employee/10834",
+  "candidates": [
+   {
+    "url": "https://dwglogo.com/wp-content/uploads/2022/04/the-logo-evolution-of-google.png",
+    "score": 0,
+    "confidence": "low",
+    "sourceTitle": "Word Logo Evolution",
+    "sourceProfile": "https://utpaqp.edu.pe/explore/word-logo-evolution",
+    "sourceType": "university",
+    "query": "\"aftab nasir\" site:lums.edu.pk",
+    "slug": "",
+    "evidence": [],
+    "localPath": null
+   }
+  ],
+  "status": "found_low_confidence",
+  "updatedAt": "2026-08-24 23:52:00",
+  "shard": 8,
+  "queriesRun": [
+   "\"aftab nasir\" lums linkedin",
+   "\"aftab nasir\" \"Lahore University of Management Sciences\"",
+   "\"aftab nasir\" lums faculty",
+   "\"aftab nasir\" site:lums.edu.pk",
+   "\"aftab nasir\" researchgate"
+  ]
+ },
+ "9494": {
+  "lumsEmployeeId": "9494",
+  "name": "Mr. Abdul Rafay",
+  "title": "Teaching Fellow",
+  "department": "Computer Science",
+  "school": "Syed Babar Ali School of Science and Engineering",
+  "profileUrl": "https://lums.edu.pk/lums_employee/9494",
+  "candidates": [
+   {
+    "url": "https://media.licdn.com/dms/image/C5603AQEM_zU3mIOrKg/profile-displayphoto-shrink_800_800/0/1626902260815?e=2147483647&v=beta&t=JOiCurzpWbE6IzyYl8__eV99L4CUSWzHq123_uHdEJA",
+    "score": 1.8,
+    "confidence": "low",
+    "sourceTitle": "Zuleyka Santiago - Associate MFT - Eye of the Storm( Monrovia CA ...",
+    "sourceProfile": "https://www.linkedin.com/in/zuleyka-santiago-lopez-0b4a45179/es",
+    "sourceType": "linkedin",
+    "query": "\"abdul rafay\" site:lums.edu.pk",
+    "slug": "zuleyka-santiago-lopez-0b4a45179",
+    "evidence": [
+     "source: linkedin (+1.0)",
+     "LinkedIn profile photo pattern",
+     "high-res variant (1626902260815?e=2147)",
+     "single-token name \u2014 low certainty"
+    ],
+    "localPath": null
+   }
+  ],
+  "status": "found_low_confidence",
+  "updatedAt": "2026-08-24 23:52:00",
+  "shard": 6,
+  "queriesRun": [
+   "\"abdul rafay\" lums linkedin",
+   "\"abdul rafay\" \"Lahore University of Management Sciences\"",
+   "\"abdul rafay\" lums faculty",
+   "\"abdul rafay\" site:lums.edu.pk",
+   "\"abdul rafay\" researchgate"
+  ]
+ },
+ "10212": {
+  "lumsEmployeeId": "10212",
+  "name": "Ms. Haleema Jamil",
+  "title": "Teaching Fellow",
+  "department": "Computer Science",
+  "school": "Syed Babar Ali School of Science and Engineering",
+  "profileUrl": "https://lums.edu.pk/lums_employee/10212",
+  "candidates": [],
+  "status": "retry_bing_only",
+  "updatedAt": "2026-08-24 23:52:04",
+  "shard": 7,
+  "queriesRun": [
+   "\"haleema jamil\" lums linkedin",
+   "\"haleema jamil\" \"Lahore University of Management Sciences\"",
+   "\"haleema jamil\" lums faculty",
+   "\"haleema jamil\" site:lums.edu.pk",
+   "\"haleema jamil\" researchgate"
+  ]
+ },
+ "7118": {
+  "lumsEmployeeId": "7118",
+  "name": "Mr. Sheikh Arsalan Ul Haq",
+  "title": "Adjunct Faculty",
+  "department": "Economics",
+  "school": "Mushtaq Ahmad Gurmani School of Humanities and Social Sciences",
+  "profileUrl": "https://lums.edu.pk/lums_employee/7118",
+  "candidates": [
+   {
+    "url": "https://calendar.weloveprintables.net/wp-content/uploads/2025/01/2027-calendar-with-holidays-printable-5.jpg",
+    "score": 0,
+    "confidence": "low",
+    "sourceTitle": "Dse Schedule 2027 Holidays Calendar",
+    "sourceProfile": "https://utpaqp.edu.pe/search/dse-schedule-2027-holidays-calendar/",
+    "sourceType": "university",
+    "query": "\"sheikh arsalan ul haq\" researchgate",
+    "slug": "",
+    "evidence": [],
+    "localPath": "/pfp-candidates/7118_0.jpg"
+   }
+  ],
+  "status": "found_low_confidence",
+  "updatedAt": "2026-08-24 23:52:15",
+  "shard": 4,
+  "queriesRun": [
+   "\"sheikh arsalan ul haq\" lums linkedin",
+   "\"sheikh arsalan ul haq\" \"Lahore University of Management Sciences\"",
+   "\"sheikh arsalan ul haq\" lums faculty",
+   "\"sheikh arsalan ul haq\" site:lums.edu.pk",
+   "\"sheikh arsalan ul haq\" researchgate"
+  ]
+ },
+ "12002": {
+  "lumsEmployeeId": "12002",
+  "name": "Mr. Muhammad Nisar Ur Rehman",
+  "title": "Adjunct Faculty",
+  "department": null,
+  "school": "Suleman Dawood School of Business",
+  "profileUrl": "https://lums.edu.pk/lums_employee/12002",
+  "candidates": [
+   {
+    "url": "https://static.significados.com.br/foto/anatomia-do-sistema-digestorio.jpg",
+    "score": 0,
+    "confidence": "low",
+    "sourceTitle": "Imagens De Sistema Digest\u00c3\u00b3rio - FDPLEARN",
+    "sourceProfile": "https://fdp.aau.edu.et/ipa/imagens-de-sistema-digestorio.html",
+    "sourceType": "university",
+    "query": "\"muhammad nisar ur rehman\" lums linkedin",
+    "slug": "",
+    "evidence": [],
+    "localPath": null
+   }
+  ],
+  "status": "found_low_confidence",
+  "updatedAt": "2026-08-24 23:52:17",
+  "shard": 12,
+  "queriesRun": [
+   "\"muhammad nisar ur rehman\" lums linkedin",
+   "\"muhammad nisar ur rehman\" \"Lahore University of Management Sciences\"",
+   "\"muhammad nisar ur rehman\" lums faculty",
+   "\"muhammad nisar ur rehman\" site:lums.edu.pk",
+   "\"muhammad nisar ur rehman\" researchgate"
+  ]
+ },
+ "5404": {
+  "lumsEmployeeId": "5404",
+  "name": "Mr. Abid Raza Khan",
+  "title": "Adjunct Faculty",
+  "department": null,
+  "school": "Suleman Dawood School of Business",
+  "profileUrl": "https://lums.edu.pk/lums_employee/5404",
+  "candidates": [
+   {
+    "url": "http://clipart-library.com/img1/1084214.png",
+    "score": 0,
+    "confidence": "low",
+    "sourceTitle": "Free Soccer Field Template Download Free Soccer Field Template Png ...",
+    "sourceProfile": "https://docs.cholonautas.edu.pe/en/free-soccer-field-template-download-free-soccer-field-template-png-images-free-cliparts-on.html",
+    "sourceType": "university",
+    "query": "\"abid raza khan\" lums faculty",
+    "slug": "",
+    "evidence": [],
+    "localPath": "/pfp-candidates/5404_0.png"
+   }
+  ],
+  "status": "found_low_confidence",
+  "updatedAt": "2026-08-24 23:52:17",
+  "shard": 2,
+  "queriesRun": [
+   "\"abid raza khan\" lums linkedin",
+   "\"abid raza khan\" \"Lahore University of Management Sciences\"",
+   "\"abid raza khan\" lums faculty",
+   "\"abid raza khan\" site:lums.edu.pk",
+   "\"abid raza khan\" researchgate"
+  ]
+ },
+ "10971": {
+  "lumsEmployeeId": "10971",
+  "name": "Ms. Zainab Imran",
+  "title": "Adjunct Faculty",
+  "department": "Economics",
+  "school": "Mushtaq Ahmad Gurmani School of Humanities and Social Sciences",
+  "profileUrl": "https://lums.edu.pk/lums_employee/10971",
+  "candidates": [],
+  "status": "retry_bing_only",
+  "updatedAt": "2026-08-24 23:52:21",
+  "shard": 9,
+  "queriesRun": [
+   "\"zainab imran\" lums linkedin",
+   "\"zainab imran\" \"Lahore University of Management Sciences\"",
+   "\"zainab imran\" lums faculty",
+   "\"zainab imran\" site:lums.edu.pk",
+   "\"zainab imran\" researchgate"
+  ]
+ },
+ "11342": {
+  "lumsEmployeeId": "11342",
+  "name": "Dr. Mohammad Mansoor Khan",
+  "title": "Visiting Assistant Professor",
+  "department": "Education",
+  "school": "Syed Ahsan Ali and Syed Maratib Ali School of Education",
+  "profileUrl": "https://lums.edu.pk/lums_employee/11342",
+  "candidates": [
+   {
+    "url": "https://images.squarespace-cdn.com/content/v1/5936fbebcd0f68f67d5916ff/1603299756834-8UV9DF23XU3LYRLASYLO/Contract_I_Charrette_02-16.jpg",
+    "score": 0,
+    "confidence": "low",
+    "sourceTitle": "Designing an Outdoor Theater for the COVID-19 Era \u00e2\u0080\u0094 New York School of ...",
+    "sourceProfile": "https://www.nysid.edu/blog/theater-for-covid-19-era",
+    "sourceType": "university",
+    "query": "\"mohammad mansoor khan\" site:lums.edu.pk",
+    "slug": "",
+    "evidence": [],
+    "localPath": null
+   }
+  ],
+  "status": "found_low_confidence",
+  "updatedAt": "2026-08-24 23:52:23",
+  "shard": 10,
+  "queriesRun": [
+   "\"mohammad mansoor khan\" lums linkedin",
+   "\"mohammad mansoor khan\" \"Lahore University of Management Sciences\"",
+   "\"mohammad mansoor khan\" lums faculty",
+   "\"mohammad mansoor khan\" site:lums.edu.pk",
+   "\"mohammad mansoor khan\" researchgate"
+  ]
+ },
+ "7842": {
+  "lumsEmployeeId": "7842",
+  "name": "Mr. Muhammad Javaid Qayoom",
+  "title": "Adjunct Faculty",
+  "department": "Mathematics",
+  "school": "Syed Babar Ali School of Science and Engineering",
+  "profileUrl": "https://lums.edu.pk/lums_employee/7842",
+  "candidates": [
+   {
+    "url": "https://i.pinimg.com/736x/01/ee/0a/01ee0a80c5cf4544ed4099bde8ef10a5.jpg",
+    "score": 0,
+    "confidence": "low",
+    "sourceTitle": "Best Hairstyles For Older Men Older Men Haircuts Cool Haircuts - Free ...",
+    "sourceProfile": "https://docs.cholonautas.edu.pe/en/best-hairstyles-for-older-men-older-men-haircuts-cool-haircuts.html",
+    "sourceType": "university",
+    "query": "\"muhammad javaid qayoom\" \"Lahore University of Management Sciences\"",
+    "slug": "",
+    "evidence": [],
+    "localPath": "/pfp-candidates/7842_0.jpg"
+   }
+  ],
+  "status": "found_low_confidence",
+  "updatedAt": "2026-08-24 23:52:23",
+  "shard": 5,
+  "queriesRun": [
+   "\"muhammad javaid qayoom\" lums linkedin",
+   "\"muhammad javaid qayoom\" \"Lahore University of Management Sciences\"",
+   "\"muhammad javaid qayoom\" lums faculty",
+   "\"muhammad javaid qayoom\" site:lums.edu.pk",
+   "\"muhammad javaid qayoom\" researchgate"
+  ]
+ },
+ "11603": {
+  "lumsEmployeeId": "11603",
+  "name": "Dr. Saadia Rashid Tariq",
+  "title": "Adjunct Faculty",
+  "department": "Chemistry & Chemical Engineering",
+  "school": "Syed Babar Ali School of Science and Engineering",
+  "profileUrl": "https://lums.edu.pk/lums_employee/11603",
+  "candidates": [],
+  "status": "retry_bing_only",
+  "updatedAt": "2026-08-24 23:52:27",
+  "shard": 11,
+  "queriesRun": [
+   "\"saadia rashid tariq\" lums linkedin",
+   "\"saadia rashid tariq\" \"Lahore University of Management Sciences\"",
+   "\"saadia rashid tariq\" lums faculty",
+   "\"saadia rashid tariq\" site:lums.edu.pk",
+   "\"saadia rashid tariq\" researchgate"
+  ]
+ },
+ "6682": {
+  "lumsEmployeeId": "6682",
+  "name": "Ms. Aumna Kowsar",
+  "title": "Adjunct Faculty",
+  "department": "Physics",
+  "school": "Syed Babar Ali School of Science and Engineering",
+  "profileUrl": "https://lums.edu.pk/lums_employee/6682",
+  "candidates": [
+   {
+    "url": "https://1.bp.blogspot.com/-VFMqEj-PNdc/XTjpoav3VFI/AAAAAAAAe0E/BFBsxVKUUmsla96DOm6lRA9jg-LyuYX8QCLcBGAs/s1600/Digitalizar0047.jpg",
+    "score": 0,
+    "confidence": "low",
+    "sourceTitle": "Os Dez Sacizinhos Para Imprimir - RETOEDU",
+    "sourceProfile": "https://dsw.aau.edu.et/stu/os-dez-sacizinhos-para-imprimir.html",
+    "sourceType": "university",
+    "query": "\"aumna kowsar\" site:lums.edu.pk",
+    "slug": "",
+    "evidence": [],
+    "localPath": null
+   }
+  ],
+  "status": "found_low_confidence",
+  "updatedAt": "2026-08-24 23:52:54",
+  "shard": 3,
+  "queriesRun": [
+   "\"aumna kowsar\" lums linkedin",
+   "\"aumna kowsar\" \"Lahore University of Management Sciences\"",
+   "\"aumna kowsar\" lums faculty",
+   "\"aumna kowsar\" site:lums.edu.pk",
+   "\"aumna kowsar\" researchgate"
+  ]
+ },
+ "2521": {
+  "lumsEmployeeId": "2521",
+  "name": "Ms. Fizza Suhail",
+  "title": "Teaching Fellow",
+  "department": "Education",
+  "school": "Syed Ahsan Ali and Syed Maratib Ali School of Education",
+  "profileUrl": "https://lums.edu.pk/lums_employee/2521",
+  "candidates": [
+   {
+    "url": "https://www.researchgate.net/publication/352174404/figure/fig1/AS:1031869869064192@1623028356302/Core-elements-of-any-antimicrobial-stewardship-program-Box-1-contains-a-number-of.png",
+    "score": 0.7,
+    "confidence": "low",
+    "sourceTitle": "Core elements of any antimicrobial stewardship program. Box 1 contains ...",
+    "sourceProfile": "https://www.researchgate.net/figure/Core-elements-of-any-antimicrobial-stewardship-program-Box-1-contains-a-number-of_fig1_352174404",
+    "sourceType": "researchgate",
+    "query": "\"fizza suhail\" lums faculty",
+    "slug": "",
+    "evidence": [
+     "source: researchgate (+1.2)"
+    ],
+    "localPath": null
+   }
+  ],
+  "status": "found_low_confidence",
+  "updatedAt": "2026-08-24 23:53:09",
+  "shard": 0,
+  "queriesRun": [
+   "\"fizza suhail\" lums linkedin",
+   "\"fizza suhail\" \"Lahore University of Management Sciences\"",
+   "\"fizza suhail\" lums faculty",
+   "\"fizza suhail\" site:lums.edu.pk",
+   "\"fizza suhail\" researchgate"
+  ]
+ },
+ "9543": {
+  "lumsEmployeeId": "9543",
+  "name": "Dr. Farah Nadeem",
+  "title": "Assistant Professor",
+  "department": "Education",
+  "school": "Syed Ahsan Ali and Syed Maratib Ali School of Education",
+  "profileUrl": "https://lums.edu.pk/lums_employee/9543",
+  "candidates": [],
+  "status": "retry_bing_only",
+  "updatedAt": "2026-08-24 23:53:10",
+  "shard": 6,
+  "queriesRun": [
+   "\"farah nadeem\" lums linkedin",
+   "\"farah nadeem\" \"Lahore University of Management Sciences\"",
+   "\"farah nadeem\" lums faculty",
+   "\"farah nadeem\" site:lums.edu.pk",
+   "\"farah nadeem\" researchgate"
+  ]
+ },
+ "10843": {
+  "lumsEmployeeId": "10843",
+  "name": "Mr. Muhammad Shoaib Khan",
+  "title": "Adjunct Faculty",
+  "department": "Mathematics",
+  "school": "Syed Babar Ali School of Science and Engineering",
+  "profileUrl": "https://lums.edu.pk/lums_employee/10843",
+  "candidates": [],
+  "status": "retry_bing_only",
+  "updatedAt": "2026-08-24 23:53:12",
+  "shard": 8,
+  "queriesRun": [
+   "\"muhammad shoaib khan\" lums linkedin",
+   "\"muhammad shoaib khan\" \"Lahore University of Management Sciences\"",
+   "\"muhammad shoaib khan\" lums faculty",
+   "\"muhammad shoaib khan\" site:lums.edu.pk",
+   "\"muhammad shoaib khan\" researchgate"
+  ]
+ },
+ "3660": {
+  "lumsEmployeeId": "3660",
+  "name": "Mr. Muhammad Aneeq Ismail",
+  "title": "Teaching Fellow",
+  "department": null,
+  "school": "Suleman Dawood School of Business",
+  "profileUrl": "https://lums.edu.pk/lums_employee/3660",
+  "candidates": [
+   {
+    "url": "https://i.pinimg.com/originals/35/ca/09/35ca090fa3a7b165110f0ae7eb6dbf8b.png",
+    "score": 0,
+    "confidence": "low",
+    "sourceTitle": "Printable Calendar 2024 Free Pdf March Calendar 2024/printable Calander ...",
+    "sourceProfile": "https://utpaqp.edu.pe/post/printable-calendar-2024-free-pdf-march-calendar-2024/printable-calander-for-2024",
+    "sourceType": "university",
+    "query": "\"muhammad aneeq ismail\" site:lums.edu.pk",
+    "slug": "",
+    "evidence": [],
+    "localPath": null
+   }
+  ],
+  "status": "found_low_confidence",
+  "updatedAt": "2026-08-24 23:53:15",
+  "shard": 1,
+  "queriesRun": [
+   "\"muhammad aneeq ismail\" lums linkedin",
+   "\"muhammad aneeq ismail\" \"Lahore University of Management Sciences\"",
+   "\"muhammad aneeq ismail\" lums faculty",
+   "\"muhammad aneeq ismail\" site:lums.edu.pk",
+   "\"muhammad aneeq ismail\" researchgate"
+  ]
+ },
+ "5630": {
+  "lumsEmployeeId": "5630",
+  "name": "Miss. Mehreen Noon",
+  "title": "Adjunct Faculty",
+  "department": "Education",
+  "school": "Syed Ahsan Ali and Syed Maratib Ali School of Education",
+  "profileUrl": "https://lums.edu.pk/lums_employee/5630",
+  "candidates": [],
+  "status": "retry_bing_only",
+  "updatedAt": "2026-08-24 23:53:18",
+  "shard": 2,
+  "queriesRun": [
+   "\"mehreen noon\" lums linkedin",
+   "\"mehreen noon\" \"Lahore University of Management Sciences\"",
+   "\"mehreen noon\" lums faculty",
+   "\"mehreen noon\" site:lums.edu.pk",
+   "\"mehreen noon\" researchgate"
+  ]
+ },
+ "11361": {
+  "lumsEmployeeId": "11361",
+  "name": "Dr. Muhammad Awais",
+  "title": "Assistant Professor (Research)",
+  "department": null,
+  "school": null,
+  "profileUrl": "https://lums.edu.pk/lums_employee/11361",
+  "candidates": [
+   {
+    "url": "https://stateclimatologist.web.illinois.edu/wp-content/uploads/2023/02/Jan_temps-1024x576.png",
+    "score": 0,
+    "confidence": "low",
+    "sourceTitle": "A Very Mild Start to 2023 | Illinois State Climatologist Illinois State ...",
+    "sourceProfile": "https://stateclimatologist.isws.illinois.edu/2023/02/01/a-very-mild-start-to-2023/",
+    "sourceType": "university",
+    "query": "\"muhammad awais\" lums faculty",
+    "slug": "",
+    "evidence": [],
+    "localPath": null
+   }
+  ],
+  "status": "found_low_confidence",
+  "updatedAt": "2026-08-24 23:53:18",
+  "shard": 10,
+  "queriesRun": [
+   "\"muhammad awais\" lums linkedin",
+   "\"muhammad awais\" \"Lahore University of Management Sciences\"",
+   "\"muhammad awais\" lums faculty",
+   "\"muhammad awais\" site:lums.edu.pk",
+   "\"muhammad awais\" researchgate"
+  ]
+ },
+ "10215": {
+  "lumsEmployeeId": "10215",
+  "name": "Mr. Muhammad Wahid",
+  "title": "Teaching Fellow",
+  "department": "Computer Science",
+  "school": "Syed Babar Ali School of Science and Engineering",
+  "profileUrl": "https://lums.edu.pk/lums_employee/10215",
+  "candidates": [
+   {
+    "url": "https://images.hdqwalls.com/wallpapers/rog-logo-eg.jpg",
+    "score": 0,
+    "confidence": "low",
+    "sourceTitle": "Asus Logo Hd Wallpaper",
+    "sourceProfile": "https://utpaqp.edu.pe/search/asus-logo-hd-wallpaper/",
+    "sourceType": "university",
+    "query": "\"muhammad wahid\" lums linkedin",
+    "slug": "",
+    "evidence": [],
+    "localPath": null
+   }
+  ],
+  "status": "found_low_confidence",
+  "updatedAt": "2026-08-24 23:53:21",
+  "shard": 7,
+  "queriesRun": [
+   "\"muhammad wahid\" lums linkedin",
+   "\"muhammad wahid\" \"Lahore University of Management Sciences\"",
+   "\"muhammad wahid\" lums faculty",
+   "\"muhammad wahid\" site:lums.edu.pk",
+   "\"muhammad wahid\" researchgate"
+  ]
+ },
+ "12003": {
+  "lumsEmployeeId": "12003",
+  "name": "Mr. Muhammad Imran",
+  "title": "Adjunct Faculty",
+  "department": null,
+  "school": "Suleman Dawood School of Business",
+  "profileUrl": "https://lums.edu.pk/lums_employee/12003",
+  "candidates": [
+   {
+    "url": "https://pbs.twimg.com/media/EPCcaPEWkAAa9m5.jpg",
+    "score": 0,
+    "confidence": "low",
+    "sourceTitle": "Top 999+ professional thank you images \u00e2\u0080\u0093 Amazing Collection ...",
+    "sourceProfile": "https://tnhelearning.edu.vn/top-999-professional-thank-you-images-amazing-collection-professional-thank-you-images-full-4k/",
+    "sourceType": "university",
+    "query": "\"muhammad imran\" lums faculty",
+    "slug": "",
+    "evidence": [],
+    "localPath": "/pfp-candidates/12003_0.jpg"
+   }
+  ],
+  "status": "found_low_confidence",
+  "updatedAt": "2026-08-24 23:53:22",
+  "shard": 12,
+  "queriesRun": [
+   "\"muhammad imran\" lums linkedin",
+   "\"muhammad imran\" \"Lahore University of Management Sciences\"",
+   "\"muhammad imran\" lums faculty",
+   "\"muhammad imran\" site:lums.edu.pk",
+   "\"muhammad imran\" researchgate"
+  ]
+ },
+ "11740": {
+  "lumsEmployeeId": "11740",
+  "name": "Mr. Muhammad Ahsan Khan",
+  "title": "Teaching Fellow",
+  "department": "Computer Science",
+  "school": "Syed Babar Ali School of Science and Engineering",
+  "profileUrl": "https://lums.edu.pk/lums_employee/11740",
+  "candidates": [],
+  "status": "retry_bing_only",
+  "updatedAt": "2026-08-24 23:53:25",
+  "shard": 11,
+  "queriesRun": [
+   "\"muhammad ahsan khan\" lums linkedin",
+   "\"muhammad ahsan khan\" \"Lahore University of Management Sciences\"",
+   "\"muhammad ahsan khan\" lums faculty",
+   "\"muhammad ahsan khan\" site:lums.edu.pk",
+   "\"muhammad ahsan khan\" researchgate"
+  ]
+ },
+ "11155": {
+  "lumsEmployeeId": "11155",
+  "name": "Dr. Abdul Ali Bangash",
+  "title": "Assistant Professor",
+  "department": "Computer Science",
+  "school": "Syed Babar Ali School of Science and Engineering",
+  "profileUrl": "https://lums.edu.pk/lums_employee/11155",
+  "candidates": [
+   {
+    "url": "https://c8.alamy.com/comp/HF35WB/artillerymen-from-1st-battalion-10th-marines-fire-155mm-rounds-with-HF35WB.jpg",
+    "score": 1.2,
+    "confidence": "low",
+    "sourceTitle": "Artillerymen from 1st Battalion, 10th Marines fire 155mm rounds with ...",
+    "sourceProfile": "https://www.alamy.com/stock-photo-artillerymen-from-1st-battalion-10th-marines-fire-155mm-rounds-with-129762903.html",
+    "sourceType": "other",
+    "query": "\"abdul ali bangash\" \"Lahore University of Management Sciences\"",
+    "slug": "",
+    "evidence": [
+     "1/2 name tokens in title",
+     "name in source URL"
+    ],
+    "localPath": null
+   }
+  ],
+  "status": "found_low_confidence",
+  "updatedAt": "2026-08-24 23:53:33",
+  "shard": 9,
+  "queriesRun": [
+   "\"abdul ali bangash\" lums linkedin",
+   "\"abdul ali bangash\" \"Lahore University of Management Sciences\"",
+   "\"abdul ali bangash\" lums faculty",
+   "\"abdul ali bangash\" site:lums.edu.pk",
+   "\"abdul ali bangash\" researchgate"
+  ]
+ },
+ "7135": {
+  "lumsEmployeeId": "7135",
+  "name": "Ms. Maira Rehman",
+  "title": "Adjunct Faculty",
+  "department": "Humanities and Social Sciences",
+  "school": "Mushtaq Ahmad Gurmani School of Humanities and Social Sciences",
+  "profileUrl": "https://lums.edu.pk/lums_employee/7135",
+  "candidates": [
+   {
+    "url": "https://web.law.duke.edu/sites/default/files/images/centers/cspd/pdd2024/mickey/Steamboat-WIllie-Enters-Public-Domain.jpeg",
+    "score": 0,
+    "confidence": "low",
+    "sourceTitle": "The Public Domain Newsletter | Duke University School of Law",
+    "sourceProfile": "https://web.law.duke.edu/cspd/newsletter/April2024/",
+    "sourceType": "university",
+    "query": "\"maira rehman\" \"Lahore University of Management Sciences\"",
+    "slug": "",
+    "evidence": [],
+    "localPath": "/pfp-candidates/7135_0.jpg"
+   }
+  ],
+  "status": "found_low_confidence",
+  "updatedAt": "2026-08-24 23:53:35",
+  "shard": 4,
+  "queriesRun": [
+   "\"maira rehman\" lums linkedin",
+   "\"maira rehman\" \"Lahore University of Management Sciences\"",
+   "\"maira rehman\" lums faculty",
+   "\"maira rehman\" site:lums.edu.pk",
+   "\"maira rehman\" researchgate"
+  ]
+ },
+ "7940": {
+  "lumsEmployeeId": "7940",
+  "name": "Ms. Sahar Atif",
+  "title": "Adjunct Faculty",
+  "department": null,
+  "school": "Suleman Dawood School of Business",
+  "profileUrl": "https://lums.edu.pk/lums_employee/7940",
+  "candidates": [],
+  "status": "retry_bing_only",
+  "updatedAt": "2026-08-24 23:53:43",
+  "shard": 5,
+  "queriesRun": [
+   "\"sahar atif\" lums linkedin",
+   "\"sahar atif\" \"Lahore University of Management Sciences\"",
+   "\"sahar atif\" lums faculty",
+   "\"sahar atif\" site:lums.edu.pk",
+   "\"sahar atif\" researchgate"
+  ]
+ },
+ "6796": {
+  "lumsEmployeeId": "6796",
+  "name": "Mr. Hassan Aziz",
+  "title": "Adjunct Faculty",
+  "department": "Humanities and Social Sciences",
+  "school": "Mushtaq Ahmad Gurmani School of Humanities and Social Sciences",
+  "profileUrl": "https://lums.edu.pk/lums_employee/6796",
+  "candidates": [
+   {
+    "url": "https://img1.etsystatic.com/063/0/9373487/il_fullxfull.797817557_3lby.jpg",
+    "score": 0,
+    "confidence": "low",
+    "sourceTitle": "United States Map With State Names And Capitals Printable Printable",
+    "sourceProfile": "https://utpaqp.edu.pe/post/united-states-map-with-state-names-and-capitals-printable-printable/united-states-map-with-names",
+    "sourceType": "university",
+    "query": "\"hassan aziz\" lums faculty",
+    "slug": "",
+    "evidence": [],
+    "localPath": null
+   }
+  ],
+  "status": "found_low_confidence",
+  "updatedAt": "2026-08-24 23:53:56",
+  "shard": 3,
+  "queriesRun": [
+   "\"hassan aziz\" lums linkedin",
+   "\"hassan aziz\" \"Lahore University of Management Sciences\"",
+   "\"hassan aziz\" lums faculty",
+   "\"hassan aziz\" site:lums.edu.pk",
+   "\"hassan aziz\" researchgate"
+  ]
+ },
+ "9552": {
+  "lumsEmployeeId": "9552",
+  "name": "Mr. Hamza Sohail",
+  "title": "Adjunct Faculty",
+  "department": "Economics",
+  "school": "Mushtaq Ahmad Gurmani School of Humanities and Social Sciences",
+  "profileUrl": "https://lums.edu.pk/lums_employee/9552",
+  "candidates": [
+   {
+    "url": "https://img.colorxs.com/paletteimage/nature/6-rainbow-vibgyor-colors.jpg",
+    "score": 0,
+    "confidence": "low",
+    "sourceTitle": "7 Colors Of Rainbow Meanings Chart",
+    "sourceProfile": "https://utpaqp.edu.pe/post/7-colors-of-rainbow-meanings-chart/",
+    "sourceType": "university",
+    "query": "\"hamza sohail\" site:lums.edu.pk",
+    "slug": "",
+    "evidence": [],
+    "localPath": null
+   }
+  ],
+  "status": "found_low_confidence",
+  "updatedAt": "2026-08-24 23:54:05",
+  "shard": 6,
+  "queriesRun": [
+   "\"hamza sohail\" lums linkedin",
+   "\"hamza sohail\" \"Lahore University of Management Sciences\"",
+   "\"hamza sohail\" lums faculty",
+   "\"hamza sohail\" site:lums.edu.pk",
+   "\"hamza sohail\" researchgate"
+  ]
+ },
+ "4079": {
+  "lumsEmployeeId": "4079",
+  "name": "Mr. Amin Hussain",
+  "title": "Assistant Professor",
+  "department": "Economics",
+  "school": "Mushtaq Ahmad Gurmani School of Humanities and Social Sciences",
+  "profileUrl": "https://lums.edu.pk/lums_employee/4079",
+  "candidates": [],
+  "status": "retry_bing_only",
+  "updatedAt": "2026-08-24 23:54:14",
+  "shard": 1,
+  "queriesRun": [
+   "\"amin hussain\" lums linkedin",
+   "\"amin hussain\" \"Lahore University of Management Sciences\"",
+   "\"amin hussain\" lums faculty",
+   "\"amin hussain\" site:lums.edu.pk",
+   "\"amin hussain\" researchgate"
+  ]
+ },
+ "5841": {
+  "lumsEmployeeId": "5841",
+  "name": "Ms. Hajra Ikram Butt",
+  "title": "Adjunct Faculty",
+  "department": "Humanities and Social Sciences",
+  "school": "Mushtaq Ahmad Gurmani School of Humanities and Social Sciences",
+  "profileUrl": "https://lums.edu.pk/lums_employee/5841",
+  "candidates": [
+   {
+    "url": "https://lums.edu.pk/sites/default/files/styles/faculty_image/public/alic.jpg",
+    "score": 9.5,
+    "confidence": "high",
+    "sourceTitle": "Ms. Hajra Ikram Butt \u2014 LUMS profile <img>",
+    "sourceProfile": "https://lums.edu.pk/lums_employee/5841",
+    "sourceType": "lums",
+    "query": "lums profile scrape",
+    "slug": "",
+    "evidence": [
+     "full name in title",
+     "LUMS mention",
+     "source: lums.edu.pk (trusted)",
+     "LUMS faculty image path"
+    ],
+    "localPath": "/pfp-candidates/5841_0.jpg"
+   },
+   {
+    "url": "https://lums.edu.pk/sites/default/files/styles/faculty_image/public/tjd.jpg",
+    "score": 9.5,
+    "confidence": "high",
+    "sourceTitle": "Ms. Hajra Ikram Butt \u2014 LUMS profile <img>",
+    "sourceProfile": "https://lums.edu.pk/lums_employee/5841",
+    "sourceType": "lums",
+    "query": "lums profile scrape",
+    "slug": "",
+    "evidence": [
+     "full name in title",
+     "LUMS mention",
+     "source: lums.edu.pk (trusted)",
+     "LUMS faculty image path"
+    ],
+    "localPath": "/pfp-candidates/5841_1.jpg"
+   }
+  ],
+  "status": "found",
+  "updatedAt": "2026-08-24 23:54:16",
+  "shard": 2,
+  "queriesRun": [
+   "\"hajra ikram butt\" lums linkedin",
+   "\"hajra ikram butt\" \"Lahore University of Management Sciences\"",
+   "\"hajra ikram butt\" lums faculty",
+   "\"hajra ikram butt\" site:lums.edu.pk",
+   "\"hajra ikram butt\" researchgate"
+  ]
+ },
+ "10217": {
+  "lumsEmployeeId": "10217",
+  "name": "Mr. Amin Ahmad Qasmi",
+  "title": null,
+  "department": "Computer Science",
+  "school": "Syed Babar Ali School of Science and Engineering",
+  "profileUrl": "https://lums.edu.pk/lums_employee/10217",
+  "candidates": [
+   {
+    "url": "https://marketplace.canva.com/EAFcO7DTEHM/1/0/1131w/canva-blue-professional-modern-cv-resume-pPAKwLoiobE.jpg",
+    "score": 0,
+    "confidence": "low",
+    "sourceTitle": "Creative Curriculum Vitae Templates",
+    "sourceProfile": "https://utpaqp.edu.pe/search/creative-curriculum-vitae-templates/",
+    "sourceType": "university",
+    "query": "\"amin ahmad qasmi\" lums faculty",
+    "slug": "",
+    "evidence": [],
+    "localPath": null
+   }
+  ],
+  "status": "found_low_confidence",
+  "updatedAt": "2026-08-24 23:54:17",
+  "shard": 7,
+  "queriesRun": [
+   "\"amin ahmad qasmi\" lums linkedin",
+   "\"amin ahmad qasmi\" \"Lahore University of Management Sciences\"",
+   "\"amin ahmad qasmi\" lums faculty",
+   "\"amin ahmad qasmi\" site:lums.edu.pk",
+   "\"amin ahmad qasmi\" researchgate"
+  ]
+ },
+ "2616": {
+  "lumsEmployeeId": "2616",
+  "name": "Dr. Mudassir Shabbir",
+  "title": "Associate Professor",
+  "department": "Computer Science",
+  "school": "Syed Babar Ali School of Science and Engineering",
+  "profileUrl": "https://lums.edu.pk/lums_employee/2616",
+  "candidates": [
+   {
+    "url": "https://media.licdn.com/dms/image/v2/C5103AQFQbSaTVRQrCg/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1517456078188?e=2147483647&v=beta&t=lTbtJbVTE6rK_LbHiuZcNbT2e3KqkAt-ziVAYbsQBoI",
+    "score": 1.5,
+    "confidence": "low",
+    "sourceTitle": "Mark Cunningham, CPA - Principal Account Manager (Strategic Accounts ...",
+    "sourceProfile": "https://www.linkedin.com/in/mark-cunningham-cpa",
+    "sourceType": "linkedin",
+    "query": "\"mudassir shabbir\" \"Lahore University of Management Sciences\"",
+    "slug": "mark-cunningham-cpa",
+    "evidence": [
+     "source: linkedin (+1.0)",
+     "LinkedIn profile photo pattern"
+    ],
+    "localPath": null,
+    "downloadFailed": true
+   }
+  ],
+  "status": "found_low_confidence",
+  "updatedAt": "2026-08-24 23:54:23",
+  "shard": 0,
+  "queriesRun": [
+   "\"mudassir shabbir\" lums linkedin",
+   "\"mudassir shabbir\" \"Lahore University of Management Sciences\"",
+   "\"mudassir shabbir\" lums faculty",
+   "\"mudassir shabbir\" site:lums.edu.pk",
+   "\"mudassir shabbir\" researchgate"
+  ]
+ },
+ "11848": {
+  "lumsEmployeeId": "11848",
+  "name": "Dr. Fizza Kanwal",
+  "title": "Assistant Professor",
+  "department": null,
+  "school": "Suleman Dawood School of Business",
+  "profileUrl": "https://lums.edu.pk/lums_employee/11848",
+  "candidates": [],
+  "status": "retry_bing_only",
+  "updatedAt": "2026-08-24 23:54:24",
+  "shard": 11,
+  "queriesRun": [
+   "\"fizza kanwal\" lums linkedin",
+   "\"fizza kanwal\" \"Lahore University of Management Sciences\"",
+   "\"fizza kanwal\" lums faculty",
+   "\"fizza kanwal\" site:lums.edu.pk",
+   "\"fizza kanwal\" researchgate"
+  ]
+ },
+ "11400": {
+  "lumsEmployeeId": "11400",
+  "name": "Dr. Sadaf Latafat",
+  "title": "Assistant Professor",
+  "department": "Education",
+  "school": "Syed Ahsan Ali and Syed Maratib Ali School of Education",
+  "profileUrl": "https://lums.edu.pk/lums_employee/11400",
+  "candidates": [
+   {
+    "url": "https://store.legendsofamerica.com/images/products/large_7298_UsCapitolsMap-11x17-1000.jpg",
+    "score": 0,
+    "confidence": "low",
+    "sourceTitle": "State Capitals Map Printable",
+    "sourceProfile": "https://printable.rjuuc.edu.np/en/state-capitals-map-printable.html",
+    "sourceType": "university",
+    "query": "\"sadaf latafat\" lums linkedin",
+    "slug": "",
+    "evidence": [],
+    "localPath": null
+   }
+  ],
+  "status": "found_low_confidence",
+  "updatedAt": "2026-08-24 23:54:27",
+  "shard": 10,
+  "queriesRun": [
+   "\"sadaf latafat\" lums linkedin",
+   "\"sadaf latafat\" \"Lahore University of Management Sciences\"",
+   "\"sadaf latafat\" lums faculty",
+   "\"sadaf latafat\" site:lums.edu.pk",
+   "\"sadaf latafat\" researchgate"
+  ]
+ },
+ "10864": {
+  "lumsEmployeeId": "10864",
+  "name": "Mr. Ali Khawaja",
+  "title": "Visiting Professor",
+  "department": "Computer Science",
+  "school": "Syed Babar Ali School of Science and Engineering",
+  "profileUrl": "https://lums.edu.pk/lums_employee/10864",
+  "candidates": [],
+  "status": "retry_bing_only",
+  "updatedAt": "2026-08-24 23:54:28",
+  "shard": 8,
+  "queriesRun": [
+   "\"ali khawaja\" lums linkedin",
+   "\"ali khawaja\" \"Lahore University of Management Sciences\"",
+   "\"ali khawaja\" lums faculty",
+   "\"ali khawaja\" site:lums.edu.pk",
+   "\"ali khawaja\" researchgate"
+  ]
+ },
+ "12004": {
+  "lumsEmployeeId": "12004",
+  "name": "Mr. Abid Ameen",
+  "title": "Adjunct Faculty",
+  "department": null,
+  "school": "Suleman Dawood School of Business",
+  "profileUrl": "https://lums.edu.pk/lums_employee/12004",
+  "candidates": [
+   {
+    "url": "https://www.researchgate.net/publication/358162584/figure/fig11/AS:1129376020201486@1646275634784/Performance-comparisons-of-relative-CPU-usage-time-with-increasing-cache-size-compared-to.png",
+    "score": 0.7,
+    "confidence": "low",
+    "sourceTitle": "Performance comparisons of relative CPU usage time with increasing ...",
+    "sourceProfile": "https://www.researchgate.net/figure/Performance-comparisons-of-relative-CPU-usage-time-with-increasing-cache-size-compared-to_fig11_358162584",
+    "sourceType": "researchgate",
+    "query": "\"abid ameen\" \"Lahore University of Management Sciences\"",
+    "slug": "",
+    "evidence": [
+     "source: researchgate (+1.2)"
+    ],
+    "localPath": null
+   }
+  ],
+  "status": "found_low_confidence",
+  "updatedAt": "2026-08-24 23:54:29",
+  "shard": 12,
+  "queriesRun": [
+   "\"abid ameen\" lums linkedin",
+   "\"abid ameen\" \"Lahore University of Management Sciences\"",
+   "\"abid ameen\" lums faculty",
+   "\"abid ameen\" site:lums.edu.pk",
+   "\"abid ameen\" researchgate"
+  ]
+ },
+ "7178": {
+  "lumsEmployeeId": "7178",
+  "name": "Mr. Ghazi Taimoor Mirza",
+  "title": "Adjunct Faculty",
+  "department": "Education",
+  "school": "Syed Ahsan Ali and Syed Maratib Ali School of Education",
+  "profileUrl": "https://lums.edu.pk/lums_employee/7178",
+  "candidates": [
+   {
+    "url": "https://www.templepurohit.com/wp-content/uploads/2016/10/Shiva-worshipped-as-lingam.jpg",
+    "score": 0,
+    "confidence": "low",
+    "sourceTitle": "Ultimate Compilation of Lord Shiva Lingam Images in Full 4K - Over 999 ...",
+    "sourceProfile": "https://tnhelearning.edu.vn/ultimate-compilation-of-lord-shiva-lingam-images-in-full-4k-over-999-captivating-options/",
+    "sourceType": "university",
+    "query": "\"ghazi taimoor mirza\" site:lums.edu.pk",
+    "slug": "",
+    "evidence": [],
+    "localPath": null
+   }
+  ],
+  "status": "found_low_confidence",
+  "updatedAt": "2026-08-24 23:54:31",
+  "shard": 4,
+  "queriesRun": [
+   "\"ghazi taimoor mirza\" lums linkedin",
+   "\"ghazi taimoor mirza\" \"Lahore University of Management Sciences\"",
+   "\"ghazi taimoor mirza\" lums faculty",
+   "\"ghazi taimoor mirza\" site:lums.edu.pk",
+   "\"ghazi taimoor mirza\" researchgate"
+  ]
+ },
+ "7965": {
+  "lumsEmployeeId": "7965",
+  "name": "Mr. Sheraz Latif Malik",
+  "title": "Adjunct Faculty",
+  "department": "Economics",
+  "school": "Mushtaq Ahmad Gurmani School of Humanities and Social Sciences",
+  "profileUrl": "https://lums.edu.pk/lums_employee/7965",
+  "candidates": [],
+  "status": "retry_bing_only",
+  "updatedAt": "2026-08-24 23:54:38",
+  "shard": 5,
+  "queriesRun": [
+   "\"sheraz latif malik\" lums linkedin",
+   "\"sheraz latif malik\" \"Lahore University of Management Sciences\"",
+   "\"sheraz latif malik\" lums faculty",
+   "\"sheraz latif malik\" site:lums.edu.pk",
+   "\"sheraz latif malik\" researchgate"
+  ]
+ },
+ "11170": {
+  "lumsEmployeeId": "11170",
+  "name": "Dr. Tareena Musaddiq",
+  "title": "Assistant Professor",
+  "department": "Economics",
+  "school": "Mushtaq Ahmad Gurmani School of Humanities and Social Sciences",
+  "profileUrl": "https://lums.edu.pk/lums_employee/11170",
+  "candidates": [],
+  "status": "retry_bing_only",
+  "updatedAt": "2026-08-24 23:54:46",
+  "shard": 9,
+  "queriesRun": [
+   "\"tareena musaddiq\" lums linkedin",
+   "\"tareena musaddiq\" \"Lahore University of Management Sciences\"",
+   "\"tareena musaddiq\" lums faculty",
+   "\"tareena musaddiq\" site:lums.edu.pk",
+   "\"tareena musaddiq\" researchgate"
+  ]
+ },
+ "9672": {
+  "lumsEmployeeId": "9672",
+  "name": "Mr. Syed Qamber Ali Zaidi",
+  "title": "Teaching Fellow",
+  "department": "Chemistry & Chemical Engineering",
+  "school": "Syed Babar Ali School of Science and Engineering",
+  "profileUrl": "https://lums.edu.pk/lums_employee/9672",
+  "candidates": [
+   {
+    "url": "https://infohub.delltechnologies.com/static/media/9198938f-8c47-5a0e-82d9-6db6a62cd3f7/DAM-f338caac-77ad-4280-8ff0-a796f7499a8b/out/vdi_g_vxrail_sustain_pw_user_exp=GUID-9527867E-9C74-4AE9-A201-A85936784FD5=1=en-us=Low.jpg",
+    "score": 1.2,
+    "confidence": "low",
+    "sourceTitle": "Login VSI test results and analysis | VDI Validation Guide\u00e2\u0080\u0094VMware ...",
+    "sourceProfile": "https://infohub.delltechnologies.com/l/vdi-validation-guide-vmware-horizon-on-vxrail-and-vsan-ready-nodes-4/login-vsi-test-results-and-analysis-13/",
+    "sourceType": "other",
+    "query": "\"syed qamber ali zaidi\" lums linkedin",
+    "slug": "",
+    "evidence": [
+     "1/3 name tokens in title",
+     "name in source URL"
+    ],
+    "localPath": null
+   }
+  ],
+  "status": "found_low_confidence",
+  "updatedAt": "2026-08-24 23:55:03",
+  "shard": 6,
+  "queriesRun": [
+   "\"syed qamber ali zaidi\" lums linkedin",
+   "\"syed qamber ali zaidi\" \"Lahore University of Management Sciences\"",
+   "\"syed qamber ali zaidi\" lums faculty",
+   "\"syed qamber ali zaidi\" site:lums.edu.pk",
+   "\"syed qamber ali zaidi\" researchgate"
+  ]
+ },
+ "6901": {
+  "lumsEmployeeId": "6901",
+  "name": "Ms. Anusheh Attique",
+  "title": "Adjunct Faculty",
+  "department": null,
+  "school": null,
+  "profileUrl": "https://lums.edu.pk/lums_employee/6901",
+  "candidates": [
+   {
+    "url": "https://media.licdn.com/dms/image/D5603AQEVg7eOGnD1IA/profile-displayphoto-shrink_800_800/0/1679677963119?e=2147483647&v=beta&t=rqDCHCruq0mqoiD4lJUwu-phAheQfcOq67XzAELaC5g",
+    "score": 3.3,
+    "confidence": "low",
+    "sourceTitle": "Kimberly P Payne | LinkedIn",
+    "sourceProfile": "https://www.linkedin.com/in/kimberlyppayne",
+    "sourceType": "linkedin",
+    "query": "\"anusheh attique\" researchgate",
+    "slug": "kimberlyppayne",
+    "evidence": [
+     "source: linkedin (+1.0)",
+     "LinkedIn profile photo pattern",
+     "high-res variant (1679677963119?e=2147)"
+    ],
+    "localPath": null,
+    "downloadFailed": true
+   }
+  ],
+  "status": "found_low_confidence",
+  "updatedAt": "2026-08-24 23:55:08",
+  "shard": 3,
+  "queriesRun": [
+   "\"anusheh attique\" lums linkedin",
+   "\"anusheh attique\" \"Lahore University of Management Sciences\"",
+   "\"anusheh attique\" lums faculty",
+   "\"anusheh attique\" site:lums.edu.pk",
+   "\"anusheh attique\" researchgate"
+  ]
+ },
+ "4490": {
+  "lumsEmployeeId": "4490",
+  "name": "Miss. Fatima Rahman",
+  "title": "Adjunct Faculty",
+  "department": "Education",
+  "school": "Syed Ahsan Ali and Syed Maratib Ali School of Education",
+  "profileUrl": "https://lums.edu.pk/lums_employee/4490",
+  "candidates": [
+   {
+    "url": "https://www.motortrend.com/uploads/2023/06/2-2024-Kia-K5-interior.jpg",
+    "score": 0,
+    "confidence": "low",
+    "sourceTitle": "Dpf Kia K5 2024",
+    "sourceProfile": "https://utpaqp.edu.pe/search/dpf-kia-k5-2024/",
+    "sourceType": "university",
+    "query": "\"fatima rahman\" lums linkedin",
+    "slug": "",
+    "evidence": [],
+    "localPath": "/pfp-candidates/4490_0.jpg"
+   }
+  ],
+  "status": "found_low_confidence",
+  "updatedAt": "2026-08-24 23:55:28",
+  "shard": 1,
+  "queriesRun": [
+   "\"fatima rahman\" lums linkedin",
+   "\"fatima rahman\" \"Lahore University of Management Sciences\"",
+   "\"fatima rahman\" lums faculty",
+   "\"fatima rahman\" site:lums.edu.pk",
+   "\"fatima rahman\" researchgate"
+  ]
+ },
+ "7202": {
+  "lumsEmployeeId": "7202",
+  "name": "Ms. Gulalai Khan",
+  "title": "Adjunct Faculty",
+  "department": null,
+  "school": "Suleman Dawood School of Business",
+  "profileUrl": "https://lums.edu.pk/lums_employee/7202",
+  "candidates": [],
+  "status": "retry_bing_only",
+  "updatedAt": "2026-08-24 23:55:29",
+  "shard": 4,
+  "queriesRun": [
+   "\"gulalai khan\" lums linkedin",
+   "\"gulalai khan\" \"Lahore University of Management Sciences\"",
+   "\"gulalai khan\" lums faculty",
+   "\"gulalai khan\" site:lums.edu.pk",
+   "\"gulalai khan\" researchgate"
+  ]
+ },
+ "3067": {
+  "lumsEmployeeId": "3067",
+  "name": "Mr. Adeel Hamza",
+  "title": "Teaching Fellow",
+  "department": "Humanities and Social Sciences",
+  "school": "Mushtaq Ahmad Gurmani School of Humanities and Social Sciences",
+  "profileUrl": "https://lums.edu.pk/lums_employee/3067",
+  "candidates": [
+   {
+    "url": "https://www.researchgate.net/publication/231031551/figure/fig1/AS:300573078376452@1448673614833/ACS-image-for-the-observed-region-around-NGC-602-The-sub-clusters-NGC-602-B-and-NGC.png",
+    "score": 0.7,
+    "confidence": "low",
+    "sourceTitle": "ACS image for the observed region around NGC 602. The sub-clusters ...",
+    "sourceProfile": "https://www.researchgate.net/figure/ACS-image-for-the-observed-region-around-NGC-602-The-sub-clusters-NGC-602-B-and-NGC_fig1_231031551",
+    "sourceType": "researchgate",
+    "query": "\"adeel hamza\" lums linkedin",
+    "slug": "",
+    "evidence": [
+     "source: researchgate (+1.2)"
+    ],
+    "localPath": null
+   }
+  ],
+  "status": "found_low_confidence",
+  "updatedAt": "2026-08-24 23:55:29",
+  "shard": 0,
+  "queriesRun": [
+   "\"adeel hamza\" lums linkedin",
+   "\"adeel hamza\" \"Lahore University of Management Sciences\"",
+   "\"adeel hamza\" lums faculty",
+   "\"adeel hamza\" site:lums.edu.pk",
+   "\"adeel hamza\" researchgate"
+  ]
+ },
+ "12006": {
+  "lumsEmployeeId": "12006",
+  "name": "Mr. Adeel Haider Mankee",
+  "title": "Adjunct Faculty",
+  "department": null,
+  "school": "Suleman Dawood School of Business",
+  "profileUrl": "https://lums.edu.pk/lums_employee/12006",
+  "candidates": [],
+  "status": "not_found",
+  "updatedAt": "2026-08-24 23:55:30",
+  "shard": 12,
+  "queriesRun": [
+   "\"adeel haider mankee\" lums linkedin",
+   "\"adeel haider mankee\" \"Lahore University of Management Sciences\"",
+   "\"adeel haider mankee\" lums faculty",
+   "\"adeel haider mankee\" site:lums.edu.pk",
+   "\"adeel haider mankee\" researchgate"
+  ]
+ },
+ "11849": {
+  "lumsEmployeeId": "11849",
+  "name": "Dr. Sumaya Falak Memon",
+  "title": "Assistant Professor",
+  "department": "Economics",
+  "school": "Mushtaq Ahmad Gurmani School of Humanities and Social Sciences",
+  "profileUrl": "https://lums.edu.pk/lums_employee/11849",
+  "candidates": [
+   {
+    "url": "http://www.v3wall.com/wallpaper/1920_1200/1412/1920_1200_20141203081648370838.jpg",
+    "score": 0,
+    "confidence": "low",
+    "sourceTitle": "Paisajes Playa Paisajes Naturales Fondos De Pantalla Pc",
+    "sourceProfile": "https://utpaqp.edu.pe/post/paisajes-playa-paisajes-naturales-fondos-de-pantalla-pc/",
+    "sourceType": "university",
+    "query": "\"sumaya falak memon\" site:lums.edu.pk",
+    "slug": "",
+    "evidence": [],
+    "localPath": null
+   }
+  ],
+  "status": "found_low_confidence",
+  "updatedAt": "2026-08-24 23:55:33",
+  "shard": 11,
+  "queriesRun": [
+   "\"sumaya falak memon\" lums linkedin",
+   "\"sumaya falak memon\" \"Lahore University of Management Sciences\"",
+   "\"sumaya falak memon\" lums faculty",
+   "\"sumaya falak memon\" site:lums.edu.pk",
+   "\"sumaya falak memon\" researchgate"
+  ]
+ },
+ "11525": {
+  "lumsEmployeeId": "11525",
+  "name": "Dr. Ahmed Salman Humayun",
+  "title": "Adjunct Faculty",
+  "department": "Education",
+  "school": "Syed Ahsan Ali and Syed Maratib Ali School of Education",
+  "profileUrl": "https://lums.edu.pk/lums_employee/11525",
+  "candidates": [
+   {
+    "url": "https://www.readingvine.com/wp-content/uploads/2023/03/Write-the-Missing-Day-of-the-Week-Image.jpg",
+    "score": 0,
+    "confidence": "low",
+    "sourceTitle": "7 Days Of The Week Spanish",
+    "sourceProfile": "https://utpaqp.edu.pe/post/7-days-of-the-week-spanish/",
+    "sourceType": "university",
+    "query": "\"ahmed salman humayun\" \"Lahore University of Management Sciences\"",
+    "slug": "",
+    "evidence": [],
+    "localPath": "/pfp-candidates/11525_0.jpg"
+   }
+  ],
+  "status": "found_low_confidence",
+  "updatedAt": "2026-08-24 23:55:35",
+  "shard": 10,
+  "queriesRun": [
+   "\"ahmed salman humayun\" lums linkedin",
+   "\"ahmed salman humayun\" \"Lahore University of Management Sciences\"",
+   "\"ahmed salman humayun\" lums faculty",
+   "\"ahmed salman humayun\" site:lums.edu.pk",
+   "\"ahmed salman humayun\" researchgate"
+  ]
+ },
+ "10305": {
+  "lumsEmployeeId": "10305",
+  "name": "Ms. Sana Sami",
+  "title": "Teaching Fellow",
+  "department": null,
+  "school": "Suleman Dawood School of Business",
+  "profileUrl": "https://lums.edu.pk/lums_employee/10305",
+  "candidates": [
+   {
+    "url": "https://static1.srcdn.com/wordpress/wp-content/uploads/2023/10/my-hero-academia.jpg",
+    "score": 0,
+    "confidence": "low",
+    "sourceTitle": "My Hero Academia Anime Pixel Art Pixel Art Easy Pixel Artkirishima ...",
+    "sourceProfile": "https://utpaqp.edu.pe/search/my-hero-academia-anime-pixel-art-pixel-art-easy-pixel-artkirishima-pixel-art/",
+    "sourceType": "university",
+    "query": "\"sana sami\" site:lums.edu.pk",
+    "slug": "",
+    "evidence": [],
+    "localPath": "/pfp-candidates/10305_0.jpg"
+   }
+  ],
+  "status": "found_low_confidence",
+  "updatedAt": "2026-08-24 23:55:37",
+  "shard": 7,
+  "queriesRun": [
+   "\"sana sami\" lums linkedin",
+   "\"sana sami\" \"Lahore University of Management Sciences\"",
+   "\"sana sami\" lums faculty",
+   "\"sana sami\" site:lums.edu.pk",
+   "\"sana sami\" researchgate"
+  ]
+ },
+ "5908": {
+  "lumsEmployeeId": "5908",
+  "name": "Dr. Bilal Khalid",
+  "title": "Adjunct Faculty",
+  "department": "Physics",
+  "school": "Syed Babar Ali School of Science and Engineering",
+  "profileUrl": "https://lums.edu.pk/lums_employee/5908",
+  "candidates": [],
+  "status": "not_found",
+  "updatedAt": "2026-08-24 23:55:37",
+  "shard": 2,
+  "queriesRun": [
+   "\"bilal khalid\" lums linkedin",
+   "\"bilal khalid\" \"Lahore University of Management Sciences\"",
+   "\"bilal khalid\" lums faculty",
+   "\"bilal khalid\" site:lums.edu.pk",
+   "\"bilal khalid\" researchgate"
+  ]
+ },
+ "8079": {
+  "lumsEmployeeId": "8079",
+  "name": "Mr. Azhar Javed",
+  "title": "Adjunct Faculty",
+  "department": "Mathematics",
+  "school": "Syed Babar Ali School of Science and Engineering",
+  "profileUrl": "https://lums.edu.pk/lums_employee/8079",
+  "candidates": [
+   {
+    "url": "https://1.bp.blogspot.com/-J9rjt20ruVc/WRXPjol0YUI/AAAAAAAAAGM/v9is5AKq0iMCVJoHYAVMvbFrHAthRwkCQCLcB/s1600/TAXONOMIA-DE-BLOOM-7.jpg",
+    "score": 0,
+    "confidence": "low",
+    "sourceTitle": "Caracteristicas De La Taxonomia De Bloom",
+    "sourceProfile": "https://utpaqp.edu.pe/post/caracteristicas-de-la-taxonomia-de-bloom/",
+    "sourceType": "university",
+    "query": "\"azhar javed\" lums faculty",
+    "slug": "",
+    "evidence": [],
+    "localPath": null
+   }
+  ],
+  "status": "found_low_confidence",
+  "updatedAt": "2026-08-24 23:55:47",
+  "shard": 5,
+  "queriesRun": [
+   "\"azhar javed\" lums linkedin",
+   "\"azhar javed\" \"Lahore University of Management Sciences\"",
+   "\"azhar javed\" lums faculty",
+   "\"azhar javed\" site:lums.edu.pk",
+   "\"azhar javed\" researchgate"
+  ]
+ },
+ "10880": {
+  "lumsEmployeeId": "10880",
+  "name": "Dr. Khawaja Zahid Aziz",
+  "title": "Adjunct Faculty",
+  "department": "Humanities and Social Sciences",
+  "school": "Mushtaq Ahmad Gurmani School of Humanities and Social Sciences",
+  "profileUrl": "https://lums.edu.pk/lums_employee/10880",
+  "candidates": [],
+  "status": "not_found",
+  "updatedAt": "2026-08-24 23:55:51",
+  "shard": 8,
+  "queriesRun": [
+   "\"khawaja zahid aziz\" lums linkedin",
+   "\"khawaja zahid aziz\" \"Lahore University of Management Sciences\"",
+   "\"khawaja zahid aziz\" lums faculty",
+   "\"khawaja zahid aziz\" site:lums.edu.pk",
+   "\"khawaja zahid aziz\" researchgate"
+  ]
+ },
+ "9764": {
+  "lumsEmployeeId": "9764",
+  "name": "Ms. Sana Mohsin",
+  "title": "Adjunct Faculty",
+  "department": "Humanities and Social Sciences",
+  "school": "Mushtaq Ahmad Gurmani School of Humanities and Social Sciences",
+  "profileUrl": "https://lums.edu.pk/lums_employee/9764",
+  "candidates": [],
+  "status": "not_found",
+  "updatedAt": "2026-08-24 23:56:13",
+  "shard": 6,
+  "queriesRun": [
+   "\"sana mohsin\" lums linkedin",
+   "\"sana mohsin\" \"Lahore University of Management Sciences\"",
+   "\"sana mohsin\" lums faculty",
+   "\"sana mohsin\" site:lums.edu.pk",
+   "\"sana mohsin\" researchgate"
+  ]
+ },
+ "11180": {
+  "lumsEmployeeId": "11180",
+  "name": "Dr. Xiaolong Hou",
+  "title": "Assistant Professor",
+  "department": "Economics",
+  "school": "Mushtaq Ahmad Gurmani School of Humanities and Social Sciences",
+  "profileUrl": "https://lums.edu.pk/lums_employee/11180",
+  "candidates": [],
+  "status": "not_found",
+  "updatedAt": "2026-08-24 23:56:15",
+  "shard": 9,
+  "queriesRun": [
+   "\"xiaolong hou\" lums linkedin",
+   "\"xiaolong hou\" \"Lahore University of Management Sciences\"",
+   "\"xiaolong hou\" lums faculty",
+   "\"xiaolong hou\" site:lums.edu.pk",
+   "\"xiaolong hou\" researchgate"
+  ]
+ },
+ "6908": {
+  "lumsEmployeeId": "6908",
+  "name": "Mr. Nauman Afzal Cheema",
+  "title": "Adjunct Faculty",
+  "department": null,
+  "school": "Suleman Dawood School of Business",
+  "profileUrl": "https://lums.edu.pk/lums_employee/6908",
+  "candidates": [],
+  "status": "not_found",
+  "updatedAt": "2026-08-24 23:56:26",
+  "shard": 3,
+  "queriesRun": [
+   "\"nauman afzal cheema\" lums linkedin",
+   "\"nauman afzal cheema\" \"Lahore University of Management Sciences\"",
+   "\"nauman afzal cheema\" lums faculty",
+   "\"nauman afzal cheema\" site:lums.edu.pk",
+   "\"nauman afzal cheema\" researchgate"
+  ]
+ },
+ "12037": {
+  "lumsEmployeeId": "12037",
+  "name": "Ms. Saima Faheem",
+  "title": "Adjunct Faculty",
+  "department": "Education",
+  "school": "Syed Ahsan Ali and Syed Maratib Ali School of Education",
+  "profileUrl": "https://lums.edu.pk/lums_employee/12037",
+  "candidates": [
+   {
+    "url": "https://c8.alamy.com/comp/3AXMY9Y/february-9-2017-sophie-cunningham-3-of-the-missouri-tigers-reaches-for-the-ball-during-the-ncaa-basketball-game-between-the-university-of-tennessee-lady-volunteers-and-the-university-of-missouri-tigers-at-thompson-boling-arena-in-knoxville-tn-tim-gangloffcsmcredit-image-copy-tim-gangloffcsm-via-zuma-wire-3AXMY9Y.jpg",
+    "score": 0,
+    "confidence": "low",
+    "sourceTitle": "Sophie cunningham hi-res stock photography and images - Alamy",
+    "sourceProfile": "https://www.alamy.com/stock-photo/sophie-cunningham.html",
+    "sourceType": "university",
+    "query": "\"saima faheem\" \"Lahore University of Management Sciences\"",
+    "slug": "",
+    "evidence": [],
+    "localPath": null
+   }
+  ],
+  "status": "found_low_confidence",
+  "updatedAt": "2026-08-24 23:56:28",
+  "shard": 12,
+  "queriesRun": [
+   "\"saima faheem\" lums linkedin",
+   "\"saima faheem\" \"Lahore University of Management Sciences\"",
+   "\"saima faheem\" lums faculty",
+   "\"saima faheem\" site:lums.edu.pk",
+   "\"saima faheem\" researchgate"
+  ]
+ },
+ "11528": {
+  "lumsEmployeeId": "11528",
+  "name": "Dr. Qaisar Mehmood",
+  "title": "Adjunct Faculty",
+  "department": "Mathematics",
+  "school": "Syed Babar Ali School of Science and Engineering",
+  "profileUrl": "https://lums.edu.pk/lums_employee/11528",
+  "candidates": [],
+  "status": "retry_bing_only",
+  "updatedAt": "2026-08-24 23:56:31",
+  "shard": 10,
+  "queriesRun": [
+   "\"qaisar mehmood\" lums linkedin",
+   "\"qaisar mehmood\" \"Lahore University of Management Sciences\"",
+   "\"qaisar mehmood\" lums faculty",
+   "\"qaisar mehmood\" site:lums.edu.pk",
+   "\"qaisar mehmood\" researchgate"
+  ]
+ },
+ "10306": {
+  "lumsEmployeeId": "10306",
+  "name": "Mr. Muhammad Ali Syed",
+  "title": "Adjunct Faculty",
+  "department": null,
+  "school": "Suleman Dawood School of Business",
+  "profileUrl": "https://lums.edu.pk/lums_employee/10306",
+  "candidates": [
+   {
+    "url": "https://m.media-amazon.com/images/I/81rbZcD8vdL._AC_SL1500_.jpg",
+    "score": 3.0,
+    "confidence": "low",
+    "sourceTitle": "Amazon.com - Printed Vinyl Social Media Sticker | Personalized Car ...",
+    "sourceProfile": "https://www.amazon.com/Printed-Social-Sticker-Personalized-Stickers/dp/B0DYKC9C3J",
+    "sourceType": "other",
+    "query": "\"muhammad ali syed\" site:lums.edu.pk",
+    "slug": "",
+    "evidence": [
+     "full name in title",
+     "name in source URL"
+    ],
+    "localPath": "/pfp-candidates/10306_0.jpg"
+   }
+  ],
+  "status": "found_low_confidence",
+  "updatedAt": "2026-08-24 23:56:35",
+  "shard": 7,
+  "queriesRun": [
+   "\"muhammad ali syed\" lums linkedin",
+   "\"muhammad ali syed\" \"Lahore University of Management Sciences\"",
+   "\"muhammad ali syed\" lums faculty",
+   "\"muhammad ali syed\" site:lums.edu.pk",
+   "\"muhammad ali syed\" researchgate"
+  ]
+ },
+ "4768": {
+  "lumsEmployeeId": "4768",
+  "name": "Dr. Malik Fakhar Ahmed",
+  "title": "Assistant Professor",
+  "department": "Economics",
+  "school": "Mushtaq Ahmad Gurmani School of Humanities and Social Sciences",
+  "profileUrl": "https://lums.edu.pk/lums_employee/4768",
+  "candidates": [
+   {
+    "url": "https://campus.kennesaw.edu/offices-services/careers/images/headshot2.jpg",
+    "score": 1.0,
+    "confidence": "low",
+    "sourceTitle": "Headshots for Faculty/Staff - Careers",
+    "sourceProfile": "https://campus.kennesaw.edu/offices-services/careers/campus-community/headshots.php",
+    "sourceType": "university",
+    "query": "\"malik fakhar ahmed\" site:lums.edu.pk",
+    "slug": "",
+    "evidence": [
+     "faculty title in context"
+    ],
+    "localPath": null
+   }
+  ],
+  "status": "found_low_confidence",
+  "updatedAt": "2026-08-24 23:56:37",
+  "shard": 1,
+  "queriesRun": [
+   "\"malik fakhar ahmed\" lums linkedin",
+   "\"malik fakhar ahmed\" \"Lahore University of Management Sciences\"",
+   "\"malik fakhar ahmed\" lums faculty",
+   "\"malik fakhar ahmed\" site:lums.edu.pk",
+   "\"malik fakhar ahmed\" researchgate"
+  ]
+ },
+ "11914": {
+  "lumsEmployeeId": "11914",
+  "name": "Mr. Sheikh Muhammad Bilal",
+  "title": "Teaching Fellow",
+  "department": "Computer Science",
+  "school": "Syed Babar Ali School of Science and Engineering",
+  "profileUrl": "https://lums.edu.pk/lums_employee/11914",
+  "candidates": [
+   {
+    "url": "https://thumbs.dreamstime.com/z/medios-iconos-sociales-con-nombres-48212874.jpg",
+    "score": 0,
+    "confidence": "low",
+    "sourceTitle": "Iconos De Las Redes Sociales Con Sus Nombres",
+    "sourceProfile": "https://utpaqp.edu.pe/post/iconos-de-las-redes-sociales-con-sus-nombres/",
+    "sourceType": "university",
+    "query": "\"sheikh muhammad bilal\" lums faculty",
+    "slug": "",
+    "evidence": [],
+    "localPath": "/pfp-candidates/11914_0.jpg"
+   }
+  ],
+  "status": "found_low_confidence",
+  "updatedAt": "2026-08-24 23:56:46",
+  "shard": 11,
+  "queriesRun": [
+   "\"sheikh muhammad bilal\" lums linkedin",
+   "\"sheikh muhammad bilal\" \"Lahore University of Management Sciences\"",
+   "\"sheikh muhammad bilal\" lums faculty",
+   "\"sheikh muhammad bilal\" site:lums.edu.pk",
+   "\"sheikh muhammad bilal\" researchgate"
+  ]
+ },
+ "3203": {
+  "lumsEmployeeId": "3203",
+  "name": "Mr. Ali Sultan",
+  "title": "Adjunct Faculty",
+  "department": null,
+  "school": "Suleman Dawood School of Business",
+  "profileUrl": "https://lums.edu.pk/lums_employee/3203",
+  "candidates": [
+   {
+    "url": "https://calisphere.org/clip/500x500/26729/561e7c2620c16c765af0d28d17988844",
+    "score": 1.2,
+    "confidence": "low",
+    "sourceTitle": "Citizens to Recall Farrell coalition members speaking at a press ...",
+    "sourceProfile": "https://calisphere.org/item/6f9097612bd36398d11cf4643991958f/",
+    "sourceType": "other",
+    "query": "\"ali sultan\" \"Lahore University of Management Sciences\"",
+    "slug": "",
+    "evidence": [
+     "1/2 name tokens in title",
+     "name in source URL"
+    ],
+    "localPath": "/pfp-candidates/3203_0.jpg"
+   }
+  ],
+  "status": "found_low_confidence",
+  "updatedAt": "2026-08-24 23:56:46",
+  "shard": 0,
+  "queriesRun": [
+   "\"ali sultan\" lums linkedin",
+   "\"ali sultan\" \"Lahore University of Management Sciences\"",
+   "\"ali sultan\" lums faculty",
+   "\"ali sultan\" site:lums.edu.pk",
+   "\"ali sultan\" researchgate"
+  ]
+ },
+ "10881": {
+  "lumsEmployeeId": "10881",
+  "name": "Dr. Shahid Rasheed",
+  "title": "Adjunct Faculty",
+  "department": "Humanities and Social Sciences",
+  "school": "Mushtaq Ahmad Gurmani School of Humanities and Social Sciences",
+  "profileUrl": "https://lums.edu.pk/lums_employee/10881",
+  "candidates": [
+   {
+    "url": "https://www.101dogbreeds.com/wp-content/uploads/2023/03/Crossbreed-Dogs.jpg",
+    "score": 0,
+    "confidence": "low",
+    "sourceTitle": "Alphabetical List Of Akc Dog Breeds",
+    "sourceProfile": "https://utpaqp.edu.pe/post/alphabetical-list-of-akc-dog-breeds/",
+    "sourceType": "university",
+    "query": "\"shahid rasheed\" \"Lahore University of Management Sciences\"",
+    "slug": "",
+    "evidence": [],
+    "localPath": "/pfp-candidates/10881_0.jpg"
+   }
+  ],
+  "status": "found_low_confidence",
+  "updatedAt": "2026-08-24 23:56:49",
+  "shard": 8,
+  "queriesRun": [
+   "\"shahid rasheed\" lums linkedin",
+   "\"shahid rasheed\" \"Lahore University of Management Sciences\"",
+   "\"shahid rasheed\" lums faculty",
+   "\"shahid rasheed\" site:lums.edu.pk",
+   "\"shahid rasheed\" researchgate"
+  ]
+ },
+ "5929": {
+  "lumsEmployeeId": "5929",
+  "name": "Mr. Younis Bin Azeem",
+  "title": "Adjunct Faculty",
+  "department": "Humanities and Social Sciences",
+  "school": "Mushtaq Ahmad Gurmani School of Humanities and Social Sciences",
+  "profileUrl": "https://lums.edu.pk/lums_employee/5929",
+  "candidates": [
+   {
+    "url": "https://www.xtrafondos.com/wallpapers/resoluciones/19/carretera-de-anochecer-nubes-y-bosque_1920x1080_3040.jpg",
+    "score": 0,
+    "confidence": "low",
+    "sourceTitle": "Fondo De Pantalla 4k Uhd Wallpapers Espacio Fondo De Pantalla 4k ...",
+    "sourceProfile": "https://utpaqp.edu.pe/search/fondo-de-pantalla-4k-uhd-wallpapers-espacio-fondo-de-pantalla-4k-pcimagenes-para-fondo-de-pantalla-pc-4k/",
+    "sourceType": "university",
+    "query": "\"younis bin azeem\" researchgate",
+    "slug": "",
+    "evidence": [],
+    "localPath": "/pfp-candidates/5929_0.jpg"
+   }
+  ],
+  "status": "found_low_confidence",
+  "updatedAt": "2026-08-24 23:56:52",
+  "shard": 2,
+  "queriesRun": [
+   "\"younis bin azeem\" lums linkedin",
+   "\"younis bin azeem\" \"Lahore University of Management Sciences\"",
+   "\"younis bin azeem\" lums faculty",
+   "\"younis bin azeem\" site:lums.edu.pk",
+   "\"younis bin azeem\" researchgate"
+  ]
+ },
+ "7248": {
+  "lumsEmployeeId": "7248",
+  "name": "Ms. Huda Imtiaz",
+  "title": "Teaching Fellow",
+  "department": "Humanities and Social Sciences",
+  "school": "Mushtaq Ahmad Gurmani School of Humanities and Social Sciences",
+  "profileUrl": "https://lums.edu.pk/lums_employee/7248",
+  "candidates": [
+   {
+    "url": "https://hrd-live.cdn.scayle.cloud/images/eeebcf1658482f7fcab297a066f466b8.jpg?brightness=1&width=922&height=1230&quality=75&bg=ffffff",
+    "score": 1.2,
+    "confidence": "low",
+    "sourceTitle": "Huda Beauty Easy Bake Duo Loose Powder | Harrods UK",
+    "sourceProfile": "https://www.harrods.com/en-gb/p/huda-beauty-easy-bake-duo-loose-powder-000000000007888403",
+    "sourceType": "other",
+    "query": "\"huda imtiaz\" lums linkedin",
+    "slug": "",
+    "evidence": [
+     "1/2 name tokens in title",
+     "name in source URL"
+    ],
+    "localPath": null
+   }
+  ],
+  "status": "found_low_confidence",
+  "updatedAt": "2026-08-24 23:56:53",
+  "shard": 4,
+  "queriesRun": [
+   "\"huda imtiaz\" lums linkedin",
+   "\"huda imtiaz\" \"Lahore University of Management Sciences\"",
+   "\"huda imtiaz\" lums faculty",
+   "\"huda imtiaz\" site:lums.edu.pk",
+   "\"huda imtiaz\" researchgate"
+  ]
+ },
+ "8214": {
+  "lumsEmployeeId": "8214",
+  "name": "Dr. Ameem Lutfi",
+  "title": "Assistant Professor",
+  "department": "Humanities and Social Sciences",
+  "school": "Mushtaq Ahmad Gurmani School of Humanities and Social Sciences",
+  "profileUrl": "https://lums.edu.pk/lums_employee/8214",
+  "candidates": [
+   {
+    "url": "http://www.danflyingsolo.com/wp-content/uploads/2016/03/TajMahalDetail.jpg",
+    "score": 0,
+    "confidence": "low",
+    "sourceTitle": "What Are The Main Features Of Indo Islamic Architecture - Design Talk",
+    "sourceProfile": "https://design.udlvirtual.edu.pe/en/what-are-the-main-features-of-indo-islamic-architecture.html",
+    "sourceType": "university",
+    "query": "\"ameem lutfi\" lums faculty",
+    "slug": "",
+    "evidence": [],
+    "localPath": "/pfp-candidates/8214_0.jpg"
+   }
+  ],
+  "status": "found_low_confidence",
+  "updatedAt": "2026-08-24 23:57:01",
+  "shard": 5,
+  "queriesRun": [
+   "\"ameem lutfi\" lums linkedin",
+   "\"ameem lutfi\" \"Lahore University of Management Sciences\"",
+   "\"ameem lutfi\" lums faculty",
+   "\"ameem lutfi\" site:lums.edu.pk",
+   "\"ameem lutfi\" researchgate"
+  ]
+ },
+ "9805": {
+  "lumsEmployeeId": "9805",
+  "name": "Dr. Fahd Ali",
+  "title": "Visiting Assistant Professor",
+  "department": "Economics",
+  "school": "Mushtaq Ahmad Gurmani School of Humanities and Social Sciences",
+  "profileUrl": "https://lums.edu.pk/lums_employee/9805",
+  "candidates": [
+   {
+    "url": "https://castellanoimagen.es/wp-content/uploads/2024/09/mwr8aglbita.jpg",
+    "score": 1.2,
+    "confidence": "low",
+    "sourceTitle": "Barba de Chivo: Estilos \u00c3\u009anicos para Destacar con Personalidad ...",
+    "sourceProfile": "https://castellanoimagen.es/barba-de-chivo-estilos-para-lucir-con-personalidad/",
+    "sourceType": "other",
+    "query": "\"fahd ali\" site:lums.edu.pk",
+    "slug": "",
+    "evidence": [
+     "1/2 name tokens in title",
+     "name in source URL"
+    ],
+    "localPath": null
+   }
+  ],
+  "status": "found_low_confidence",
+  "updatedAt": "2026-08-24 23:57:07",
+  "shard": 6,
+  "queriesRun": [
+   "\"fahd ali\" lums linkedin",
+   "\"fahd ali\" \"Lahore University of Management Sciences\"",
+   "\"fahd ali\" lums faculty",
+   "\"fahd ali\" site:lums.edu.pk",
+   "\"fahd ali\" researchgate"
+  ]
+ },
+ "11237": {
+  "lumsEmployeeId": "11237",
+  "name": "Dr. Laraib Iqbal Malik",
+  "title": "Assistant Professor",
+  "department": "Life Sciences",
+  "school": "Syed Babar Ali School of Science and Engineering",
+  "profileUrl": "https://lums.edu.pk/lums_employee/11237",
+  "candidates": [
+   {
+    "url": "https://wallpapercave.com/wp/wp1945909.jpg",
+    "score": 0,
+    "confidence": "low",
+    "sourceTitle": "Film Poster Background Hd",
+    "sourceProfile": "https://utpaqp.edu.pe/explore/film-poster-background-hd",
+    "sourceType": "university",
+    "query": "\"laraib iqbal malik\" \"Lahore University of Management Sciences\"",
+    "slug": "",
+    "evidence": [],
+    "localPath": null
+   }
+  ],
+  "status": "found_low_confidence",
+  "updatedAt": "2026-08-24 23:57:13",
+  "shard": 9,
+  "queriesRun": [
+   "\"laraib iqbal malik\" lums linkedin",
+   "\"laraib iqbal malik\" \"Lahore University of Management Sciences\"",
+   "\"laraib iqbal malik\" lums faculty",
+   "\"laraib iqbal malik\" site:lums.edu.pk",
+   "\"laraib iqbal malik\" researchgate"
+  ]
+ },
+ "12038": {
+  "lumsEmployeeId": "12038",
+  "name": "Ms. Mavra Amjad",
+  "title": "Adjunct Faculty",
+  "department": "Education",
+  "school": "Syed Ahsan Ali and Syed Maratib Ali School of Education",
+  "profileUrl": "https://lums.edu.pk/lums_employee/12038",
+  "candidates": [],
+  "status": "retry_bing_only",
+  "updatedAt": "2026-08-24 23:57:25",
+  "shard": 12,
+  "queriesRun": [
+   "\"mavra amjad\" lums linkedin",
+   "\"mavra amjad\" \"Lahore University of Management Sciences\"",
+   "\"mavra amjad\" lums faculty",
+   "\"mavra amjad\" site:lums.edu.pk",
+   "\"mavra amjad\" researchgate"
+  ]
+ },
+ "11535": {
+  "lumsEmployeeId": "11535",
+  "name": "Ms. Aroofa Nasir",
+  "title": "Teaching Fellow",
+  "department": "Computer Science",
+  "school": "Syed Babar Ali School of Science and Engineering",
+  "profileUrl": "https://lums.edu.pk/lums_employee/11535",
+  "candidates": [
+   {
+    "url": "https://cdn.prod.website-files.com/5e593fb060cf877cf875dd1f/64b59cfa08db06de941eab3c_fundraisingimage1.jpeg",
+    "score": 0,
+    "confidence": "low",
+    "sourceTitle": "Fundraising Website Templates - Printable Calendar Template",
+    "sourceProfile": "http://printablepad.sisfoperch.edu.pe/fundraising-website-templates/",
+    "sourceType": "university",
+    "query": "\"aroofa nasir\" lums faculty",
+    "slug": "",
+    "evidence": [],
+    "localPath": "/pfp-candidates/11535_0.jpg"
+   }
+  ],
+  "status": "found_low_confidence",
+  "updatedAt": "2026-08-24 23:57:30",
+  "shard": 10,
+  "queriesRun": [
+   "\"aroofa nasir\" lums linkedin",
+   "\"aroofa nasir\" \"Lahore University of Management Sciences\"",
+   "\"aroofa nasir\" lums faculty",
+   "\"aroofa nasir\" site:lums.edu.pk",
+   "\"aroofa nasir\" researchgate"
+  ]
+ },
+ "6909": {
+  "lumsEmployeeId": "6909",
+  "name": "Ms. Saira Rizwan",
+  "title": "Adjunct Faculty",
+  "department": null,
+  "school": "Suleman Dawood School of Business",
+  "profileUrl": "https://lums.edu.pk/lums_employee/6909",
+  "candidates": [],
+  "status": "retry_bing_only",
+  "updatedAt": "2026-08-24 23:57:40",
+  "shard": 3,
+  "queriesRun": [
+   "\"saira rizwan\" lums linkedin",
+   "\"saira rizwan\" \"Lahore University of Management Sciences\"",
+   "\"saira rizwan\" lums faculty",
+   "\"saira rizwan\" site:lums.edu.pk",
+   "\"saira rizwan\" researchgate"
+  ]
+ },
+ "11915": {
+  "lumsEmployeeId": "11915",
+  "name": "Mr. Sheikh Taha Munir",
+  "title": "Adjunct Faculty",
+  "department": "Humanities and Social Sciences",
+  "school": "Mushtaq Ahmad Gurmani School of Humanities and Social Sciences",
+  "profileUrl": "https://lums.edu.pk/lums_employee/11915",
+  "candidates": [
+   {
+    "url": "https://i.pinimg.com/originals/57/d0/5f/57d05f16cbb5fa66ce4f1352909ffe05.jpg",
+    "score": 0,
+    "confidence": "low",
+    "sourceTitle": "Como Fazer Arvore Para Maquete Com Eva - RETOEDU",
+    "sourceProfile": "https://dsw.aau.edu.et/stu/como-fazer-arvore-para-maquete-com-eva.html",
+    "sourceType": "university",
+    "query": "\"sheikh taha munir\" site:lums.edu.pk",
+    "slug": "",
+    "evidence": [],
+    "localPath": null
+   }
+  ],
+  "status": "found_low_confidence",
+  "updatedAt": "2026-08-24 23:57:46",
+  "shard": 11,
+  "queriesRun": [
+   "\"sheikh taha munir\" lums linkedin",
+   "\"sheikh taha munir\" \"Lahore University of Management Sciences\"",
+   "\"sheikh taha munir\" lums faculty",
+   "\"sheikh taha munir\" site:lums.edu.pk",
+   "\"sheikh taha munir\" researchgate"
+  ]
+ },
+ "10314": {
+  "lumsEmployeeId": "10314",
+  "name": "Mr. Muhammad Tahir",
+  "title": "Teaching Fellow",
+  "department": "Computer Science",
+  "school": "Syed Babar Ali School of Science and Engineering",
+  "profileUrl": "https://lums.edu.pk/lums_employee/10314",
+  "candidates": [],
+  "status": "retry_bing_only",
+  "updatedAt": "2026-08-24 23:57:50",
+  "shard": 7,
+  "queriesRun": [
+   "\"muhammad tahir\" lums linkedin",
+   "\"muhammad tahir\" \"Lahore University of Management Sciences\"",
+   "\"muhammad tahir\" lums faculty",
+   "\"muhammad tahir\" site:lums.edu.pk",
+   "\"muhammad tahir\" researchgate"
+  ]
+ },
+ "5042": {
+  "lumsEmployeeId": "5042",
+  "name": "Mr. Ashok kumar Khatri",
+  "title": "Adjunct Faculty",
+  "department": "Humanities and Social Sciences",
+  "school": "Mushtaq Ahmad Gurmani School of Humanities and Social Sciences",
+  "profileUrl": "https://lums.edu.pk/lums_employee/5042",
+  "candidates": [
+   {
+    "url": "https://www.researchgate.net/profile/Pablo-Parra-Membrives/publication/246281863/figure/fig2/AS:598439922499590@1519690604833/Se-realizo-cirugia-de-control-de-danos-y-cierre-con-bolsa-de-Bogota_Q640.jpg",
+    "score": 0.7,
+    "confidence": "low",
+    "sourceTitle": "(PDF) Experiencia con la t\u00c3\u00a9cnica de la bolsa de Bogot\u00c3\u00a1 para el cierre ...",
+    "sourceProfile": "https://www.researchgate.net/publication/246281863_Experiencia_con_la_tecnica_de_la_bolsa_de_Bogota_para_el_cierre_temporal_del_abdomen",
+    "sourceType": "researchgate",
+    "query": "\"ashok kumar khatri\" \"Lahore University of Management Sciences\"",
+    "slug": "",
+    "evidence": [
+     "source: researchgate (+1.2)"
+    ],
+    "localPath": null
+   }
+  ],
+  "status": "found_low_confidence",
+  "updatedAt": "2026-08-24 23:57:51",
+  "shard": 1,
+  "queriesRun": [
+   "\"ashok kumar khatri\" lums linkedin",
+   "\"ashok kumar khatri\" \"Lahore University of Management Sciences\"",
+   "\"ashok kumar khatri\" lums faculty",
+   "\"ashok kumar khatri\" site:lums.edu.pk",
+   "\"ashok kumar khatri\" researchgate"
+  ]
+ },
+ "8250": {
+  "lumsEmployeeId": "8250",
+  "name": "Ms. Sadaf Rehman",
+  "title": "Adjunct Faculty",
+  "department": "Computer Science",
+  "school": "Syed Babar Ali School of Science and Engineering",
+  "profileUrl": "https://lums.edu.pk/lums_employee/8250",
+  "candidates": [
+   {
+    "url": "https://m.media-amazon.com/images/I/91kOWmoxPwL._SL1500_.jpg",
+    "score": 0,
+    "confidence": "low",
+    "sourceTitle": "Amazon.com: Dave Ramseys Financial Peace University Workbook ...",
+    "sourceProfile": "https://www.amazon.com/Ramseys-Financial-Peace-University-Workbook/dp/1934629049",
+    "sourceType": "university",
+    "query": "\"sadaf rehman\" lums linkedin",
+    "slug": "",
+    "evidence": [],
+    "localPath": null
+   }
+  ],
+  "status": "found_low_confidence",
+  "updatedAt": "2026-08-24 23:57:59",
+  "shard": 5,
+  "queriesRun": [
+   "\"sadaf rehman\" lums linkedin",
+   "\"sadaf rehman\" \"Lahore University of Management Sciences\"",
+   "\"sadaf rehman\" lums faculty",
+   "\"sadaf rehman\" site:lums.edu.pk",
+   "\"sadaf rehman\" researchgate"
+  ]
+ },
+ "10896": {
+  "lumsEmployeeId": "10896",
+  "name": "Dr. Tariq Bashir Ahmad",
+  "title": "Adjunct Faculty",
+  "department": "Electrical Engineering",
+  "school": "Syed Babar Ali School of Science and Engineering",
+  "profileUrl": "https://lums.edu.pk/lums_employee/10896",
+  "candidates": [
+   {
+    "url": "https://i1.rgstatic.net/publication/352696285_Manual_de_Nutricao_Ambulatorial_um_guia_pratico_para_estagiarios_e_profissionais/links/60d3e63e299bf1fe4698e0a2/largepreview.png",
+    "score": 0.7,
+    "confidence": "low",
+    "sourceTitle": "(PDF) Manual de Nutri\u00c3\u00a7\u00c3\u00a3o Ambulatorial: um guia pr\u00c3\u00a1tico para estagi\u00c3\u00a1rios ...",
+    "sourceProfile": "https://www.researchgate.net/publication/352696285_Manual_de_Nutricao_Ambulatorial_um_guia_pratico_para_estagiarios_e_profissionais",
+    "sourceType": "researchgate",
+    "query": "\"tariq bashir ahmad\" site:lums.edu.pk",
+    "slug": "",
+    "evidence": [
+     "source: researchgate (+1.2)"
+    ],
+    "localPath": null
+   }
+  ],
+  "status": "found_low_confidence",
+  "updatedAt": "2026-08-24 23:58:04",
+  "shard": 8,
+  "queriesRun": [
+   "\"tariq bashir ahmad\" lums linkedin",
+   "\"tariq bashir ahmad\" \"Lahore University of Management Sciences\"",
+   "\"tariq bashir ahmad\" lums faculty",
+   "\"tariq bashir ahmad\" site:lums.edu.pk",
+   "\"tariq bashir ahmad\" researchgate"
+  ]
+ },
+ "6062": {
+  "lumsEmployeeId": "6062",
+  "name": "Mr. Ali Azhar",
+  "title": "Adjunct Faculty",
+  "department": "Education",
+  "school": "Syed Ahsan Ali and Syed Maratib Ali School of Education",
+  "profileUrl": "https://lums.edu.pk/lums_employee/6062",
+  "candidates": [],
+  "status": "retry_bing_only",
+  "updatedAt": "2026-08-24 23:58:06",
+  "shard": 2,
+  "queriesRun": [
+   "\"ali azhar\" lums linkedin",
+   "\"ali azhar\" \"Lahore University of Management Sciences\"",
+   "\"ali azhar\" lums faculty",
+   "\"ali azhar\" site:lums.edu.pk",
+   "\"ali azhar\" researchgate"
+  ]
+ },
+ "3397": {
+  "lumsEmployeeId": "3397",
+  "name": "Ms. Zainab Sattar",
+  "title": "Teaching Fellow",
+  "department": "Humanities and Social Sciences",
+  "school": "Mushtaq Ahmad Gurmani School of Humanities and Social Sciences",
+  "profileUrl": "https://lums.edu.pk/lums_employee/3397",
+  "candidates": [
+   {
+    "url": "https://media.licdn.com/dms/image/C4E03AQEDNqTZ40k2hA/profile-displayphoto-shrink_800_800/0/1646673161286?e=2147483647&v=beta&t=4uBMCSj1g5knSI_i1t4ZSw7YIsHJSHX-Ick4YPIL13M",
+    "score": 3.3,
+    "confidence": "low",
+    "sourceTitle": "Fabian Cruz - Business Owner - CruzLaserDesigns | LinkedIn",
+    "sourceProfile": "https://www.linkedin.com/in/fabian-cruz-26bab7233",
+    "sourceType": "linkedin",
+    "query": "\"zainab sattar\" lums faculty",
+    "slug": "fabian-cruz-26bab7233",
+    "evidence": [
+     "source: linkedin (+1.0)",
+     "LinkedIn profile photo pattern",
+     "high-res variant (1646673161286?e=2147)"
+    ],
+    "localPath": null,
+    "downloadFailed": true
+   },
+   {
+    "url": "https://media.licdn.com/dms/image/C4E03AQHphYeYMxDpqQ/profile-displayphoto-shrink_800_800/0/1564593307477?e=2147483647&v=beta&t=4_unbwJsCucIByFCHKCkgjfGD_i7EXM2VJr2GqQcACo",
+    "score": 3.3,
+    "confidence": "low",
+    "sourceTitle": "Fabian Cruz - Operaciones CDR zona Istmo - Kek\u00c3\u00a9n | LinkedIn",
+    "sourceProfile": "https://mx.linkedin.com/in/fabian-cruz-130a9191",
+    "sourceType": "linkedin",
+    "query": "\"zainab sattar\" lums faculty",
+    "slug": "fabian-cruz-130a9191",
+    "evidence": [
+     "source: linkedin (+1.0)",
+     "LinkedIn profile photo pattern",
+     "high-res variant (1564593307477?e=2147)"
+    ],
+    "localPath": null,
+    "downloadFailed": true
+   }
+  ],
+  "status": "found_low_confidence",
+  "updatedAt": "2026-08-24 23:58:06",
+  "shard": 0,
+  "queriesRun": [
+   "\"zainab sattar\" lums linkedin",
+   "\"zainab sattar\" \"Lahore University of Management Sciences\"",
+   "\"zainab sattar\" lums faculty",
+   "\"zainab sattar\" site:lums.edu.pk",
+   "\"zainab sattar\" researchgate"
+  ]
+ },
+ "7274": {
+  "lumsEmployeeId": "7274",
+  "name": "Ms. Sannia Hussain",
+  "title": "Adjunct Faculty",
+  "department": "Education",
+  "school": "Syed Ahsan Ali and Syed Maratib Ali School of Education",
+  "profileUrl": "https://lums.edu.pk/lums_employee/7274",
+  "candidates": [
+   {
+    "url": "https://cdn.freebiesupply.com/images/large/2x/pittsburgh-steelers-logo-transparent.png",
+    "score": 0,
+    "confidence": "low",
+    "sourceTitle": "Pittsburgh Steelers Logo Png Transparent Svg Vector Freebie Supply ...",
+    "sourceProfile": "https://utpaqp.edu.pe/search/pittsburgh-steelers-logo-png-transparent-svg-vector-freebie-supply-images/steelers-logo-animated/",
+    "sourceType": "university",
+    "query": "\"sannia hussain\" site:lums.edu.pk",
+    "slug": "",
+    "evidence": [],
+    "localPath": "/pfp-candidates/7274_0.png"
+   }
+  ],
+  "status": "found_low_confidence",
+  "updatedAt": "2026-08-24 23:58:09",
+  "shard": 4,
+  "queriesRun": [
+   "\"sannia hussain\" lums linkedin",
+   "\"sannia hussain\" \"Lahore University of Management Sciences\"",
+   "\"sannia hussain\" lums faculty",
+   "\"sannia hussain\" site:lums.edu.pk",
+   "\"sannia hussain\" researchgate"
+  ]
+ },
+ "10024": {
+  "lumsEmployeeId": "10024",
+  "name": "Dr. Asif Nadeem Tabish",
+  "title": "Adjunct Faculty",
+  "department": "Chemistry & Chemical Engineering",
+  "school": "Syed Babar Ali School of Science and Engineering",
+  "profileUrl": "https://lums.edu.pk/lums_employee/10024",
+  "candidates": [
+   {
+    "url": "https://i.pinimg.com/originals/e2/8b/90/e28b90fee4864e9d21fa29fe3fdf5209.jpg",
+    "score": 0,
+    "confidence": "low",
+    "sourceTitle": "Carnival Fun Points Redemption Chart",
+    "sourceProfile": "https://utpaqp.edu.pe/explore/carnival-fun-points-redemption-chart",
+    "sourceType": "university",
+    "query": "\"asif nadeem tabish\" lums linkedin",
+    "slug": "",
+    "evidence": [],
+    "localPath": null
+   }
+  ],
+  "status": "found_low_confidence",
+  "updatedAt": "2026-08-24 23:58:09",
+  "shard": 6,
+  "queriesRun": [
+   "\"asif nadeem tabish\" lums linkedin",
+   "\"asif nadeem tabish\" \"Lahore University of Management Sciences\"",
+   "\"asif nadeem tabish\" lums faculty",
+   "\"asif nadeem tabish\" site:lums.edu.pk",
+   "\"asif nadeem tabish\" researchgate"
+  ]
+ },
+ "11256": {
+  "lumsEmployeeId": "11256",
+  "name": "Ms. Masooma Syed",
+  "title": "Adjunct Faculty",
+  "department": "Education",
+  "school": "Syed Ahsan Ali and Syed Maratib Ali School of Education",
+  "profileUrl": "https://lums.edu.pk/lums_employee/11256",
+  "candidates": [],
+  "status": "retry_bing_only",
+  "updatedAt": "2026-08-24 23:58:15",
+  "shard": 9,
+  "queriesRun": [
+   "\"masooma syed\" lums linkedin",
+   "\"masooma syed\" \"Lahore University of Management Sciences\"",
+   "\"masooma syed\" lums faculty",
+   "\"masooma syed\" site:lums.edu.pk",
+   "\"masooma syed\" researchgate"
+  ]
+ },
+ "12039": {
+  "lumsEmployeeId": "12039",
+  "name": "Dr. Amina Mahmood",
+  "title": "Adjunct Faculty",
+  "department": "Education",
+  "school": "Syed Ahsan Ali and Syed Maratib Ali School of Education",
+  "profileUrl": "https://lums.edu.pk/lums_employee/12039",
+  "candidates": [],
+  "status": "retry_bing_only",
+  "updatedAt": "2026-08-24 23:58:25",
+  "shard": 12,
+  "queriesRun": [
+   "\"amina mahmood\" lums linkedin",
+   "\"amina mahmood\" \"Lahore University of Management Sciences\"",
+   "\"amina mahmood\" lums faculty",
+   "\"amina mahmood\" site:lums.edu.pk",
+   "\"amina mahmood\" researchgate"
+  ]
+ },
+ "6914": {
+  "lumsEmployeeId": "6914",
+  "name": "Dr. Mariam Haider",
+  "title": "Associate Professor of Practice",
+  "department": "Education",
+  "school": "Syed Ahsan Ali and Syed Maratib Ali School of Education",
+  "profileUrl": "https://lums.edu.pk/lums_employee/6914",
+  "candidates": [
+   {
+    "url": "https://c8.alamy.com/comp/TY7CCA/kennedy-family-tree-scope-and-content-kennedy-family-tree-starting-with-joseph-patrick-kennedy-TY7CCA.jpg",
+    "score": 0,
+    "confidence": "low",
+    "sourceTitle": "Rosemary Kennedy Family Tree at Mariam Oberg blog",
+    "sourceProfile": "https://storage.googleapis.com/dnmwknememxhke/rosemary-kennedy-family-tree.html",
+    "sourceType": "other",
+    "query": "\"mariam haider\" site:lums.edu.pk",
+    "slug": "",
+    "evidence": [
+     "1/2 name tokens in title"
+    ],
+    "localPath": "/pfp-candidates/6914_0.jpg"
+   }
+  ],
+  "status": "found_low_confidence",
+  "updatedAt": "2026-08-24 23:58:42",
+  "shard": 3,
+  "queriesRun": [
+   "\"mariam haider\" lums linkedin",
+   "\"mariam haider\" \"Lahore University of Management Sciences\"",
+   "\"mariam haider\" lums faculty",
+   "\"mariam haider\" site:lums.edu.pk",
+   "\"mariam haider\" researchgate"
+  ]
+ },
+ "11556": {
+  "lumsEmployeeId": "11556",
+  "name": "Ms. Maliha Ameen",
+  "title": "Adjunct Faculty",
+  "department": "Computer Science",
+  "school": "Syed Babar Ali School of Science and Engineering",
+  "profileUrl": "https://lums.edu.pk/lums_employee/11556",
+  "candidates": [],
+  "status": "retry_bing_only",
+  "updatedAt": "2026-08-24 23:58:42",
+  "shard": 10,
+  "queriesRun": [
+   "\"maliha ameen\" lums linkedin",
+   "\"maliha ameen\" \"Lahore University of Management Sciences\"",
+   "\"maliha ameen\" lums faculty",
+   "\"maliha ameen\" site:lums.edu.pk",
+   "\"maliha ameen\" researchgate"
+  ]
+ },
+ "10335": {
+  "lumsEmployeeId": "10335",
+  "name": "Mr. Hameed Ullah",
+  "title": "Adjunct Faculty",
+  "department": "Humanities and Social Sciences",
+  "school": "Mushtaq Ahmad Gurmani School of Humanities and Social Sciences",
+  "profileUrl": "https://lums.edu.pk/lums_employee/10335",
+  "candidates": [],
+  "status": "retry_bing_only",
+  "updatedAt": "2026-08-24 23:58:44",
+  "shard": 7,
+  "queriesRun": [
+   "\"hameed ullah\" lums linkedin",
+   "\"hameed ullah\" \"Lahore University of Management Sciences\"",
+   "\"hameed ullah\" lums faculty",
+   "\"hameed ullah\" site:lums.edu.pk",
+   "\"hameed ullah\" researchgate"
+  ]
+ },
+ "11916": {
+  "lumsEmployeeId": "11916",
+  "name": "Mr. Haseeb Ashfaq Janjua",
+  "title": "Teaching Fellow",
+  "department": "Computer Science",
+  "school": "Syed Babar Ali School of Science and Engineering",
+  "profileUrl": "https://lums.edu.pk/lums_employee/11916",
+  "candidates": [
+   {
+    "url": "https://www.researchgate.net/profile/Juan-Garcia-Lopez-3/publication/309579800/figure/fig13/AS:613877502984244@1523371210981/figure-fig13_Q640.jpg",
+    "score": 0.7,
+    "confidence": "low",
+    "sourceTitle": "(PDF) Equilibrio y estabilidad del cuerpo humano",
+    "sourceProfile": "https://www.researchgate.net/publication/309579800_Equilibrio_y_estabilidad_del_cuerpo_humano",
+    "sourceType": "researchgate",
+    "query": "\"haseeb ashfaq janjua\" researchgate",
+    "slug": "",
+    "evidence": [
+     "source: researchgate (+1.2)"
+    ],
+    "localPath": null,
+    "downloadFailed": true
+   }
+  ],
+  "status": "found_low_confidence",
+  "updatedAt": "2026-08-24 23:58:45",
+  "shard": 11,
+  "queriesRun": [
+   "\"haseeb ashfaq janjua\" lums linkedin",
+   "\"haseeb ashfaq janjua\" \"Lahore University of Management Sciences\"",
+   "\"haseeb ashfaq janjua\" lums faculty",
+   "\"haseeb ashfaq janjua\" site:lums.edu.pk",
+   "\"haseeb ashfaq janjua\" researchgate"
+  ]
+ },
+ "8405": {
+  "lumsEmployeeId": "8405",
+  "name": "Mr. Farhan Akhtar",
+  "title": "Adjunct Faculty",
+  "department": null,
+  "school": "Suleman Dawood School of Business",
+  "profileUrl": "https://lums.edu.pk/lums_employee/8405",
+  "candidates": [],
+  "status": "retry_bing_only",
+  "updatedAt": "2026-08-24 23:58:51",
+  "shard": 5,
+  "queriesRun": [
+   "\"farhan akhtar\" lums linkedin",
+   "\"farhan akhtar\" \"Lahore University of Management Sciences\"",
+   "\"farhan akhtar\" lums faculty",
+   "\"farhan akhtar\" site:lums.edu.pk",
+   "\"farhan akhtar\" researchgate"
+  ]
+ },
+ "5044": {
+  "lumsEmployeeId": "5044",
+  "name": "Mr. Aqib Ali",
+  "title": "Adjunct Faculty",
+  "department": "Humanities and Social Sciences",
+  "school": "Mushtaq Ahmad Gurmani School of Humanities and Social Sciences",
+  "profileUrl": "https://lums.edu.pk/lums_employee/5044",
+  "candidates": [
+   {
+    "url": "https://d20ohkaloyme4g.cloudfront.net/img/document_thumbnails/ca8a58ccaa48def436959c2255e922ef/thumb_300_424.png",
+    "score": 0,
+    "confidence": "low",
+    "sourceTitle": "TEMA-1- Sistema- Endocrino - TEMA 1 \u00e2\u0080\u0093 SISTEMA ENDOCRINO Generalidades ...",
+    "sourceProfile": "https://www.studocu.com/es/document/universidad-europea-de-madrid/patologia-quirurgica-y-radiologia-ii/tema-1-sistema-endocrino/63465896",
+    "sourceType": "other",
+    "query": "\"aqib ali\" lums faculty",
+    "slug": "",
+    "evidence": [
+     "1/2 name tokens in title"
+    ],
+    "localPath": null
+   }
+  ],
+  "status": "found_low_confidence",
+  "updatedAt": "2026-08-24 23:59:01",
+  "shard": 1,
+  "queriesRun": [
+   "\"aqib ali\" lums linkedin",
+   "\"aqib ali\" \"Lahore University of Management Sciences\"",
+   "\"aqib ali\" lums faculty",
+   "\"aqib ali\" site:lums.edu.pk",
+   "\"aqib ali\" researchgate"
+  ]
+ },
+ "6137": {
+  "lumsEmployeeId": "6137",
+  "name": "Dr. Maryam Abdul Ghafoor",
+  "title": "Assistant Professor",
+  "department": "Computer Science",
+  "school": "Syed Babar Ali School of Science and Engineering",
+  "profileUrl": "https://lums.edu.pk/lums_employee/6137",
+  "candidates": [
+   {
+    "url": "https://efape.educacao.sp.gov.br/wp-content/uploads/2024/11/Efape_EscoladeGestao_350x350_B-1.jpg",
+    "score": 0,
+    "confidence": "low",
+    "sourceTitle": "EFAPE | Escola de Forma\u00c3\u00a7\u00c3\u00a3o e Aperfei\u00c3\u00a7oamento dos Profissionais da Educa\u00c3\u00a7\u00c3\u00a3o",
+    "sourceProfile": "https://efape.educacao.sp.gov.br/",
+    "sourceType": "university",
+    "query": "\"maryam abdul ghafoor\" lums faculty",
+    "slug": "",
+    "evidence": [],
+    "localPath": "/pfp-candidates/6137_0.jpg"
+   }
+  ],
+  "status": "found_low_confidence",
+  "updatedAt": "2026-08-24 23:59:06",
+  "shard": 2,
+  "queriesRun": [
+   "\"maryam abdul ghafoor\" lums linkedin",
+   "\"maryam abdul ghafoor\" \"Lahore University of Management Sciences\"",
+   "\"maryam abdul ghafoor\" lums faculty",
+   "\"maryam abdul ghafoor\" site:lums.edu.pk",
+   "\"maryam abdul ghafoor\" researchgate"
+  ]
+ },
+ "7277": {
+  "lumsEmployeeId": "7277",
+  "name": "Dr. Rizwan Khalid",
+  "title": "Associate Professor",
+  "department": "Physics",
+  "school": "Syed Babar Ali School of Science and Engineering",
+  "profileUrl": "https://lums.edu.pk/lums_employee/7277",
+  "candidates": [
+   {
+    "url": "https://i1.rgstatic.net/publication/362499536_Conceptualisations_of_Labour_and_the_Making_of_the_French_Working_Class_in_the_1830s/links/631c4965071ea12e36220255/largepreview.png",
+    "score": 0.7,
+    "confidence": "low",
+    "sourceTitle": "(PDF) Conceptualisations of Labour and the Making of the French Working ...",
+    "sourceProfile": "https://www.researchgate.net/publication/362499536_Conceptualisations_of_Labour_and_the_Making_of_the_French_Working_Class_in_the_1830s",
+    "sourceType": "researchgate",
+    "query": "\"rizwan khalid\" site:lums.edu.pk",
+    "slug": "",
+    "evidence": [
+     "source: researchgate (+1.2)"
+    ],
+    "localPath": null
+   }
+  ],
+  "status": "found_low_confidence",
+  "updatedAt": "2026-08-24 23:59:08",
+  "shard": 4,
+  "queriesRun": [
+   "\"rizwan khalid\" lums linkedin",
+   "\"rizwan khalid\" \"Lahore University of Management Sciences\"",
+   "\"rizwan khalid\" lums faculty",
+   "\"rizwan khalid\" site:lums.edu.pk",
+   "\"rizwan khalid\" researchgate"
+  ]
+ },
+ "11258": {
+  "lumsEmployeeId": "11258",
+  "name": "Mr. Ali Muhammad Nomani",
+  "title": "Adjunct Faculty",
+  "department": "Education",
+  "school": "Syed Ahsan Ali and Syed Maratib Ali School of Education",
+  "profileUrl": "https://lums.edu.pk/lums_employee/11258",
+  "candidates": [
+   {
+    "url": "https://www.remindmagazine.com/wp-content/uploads/2025/01/the-donna-reed-show-1078x720.jpg",
+    "score": 1.2,
+    "confidence": "low",
+    "sourceTitle": "Who's Still Alive from 'The Donna Reed Show'?",
+    "sourceProfile": "https://www.remindmagazine.com/article/25112/donna-reed-show-whos-still-alive-shelley-fabares-paul-petersen/]]/]]&gt;/",
+    "sourceType": "other",
+    "query": "\"ali muhammad nomani\" lums linkedin",
+    "slug": "",
+    "evidence": [
+     "1/2 name tokens in title",
+     "name in source URL"
+    ],
+    "localPath": null
+   }
+  ],
+  "status": "found_low_confidence",
+  "updatedAt": "2026-08-24 23:59:12",
+  "shard": 9,
+  "queriesRun": [
+   "\"ali muhammad nomani\" lums linkedin",
+   "\"ali muhammad nomani\" \"Lahore University of Management Sciences\"",
+   "\"ali muhammad nomani\" lums faculty",
+   "\"ali muhammad nomani\" site:lums.edu.pk",
+   "\"ali muhammad nomani\" researchgate"
+  ]
+ },
+ "12040": {
+  "lumsEmployeeId": "12040",
+  "name": "Mr. Mohammad Haroon Khan Tarar",
+  "title": "Adjunct Faculty",
+  "department": null,
+  "school": "Suleman Dawood School of Business",
+  "profileUrl": "https://lums.edu.pk/lums_employee/12040",
+  "candidates": [
+   {
+    "url": "https://www.researchgate.net/publication/234402580/figure/fig1/AS:651177557499904@1532264236050/Map-of-the-greater-Raleigh-metro-area-Wake-County-North-Carolina-showing-major-roads.png",
+    "score": 0.7,
+    "confidence": "low",
+    "sourceTitle": "Raleigh Map",
+    "sourceProfile": "https://ar.inspiredpencil.com/pictures-2023/raleigh-map",
+    "sourceType": "researchgate",
+    "query": "\"mohammad haroon khan tarar\" site:lums.edu.pk",
+    "slug": "",
+    "evidence": [
+     "source: researchgate (+1.2)"
+    ],
+    "localPath": null
+   }
+  ],
+  "status": "found_low_confidence",
+  "updatedAt": "2026-08-24 23:59:19",
+  "shard": 12,
+  "queriesRun": [
+   "\"mohammad haroon khan tarar\" lums linkedin",
+   "\"mohammad haroon khan tarar\" \"Lahore University of Management Sciences\"",
+   "\"mohammad haroon khan tarar\" lums faculty",
+   "\"mohammad haroon khan tarar\" site:lums.edu.pk",
+   "\"mohammad haroon khan tarar\" researchgate"
+  ]
+ },
+ "10920": {
+  "lumsEmployeeId": "10920",
+  "name": "Dr. Muhammad Adeel Alvi",
+  "title": "Adjunct Faculty",
+  "department": null,
+  "school": "Suleman Dawood School of Business",
+  "profileUrl": "https://lums.edu.pk/lums_employee/10920",
+  "candidates": [
+   {
+    "url": "https://www.researchgate.net/publication/24434988/figure/fig1/AS:667203481395209@1536085114775/Right-handed-B-DNA-and-left-handed-Z-DNA-This-figure-illustrates-the-potential-of.png",
+    "score": 0.7,
+    "confidence": "low",
+    "sourceTitle": "Z Dna",
+    "sourceProfile": "https://fity.club/lists/z/z-dna/",
+    "sourceType": "researchgate",
+    "query": "\"muhammad adeel alvi\" researchgate",
+    "slug": "",
+    "evidence": [
+     "source: researchgate (+1.2)"
+    ],
+    "localPath": null,
+    "downloadFailed": true
+   }
+  ],
+  "status": "found_low_confidence",
+  "updatedAt": "2026-08-24 23:59:25",
+  "shard": 8,
+  "queriesRun": [
+   "\"muhammad adeel alvi\" lums linkedin",
+   "\"muhammad adeel alvi\" \"Lahore University of Management Sciences\"",
+   "\"muhammad adeel alvi\" lums faculty",
+   "\"muhammad adeel alvi\" site:lums.edu.pk",
+   "\"muhammad adeel alvi\" researchgate"
+  ]
+ },
+ "6968": {
+  "lumsEmployeeId": "6968",
+  "name": "Mr. Muhammad Salaar Arif Khan",
+  "title": "Adjunct Faculty",
+  "department": "Humanities and Social Sciences",
+  "school": "Mushtaq Ahmad Gurmani School of Humanities and Social Sciences",
+  "profileUrl": "https://lums.edu.pk/lums_employee/6968",
+  "candidates": [
+   {
+    "url": "https://media.licdn.com/dms/image/C4D03AQHIkVJXFe2k1A/profile-displayphoto-shrink_800_800/0/1661152699921?e=2147483647&v=beta&t=ipVOZENdxG4YimhkYfHzNV2wvn-geJI9V-TFwQ7CgNY",
+    "score": 3.3,
+    "confidence": "low",
+    "sourceTitle": "Enrique Zambrano - Representante del servicio de atenci\u00c3\u00b3n al cliente ...",
+    "sourceProfile": "https://ec.linkedin.com/in/enrique-zambrano-b017bb17b",
+    "sourceType": "linkedin",
+    "query": "\"muhammad salaar arif khan\" researchgate",
+    "slug": "enrique-zambrano-b017bb17b",
+    "evidence": [
+     "source: linkedin (+1.0)",
+     "LinkedIn profile photo pattern",
+     "high-res variant (1661152699921?e=2147)"
+    ],
+    "localPath": null,
+    "downloadFailed": true
+   },
+   {
+    "url": "https://media.licdn.com/dms/image/D4E03AQGGf8KfrHC3-A/profile-displayphoto-shrink_800_800/0/1680199865752?e=2147483647&v=beta&t=ulNrl3YYZc70a3LBFNQZBHrY0ydmBT2A1ueFzO0rF6g",
+    "score": 3.3,
+    "confidence": "low",
+    "sourceTitle": "Enrique Zambrano - Gerente general - Dimed Healthcare S.A. | LinkedIn",
+    "sourceProfile": "https://ec.linkedin.com/in/enrique-zambrano-87ab00241",
+    "sourceType": "linkedin",
+    "query": "\"muhammad salaar arif khan\" researchgate",
+    "slug": "enrique-zambrano-87ab00241",
+    "evidence": [
+     "source: linkedin (+1.0)",
+     "LinkedIn profile photo pattern",
+     "high-res variant (1680199865752?e=2147)"
+    ],
+    "localPath": null,
+    "downloadFailed": true
+   }
+  ],
+  "status": "found_low_confidence",
+  "updatedAt": "2026-08-24 23:59:42",
+  "shard": 3,
+  "queriesRun": [
+   "\"muhammad salaar arif khan\" lums linkedin",
+   "\"muhammad salaar arif khan\" \"Lahore University of Management Sciences\"",
+   "\"muhammad salaar arif khan\" lums faculty",
+   "\"muhammad salaar arif khan\" site:lums.edu.pk",
+   "\"muhammad salaar arif khan\" researchgate"
+  ]
+ },
+ "11922": {
+  "lumsEmployeeId": "11922",
+  "name": "Mr. Danyal Haroon",
+  "title": "Teaching Fellow",
+  "department": "Computer Science",
+  "school": "Syed Babar Ali School of Science and Engineering",
+  "profileUrl": "https://lums.edu.pk/lums_employee/11922",
+  "candidates": [
+   {
+    "url": "https://www.aihr.com/wp-content/uploads/letter-of-recommendation-template-1257x1536.png",
+    "score": 0,
+    "confidence": "low",
+    "sourceTitle": "Letter Of Recommendation Template Google Doc",
+    "sourceProfile": "https://exceltemplate.sisfoperch.edu.pe/ok/letter-of-recommendation-template-google-doc.html",
+    "sourceType": "university",
+    "query": "\"danyal haroon\" lums linkedin",
+    "slug": "",
+    "evidence": [],
+    "localPath": "/pfp-candidates/11922_0.png"
+   }
+  ],
+  "status": "found_low_confidence",
+  "updatedAt": "2026-08-24 23:59:42",
+  "shard": 11,
+  "queriesRun": [
+   "\"danyal haroon\" lums linkedin",
+   "\"danyal haroon\" \"Lahore University of Management Sciences\"",
+   "\"danyal haroon\" lums faculty",
+   "\"danyal haroon\" site:lums.edu.pk",
+   "\"danyal haroon\" researchgate"
+  ]
+ },
+ "10611": {
+  "lumsEmployeeId": "10611",
+  "name": "Ms. Samina Arifa",
+  "title": "Adjunct Faculty",
+  "department": "Humanities and Social Sciences",
+  "school": "Mushtaq Ahmad Gurmani School of Humanities and Social Sciences",
+  "profileUrl": "https://lums.edu.pk/lums_employee/10611",
+  "candidates": [],
+  "status": "retry_bing_only",
+  "updatedAt": "2026-08-24 23:59:43",
+  "shard": 7,
+  "queriesRun": [
+   "\"samina arifa\" lums linkedin",
+   "\"samina arifa\" \"Lahore University of Management Sciences\"",
+   "\"samina arifa\" lums faculty",
+   "\"samina arifa\" site:lums.edu.pk",
+   "\"samina arifa\" researchgate"
+  ]
+ },
+ "8776": {
+  "lumsEmployeeId": "8776",
+  "name": "Mr. Shahid Malik",
+  "title": "Adjunct Faculty",
+  "department": "Humanities and Social Sciences",
+  "school": "Mushtaq Ahmad Gurmani School of Humanities and Social Sciences",
+  "profileUrl": "https://lums.edu.pk/lums_employee/8776",
+  "candidates": [
+   {
+    "url": "https://static.vecteezy.com/system/resources/previews/002/332/044/large_2x/flash-sale-banner-design-template-special-offer-banner-vector.jpg",
+    "score": 0,
+    "confidence": "low",
+    "sourceTitle": "Flash Sale Template",
+    "sourceProfile": "https://templates.rjuuc.edu.np/en/flash-sale-template.html",
+    "sourceType": "university",
+    "query": "\"shahid malik\" researchgate",
+    "slug": "",
+    "evidence": [],
+    "localPath": "/pfp-candidates/8776_0.jpg"
+   }
+  ],
+  "status": "found_low_confidence",
+  "updatedAt": "2026-08-24 23:59:52",
+  "shard": 5,
+  "queriesRun": [
+   "\"shahid malik\" lums linkedin",
+   "\"shahid malik\" \"Lahore University of Management Sciences\"",
+   "\"shahid malik\" lums faculty",
+   "\"shahid malik\" site:lums.edu.pk",
+   "\"shahid malik\" researchgate"
+  ]
+ },
+ "11564": {
+  "lumsEmployeeId": "11564",
+  "name": "Mr. Ateeb Ahmed",
+  "title": "Assistant Professor",
+  "department": "Humanities and Social Sciences",
+  "school": "Mushtaq Ahmad Gurmani School of Humanities and Social Sciences",
+  "profileUrl": "https://lums.edu.pk/lums_employee/11564",
+  "candidates": [],
+  "status": "retry_bing_only",
+  "updatedAt": "2026-08-24 23:59:53",
+  "shard": 10,
+  "queriesRun": [
+   "\"ateeb ahmed\" lums linkedin",
+   "\"ateeb ahmed\" \"Lahore University of Management Sciences\"",
+   "\"ateeb ahmed\" lums faculty",
+   "\"ateeb ahmed\" site:lums.edu.pk",
+   "\"ateeb ahmed\" researchgate"
+  ]
+ },
+ "7279": {
+  "lumsEmployeeId": "7279",
+  "name": "Ms. Uzma Safdar",
+  "title": "Adjunct Faculty",
+  "department": "Humanities and Social Sciences",
+  "school": "Mushtaq Ahmad Gurmani School of Humanities and Social Sciences",
+  "profileUrl": "https://lums.edu.pk/lums_employee/7279",
+  "candidates": [
+   {
+    "url": "https://www.educando.edu.do/portal/wp-content/uploads/2016/03/voz-humana.jpg",
+    "score": 0,
+    "confidence": "low",
+    "sourceTitle": "La voz humana \u00e2\u0080\u0093 Educando",
+    "sourceProfile": "https://www.educando.edu.do/portal/la-voz-humana/",
+    "sourceType": "university",
+    "query": "\"uzma safdar\" lums linkedin",
+    "slug": "",
+    "evidence": [],
+    "localPath": null,
+    "downloadFailed": true
+   }
+  ],
+  "status": "found_low_confidence",
+  "updatedAt": "2026-08-25 00:01:18",
+  "shard": 4,
+  "queriesRun": [
+   "\"uzma safdar\" lums linkedin",
+   "\"uzma safdar\" \"Lahore University of Management Sciences\"",
+   "\"uzma safdar\" lums faculty",
+   "\"uzma safdar\" site:lums.edu.pk",
+   "\"uzma safdar\" researchgate"
+  ]
+ },
+ "6140": {
+  "lumsEmployeeId": "6140",
+  "name": "Mr. Muhammad Hanif",
+  "title": "Adjunct Faculty",
+  "department": "Humanities and Social Sciences",
+  "school": "Mushtaq Ahmad Gurmani School of Humanities and Social Sciences",
+  "profileUrl": "https://lums.edu.pk/lums_employee/6140",
+  "candidates": [],
+  "status": "not_found",
+  "updatedAt": "2026-08-25 00:01:22",
+  "shard": 2,
+  "queriesRun": [
+   "\"muhammad hanif\" lums linkedin",
+   "\"muhammad hanif\" \"Lahore University of Management Sciences\"",
+   "\"muhammad hanif\" lums faculty",
+   "\"muhammad hanif\" site:lums.edu.pk",
+   "\"muhammad hanif\" researchgate"
+  ]
+ },
+ "5046": {
+  "lumsEmployeeId": "5046",
+  "name": "Dr. Hafiz Abdul Qadeer",
+  "title": "Adjunct Faculty",
+  "department": "Humanities and Social Sciences",
+  "school": "Mushtaq Ahmad Gurmani School of Humanities and Social Sciences",
+  "profileUrl": "https://lums.edu.pk/lums_employee/5046",
+  "candidates": [],
+  "status": "not_found",
+  "updatedAt": "2026-08-25 00:01:22",
+  "shard": 1,
+  "queriesRun": [
+   "\"hafiz abdul qadeer\" lums linkedin",
+   "\"hafiz abdul qadeer\" \"Lahore University of Management Sciences\"",
+   "\"hafiz abdul qadeer\" lums faculty",
+   "\"hafiz abdul qadeer\" site:lums.edu.pk",
+   "\"hafiz abdul qadeer\" researchgate"
+  ]
+ },
+ "10676": {
+  "lumsEmployeeId": "10676",
+  "name": "Ms. Khansa Maria",
+  "title": "Adjunct Faculty",
+  "department": "Education",
+  "school": "Syed Ahsan Ali and Syed Maratib Ali School of Education",
+  "profileUrl": "https://lums.edu.pk/lums_employee/10676",
+  "candidates": [],
+  "status": "not_found",
+  "updatedAt": "2026-08-25 00:01:23",
+  "shard": 7,
+  "queriesRun": [
+   "\"khansa maria\" lums linkedin",
+   "\"khansa maria\" \"Lahore University of Management Sciences\"",
+   "\"khansa maria\" lums faculty",
+   "\"khansa maria\" site:lums.edu.pk",
+   "\"khansa maria\" researchgate"
+  ]
+ },
+ "11263": {
+  "lumsEmployeeId": "11263",
+  "name": "Ms. Joti Ghani",
+  "title": "Adjunct Faculty",
+  "department": "Education",
+  "school": "Syed Ahsan Ali and Syed Maratib Ali School of Education",
+  "profileUrl": "https://lums.edu.pk/lums_employee/11263",
+  "candidates": [],
+  "status": "not_found",
+  "updatedAt": "2026-08-25 00:01:24",
+  "shard": 9,
+  "queriesRun": [
+   "\"joti ghani\" lums linkedin",
+   "\"joti ghani\" \"Lahore University of Management Sciences\"",
+   "\"joti ghani\" lums faculty",
+   "\"joti ghani\" site:lums.edu.pk",
+   "\"joti ghani\" researchgate"
+  ]
+ },
+ "10926": {
+  "lumsEmployeeId": "10926",
+  "name": "Dr. Ahtisham Ali",
+  "title": "Adjunct Faculty",
+  "department": "Humanities and Social Sciences",
+  "school": "Mushtaq Ahmad Gurmani School of Humanities and Social Sciences",
+  "profileUrl": "https://lums.edu.pk/lums_employee/10926",
+  "candidates": [],
+  "status": "not_found",
+  "updatedAt": "2026-08-25 00:01:29",
+  "shard": 8,
+  "queriesRun": [
+   "\"ahtisham ali\" lums linkedin",
+   "\"ahtisham ali\" \"Lahore University of Management Sciences\"",
+   "\"ahtisham ali\" lums faculty",
+   "\"ahtisham ali\" site:lums.edu.pk",
+   "\"ahtisham ali\" researchgate"
+  ]
+ },
+ "9007": {
+  "lumsEmployeeId": "9007",
+  "name": "Dr. Hana Zahir",
+  "title": "Visiting Assistant Professor",
+  "department": "Economics",
+  "school": "Mushtaq Ahmad Gurmani School of Humanities and Social Sciences",
+  "profileUrl": "https://lums.edu.pk/lums_employee/9007",
+  "candidates": [],
+  "status": "not_found",
+  "updatedAt": "2026-08-25 00:01:37",
+  "shard": 5,
+  "queriesRun": [
+   "\"hana zahir\" lums linkedin",
+   "\"hana zahir\" \"Lahore University of Management Sciences\"",
+   "\"hana zahir\" lums faculty",
+   "\"hana zahir\" site:lums.edu.pk",
+   "\"hana zahir\" researchgate"
+  ]
+ },
+ "12048": {
+  "lumsEmployeeId": "12048",
+  "name": "Mr. Abdullah Bin Faisal",
+  "title": "Adjunct Faculty",
+  "department": "Computer Science",
+  "school": "Syed Babar Ali School of Science and Engineering",
+  "profileUrl": "https://lums.edu.pk/lums_employee/12048",
+  "candidates": [],
+  "status": "not_found",
+  "updatedAt": "2026-08-25 00:01:43",
+  "shard": 12,
+  "queriesRun": [
+   "\"abdullah bin faisal\" lums linkedin",
+   "\"abdullah bin faisal\" \"Lahore University of Management Sciences\"",
+   "\"abdullah bin faisal\" lums faculty",
+   "\"abdullah bin faisal\" site:lums.edu.pk",
+   "\"abdullah bin faisal\" researchgate"
+  ]
+ },
+ "11924": {
+  "lumsEmployeeId": "11924",
+  "name": "Mr. Abdullah Azhar",
+  "title": "Teaching Fellow",
+  "department": "Computer Science",
+  "school": "Syed Babar Ali School of Science and Engineering",
+  "profileUrl": "https://lums.edu.pk/lums_employee/11924",
+  "candidates": [],
+  "status": "not_found",
+  "updatedAt": "2026-08-25 00:01:44",
+  "shard": 11,
+  "queriesRun": [
+   "\"abdullah azhar\" lums linkedin",
+   "\"abdullah azhar\" \"Lahore University of Management Sciences\"",
+   "\"abdullah azhar\" lums faculty",
+   "\"abdullah azhar\" site:lums.edu.pk",
+   "\"abdullah azhar\" researchgate"
+  ]
+ },
+ "6216": {
+  "lumsEmployeeId": "6216",
+  "name": "Mr. Talha Farrukh",
+  "title": "Adjunct Faculty",
+  "department": null,
+  "school": "Suleman Dawood School of Business",
+  "profileUrl": "https://lums.edu.pk/lums_employee/6216",
+  "candidates": [
+   {
+    "url": "https://illustoon.com/photo/12736.png",
+    "score": 0,
+    "confidence": "low",
+    "sourceTitle": "Building Black And White Clipart Clip Art Library Clip Art ...",
+    "sourceProfile": "https://utpaqp.edu.pe/search/building-black-and-white-clipart-clip-art-library-clip-art-librarylibrary-building-clip-art/",
+    "sourceType": "university",
+    "query": "\"talha farrukh\" site:lums.edu.pk",
+    "slug": "",
+    "evidence": [],
+    "localPath": null
+   }
+  ],
+  "status": "found_low_confidence",
+  "updatedAt": "2026-08-25 00:02:16",
+  "shard": 2,
+  "queriesRun": [
+   "\"talha farrukh\" lums linkedin",
+   "\"talha farrukh\" \"Lahore University of Management Sciences\"",
+   "\"talha farrukh\" lums faculty",
+   "\"talha farrukh\" site:lums.edu.pk",
+   "\"talha farrukh\" researchgate"
+  ]
+ },
+ "5050": {
+  "lumsEmployeeId": "5050",
+  "name": "Mr. Muhammad Ali Qamar",
+  "title": "Adjunct Faculty",
+  "department": null,
+  "school": "Suleman Dawood School of Business",
+  "profileUrl": "https://lums.edu.pk/lums_employee/5050",
+  "candidates": [
+   {
+    "url": "https://viewpointmag.com/wp-content/uploads/2018/01/marti-biblioteca.jpg",
+    "score": 1.2,
+    "confidence": "low",
+    "sourceTitle": "Strategies of Imperialism and Opposition in Cuba: Reflections on the ...",
+    "sourceProfile": "https://viewpointmag.com/2018/02/01/strategies-imperialism-opposition-cuba-reflections-purity-anti-imperialism/",
+    "sourceType": "other",
+    "query": "\"muhammad ali qamar\" \"Lahore University of Management Sciences\"",
+    "slug": "",
+    "evidence": [
+     "1/2 name tokens in title",
+     "name in source URL"
+    ],
+    "localPath": null
+   }
+  ],
+  "status": "found_low_confidence",
+  "updatedAt": "2026-08-25 00:02:19",
+  "shard": 1,
+  "queriesRun": [
+   "\"muhammad ali qamar\" lums linkedin",
+   "\"muhammad ali qamar\" \"Lahore University of Management Sciences\"",
+   "\"muhammad ali qamar\" lums faculty",
+   "\"muhammad ali qamar\" site:lums.edu.pk",
+   "\"muhammad ali qamar\" researchgate"
+  ]
+ },
+ "11306": {
+  "lumsEmployeeId": "11306",
+  "name": "Ms. Anam Hassan",
+  "title": "Adjunct Faculty",
+  "department": "Humanities and Social Sciences",
+  "school": "Mushtaq Ahmad Gurmani School of Humanities and Social Sciences",
+  "profileUrl": "https://lums.edu.pk/lums_employee/11306",
+  "candidates": [
+   {
+    "url": "https://tienda.javeriana.edu.co/uploads/javeriana/product_images/53634/large/pancho-villa-i-ii-_27zhp.jpg",
+    "score": 0,
+    "confidence": "low",
+    "sourceTitle": "PANCHO VILLA (I-II) | Tienda Javeriana",
+    "sourceProfile": "https://tienda.javeriana.edu.co/pancho-villa-i-ii-",
+    "sourceType": "university",
+    "query": "\"anam hassan\" lums linkedin",
+    "slug": "",
+    "evidence": [],
+    "localPath": null,
+    "downloadFailed": true
+   }
+  ],
+  "status": "found_low_confidence",
+  "updatedAt": "2026-08-25 00:02:21",
+  "shard": 9,
+  "queriesRun": [
+   "\"anam hassan\" lums linkedin",
+   "\"anam hassan\" \"Lahore University of Management Sciences\"",
+   "\"anam hassan\" lums faculty",
+   "\"anam hassan\" site:lums.edu.pk",
+   "\"anam hassan\" researchgate"
+  ]
+ },
+ "10927": {
+  "lumsEmployeeId": "10927",
+  "name": "Ms. Amina Khan",
+  "title": "Adjunct Faculty",
+  "department": "Economics",
+  "school": "Mushtaq Ahmad Gurmani School of Humanities and Social Sciences",
+  "profileUrl": "https://lums.edu.pk/lums_employee/10927",
+  "candidates": [
+   {
+    "url": "https://a-static.mlcdn.com.br/1500x1500/nota-promissoria-50f-95x215-am-sao-domingos/elaineenxovais/20739/ebc87f5287293fcd246139d85eb023bb.jpg",
+    "score": 0,
+    "confidence": "low",
+    "sourceTitle": "Preenchimento De Notas Promiss\u00c3\u00b3rias - RETOEDU",
+    "sourceProfile": "https://dsw.aau.edu.et/stu/preenchimento-de-notas-promissorias.html",
+    "sourceType": "university",
+    "query": "\"amina khan\" \"Lahore University of Management Sciences\"",
+    "slug": "",
+    "evidence": [],
+    "localPath": null
+   }
+  ],
+  "status": "found_low_confidence",
+  "updatedAt": "2026-08-25 00:02:27",
+  "shard": 8,
+  "queriesRun": [
+   "\"amina khan\" lums linkedin",
+   "\"amina khan\" \"Lahore University of Management Sciences\"",
+   "\"amina khan\" lums faculty",
+   "\"amina khan\" site:lums.edu.pk",
+   "\"amina khan\" researchgate"
+  ]
+ },
+ "7391": {
+  "lumsEmployeeId": "7391",
+  "name": "Ms. Manahil Raza",
+  "title": "Teaching Fellow",
+  "department": "Humanities and Social Sciences",
+  "school": "Mushtaq Ahmad Gurmani School of Humanities and Social Sciences",
+  "profileUrl": "https://lums.edu.pk/lums_employee/7391",
+  "candidates": [
+   {
+    "url": "https://c8.alamy.com/comp/RWP6KT/the-elements-of-insect-anatomy-the-elements-of-insect-anatomy-an-outline-for-the-use-of-students-in-the-entomological-laboratories-of-cornell-university-and-leland-stanford-junior-university-elementsofinsect00comsto-year-1895-85-the-cells-of-the-wings-according-to-the-system-proposed-by-the-writer-each-cell-is-designated-by-the-name-or-number-of-the-longitudinal-vein-that-normally-forms-its-front-cephalic-margin-this-is-illustrated-by-figure-7-in-which-titi-m-n-!-mi-fig-7wing-of-a-butterfly-the-numbers-placed-opposite-the-ends-of-the-veins-refer-to-the-veins-the-othe-RWP6KT.jpg",
+    "score": 0,
+    "confidence": "low",
+    "sourceTitle": "The elements of insect anatomy; The elements of insect anatomy; an ...",
+    "sourceProfile": "https://www.alamy.com/the-elements-of-insect-anatomy-the-elements-of-insect-anatomy-an-outline-for-the-use-of-students-in-the-entomological-laboratories-of-cornell-university-and-leland-stanford-junior-university-elementsofinsect00comsto-year-1895-85-the-cells-of-the-wings-according-to-the-system-proposed-by-the-writer-each-cell-is-designated-by-the-name-or-number-of-the-longitudinal-vein-that-normally-forms-its-front-cephalic-margin-this-is-illustrated-by-figure-7-in-which-titi-m-n-!-mi-fig-7wing-of-a-butterfly-the-numbers-placed-opposite-the-ends-of-the-veins-refer-to-the-veins-the-othe-image239589388.html",
+    "sourceType": "university",
+    "query": "\"manahil raza\" site:lums.edu.pk",
+    "slug": "",
+    "evidence": [],
+    "localPath": "/pfp-candidates/7391_0.jpg"
+   }
+  ],
+  "status": "found_low_confidence",
+  "updatedAt": "2026-08-25 00:02:30",
+  "shard": 4,
+  "queriesRun": [
+   "\"manahil raza\" lums linkedin",
+   "\"manahil raza\" \"Lahore University of Management Sciences\"",
+   "\"manahil raza\" lums faculty",
+   "\"manahil raza\" site:lums.edu.pk",
+   "\"manahil raza\" researchgate"
+  ]
+ },
+ "5169": {
+  "lumsEmployeeId": "5169",
+  "name": "Dr. Syeda Warda Riaz",
+  "title": "Assistant Professor",
+  "department": "Economics",
+  "school": "Mushtaq Ahmad Gurmani School of Humanities and Social Sciences",
+  "profileUrl": "https://lums.edu.pk/lums_employee/5169",
+  "candidates": [
+   {
+    "url": "https://www.researchgate.net/publication/330578795/figure/fig1/AS:963442684989456@1606714044674/IDDSI-Functional-Diet-Scale-32-Modified-from-Steele-et-al-32-under-the-CC-BY.png",
+    "score": 0.7,
+    "confidence": "low",
+    "sourceTitle": "Iddsi Hormel Health Labs Introduces IDDSI Level 5 Ready Meats For",
+    "sourceProfile": "https://fity.club/lists/i/iddsi/",
+    "sourceType": "researchgate",
+    "query": "\"syeda warda riaz\" lums linkedin",
+    "slug": "",
+    "evidence": [
+     "source: researchgate (+1.2)"
+    ],
+    "localPath": null
+   }
+  ],
+  "status": "found_low_confidence",
+  "updatedAt": "2026-08-25 00:03:32",
+  "shard": 1,
+  "queriesRun": [
+   "\"syeda warda riaz\" lums linkedin",
+   "\"syeda warda riaz\" \"Lahore University of Management Sciences\"",
+   "\"syeda warda riaz\" lums faculty",
+   "\"syeda warda riaz\" site:lums.edu.pk",
+   "\"syeda warda riaz\" researchgate"
+  ]
  }
 }

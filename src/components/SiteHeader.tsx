@@ -3,6 +3,7 @@
 import Image from "next/image";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
+import { signIn } from "next-auth/react";
 
 function NavLink({ href, children }: { href: string; children: React.ReactNode }) {
   const pathname = usePathname();
@@ -53,6 +54,7 @@ export default function SiteHeader() {
           <div className="flex-shrink-0">
             <button
               type="button"
+              onClick={() => signIn("microsoft-entra-id")}
               className="bg-lums-gold px-2.5 py-1 sm:px-5 sm:py-2.5 text-[10px] sm:text-sm font-semibold text-lums-navy hover:bg-lums-gold-dark active:bg-lums-gold-dark transition-all uppercase tracking-wide cursor-pointer shadow-sm hover:shadow-md touch-manipulation whitespace-nowrap"
             >
               Sign In
