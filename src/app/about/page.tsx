@@ -25,9 +25,9 @@ export default function AboutPage() {
           </p>
           <p>
             The faculty directory is pulled from LUMS&apos;s own public
-            faculty listing. Ratings, difficulty scores, and comments are
-            submitted entirely by students and reflect individual opinions,
-            not the views of RateDeezSlum, LUMS, or any affiliated party.
+            faculty listing. Ratings and comments are submitted entirely by
+            students and reflect individual opinions, not the views of
+            RateDeezSlum, LUMS, or any affiliated party.
           </p>
           <p>
             RateDeezSlum is an independent, unofficial project and is{" "}

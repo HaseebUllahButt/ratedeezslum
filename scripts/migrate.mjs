@@ -31,16 +31,16 @@ async function main() {
       id SERIAL PRIMARY KEY,
       professor_id INTEGER NOT NULL REFERENCES professors(id),
       author_key TEXT,
-      course TEXT,
       rating INTEGER NOT NULL CHECK (rating BETWEEN 1 AND 5),
-      difficulty INTEGER NOT NULL CHECK (difficulty BETWEEN 1 AND 5),
-      would_take_again BOOLEAN NOT NULL,
       comment TEXT NOT NULL,
       created_at TIMESTAMPTZ NOT NULL DEFAULT now()
     )
   `;
 
   await sql`ALTER TABLE reviews ADD COLUMN IF NOT EXISTS author_key TEXT`;
+  await sql`ALTER TABLE reviews DROP COLUMN IF EXISTS course`;
+  await sql`ALTER TABLE reviews DROP COLUMN IF EXISTS difficulty`;
+  await sql`ALTER TABLE reviews DROP COLUMN IF EXISTS would_take_again`;
 
   await sql`CREATE INDEX IF NOT EXISTS idx_reviews_professor_id ON reviews(professor_id)`;
   await sql`CREATE INDEX IF NOT EXISTS idx_reviews_author_key ON reviews(author_key)`;

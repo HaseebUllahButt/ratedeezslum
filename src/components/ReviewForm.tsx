@@ -16,10 +16,7 @@ export default function ReviewForm({
 }) {
   const router = useRouter();
   const editing = !!review;
-  const [course, setCourse] = useState(review?.course ?? "");
   const [rating, setRating] = useState(review?.rating ?? 5);
-  const [difficulty, setDifficulty] = useState(review?.difficulty ?? 3);
-  const [wouldTakeAgain, setWouldTakeAgain] = useState(review?.would_take_again ?? true);
   const [comment, setComment] = useState(review?.comment ?? "");
   const [error, setError] = useState<string | null>(null);
   const [submitting, setSubmitting] = useState(false);
@@ -32,15 +29,12 @@ export default function ReviewForm({
       const res = await fetch(
         editing
           ? `/api/professors/${professorId}/reviews/${review.id}`
-        : `/api/professors/${professorId}/reviews`,
+          : `/api/professors/${professorId}/reviews`,
         {
           method: editing ? "PATCH" : "POST",
           headers: { "Content-Type": "application/json" },
           body: JSON.stringify({
-            course,
             rating,
-            difficulty,
-            wouldTakeAgain,
             comment,
           }),
         }
@@ -51,10 +45,7 @@ export default function ReviewForm({
         return;
       }
       if (!editing) {
-        setCourse("");
         setRating(5);
-        setDifficulty(3);
-        setWouldTakeAgain(true);
         setComment("");
       }
       onCancel?.();
@@ -91,51 +82,16 @@ export default function ReviewForm({
       </div>
 
       <label className="flex flex-col gap-1 text-sm">
-        Course (optional)
+        Rating (1-5)
         <input
-          type="text"
-          placeholder="e.g. CS 100"
-          value={course}
-          onChange={(e) => setCourse(e.target.value)}
+          type="number"
+          min={1}
+          max={5}
+          required
+          value={rating}
+          onChange={(e) => setRating(Number(e.target.value))}
           className="rounded-none border border-slate-300 bg-white px-3 py-2 outline-none focus:ring-2 focus:ring-lums-navy"
         />
-      </label>
-
-      <div className="flex gap-4">
-        <label className="flex flex-col gap-1 text-sm flex-1">
-          Rating (1-5)
-          <input
-            type="number"
-            min={1}
-            max={5}
-            required
-            value={rating}
-            onChange={(e) => setRating(Number(e.target.value))}
-            className="rounded-none border border-slate-300 bg-white px-3 py-2 outline-none focus:ring-2 focus:ring-lums-navy"
-          />
-        </label>
-        <label className="flex flex-col gap-1 text-sm flex-1">
-          Difficulty (1-5)
-          <input
-            type="number"
-            min={1}
-            max={5}
-            required
-            value={difficulty}
-            onChange={(e) => setDifficulty(Number(e.target.value))}
-            className="rounded-none border border-slate-300 bg-white px-3 py-2 outline-none focus:ring-2 focus:ring-lums-navy"
-          />
-        </label>
-      </div>
-
-      <label className="flex items-center gap-2 text-sm">
-        <input
-          type="checkbox"
-          checked={wouldTakeAgain}
-          onChange={(e) => setWouldTakeAgain(e.target.checked)}
-          className="accent-lums-navy"
-        />
-        Would take again
       </label>
 
       <label className="flex flex-col gap-1 text-sm">

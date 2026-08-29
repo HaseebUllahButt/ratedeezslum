@@ -77,11 +77,6 @@ export default function ReviewCard({ review }: { review: ReviewWithOwnership }) 
           )}
         </div>
       </div>
-      <div className="flex flex-wrap gap-x-3 text-xs opacity-60 mb-2">
-        {review.course && <span>Course: {review.course}</span>}
-        <span>Difficulty: {review.difficulty}/5</span>
-        <span>{review.would_take_again ? "Would take again" : "Would not take again"}</span>
-      </div>
       <p className="text-sm">{review.comment}</p>
       {error && <p className="mt-2 text-sm font-medium text-red-600">{error}</p>}
     </li>

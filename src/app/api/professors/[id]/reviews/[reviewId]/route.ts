@@ -4,10 +4,7 @@ import { reviewOwnerKey } from "@/lib/reviewOwnership";
 import { isValidRating } from "@/lib/validation";
 
 type ReviewInput = {
-  course?: unknown;
   rating?: unknown;
-  difficulty?: unknown;
-  wouldTakeAgain?: unknown;
   comment?: unknown;
 };
 
@@ -15,10 +12,7 @@ type ParsedReview =
   | { error: string }
   | {
       value: {
-        course: string | null;
         rating: number;
-        difficulty: number;
-        wouldTakeAgain: boolean;
         comment: string;
       };
     };
@@ -37,13 +31,9 @@ async function getOwnerKey() {
 }
 
 function parseReviewInput(body: ReviewInput): ParsedReview {
-  const { course, rating, difficulty, wouldTakeAgain, comment } = body;
+  const { rating, comment } = body;
 
   if (!isValidRating(rating)) return { error: "rating must be an integer 1-5" };
-  if (!isValidRating(difficulty)) return { error: "difficulty must be an integer 1-5" };
-  if (typeof wouldTakeAgain !== "boolean") {
-    return { error: "wouldTakeAgain must be a boolean" };
-  }
   if (typeof comment !== "string" || comment.trim().length < 10) {
     return { error: "comment must be at least 10 characters" };
   }
@@ -51,10 +41,7 @@ function parseReviewInput(body: ReviewInput): ParsedReview {
 
   return {
     value: {
-      course: typeof course === "string" && course.trim() ? course.trim().slice(0, 100) : null,
       rating,
-      difficulty,
-      wouldTakeAgain,
       comment: comment.trim(),
     },
   };

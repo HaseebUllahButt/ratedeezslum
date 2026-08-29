@@ -22,10 +22,7 @@ export type Professor = {
 export type Review = {
   id: number;
   professor_id: number;
-  course: string | null;
   rating: number;
-  difficulty: number;
-  would_take_again: boolean;
   comment: string;
   created_at: string;
 };
@@ -37,17 +34,13 @@ export type ReviewWithOwnership = Review & {
 export type ProfessorWithStats = Professor & {
   review_count: number;
   avg_rating: number | null;
-  avg_difficulty: number | null;
-  would_take_again_pct: number | null;
 };
 
 const STATS_SELECT = `
   SELECT
     p.*,
     COUNT(r.id)::int AS review_count,
-    AVG(r.rating)::float AS avg_rating,
-    AVG(r.difficulty)::float AS avg_difficulty,
-    (AVG(CASE WHEN r.id IS NULL THEN NULL WHEN r.would_take_again THEN 1.0 ELSE 0.0 END) * 100)::float AS would_take_again_pct
+    AVG(r.rating)::float AS avg_rating
   FROM professors p
   LEFT JOIN reviews r ON r.professor_id = p.id
 `;
@@ -173,7 +166,7 @@ export async function listReviewsForProfessor(
 ): Promise<ReviewWithOwnership[]> {
   const rows = await sql.query(
     `
-      SELECT id, professor_id, course, rating, difficulty, would_take_again, comment, created_at,
+      SELECT id, professor_id, rating, comment, created_at,
         (author_key IS NOT NULL AND author_key = $2) AS is_owner
       FROM reviews
       WHERE professor_id = $1
@@ -187,25 +180,19 @@ export async function listReviewsForProfessor(
 export async function insertReview(input: {
   professorId: number;
   ownerKey: string;
-  course: string | null;
   rating: number;
-  difficulty: number;
-  wouldTakeAgain: boolean;
   comment: string;
 }): Promise<Review> {
   const rows = await sql.query(
     `
-    INSERT INTO reviews (professor_id, author_key, course, rating, difficulty, would_take_again, comment)
-    VALUES ($1, $2, $3, $4, $5, $6, $7)
-    RETURNING id, professor_id, course, rating, difficulty, would_take_again, comment, created_at
+    INSERT INTO reviews (professor_id, author_key, rating, comment)
+    VALUES ($1, $2, $3, $4)
+    RETURNING id, professor_id, rating, comment, created_at
     `,
     [
       input.professorId,
       input.ownerKey,
-      input.course,
       input.rating,
-      input.difficulty,
-      input.wouldTakeAgain,
       input.comment,
     ]
   );
@@ -216,26 +203,20 @@ export async function updateReview(input: {
   reviewId: number;
   professorId: number;
   ownerKey: string;
-  course: string | null;
   rating: number;
-  difficulty: number;
-  wouldTakeAgain: boolean;
   comment: string;
 }): Promise<Review | undefined> {
   const rows = await sql.query(
     `
       UPDATE reviews
-      SET course = $3, rating = $4, difficulty = $5, would_take_again = $6, comment = $7
-      WHERE id = $1 AND professor_id = $2 AND author_key = $8
-      RETURNING id, professor_id, course, rating, difficulty, would_take_again, comment, created_at
+      SET rating = $3, comment = $4
+      WHERE id = $1 AND professor_id = $2 AND author_key = $5
+      RETURNING id, professor_id, rating, comment, created_at
     `,
     [
       input.reviewId,
       input.professorId,
-      input.course,
       input.rating,
-      input.difficulty,
-      input.wouldTakeAgain,
       input.comment,
       input.ownerKey,
     ]

@@ -41,22 +41,10 @@ export async function POST(
     return Response.json({ error: "Invalid JSON body" }, { status: 400 });
   }
 
-  const {
-    course,
-    rating,
-    difficulty,
-    wouldTakeAgain,
-    comment,
-  } = (body ?? {}) as Record<string, unknown>;
+  const { rating, comment } = (body ?? {}) as Record<string, unknown>;
 
   if (!isValidRating(rating)) {
     return Response.json({ error: "rating must be an integer 1-5" }, { status: 400 });
-  }
-  if (!isValidRating(difficulty)) {
-    return Response.json({ error: "difficulty must be an integer 1-5" }, { status: 400 });
-  }
-  if (typeof wouldTakeAgain !== "boolean") {
-    return Response.json({ error: "wouldTakeAgain must be a boolean" }, { status: 400 });
   }
   if (typeof comment !== "string" || comment.trim().length < 10) {
     return Response.json(
@@ -71,10 +59,7 @@ export async function POST(
   const review = await insertReview({
     professorId,
     ownerKey: reviewOwnerKey(email),
-    course: typeof course === "string" && course.trim() ? course.trim().slice(0, 100) : null,
     rating,
-    difficulty,
-    wouldTakeAgain,
     comment: comment.trim(),
   });
 

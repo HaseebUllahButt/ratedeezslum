@@ -45,22 +45,18 @@ export default function PrivacyPage() {
             What we collect
           </h2>
           <p>
-            To submit a review, we ask for a LUMS email address purely to check
-            that it&apos;s formatted like a real LUMS address. That email is{" "}
-            <strong>never stored, logged, or displayed</strong> — it exists only
-            for the moment of that request and is discarded immediately after.
-            Reviews are stored with no identifying information tying them back
-            to any individual.
+            To submit a review, you sign in with Microsoft using a LUMS
+            account. Your email is not displayed. We store a one-way ownership
+            fingerprint so you can edit or delete your own review without
+            exposing your account identity.
           </p>
 
           <h2 className="text-lg font-extrabold text-lums-navy uppercase mt-2">
             What we store
           </h2>
           <p>
-            We store the professor being reviewed, the course (if provided),
-            your rating, difficulty score, whether you&apos;d take the class
-            again, and your written comment. None of this is linked to your
-            identity.
+            We store the professor being reviewed, your rating, and your
+            written comment. Reviews are not displayed with your identity.
           </p>
 
           <h2 className="text-lg font-extrabold text-lums-navy uppercase mt-2">

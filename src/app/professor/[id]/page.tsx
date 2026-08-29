@@ -77,29 +77,6 @@ export default async function ProfessorPage({
           </div>
         </div>
 
-        <div className="grid grid-cols-3 gap-4 text-center">
-          <div className="border border-slate-200 bg-slate-50 p-4">
-            <p className="text-2xl font-extrabold text-lums-navy">
-              {formatAvg(professor.avg_rating)}
-            </p>
-            <p className="text-xs opacity-60 uppercase font-semibold">Avg Rating</p>
-          </div>
-          <div className="border border-slate-200 bg-slate-50 p-4">
-            <p className="text-2xl font-extrabold text-lums-navy">
-              {formatAvg(professor.avg_difficulty)}
-            </p>
-            <p className="text-xs opacity-60 uppercase font-semibold">Avg Difficulty</p>
-          </div>
-          <div className="border border-slate-200 bg-slate-50 p-4">
-            <p className="text-2xl font-extrabold text-lums-navy">
-              {professor.would_take_again_pct === null
-                ? "—"
-                : `${Math.round(professor.would_take_again_pct)}%`}
-            </p>
-            <p className="text-xs opacity-60 uppercase font-semibold">Would Take Again</p>
-          </div>
-        </div>
-
         {session?.user ? (
           <ReviewForm professorId={professor.id} />
         ) : (
