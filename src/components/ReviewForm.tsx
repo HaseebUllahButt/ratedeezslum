@@ -93,8 +93,6 @@ export default function ReviewForm({
       <label className="flex flex-col gap-1 text-sm">
         Comment
         <textarea
-          required
-          minLength={10}
           maxLength={2000}
           rows={4}
           value={comment}

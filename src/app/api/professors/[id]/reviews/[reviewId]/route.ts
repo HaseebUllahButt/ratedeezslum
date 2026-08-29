@@ -34,9 +34,7 @@ function parseReviewInput(body: ReviewInput): ParsedReview {
   const { rating, comment } = body;
 
   if (!isValidRating(rating)) return { error: "rating must be an integer 1-5" };
-  if (typeof comment !== "string" || comment.trim().length < 10) {
-    return { error: "comment must be at least 10 characters" };
-  }
+  if (typeof comment !== "string") return { error: "comment must be a string" };
   if (comment.length > 2000) return { error: "comment must be under 2000 characters" };
 
   return {

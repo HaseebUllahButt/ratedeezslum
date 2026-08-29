@@ -46,11 +46,8 @@ export async function POST(
   if (!isValidRating(rating)) {
     return Response.json({ error: "rating must be an integer 1-5" }, { status: 400 });
   }
-  if (typeof comment !== "string" || comment.trim().length < 10) {
-    return Response.json(
-      { error: "comment must be at least 10 characters" },
-      { status: 400 }
-    );
+  if (typeof comment !== "string") {
+    return Response.json({ error: "comment must be a string" }, { status: 400 });
   }
   if (comment.length > 2000) {
     return Response.json({ error: "comment must be under 2000 characters" }, { status: 400 });
