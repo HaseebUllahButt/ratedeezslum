@@ -50,7 +50,7 @@ export function StarRatingInput({
     <div
       role="radiogroup"
       aria-label="Rating from 1 to 5 stars"
-      className="inline-flex items-center gap-1"
+      className="inline-flex items-center gap-1.5"
     >
       {[1, 2, 3, 4, 5].map((star) => (
         <button
@@ -62,7 +62,7 @@ export function StarRatingInput({
           aria-label={`${star} out of 5 stars`}
           onClick={() => onChange(star)}
           onKeyDown={(event) => handleKeyDown(event, star)}
-          className={`text-3xl leading-none transition-colors focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-lums-navy ${
+          className={`min-h-10 min-w-10 text-4xl leading-none transition-transform duration-150 hover:scale-110 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-lums-navy ${
             star <= value ? "text-lums-gold" : "text-slate-300"
           }`}
         >
