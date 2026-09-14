@@ -4,9 +4,10 @@ import { auth } from "@/auth";
 import { getProfessor, listReviewsForProfessor } from "@/lib/db";
 import ReviewForm from "@/components/ReviewForm";
 import SignInBox from "@/components/SignInBox";
-import ReviewCard from "@/components/ReviewCard";
+import ReviewList from "@/components/ReviewList";
 import Avatar from "@/components/Avatar";
 import StarRating from "@/components/StarRating";
+import ShareButton from "@/components/ShareButton";
 import { reviewOwnerKey } from "@/lib/reviewOwnership";
 
 function formatAvg(value: number | null): string {
@@ -39,42 +40,45 @@ export default async function ProfessorPage({
           &larr; Back to Faculty Search
         </Link>
 
-        <div className="flex items-start gap-5 pb-6 border-b border-slate-200">
-          <Avatar
-            name={professor.name}
-            photoUrl={professor.photo_url}
-            s3PhotoUrl={professor.s3_photo_url}
-            size={96}
-            className="h-24 w-24 rounded-none object-cover shadow-sm border border-slate-200"
-          />
-          <div>
-            <h1 className="text-2xl md:text-3xl font-extrabold text-lums-navy uppercase">
-              {professor.name}
-            </h1>
-            <p className="opacity-70">
-              {[professor.title, professor.department].filter(Boolean).join(" · ")}
-            </p>
-            <p className="text-sm opacity-50 mb-2">{professor.school}</p>
-            {professor.review_count > 0 && (
-              <div className="flex items-center gap-2">
-                <StarRating value={professor.avg_rating ?? 0} size="text-lg" />
-                <span className="font-bold">{formatAvg(professor.avg_rating)} / 5.0</span>
-                <span className="text-sm opacity-50">
-                  ({professor.review_count} review{professor.review_count === 1 ? "" : "s"})
-                </span>
-              </div>
-            )}
-            {professor.profile_url && (
-              <a
-                href={professor.profile_url}
-                target="_blank"
-                rel="noopener noreferrer"
-                className="text-sm text-lums-navy hover:underline inline-block mt-1"
-              >
-                LUMS faculty profile &rarr;
-              </a>
-            )}
+        <div className="flex flex-col gap-4 pb-6 border-b border-slate-200 sm:flex-row sm:items-start sm:justify-between">
+          <div className="flex min-w-0 items-start gap-5">
+            <Avatar
+              name={professor.name}
+              photoUrl={professor.photo_url}
+              s3PhotoUrl={professor.s3_photo_url}
+              size={96}
+              className="h-24 w-24 rounded-none object-cover shadow-sm border border-slate-200"
+            />
+            <div className="min-w-0">
+              <h1 className="text-2xl md:text-3xl font-extrabold text-lums-navy uppercase">
+                {professor.name}
+              </h1>
+              <p className="opacity-70">
+                {[professor.title, professor.department].filter(Boolean).join(" · ")}
+              </p>
+              <p className="text-sm opacity-50 mb-2">{professor.school}</p>
+              {professor.review_count > 0 && (
+                <div className="flex items-center gap-2">
+                  <StarRating value={professor.avg_rating ?? 0} size="text-lg" />
+                  <span className="font-bold">{formatAvg(professor.avg_rating)} / 5.0</span>
+                  <span className="text-sm opacity-50">
+                    ({professor.review_count} review{professor.review_count === 1 ? "" : "s"})
+                  </span>
+                </div>
+              )}
+              {professor.profile_url && (
+                <a
+                  href={professor.profile_url}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-sm text-lums-navy hover:underline inline-block mt-1"
+                >
+                  LUMS faculty profile &rarr;
+                </a>
+              )}
+            </div>
           </div>
+          <ShareButton />
         </div>
 
         {session?.user ? (
@@ -89,18 +93,7 @@ export default async function ProfessorPage({
           <SignInBox />
         )}
 
-        <div>
-          <h2 className="text-xl font-extrabold text-lums-navy uppercase mb-1">Reviews</h2>
-          <div className="w-14 h-1 bg-lums-gold mb-4" />
-          <ul className="flex flex-col gap-3">
-            {reviews.map((r) => <ReviewCard key={r.id} review={r} />)}
-            {reviews.length === 0 && (
-              <li className="text-center opacity-60 py-6">
-                No reviews yet. Be the first to leave one.
-              </li>
-            )}
-          </ul>
-        </div>
+        <ReviewList reviews={reviews} />
       </main>
     </div>
   );
