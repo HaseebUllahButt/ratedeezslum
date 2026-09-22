@@ -71,6 +71,18 @@ export const metadata: Metadata = {
   },
   category: "education",
   formatDetection: { telephone: false, address: false, email: false },
+  // Search Console / Bing Webmaster verification. vercel.app is on the Public
+  // Suffix List, so DNS-based (Domain property) verification is impossible -
+  // these meta tags are the URL-prefix route. Set the env vars in Vercel and
+  // redeploy; absent vars emit nothing.
+  verification: {
+    ...(process.env.NEXT_PUBLIC_GOOGLE_SITE_VERIFICATION
+      ? { google: process.env.NEXT_PUBLIC_GOOGLE_SITE_VERIFICATION }
+      : {}),
+    ...(process.env.NEXT_PUBLIC_BING_SITE_VERIFICATION
+      ? { other: { "msvalidate.01": process.env.NEXT_PUBLIC_BING_SITE_VERIFICATION } }
+      : {}),
+  },
 };
 
 export const viewport: Viewport = {
