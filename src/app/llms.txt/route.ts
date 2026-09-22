@@ -1,4 +1,4 @@
-import { countProfessors, countReviews, listProfessors, listSchools } from "@/lib/db";
+import { countProfessors, countReviews, listProfessors, listSchools, withRetry } from "@/lib/db";
 import { SITE_DESCRIPTION, SITE_NAME, SITE_URL, absoluteUrl, professorPath } from "@/lib/site";
 
 // llms.txt: a plain-text brief for answer engines and LLM crawlers, kept in sync
@@ -6,12 +6,14 @@ import { SITE_DESCRIPTION, SITE_NAME, SITE_URL, absoluteUrl, professorPath } fro
 export const revalidate = 3600;
 
 export async function GET() {
-  const [totalProfessors, totalReviews, schools, mostReviewed] = await Promise.all([
-    countProfessors(),
-    countReviews(),
-    listSchools(),
-    listProfessors({ sort: "most-reviewed", limit: 25, offset: 0 }),
-  ]);
+  const [totalProfessors, totalReviews, schools, mostReviewed] = await withRetry(() =>
+    Promise.all([
+      countProfessors(),
+      countReviews(),
+      listSchools(),
+      listProfessors({ sort: "most-reviewed", limit: 25, offset: 0 }),
+    ])
+  );
 
   const rated = mostReviewed.filter((p) => p.review_count > 0);
 

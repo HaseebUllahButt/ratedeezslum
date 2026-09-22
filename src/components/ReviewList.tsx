@@ -28,6 +28,7 @@ export default function ReviewList({ reviews }: { reviews: ReviewWithOwnership[]
           <h2 className="text-xl font-extrabold text-lums-navy uppercase mb-1">Reviews</h2>
           <div className="w-14 h-1 bg-lums-gold" />
         </div>
+        {reviews.length > 1 && (
         <label className="flex items-center gap-2 text-xs font-bold uppercase tracking-wide text-lums-navy">
           <span className="sr-only sm:not-sr-only">Sort by</span>
           <select
@@ -40,6 +41,7 @@ export default function ReviewList({ reviews }: { reviews: ReviewWithOwnership[]
             <option value="highest-rated">Highest rated</option>
           </select>
         </label>
+        )}
       </div>
 
       <ul className="flex flex-col gap-3">
@@ -47,8 +49,11 @@ export default function ReviewList({ reviews }: { reviews: ReviewWithOwnership[]
           <ReviewCard key={review.id} review={review} />
         ))}
         {sortedReviews.length === 0 && (
-          <li className="text-center opacity-60 py-6">
-            No reviews yet. Be the first to leave one.
+          <li className="border border-dashed border-slate-300 bg-slate-50 px-6 py-8 text-center">
+            <p className="text-sm font-medium text-slate-700">No reviews yet.</p>
+            <p className="mt-1 text-sm text-slate-500">
+              Took a course with them? Your review is the one other students will read first.
+            </p>
           </li>
         )}
       </ul>

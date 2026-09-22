@@ -7,6 +7,29 @@ if (!DATABASE_URL) {
 
 export const sql = neon(DATABASE_URL);
 
+/**
+ * Retries a transient Neon failure a couple of times before giving up.
+ *
+ * The sitemap and llms.txt are generated at build time, so a momentary
+ * connection blip would otherwise fail the entire deploy. Retrying is the right
+ * fix rather than falling back to partial data: a sitemap listing 3 URLs
+ * instead of 428 would actively mislead crawlers, so if the database is truly
+ * unreachable we still want the build to fail loudly.
+ */
+export async function withRetry<T>(fn: () => Promise<T>, attempts = 3): Promise<T> {
+  let lastError: unknown;
+  for (let attempt = 1; attempt <= attempts; attempt++) {
+    try {
+      return await fn();
+    } catch (error) {
+      lastError = error;
+      if (attempt === attempts) break;
+      await new Promise((resolve) => setTimeout(resolve, attempt * 500));
+    }
+  }
+  throw lastError;
+}
+
 export type Professor = {
   id: number;
   lums_employee_id: string;

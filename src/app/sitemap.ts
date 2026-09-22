@@ -1,12 +1,12 @@
 import type { MetadataRoute } from "next";
-import { listProfessorsForSitemap } from "@/lib/db";
+import { listProfessorsForSitemap, withRetry } from "@/lib/db";
 import { absoluteUrl, professorPath } from "@/lib/site";
 
 // Rebuilt hourly so new professors and fresh reviews reach crawlers without a deploy.
 export const revalidate = 3600;
 
 export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
-  const professors = await listProfessorsForSitemap();
+  const professors = await withRetry(() => listProfessorsForSitemap());
   const now = new Date();
 
   const staticRoutes: MetadataRoute.Sitemap = [

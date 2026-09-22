@@ -156,7 +156,10 @@ export default async function ProfessorPage({ params }: Props) {
             <ReviewForm professorId={professor.id} />
           )
         ) : (
-          <SignInBox />
+          <SignInBox
+            professorName={professor.name}
+            isFirstReview={professor.review_count === 0}
+          />
         )}
 
         <ReviewList reviews={reviews} />
