@@ -1,3 +1,4 @@
+import type { Metadata } from "next";
 import Link from "next/link";
 import { notFound } from "next/navigation";
 import { auth } from "@/auth";
@@ -9,16 +10,58 @@ import Avatar from "@/components/Avatar";
 import StarRating from "@/components/StarRating";
 import ShareButton from "@/components/ShareButton";
 import { reviewOwnerKey } from "@/lib/reviewOwnership";
+import { breadcrumbJsonLd, graph, professorJsonLd, professorSummary } from "@/lib/seo";
+import { SITE_NAME, jsonLdScript, professorPath } from "@/lib/site";
+
+type Props = { params: Promise<{ id: string }> };
 
 function formatAvg(value: number | null): string {
   return value === null ? "—" : value.toFixed(1);
 }
 
-export default async function ProfessorPage({
-  params,
-}: {
-  params: Promise<{ id: string }>;
-}) {
+export async function generateMetadata({ params }: Props): Promise<Metadata> {
+  const { id } = await params;
+  const professorId = Number(id);
+  if (!Number.isInteger(professorId)) return { title: "Professor not found" };
+
+  const professor = await getProfessor(professorId);
+  if (!professor) return { title: "Professor not found" };
+
+  const path = professorPath(professor.id);
+  const role = [professor.title, professor.department, professor.school]
+    .filter(Boolean)
+    .join(", ");
+  const rated =
+    professor.review_count > 0 && professor.avg_rating !== null
+      ? `Rated ${professor.avg_rating.toFixed(1)}/5 by ${professor.review_count} student${professor.review_count === 1 ? "" : "s"}. `
+      : "No student ratings yet. ";
+  const description =
+    `${rated}Read anonymous LUMS student reviews of ${professor.name}` +
+    `${role ? ` (${role})` : ""} and add your own rating on ${SITE_NAME}.`;
+  const image = professor.s3_photo_url ?? professor.photo_url ?? undefined;
+
+  return {
+    title: `${professor.name} — LUMS Professor Ratings & Reviews`,
+    description,
+    alternates: { canonical: path },
+    openGraph: {
+      type: "profile",
+      title: `${professor.name} — LUMS Ratings & Reviews`,
+      description,
+      url: path,
+      siteName: SITE_NAME,
+      ...(image ? { images: [{ url: image, alt: professor.name }] } : {}),
+    },
+    twitter: {
+      card: image ? "summary" : "summary_large_image",
+      title: `${professor.name} — LUMS Ratings & Reviews`,
+      description,
+      ...(image ? { images: [image] } : {}),
+    },
+  };
+}
+
+export default async function ProfessorPage({ params }: Props) {
   const { id } = await params;
   const professorId = Number(id);
   if (!Number.isInteger(professorId)) notFound();
@@ -30,15 +73,32 @@ export default async function ProfessorPage({
   const ownerKey = session?.user?.email ? reviewOwnerKey(session.user.email) : undefined;
   const reviews = await listReviewsForProfessor(professorId, ownerKey);
 
+  const pageJsonLd = graph(
+    professorJsonLd(professor, reviews),
+    breadcrumbJsonLd([
+      { name: "LUMS Faculty", path: "/" },
+      { name: professor.name, path: professorPath(professor.id) },
+    ])
+  );
+
   return (
     <div className="flex flex-col flex-1 items-center bg-white">
-      <main className="flex flex-1 w-full max-w-2xl flex-col py-12 px-6 gap-8">
-        <Link
-          href="/"
-          className="text-sm font-bold text-lums-navy hover:underline w-fit uppercase"
-        >
-          &larr; Back to Faculty Search
-        </Link>
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: jsonLdScript(pageJsonLd) }}
+      />
+      <main
+        id="main-content"
+        className="flex flex-1 w-full max-w-2xl flex-col py-12 px-6 gap-8"
+      >
+        <nav aria-label="Breadcrumb">
+          <Link
+            href="/"
+            className="text-sm font-bold text-lums-navy hover:underline w-fit uppercase"
+          >
+            &larr; Back to Faculty Search
+          </Link>
+        </nav>
 
         <div className="flex flex-col gap-4 pb-6 border-b border-slate-200 sm:flex-row sm:items-start sm:justify-between">
           <div className="flex min-w-0 items-start gap-5">
@@ -47,6 +107,7 @@ export default async function ProfessorPage({
               photoUrl={professor.photo_url}
               s3PhotoUrl={professor.s3_photo_url}
               size={96}
+              priority
               className="h-24 w-24 rounded-none object-cover shadow-sm border border-slate-200"
             />
             <div className="min-w-0">
@@ -80,6 +141,11 @@ export default async function ProfessorPage({
           </div>
           <ShareButton />
         </div>
+
+        {/* Plain-language summary: the sentence search and answer engines quote. */}
+        <p className="text-sm leading-relaxed text-slate-600">
+          {professorSummary(professor)}
+        </p>
 
         {session?.user ? (
           reviews.some((review) => review.is_owner) ? (

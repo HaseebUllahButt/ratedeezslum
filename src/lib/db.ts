@@ -250,3 +250,23 @@ export async function deleteReview(input: {
   );
   return rows.length > 0;
 }
+
+export type SitemapProfessor = {
+  id: number;
+  last_review_at: string | null;
+};
+
+/**
+ * Every professor id plus the timestamp of its newest review, for <lastmod>.
+ * Professors with fresh reviews get recrawled sooner.
+ */
+export async function listProfessorsForSitemap(): Promise<SitemapProfessor[]> {
+  const rows = await sql`
+    SELECT p.id, MAX(r.created_at) AS last_review_at
+    FROM professors p
+    LEFT JOIN reviews r ON r.professor_id = p.id
+    GROUP BY p.id
+    ORDER BY p.id ASC
+  `;
+  return rows as SitemapProfessor[];
+}

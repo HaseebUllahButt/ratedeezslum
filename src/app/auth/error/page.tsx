@@ -1,4 +1,10 @@
+import type { Metadata } from "next";
 import Link from "next/link";
+
+export const metadata: Metadata = {
+  title: "Sign-in error",
+  robots: { index: false, follow: false },
+};
 
 export default async function AuthErrorPage({
   searchParams,
@@ -9,7 +15,7 @@ export default async function AuthErrorPage({
   const accessDenied = error === "AccessDenied";
 
   return (
-    <main className="flex flex-1 items-center justify-center bg-white px-6 py-16">
+    <main id="main-content" className="flex flex-1 items-center justify-center bg-white px-6 py-16">
       <section className="w-full max-w-lg border-t-4 border-lums-gold bg-lums-gray p-8 text-center">
         <h1 className="text-2xl font-extrabold uppercase text-lums-navy">
           {accessDenied ? "LUMS account required" : "Sign-in could not be completed"}

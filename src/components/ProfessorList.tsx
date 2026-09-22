@@ -217,7 +217,7 @@ export default function ProfessorList({
       </p>
 
       <ul className="flex flex-col gap-3">
-        {results.map((p) => (
+        {results.map((p, index) => (
           <li
             key={p.id}
             className="group flex flex-col gap-4 border border-slate-200 bg-white p-4 shadow-sm transition-all hover:border-lums-navy hover:shadow-md sm:flex-row sm:items-center sm:gap-6 sm:p-6"
@@ -232,6 +232,7 @@ export default function ProfessorList({
                   photoUrl={p.photo_url}
                   s3PhotoUrl={p.s3_photo_url}
                   size={80}
+                  priority={index < 4}
                   className="h-20 w-20 rounded-none object-cover shadow-sm transition-transform group-hover:scale-105 sm:h-25 sm:w-25 border border-slate-200"
                 />
               </div>

@@ -26,12 +26,15 @@ export default function Avatar({
   s3PhotoUrl,
   size = 48,
   className,
+  priority = false,
 }: {
   name: string;
   photoUrl: string | null;
   s3PhotoUrl?: string | null;
   size?: number;
   className?: string;
+  /** Above-the-fold avatars are LCP candidates - don't defer those. */
+  priority?: boolean;
 }) {
   const [errored, setErrored] = useState(false);
   const classes = className ?? DEFAULT_CLASSES;
@@ -47,7 +50,8 @@ export default function Avatar({
         height={size}
         className={classes}
         style={{ width: size, height: size }}
-        loading="lazy"
+        loading={priority ? "eager" : "lazy"}
+        fetchPriority={priority ? "high" : undefined}
         decoding="async"
         referrerPolicy="no-referrer"
         onError={() => setErrored(true)}

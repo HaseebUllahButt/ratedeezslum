@@ -67,9 +67,10 @@ export default function SiteHeader() {
               className="h-10 w-auto shrink-0 transition-transform group-hover:scale-105 sm:h-12 md:h-14"
             />
             <div>
-              <h1 className="text-2xl sm:text-3xl md:text-3xl font-bold tracking-tight leading-tight">
+              {/* Brand wordmark, not a heading: each page owns its single <h1>. */}
+              <span className="block text-2xl sm:text-3xl md:text-3xl font-bold tracking-tight leading-tight">
                 RateDeezSlum
-              </h1>
+              </span>
               <p className="text-xs sm:text-sm font-serif italic text-blue-200/80 leading-tight mt-0.5">
                 Learning Besides Borders
               </p>

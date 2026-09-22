@@ -1,11 +1,21 @@
-export const metadata = {
-  title: "Privacy Policy - RateDeezSlum",
+import type { Metadata } from "next";
+
+const description =
+  "How RateDeezSlum handles student data, what sign-in information is stored, how " +
+  "anonymous reviews are kept anonymous, and the platform's content disclaimers.";
+
+export const metadata: Metadata = {
+  title: "Privacy Policy",
+  description,
+  alternates: { canonical: "/privacy" },
+  openGraph: { url: "/privacy", title: "Privacy Policy", description },
+  twitter: { title: "Privacy Policy", description },
 };
 
 export default function PrivacyPage() {
   return (
     <div className="flex flex-col flex-1 items-center bg-white">
-      <main className="flex flex-1 w-full max-w-2xl flex-col py-16 px-6 gap-8">
+      <main id="main-content" className="flex flex-1 w-full max-w-2xl flex-col py-16 px-6 gap-8">
         <div className="text-center">
           <h1 className="text-3xl font-extrabold text-lums-navy uppercase tracking-tight">
             Privacy Policy
