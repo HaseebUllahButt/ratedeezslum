@@ -293,3 +293,60 @@ export async function listProfessorsForSitemap(): Promise<SitemapProfessor[]> {
   `;
   return rows as SitemapProfessor[];
 }
+
+export async function listDepartments(): Promise<string[]> {
+  const rows = await sql`
+    SELECT DISTINCT department FROM professors
+    WHERE department IS NOT NULL ORDER BY department ASC
+  `;
+  return (rows as { department: string }[]).map((r) => r.department);
+}
+
+/** Every professor, name and school only - powers the crawlable A-Z index. */
+export async function listAllProfessorsBrief(): Promise<
+  { id: number; name: string; school: string | null; department: string | null }[]
+> {
+  const rows = await sql`
+    SELECT id, name, school, department FROM professors ORDER BY name ASC
+  `;
+  return rows as { id: number; name: string; school: string | null; department: string | null }[];
+}
+
+export async function listProfessorsBySchool(school: string): Promise<ProfessorWithStats[]> {
+  const rows = await sql.query(
+    `${STATS_SELECT} WHERE p.school = $1 GROUP BY p.id
+     ORDER BY review_count DESC, avg_rating DESC NULLS LAST, p.name ASC`,
+    [school]
+  );
+  return rows as ProfessorWithStats[];
+}
+
+export async function listProfessorsByDepartment(
+  department: string
+): Promise<ProfessorWithStats[]> {
+  const rows = await sql.query(
+    `${STATS_SELECT} WHERE p.department = $1 GROUP BY p.id
+     ORDER BY review_count DESC, avg_rating DESC NULLS LAST, p.name ASC`,
+    [department]
+  );
+  return rows as ProfessorWithStats[];
+}
+
+/** Same-department colleagues, for internal links off a profile page. */
+export async function listRelatedProfessors(
+  professorId: number,
+  department: string | null,
+  school: string | null,
+  limit = 6
+): Promise<ProfessorWithStats[]> {
+  if (!department && !school) return [];
+  const rows = await sql.query(
+    `${STATS_SELECT}
+     WHERE p.id <> $1 AND ${department ? "p.department = $2" : "p.school = $2"}
+     GROUP BY p.id
+     ORDER BY review_count DESC, avg_rating DESC NULLS LAST, p.name ASC
+     LIMIT $3`,
+    [professorId, department ?? school, limit]
+  );
+  return rows as ProfessorWithStats[];
+}

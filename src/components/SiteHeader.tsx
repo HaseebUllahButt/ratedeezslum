@@ -99,7 +99,8 @@ export default function SiteHeader() {
         <div className="border-t border-blue-800/40 pt-2 sm:pt-2.5 pb-4 sm:pb-4.5">
           <nav className="flex overflow-x-auto scrollbar-hide">
             <ul className="flex space-x-6 sm:space-x-8 md:space-x-10">
-              <NavLink href="/">Faculty</NavLink>
+              <NavLink href="/">Search</NavLink>
+              <NavLink href="/faculty">All Faculty</NavLink>
               <NavLink href="/about">About</NavLink>
             </ul>
           </nav>

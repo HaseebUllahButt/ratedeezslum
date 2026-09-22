@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import { notFound } from "next/navigation";
 import { auth } from "@/auth";
-import { getProfessor, listReviewsForProfessor } from "@/lib/db";
+import { getProfessor, listRelatedProfessors, listReviewsForProfessor } from "@/lib/db";
 import ReviewForm from "@/components/ReviewForm";
 import SignInBox from "@/components/SignInBox";
 import ReviewList from "@/components/ReviewList";
@@ -12,6 +12,7 @@ import ShareButton from "@/components/ShareButton";
 import { reviewOwnerKey } from "@/lib/reviewOwnership";
 import { breadcrumbJsonLd, graph, professorJsonLd, professorSummary } from "@/lib/seo";
 import { SITE_NAME, jsonLdScript, professorPath } from "@/lib/site";
+import { departmentSlug, schoolAbbreviation, schoolSlug } from "@/lib/taxonomy";
 
 type Props = { params: Promise<{ id: string }> };
 
@@ -71,12 +72,23 @@ export default async function ProfessorPage({ params }: Props) {
 
   const session = await auth();
   const ownerKey = session?.user?.email ? reviewOwnerKey(session.user.email) : undefined;
-  const reviews = await listReviewsForProfessor(professorId, ownerKey);
+  const [reviews, related] = await Promise.all([
+    listReviewsForProfessor(professorId, ownerKey),
+    listRelatedProfessors(professorId, professor.department, professor.school),
+  ]);
 
   const pageJsonLd = graph(
     professorJsonLd(professor, reviews),
     breadcrumbJsonLd([
       { name: "LUMS Faculty", path: "/" },
+      ...(professor.school
+        ? [
+            {
+              name: schoolAbbreviation(professor.school) ?? professor.school,
+              path: `/school/${schoolSlug(professor.school)}`,
+            },
+          ]
+        : []),
       { name: professor.name, path: professorPath(professor.id) },
     ])
   );
@@ -91,13 +103,23 @@ export default async function ProfessorPage({ params }: Props) {
         id="main-content"
         className="flex flex-1 w-full max-w-2xl flex-col py-12 px-6 gap-8"
       >
-        <nav aria-label="Breadcrumb">
-          <Link
-            href="/"
-            className="text-sm font-bold text-lums-navy hover:underline w-fit uppercase"
-          >
-            &larr; Back to Faculty Search
+        <nav aria-label="Breadcrumb" className="text-xs font-bold uppercase text-slate-500">
+          <Link href="/" className="hover:text-lums-navy hover:underline">
+            Faculty
           </Link>
+          {professor.school && (
+            <>
+              <span className="mx-2" aria-hidden="true">/</span>
+              <Link
+                href={`/school/${schoolSlug(professor.school)}`}
+                className="hover:text-lums-navy hover:underline"
+              >
+                {schoolAbbreviation(professor.school) ?? professor.school}
+              </Link>
+            </>
+          )}
+          <span className="mx-2" aria-hidden="true">/</span>
+          <span className="text-lums-navy">{professor.name}</span>
         </nav>
 
         <div className="flex flex-col gap-4 pb-6 border-b border-slate-200 sm:flex-row sm:items-start sm:justify-between">
@@ -163,6 +185,44 @@ export default async function ProfessorPage({ params }: Props) {
         )}
 
         <ReviewList reviews={reviews} />
+
+        {related.length > 0 && (
+          <section aria-labelledby="related-heading" className="border-t border-slate-200 pt-6">
+            <h2
+              id="related-heading"
+              className="text-sm font-extrabold uppercase tracking-wide text-lums-navy"
+            >
+              Other {professor.department ?? professor.school} faculty
+            </h2>
+            <ul className="mt-3 flex flex-col gap-1">
+              {related.map((other) => (
+                <li key={other.id}>
+                  <Link
+                    href={`/professor/${other.id}`}
+                    className="flex items-baseline justify-between gap-3 py-1 text-sm text-slate-700 hover:text-lums-navy hover:underline"
+                  >
+                    <span className="truncate">{other.name}</span>
+                    <span className="flex-shrink-0 text-xs text-slate-500">
+                      {other.review_count > 0
+                        ? `${other.avg_rating?.toFixed(1)} / 5`
+                        : "No reviews"}
+                    </span>
+                  </Link>
+                </li>
+              ))}
+            </ul>
+            {professor.department && (
+              <p className="mt-3 text-sm">
+                <Link
+                  href={`/department/${departmentSlug(professor.department)}`}
+                  className="font-bold text-lums-navy hover:underline"
+                >
+                  All {professor.department} professors &rarr;
+                </Link>
+              </p>
+            )}
+          </section>
+        )}
       </main>
     </div>
   );

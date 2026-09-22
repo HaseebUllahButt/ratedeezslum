@@ -7,6 +7,9 @@ export default function SiteFooter() {
         <p>&copy; {new Date().getFullYear()} RateDeezSlum</p>
         <div className="flex items-center gap-4">
           <p>Anonymous student reviews. Not affiliated with LUMS.</p>
+          <Link href="/faculty" className="hover:text-lums-gold transition-colors">
+            All Faculty
+          </Link>
           <Link href="/about" className="hover:text-lums-gold transition-colors">
             About
           </Link>
